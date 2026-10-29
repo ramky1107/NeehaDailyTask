@@ -12,7 +12,7 @@ window.DASHBOARD_DATA = {
     description:
       "Experiments to improve the in-store retail experience, piloted at Pantaloons stores.",
     currentPhase: "Phase 1",
-    lastUpdated: "2026-10-29",
+    lastUpdated: "2026-10-30",
     lastMeeting: "2026-10-27",
     // Set to false once real transcripts have been loaded.
     isSampleData: false,
@@ -812,7 +812,7 @@ window.DASHBOARD_DATA = {
     },
     {
       id: "A-012",
-      title: "Add within-5-hour purchase breakdown to geo results",
+      title: "Add purchase breakdown up to 5 hours to geo results",
       experimentId: "P1-01",
       owner: "Malavika Goli",
       week: "2026-10-27",
@@ -842,7 +842,7 @@ window.DASHBOARD_DATA = {
     },
     {
       id: "A-015",
-      title: "Fix product-tag QR scanning on m-site; cost a paid QR reader",
+      title: "Fix product-tag QR scanning on m-site; review cost of paid QR reader",
       experimentId: "P1-16",
       owner: "Malavika Goli",
       week: "2026-10-27",
@@ -928,7 +928,7 @@ window.DASHBOARD_DATA = {
       week: "2026-10-27",
       dueDate: null,
       summary: "Book via Suraj's calendar; update the SteerCo deck with the geo A/B and kiosk results.",
-      status: "Open",
+      status: "Completed",
     },
     {
       id: "A-024",
@@ -938,7 +938,7 @@ window.DASHBOARD_DATA = {
       week: "2026-10-27",
       dueDate: null,
       summary: "Marketing-owned items (notification content, CleverTap campaigns) have stalled.",
-      status: "Open",
+      status: "Completed",
     },
     {
       id: "A-025",

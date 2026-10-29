@@ -209,10 +209,10 @@ Status: Not Started
 | A-009 | Share per-store QR numbers and where QRs work | P1-06 | Rohit Indumukhi | 2026-10-27 |  | Open | Per-store view of national window QR visits; insight on contexts that drive scans (e.g. festive windows). |
 | A-010 | Set up CleverTap funnels and cohorts for QR scanners | P1-06 | Varun Rajwade, Rohit Indumukhi | 2026-10-27 |  | Open | Self-service dashboards and cohorts so scan data is available without manual pulls. |
 | A-011 | Run geo A/B test 2–3 more weeks and compute confidence | P1-01 | Malavika Goli | 2026-10-27 | 2026-11-17 | In Progress | First week: 25 vs 8 conversions. Add statistical confidence; if it holds, prepare network scale-up. |
-| A-012 | Add within-5-hour purchase breakdown to geo results | P1-01 | Malavika Goli | 2026-10-27 | 2026-11-03 | Open | Purchases and value within 5 hours of the notification. |
+| A-012 | Add purchase breakdown up to 5 hours to geo results | P1-01 | Malavika Goli | 2026-10-27 | 2026-11-03 | Open | Purchases and value within 5 hours of the notification. |
 | A-013 | Replace the old '200 m away' notification | P1-01 | Malavika Goli | 2026-10-27 | 2026-11-03 | Open | Load the finalised notification content in CleverTap with Lakshmi; the old message is still being sent. |
 | A-014 | Fix geo-fence exit event before scaling | P1-01 | Malavika Goli, Parasa Neeharika | 2026-10-13 |  | Open | Exit events are abnormally high; 400-store cost ₹8.13 L/yr as-is vs about ₹61k corrected. Consider disabling the event server-side. |
-| A-015 | Fix product-tag QR scanning on m-site; cost a paid QR reader | P1-16 | Malavika Goli | 2026-10-27 |  | In Progress | App fix deployed 27 Oct; test a larger QR size; compare free vs paid reader. |
+| A-015 | Fix product-tag QR scanning on m-site; review cost of paid QR reader | P1-16 | Malavika Goli | 2026-10-27 |  | In Progress | App fix deployed 27 Oct; test a larger QR size; compare free vs paid reader. |
 | A-016 | Branded Wi-Fi login and CRM hand-over at R City | P1-02 | Malavika Goli | 2026-10-27 |  | In Progress | Vodafone to build the Pantaloons-branded login and OTP flow; CRM API walkthrough this week. |
 | A-017 | Share Wi-Fi journey plan and campaign ideas | P2-12 | Malavika Goli | 2026-10-13 | 2026-10-16 | Open | Written plan across the journey: login page, signage, notifications, use of AP-zone data; review with Varun. |
 | A-018 | Pull gifting QR scan numbers from CleverTap | P1-05 | Jigisha Patel | 2026-10-27 | 2026-11-03 | Open | Jigisha has CleverTap access; share scans and funnel with the group. |
@@ -220,8 +220,8 @@ Status: Not Started
 | A-020 | Finalise product-tag QR signage | P2-03 | Varun Babji, Jigisha Patel | 2026-10-27 |  | Open | Add scanner icon and app-download QR; test with customers; print only once scanning works. |
 | A-021 | Touchpoint review of R City communications | P1-15 | Varun Babji | 2026-10-27 | 2026-11-03 | Open | Deck of what is live at each touchpoint, to rework low-traction messaging. |
 | A-022 | Decide direction for Insignia personal shopper | P1-11 | Altamas Khan | 2026-10-27 |  | Open | Follow-up with Nish on what to offer Insignia members, given staffing and brand constraints. |
-| A-023 | Schedule project update with Suraj | General | Parasa Neeharika | 2026-10-27 |  | Open | Book via Suraj's calendar; update the SteerCo deck with the geo A/B and kiosk results. |
-| A-024 | Re-engage marketing support with Puneet | General | Varun Rajwade | 2026-10-27 |  | Open | Marketing-owned items (notification content, CleverTap campaigns) have stalled. |
+| A-023 | Schedule project update with Suraj | General | Parasa Neeharika | 2026-10-27 |  | Completed | Book via Suraj's calendar; update the SteerCo deck with the geo A/B and kiosk results. |
+| A-024 | Re-engage marketing support with Puneet | General | Varun Rajwade | 2026-10-27 |  | Completed | Marketing-owned items (notification content, CleverTap campaigns) have stalled. |
 | A-025 | Assign an owner to monitor the in-store express checkout funnel | P1-10 | Hemanth Gollavilli | 2026-08-25 |  | Open | Someone in Hemanth's team to watch drop-offs, errors and alerts, as the e-com team does for online checkout. |
 | A-026 | Mall-store diagram for geo notification tap | P1-01 | Malavika Goli | 2026-09-15 |  | Open | For mall stores (R City), show floor and neighbouring stores instead of a map; Google Maps for high-street stores. |
 | A-027 | Experiment-wise VM plan for the customer-journey experiment | P1-15 | Hemanth Gollavilli, Varun Babji | 2026-09-15 |  | Open | Separate VM interventions by experiment and confirm the app development they depend on. |
