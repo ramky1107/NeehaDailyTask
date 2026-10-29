@@ -130,8 +130,17 @@
     const ownerLoad = Object.entries(countBy(pending, (a) => a.owner)).sort((a, b) => b[1] - a[1]);
 
     return `
-      <h1>${esc(D.meta.projectName)}</h1>
-      <p class="lead">${esc(D.meta.description)}</p>
+      <div class="hero">
+        <div>
+          <h1>${esc(D.meta.projectName)}</h1>
+          <p>${esc(D.meta.description)}</p>
+        </div>
+        <div class="hero-meta">
+          <span>Current phase <b>${esc(D.meta.currentPhase)}</b></span>
+          ${D.meta.lastMeeting ? `<span>Last meeting <b>${fmtDate(D.meta.lastMeeting)}</b></span>` : ""}
+          <span>Updated <b>${fmtDate(D.meta.lastUpdated)}</b></span>
+        </div>
+      </div>
 
       <div class="grid kpis">
         ${kpi("Experiments", exps.length, `${Object.keys(groupBy(exps, (e) => e.phase)).length} phases`)}
