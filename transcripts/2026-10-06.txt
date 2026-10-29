@@ -1,0 +1,320 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20261006_053019UTC-Meeting Recording
+October 6, 2026, 5:30AM
+40m 25s
+Parasa Neeharika   0:50Good morning.
+Shariq Haroon   0:54Yeah, Neeharika.I will not hear you for some reason.Okay.
+Nish Bhutani   3:36OK, OK, yeah.
+Shariq Haroon   3:42Ankish.
+Nish Bhutani   3:44Morning.
+Shariq Haroon   3:45PE.
+Parasa Neeharika   3:46Vignesh.
+Nish Bhutani   3:48Hello!Neeharika, I sent you some changes on the, but we're still missing some data that I'd asked for about comparing the self-checkout and, but like Varun's team can't give you that, like bug fixes and all, how many bug fixes.
+Parasa Neeharika   3:54Yes.
+Shariq Haroon   3:54Yeah.Thank you.
+Parasa Neeharika   4:00Yeah, Nish.Yes.They have given the data, but the thing is...
+Shariq Haroon   4:08Sure, it's not going to meet up. Let me just cheque this something.
+Nish Bhutani   4:16Hey, can you mute Shariq or?PE.
+Parasa Neeharika   4:20They have shared the the number of releases that happened for a month, but the problem is they don't have the split between the bank loans app and the the bank loans.com.
+Nish Bhutani   4:24Hmm.No, so that's...This is a.
+Parasa Neeharika   4:35So it is the complete list that they have.
+Nish Bhutani   4:37Team.No, no, the question is not between app and.com. The question is between in-store app self-checkout and...Online app or pt.com checkout.
+Parasa Neeharika   4:57Yeah, yeah, that that on Vignesh. So, so what I meant to say is they don't have that split at that concrete level of water we are asking.
+Nish Bhutani   5:01Ohh.Gotcha.Cha, cha.
+Parasa Neeharika   5:06And.
+Nish Bhutani   5:10You know what you might have to do? Just do a very approximate thing. They've given you the whole list.
+Parasa Neeharika   5:17Yeah.For one month.
+Nish Bhutani   5:21Only for one month, should be at least three months, right? But...
+Parasa Neeharika   5:23Mhm.Mm.
+Nish Bhutani   5:30One way is to like search for things like store or self-checkout or things like that, see how in how many of those that appears, but maybe it's too, maybe it's too much hassle. Anyway, take care. The other thing is that the resources is right now is given for all of PT.com, right?
+Parasa Neeharika   5:48Yeah.
+Nish Bhutani   5:49We need to just make some approximation. Varun can help you on.what percentage of those resources are working on the checkout part of it.
+Parasa Neeharika   6:00Yeah, I asked for him for that part also. So he was saying that budget-wise, like 10% of the effort goes into the in-store app mode. So that is how he asked me to consider.
+Nish Bhutani   6:03Uh...
+Shariq Haroon   6:15Making me something.
+Nish Bhutani   6:17Okay, okay. Anyway, we can go through it together as a team. You can see my other comments also. Some things we just need to show the time frames and things like that. Okay.
+Parasa Neeharika   6:18Wow.Yeah, yeah.Sure, sure, I do, I do, I do.
+Nish Bhutani   6:29OK, who else is joining today?
+Parasa Neeharika   6:42Mhm.Shariq Aruna Chaudhuri.Malavika said she will join in a while, Vignesh, so maybe we can start with Shariq for now.
+Nish Bhutani   7:28What about Varun and Amit? Are they joining?
+Parasa Neeharika   7:28And it.Amit said he'll be joining in a while. Varun seems to be in a call with a brand CEO, so he said he won't be able to join.
+Nish Bhutani   7:39Okay, okay.
+Parasa Neeharika   7:40Mhm.
+Nish Bhutani   7:42Chica, let's go ahead, Charlotte.
+Parasa Neeharika   7:46Shariq is saying that we are not audible to him. MohammedImran will just quickly give him a call on him.
+Shariq Haroon   7:50No, no.
+Parasa Neeharika   7:53Yes, yes, you are, you are Shariq.
+Shariq Haroon   7:54Yeah, you are also audible to me. You are also audible to me.
+Parasa Neeharika   7:56Great.
+Shariq Haroon   7:58OK, so Nish, on the smart trial room feedback that you had shared last time, so sorry, sorry, before we start with the smart trial room on the RFID.
+Nish Bhutani   8:12Your voice is a little unclear, Shariq.
+Shariq Haroon   8:16Yeah.My, I put somebody Saturday.The hardware is not working properly, it seems.I am, I have switched to my mobile, uh, and that's why probably the voice is not so clear.
+Nish Bhutani   8:27Okay.Okay, okay.Okay, okay. That's better. Kinger.
+Parasa Neeharika   8:33Now it is better.Yeah.
+Shariq Haroon   8:37Okay, I will place it closer to myself.
+Nish Bhutani   8:38Yeah.
+Parasa Neeharika   8:40Yeah.
+Nish Bhutani   8:40Yeah, yeah.Or if you have headphones, you can use that.
+Shariq Haroon   8:43Yeah, so the same.Yeah, unfortunately, the headphones are also not working. I tried all combinations.
+Nish Bhutani   8:47Oh, okay, okay, take it. Okay, okay, okay.
+Shariq Haroon   8:54Yeah, so I was saying the RFID on the RFID self-checkout, we had a testing session last week, Wednesday in Bangalore, and there's some initial.Feedback which the team has incorporated, I think, and there is a session with Vikrant scheduled for tomorrow, 3:00.That will be showcasing it to Vikrant, and uh, before going live.
+Nish Bhutani   9:24Vikrant is who is Vikrant? He is Sandeep's replacement or?
+Shariq Haroon   9:28Is Sandeep replacement, yes?
+Nish Bhutani   9:29Uh, okay, okay. Take care.
+Shariq Haroon   9:31So, and there are two stores now going live: one is Kurla, of course, and the other one is Jaipur Pacific Mall. In fact, Jaipur Pacific Mall might go live earlier than Kurla, because there is there is some...
+Nish Bhutani   9:35Mm.Okay.
+Shariq Haroon   9:48some back and forth in terms of the non-tech things in terms of pictures and other things for Kurla to go live, which is holding it back. So I think the revised dates for Kurla and Jaipur go live are somewhere in the third week of October, which is the week of 19th.Yes, that your set up.
+Nish Bhutani   10:11Yeah, yeah. So have you been able to do any user testing, Shariq?
+Shariq Haroon   10:12And the approach.So, that is what we are starting tomorrow with business users, because function and unit testing has already happened. The SIT has already happened. Those are working fine, barring few feedback that we had suggested, which the team had has already worked on, and then deployed for.
+Nish Bhutani   10:19Mhm.Ohh.Okay.
+Shariq Haroon   10:36User testing tomorrow morning, and then users can start testing it. We are planning to go production deployment on the 12th evening, late evening, and we have kept 13th as a buffer date for any kind of UAT feedback that might come.
+Nish Bhutani   10:38Okay.Okay.Ohh.Okay.And.
+Shariq Haroon   10:55And might require a subsequent production deployment. We could targeting 13 for that.
+Nish Bhutani   10:58Okay.Now, let's go back to our original metrics for this experiment. Okay, we had, I think, looked at things like time to cheque out and also the some kind of failure rate or success rate, right? Do we have that data from the previous?
+Shariq Haroon   11:17Yes.
+Nish Bhutani   11:20kiosk versions and will we be able to track those things in the new one?
+Shariq Haroon   11:26I don't think we have the data in the previous kiosk version. In the new version we have asked for like a funnel tracking, but I think that will go live because there are three phases of September and October and November end. So it will go live in the October end phase, the final tracking across the usage journey.
+Nish Bhutani   11:34Mhm.Yeah.Okay, so let's just be super clear on the key metrics. So besides funnel tracking, funnel tracking should include also the time.
+Shariq Haroon   11:54Yes, yes, of course, of course.
+Nish Bhutani   11:55OK, not just the drop-offs, yeah, and and it should also part of the funnel should be that they ask for help.
+Shariq Haroon   12:05Yes.
+Nish Bhutani   12:05Because you know the kind of one kind of failure is asking for help, right?
+Shariq Haroon   12:08Hindi.If.Okay, okay, okay.
+Nish Bhutani   12:13So that's something we need to track. But none of this was there in the previous version, so we have no way of comparing if it was better.
+Shariq Haroon   12:19No, because the previous version was actually Microsoft Commerce Dynamics; it's exposed to customers, so actually none of it is that it's just like a billing software which has been exposed to customers.
+Nish Bhutani   12:26Ohh.OKOK, understood.The only other thing we have which we can compare, the kiosk we're not going to put live in our city anytime soon or are we?
+Shariq Haroon   12:46Ohh.I mean, so there are, there's this other thought that students has.
+Nish Bhutani   12:52Thank you. Thank you.
+Shariq Haroon   12:55that 50% of the entire network would be a RFID self-checkout. So for that, we would be doing it. It's just that we're starting off with Kurla and Pacific Mall Jaipur. And I think more to do.
+Nish Bhutani   13:00Mmh.And these two, and these two have kiosks right now, or no?
+Shariq Haroon   13:14These two had the earlier kiosk, like Corla had one of those earlier kiosks, but we are abandoning that because that is no longer relevant or hardware that can support this kind of this kind of an experience.
+Nish Bhutani   13:30Understood. No, no, the reason I'm asking is that one comparison one can make is what percentage of transactions were going through the older version of the kiosk versus the newer version.
+Shariq Haroon   13:41Yes.
+Nish Bhutani   13:43Percentage of store transactions, so at least that much we can track. Yeah, thanks.
+Shariq Haroon   13:44Yes, percentage of so that that much we we we will be able to because the earlier kiosk was each kiosk had a terminal ID and the terminal ID would mean a Microsoft licence and that is how we tracked that this particular terminal ID is generating how much bills because.
+Nish Bhutani   13:50Mm.Okay.Yeah.
+Shariq Haroon   14:03Finance and commercial at the end of the day, they require a recon report. So with RFID self checkout, what we have been able to intelligently do is not just up the experience game for the customers, but also save costs because Microsoft Commerce licences cost around 14 to 15,000 per annum.
+Nish Bhutani   14:05Correct, correct.Exactly.TEAM.
+Shariq Haroon   14:23per license. With RFID 7 checkout, we are routing all the six in Kurla through a single Microsoft license.
+Nish Bhutani   14:34In the apartment store.
+Shariq Haroon   14:34which means we're saving on 5.
+Nish Bhutani   14:36Sure, sure. So anyway, so I think, yeah, so like I said, the key thing is as you start report, like before you start reporting on this, just line up the key metrics, okay? And also anything we can use to compare with the previous version, which is really just percentage of sales, it seems, percentage of transaction.
+Shariq Haroon   14:37So.Yes, yes, because even the billing time, the total duration taken while I was trying to get that info for a different purpose long back from Commerce, but that metric is not tracked at all. The session total session time that the billing.
+Nish Bhutani   14:55Basically, right? Yeah, take it.Mm mm.Yeah.
+Shariq Haroon   15:13The billing staff or the customer spends to execute a full bill.
+Nish Bhutani   15:17It's not logged. There's no logging. There's no logging.
+Shariq Haroon   15:20There's no logging. There's no logging.
+Nish Bhutani   15:22That's crazy. Anytime Microsoft is involved, I just know it's going to be like some shoddy piece of software. It's like, I just have this real anti-Microsoft virus. You know, seriously.Um, okay.
+Shariq Haroon   15:36One of the challenges that is.
+Amit Dwivedi   15:37Then, then you are not only one, Ankish.
+Nish Bhutani   15:39Yeah, I don't know why you guys are not on Google here. Why are you on bloody Outlook and SharePoint and all this nonsense?
+Shariq Haroon   15:48Yeah.
+Nish Bhutani   15:50Anyway.
+Shariq Haroon   15:51One challenge that is coming up initially in my understanding, which can't be solved when it is a Microsoft problem, which is that each item that is getting added to the cart, the Android application is checking with Microsoft Commerce to fetch the latest price on that, because the pricing is actually...
+Nish Bhutani   15:52Hello.MC.Mm.Okay.
+Shariq Haroon   16:11So each such call is taking two to three seconds. So if the customer is adding five products, the customer has to wait 10 to 15 seconds for all the product prices to get populated. That's a real, real challenge. I have notified Sandeep and Vikrant both about it.
+Nish Bhutani   16:18Ohh.Got it.What?So if you put all five clothes at one time, they'll be waiting. And will it show each price as it arrives or it shows all at once?
+Shariq Haroon   16:29We need a Christmas.It shows each prize as the right.
+Nish Bhutani   16:37Okay, so at least that's better. At least they can see some progress, right? Okay.
+Shariq Haroon   16:40Yes, at least we can see some progress, but the customer, because the customer is carrying, say, let's say four or five, and they draw four or five, if they're unless they're actively looking on the screen and see that all five have been added, they really have no way of knowing that all five have been added.
+Nish Bhutani   16:42But this is.Mm.Yeah.Sure.Understood. There's an there's no way to optimise that call or.
+Shariq Haroon   17:02There's no way to optimise this because this is a basically a Microsoft problem. Even all the billing that happens happens at 2002 for ours, all of them they have this problem. It takes two or three seconds.
+Nish Bhutani   17:13No way, so even at the point of sale.
+Shariq Haroon   17:16Yes, yes, yes.
+Nish Bhutani   17:19Wow, and who's responsible for this part of it? Is it under Varun or Praveen? I mean, somewhere, someone else in Praveen's team?
+Shariq Haroon   17:25This is under Praveen. This is Imran. I have already notified and they are fully aware. Imran was part of the testing team last week in Bangalore.
+Nish Bhutani   17:31But they're fully aware of it.Wow, so this like across all our stores really slows down ultimately the queues and everything.
+Shariq Haroon   17:38Across all across all.
+Nish Bhutani   17:41Yeah.
+Shariq Haroon   17:42How it how it hides in the current way of working is because each garment is scanned and then packed and then kept on the rack so that those packing and folding takes two to three seconds and that is how it is currently hiding and not becoming a big big red flag. But when we move to RFID subsequent customers are dropping.
+Nish Bhutani   17:51Mm.I see.Okay.
+Shariq Haroon   18:01items in the bin, then the customer is expected to now wait for 10 to 15 seconds, basically two to three seconds for each item.
+Nish Bhutani   18:01Okay.Or even R or even RFID at the point of sale if it will become an issue because.
+Shariq Haroon   18:11Yes.
+Nish Bhutani   18:12In, yeah, because in theory you could have a separate person folding, etcetera, right? You will get the payment done, okay? Anyway, take it, okay, all right, okay.
+Shariq Haroon   18:17Yes.So, I have notified that Vaikunth and Sandeep both about this, but not much we can do about it right now.
+Nish Bhutani   18:25Okay, but yeah, I think, then Neeharika.
+Shariq Haroon   18:27Yeah, you have one, but...
+Parasa Neeharika   18:29Yeah, Shariq, so I just wanted to give a heads up to you on one use case. So basically I was just going through the user journey at the kiosk with RCT day before yesterday it is. And so basically I have entered my mobile number as a first step and then I have scanned one of the product, but then I have cancelled my...
+Shariq Haroon   18:52But the.
+Parasa Neeharika   18:52my journey where. I didn't complete the purchase, but then after cancelling the transaction also, still I have received a message saying that thank you for making the purchase. Click here to see the e-bill.
+Nish Bhutani   18:541.The.
+Shariq Haroon   18:56Yeah.
+Nish Bhutani   18:58Okay.Choose.So, you, you, you.
+Parasa Neeharika   19:07So, I'll stop there.
+Shariq Haroon   19:07So why that would be happening? I understand, and that's the Microsoft Commerce playing it part, but why it would be happening is each transaction or each line that we add, each item that we scan and add actually goes and sits in the transaction table, irrespective of whether we're buying it or not.
+Nish Bhutani   19:15Okay.Play.
+Parasa Neeharika   19:20Mm.
+Nish Bhutani   19:25Ashish.
+Shariq Haroon   19:27The moment it sits, it technically becomes a transaction, technically. And then when it is deleted with a flag saying that it is deleted, whenever you are abandoning the cart or whenever the customer is cancelling or avoiding the line item, whenever you mark delete, it is deleted, but technically in the transaction table it is sitting. And that is why you would have received an.
+Nish Bhutani   19:28It.H.
+Shariq Haroon   19:47Uh, receive the message, but I don't think that's the right experience.
+Nish Bhutani   19:49S.
+Parasa Neeharika   19:50Oh.
+Nish Bhutani   19:51Yeah, yeah, Shariq, I think the right answer is, it's a bug.
+Shariq Haroon   19:55Yes, sir.
+Nish Bhutani   19:56Okay.
+Shariq Haroon   19:58Okay.
+Nish Bhutani   19:59OK, so yeah, so anyway, if we can, if we can fix that, I think that would be cool, yeah.
+Shariq Haroon   20:00Yeah.
+Parasa Neeharika   20:03Mm.
+Shariq Haroon   20:04Sure, OK. I add also on the smart file room. I have been able to incorporate some of the feedback from the mail that Neeharika had shared. Maybe let me share my screen and.
+Nish Bhutani   20:20Kios, there's no way to test it on a computer, right? You have to test it, or can you?
+Shariq Haroon   20:22Okay.It.There is, because it's so hardware dependent, I mean, because there's RFID reader which has to be there, and then the antennas have to be because so hardware dependent. So we're setting up a testing centre in Mumbai. We have already set up, in fact, only the...
+Nish Bhutani   20:30Yeah, I know.Cha-cha.Mm.Mm.
+Shariq Haroon   20:44Payment machine is pending, and one is there in Bangalore also, so I mean, whenever you're around, maybe we can have a testing session.
+Nish Bhutani   20:46Okay.Okay, and you said in Korla, when will the testing in Korla start? The Korla store?
+Shariq Haroon   20:58We could not store testing.I am being told the hardware delivery is about a week away.
+Nish Bhutani   21:05Okay.
+Shariq Haroon   21:05Uh, but I would, I would not rely on the Kolkur store for.
+Nish Bhutani   21:08And this is right opposite, this is right opposite the office, is it?
+Shariq Haroon   21:12Right opposite the office, yes.
+Nish Bhutani   21:13Okay, okay, so maybe once
+Shariq Haroon   21:14But inside the office, we have a hardware setup, the full kiosk setup.
+Nish Bhutani   21:16OK, OK, so maybe when I'm there next time we can, I can cheque it out also. Take it. OK, OK, sounds good.
+Shariq Haroon   21:19Three.Yep, yep. Uh, I guess tomorrow we'll be setting it up for users to start testing, so...
+Nish Bhutani   21:26Okay, bye.
+Shariq Haroon   21:28And we'll keep it ready because it will be monthly release of features, so we'll keep it ready and keep it handy for the entire two to three months duration.
+Nish Bhutani   21:32GROUP.Okay, great.
+Shariq Haroon   21:36Badali Bajaj.
+Nish Bhutani   21:39But then you were saying the RFID in the trial room time.
+Shariq Haroon   21:39OK, yeah, on the on the smart trial room, I have been able to let me share my screen.So there were two experiments, Nish. One was the customer view and the other one was assortment view. This is the customer view. We are looking at a single customer who had spent about 12 minutes in trial room one, 12 minutes in trial room one.
+Nish Bhutani   21:55Yeah.You?Wait, you're saying it's a unique the view of one single one?
+Shariq Haroon   22:10We have one single customer. This is a single customer.
+Nish Bhutani   22:12Okay, okay, okay, pretty good.
+Shariq Haroon   22:14From try to buy, she tried 5 products and eventually bought two of those. Three that she didn't buy and left in the fitting room. The overall dwell time or session time was 12 minutes. These were the two items that she eventually bought, and these are tracked by EPCs, so...
+Nish Bhutani   22:15Okay.Mmh.Okay.Mhm.
+Shariq Haroon   22:33I...These are unique and have been found both in the trial room and at the billing counter, EPC to EPC. So we are 100% sure that this was the item that was bought and this was the customer who bought them. So we can see there are two kinds of things happening here. The first is that she.
+Nish Bhutani   22:41Mm.Okay.Super.Super.Ohh.
+Shariq Haroon   22:53Tried on a small, sorry, a medium, but she went for a size swap and she bought a large size. Now, this size swap.
+Nish Bhutani   23:01Correct. By the way, we should put the we should put the customer ID or something here, so it's just so we know that we've identified, you should highlight the fact that we've identified the customer also. Yeah, so just make that point, the customer identified, and here's the customer ID or something. We obviously don't want to show the name.
+Shariq Haroon   23:12Okay, okay, yeah, okay.
+Nish Bhutani   23:21There's no need. Yeah, OK. Take care.
+Shariq Haroon   23:22Sure, OK, OK.So this size swap gives, of course, the size of when we get visibility on it, but it also helps to build the customer fit profile. If we were to, in the future, start recommending items to customer and store fit profile of each customer, then this size swaps help us to enable.
+Nish Bhutani   23:29Mm.Profile.
+Shariq Haroon   23:45that kind of information profiling.
+Nish Bhutani   23:46So basically what it tells us is that, so what you're saying is previously we knew that we would have known anywhere that she bought a large.But what we didn't know was that she was trying between a medium and a large versus say a large versus extra large. So we know in which region her fit is basically. Correct? Okay.
+Shariq Haroon   23:55I...Yes.Jess.Yes, and because the way I understand it, CartPantaloons is private label, it is sometimes tend to vary brand to brand, the sizing or the fit, and some size tends to vary brand to brand. So for a single brand, it might be M for her, whereas for Akriti, it's L.
+Nish Bhutani   24:16Mm.Yeah, and then one can also do interesting analysis by saying that, hey, for this brand or this item, we're seeing a lot of medium and large trials, but people are tending to buy large more than medium, right? That kind of analysis, yeah.
+Shariq Haroon   24:22Lindsey.Play, play, play.Do you love, love?Yes, which is which is in the aggregate view, because this is a unique customer view. This is for that customer in the aggregate view that's there. The second, the second bit, and of course she bought an ensemble. She bought a complete loop, and because these are two items that she bought, however, she tried two more items that are complete.
+Nish Bhutani   24:40Correct, correct, exactly, exactly, exactly, got it, got it, take it.Mm.Ohh.Sure.
+Shariq Haroon   24:56Completely unrelated to this theme of purchase, which are which are these two, a Kurti and a top. Now, she probably didn't buy them for whatever reason, because she didn't like the fit, most likely because she liked the product and that is why she tried it on, but she didn't buy probably because of the fit.
+Nish Bhutani   24:59Ohh.Mm.Oh, whatever, yeah, yeah.But the fact is, it tells us something about her interests, yeah.
+Shariq Haroon   25:18It tells us something about her interest and we can remarket her for that address need. So this kind of profiling and this kind of data can start sitting in capillary now, clever type now, so that we can build such customer profiles there.
+Nish Bhutani   25:18which we can add to her profile. Yeah.Mm.Ohh.Yeah, yeah.This is this is great work, Shariq, really. I mean, it's so great to see it come alive, you know.Yeah.
+Shariq Haroon   25:42And we can run this for all kinds of customers who are coming in such kind of, I mean, build a cohort out of it.
+Nish Bhutani   25:48Hello?Yeah.Okay.
+Shariq Haroon   25:54Okay, the next one is aggregate view. I'm switching to the aggregate view now.Uh, so...I'll quickly walk you through, and this is this is the inputs that were there in that mail. We then reached out to the planning team operations team separately and tried to showcase this data to them to understand what makes sense for them, as in in terms of their functions or their.
+Nish Bhutani   26:14Ohh.
+Shariq Haroon   26:25Let's just say planning would want to maybe have a different size curve or push out a particular size curve and send certain geographies and versus not doing in some other geographies. So from that lens we had reached out to the respective functions to understand what would and what kind of information would start making sense for them.
+Nish Bhutani   26:31No.
+Shariq Haroon   26:44and they can take action on. For example, this is basis planning sample. So what we're looking at here is the total options, the total try ons that happened aggregated say across 914 EPCs. So there were about 1300 try ons that happened across these 914 EPCs.
+Nish Bhutani   26:46Yeah.
+Shariq Haroon   27:04HPC is a tag.These 914 EPCs were belonging to 520 options. An option is a size set put together, but a single color.
+Nish Bhutani   27:11This one.
+Shariq Haroon   27:18Whereas this time is all colours in that in that option, let's just say if I'm wearing a black T-shirt, all sizes in this black T-shirt would mean a single option, but if there would be different colours of this T-shirt, let's just say blue, then blue and black put together along with all the sizes.Would be assigned.So, we are looking at what we're looking at this data that tells us is there are far more size swaps like 914 to 520. There are far more size swaps happening rather at the 1300 to 520 than.
+Nish Bhutani   27:40Okay.
+Shariq Haroon   27:56colour swaps happening because colour swaps are only 522 466 which means there might be some kind of friction in terms of customers picking up that size versus not finding them the right fit.That's an aggregate level, and then when we...
+Nish Bhutani   28:14Sorry, I've asked this question before. An EPC uniquely identifies a piece of clothing.
+Shariq Haroon   28:24Yes, yes.
+Nish Bhutani   28:25A physical piece of clothing, correct?
+Shariq Haroon   28:26A physical piece of clothing.
+Nish Bhutani   28:29Okay.So then...And then you're saying within those EPCs there are...Five 120.Size options, basically.
+Shariq Haroon   28:44Yes, so 520 options, as in a black T-shirt, that's 520. And considering all sizes, XL, L, M, all sizes put together, they're 520.
+Nish Bhutani   28:49Okay.But just based on style or color, what do you call it? No, not style, color. Basically, we're saying.
+Shariq Haroon   28:59Yeah.So if there is a colour variation, that would mean that would sit under the umbrella of style, say a blue t-shirt versus a black t-shirt. Those are part of the same style, but different options. If I were to further split a single black into sizes, then that's an EN.
+Nish Bhutani   29:10Okay, okay, okay.
+Shariq Haroon   29:23Each piece.Or sorry EN and then if I split it further ENS into each pieces, then that's the EPC. So that's like the hierarchy. We have style at the top which is all colours put together. Then we have an option which is a single color. Then we have sizes which is an EN and then we have EPCs.
+Nish Bhutani   29:33Okay.
+Shariq Haroon   29:44Which are the single pieces of each piece of a garment?
+Nish Bhutani   29:46Got it. Got it. Okay. Okay.
+Shariq Haroon   29:49So what it tells is there are far more EPCs that are brought in in comparison to options, which means there.Sizes were changed because they all belong to the same option, whereas...Five 20 to 466 meant.Almost A1 is to 1 ratio between size to color. People were not switching for colour so often as they were switching for sizes when they went to trial room and they went back again.
+Nish Bhutani   30:11Mhm.Okay.
+Shariq Haroon   30:22Uh, and and on the bottom, this uh.
+Nish Bhutani   30:26So far apart, 520 versus 466.
+Shariq Haroon   30:27People.Yeah, it's not so far apart. Yeah, not so far apart. Almost like a one-to-one ratio.
+Nish Bhutani   30:33Okay.
+Shariq Haroon   30:35In the bottom table, what it's like a 2 by two matrix of which are the assortment of which are the so each bubble over here is actually an option and the number of times that option gets tried represents the size of that bubble.
+Nish Bhutani   30:49Mhm.
+Shariq Haroon   30:56OK, so for example, I am talking about this particular one top left. Then this probably got tried only once, and that is why it's here between zero and five. It's right here. It got tried once.And it got sold. That is why it has a 100% conversion rate.
+Nish Bhutani   31:18Mmh.Got it.
+Shariq Haroon   31:21So, all the items that are towards the top left, if I were to draw a line like a 45 degree slope here, then all the items that are towards the top left of that line are actually...
+Nish Bhutani   31:23No, that's.Yeah.Okay.
+Shariq Haroon   31:39Good fits because they're getting bought immediately after getting tried. They're not, they're not their conversion ratio is not so low and all items that are towards the bottom of this graph and towards right, which means that they're getting tried on frequently but not getting bought so frequently.
+Nish Bhutani   31:50That one.Not getting bored, yeah.
+Shariq Haroon   31:59So, and this can represent.Assortment, and then we tried also, we showed this to the class.
+Nish Bhutani   32:06And then you can philtre this based on like brand or whatever, right? Like this kind of, yeah, yeah.
+Shariq Haroon   32:09Yes, yes, yes, so we, we, when we showed this to Vikrant, Vikrant said, let's try to match this with ham profile, because ham is something that we keep track of, which is like hits average misses, ham hits average misses, so a hit, a hit and average and miss.
+Nish Bhutani   32:12Okay.What profile?Okay, okay, okay, ha ha ha.
+Shariq Haroon   32:28would be dependent on what's the sell through rate within a specific time period. The only catch with that is that ham requires some time for gestation. There's some gestation period for ham to mature because a drop gets deployed and it has to be tried on for say X number of times for X number of days.
+Nish Bhutani   32:28Mm.Hmm.Mmhmm.Ohh.
+Shariq Haroon   32:47And then only we can arrive at ham, and the data is too sparse right now to link it with ham and to form a conclusive view, and that is why ham is not correlating right now with this, because the data is very sparse. That's currently one of the challenges, and...Go back to Vikrant and say the same thing. I've been meaning to speak to him because we did this analysis just yesterday, linking it with him, but this could be a lead indicator for him that that's our that's our hypothesis.All items that are on the top left might have better hands versus items that are bottom right. Another thing is that ham is...Across geographies, when they track ham, they're not tracking ham for a single store, they're tracking ham for across geographies, and this is just there in a single store, and that too for a single trial bay.Mister, is speaking on mute, Nish?
+Nish Bhutani   33:49Oh, sorry. Some of the conclusions that you just spoke about.
+Shariq Haroon   33:49Okay.
+Nish Bhutani   33:54Um, I think...
+Shariq Haroon   33:56Mathin.
+Nish Bhutani   33:57You know, we'll obviously will use this for the steering committee meeting, but I think you'll need to kind of...highlight those on this slide and maybe strip away some of the other things that you're not going to be talking about as much just because the slide isn't too cluttered. Yeah, maybe Neeharika you can work with Shariq on that.
+Shariq Haroon   34:05Yes, Chavan. OK.Yeah.Okay, sure.Puneet.
+Parasa Neeharika   34:18Yeah, Mishra.
+Nish Bhutani   34:18It's good to kind of like...Have some takeaways, basically, right? Yeah, yeah, OK.
+Parasa Neeharika   34:22Yeah.
+Shariq Haroon   34:22Absolutely, absolutely.I'll move on to the next slide.
+Nish Bhutani   34:26Sure.
+Shariq Haroon   34:28So this slide is quite important to planning, because what this slide talks about is.Whether there is any kind of friction related to frame sizes. If we take this particular example, the first one. Total tries that happened were 16, and this is how that number 16 was split across different sizes. We can see that these sizes, let's just say large.
+Nish Bhutani   34:51Yeah.
+Shariq Haroon   34:53Or small got converted within a single try, whereas in Excel got tried four times but wasn't bought once.So, if, and of course, this may be a decent.approach, but the relevance of the outcome or the output is more and more when there is a lot of data, because currently this is sitting on a very sparse data.
+Nish Bhutani   35:19Yeah, correct. So we will have to wait obviously, but yeah, yeah, to really see if it's meaningful. Yeah.
+Shariq Haroon   35:21Uhh.Yes, the more data that we have, yes, I say, for example, if this 4000, 4 becomes 4000, and then we see only say 100 conversions, then there is really some problem.And maybe...
+Nish Bhutani   35:36So, yeah, so Shariq, there's a...I might have mentioned this earlier in the context of AB testing.But basically...You know, there's a way to statistically evaluate whether you with a high, with what degree of confidence you can say that this is a valid result or not. And usually in statistics, 95% is the benchmark that people use. So what I would do is, and especially as we design our own system, but also as we present these results.
+Shariq Haroon   35:59Yes, yeah.Yes.Yep.
+Nish Bhutani   36:12We should.We should have a percentage confidence.
+Shariq Haroon   36:17Okay.
+Nish Bhutani   36:17Against this, because it may not even require 4000 is a lot, you know, even 40 or 400 might be enough.
+Shariq Haroon   36:19Okay.
+Nish Bhutani   36:27But it all comes down to what your what the conversion rate is.
+Shariq Haroon   36:28Ohh, OK.
+Nish Bhutani   36:34Right? And also what you're comparing against. Like if another size is getting, there's a big difference between the conversion rate for another size versus the size that has a problem, then you can say with a greater degree of confidence that it's a problem.
+Shariq Haroon   36:53Yep, yep, yep.
+Nish Bhutani   36:53But if it's only a small difference, then your confidence is low. So the overall point is let's apply some statistics to this, basically, as time goes on.
+Shariq Haroon   37:03Sure, sorry, point, yeah, point.Uh, so, so uh, I mean, those, those were the those the slides that I have prepared, uh.
+Nish Bhutani   37:14Super great. This is great to see. Yeah, this may on this one also, you need to put some takeaways.
+Shariq Haroon   37:21Yep.
+Nish Bhutani   37:22And just kind of work with Neeharika on that.
+Shariq Haroon   37:24Chalke.
+Nish Bhutani   37:25Great.K.
+Parasa Neeharika   37:32Shariq, on that point where the conversion rate was being calculated, could you cheque that?
+Shariq Haroon   37:42Uh.
+Parasa Neeharika   37:43I don't remember exactly which slide it was, so Nish, I had a conclusion on.
+Shariq Haroon   37:46Yep.
+Parasa Neeharika   37:49One second, I'm just quickly.
+Shariq Haroon   37:57For the conversion from trials to bot, yeah, we have collected that, we have collected that, yeah, this is not making sense from EPCs to conversion was not making sense, it should have been trials to bot, yeah, we have in the one that we're looking at, it was trials to bot.
+Parasa Neeharika   38:00Yes, yes. Yeah, okay.Tarun.Yes.Okay, bye.
+Shariq Haroon   38:12Yeah.
+Nish Bhutani   38:14Okay, and I've suggested some high-level metrics also in the steer code deck that we can look at. So just cheque with Shariq on that, the deck that I've emailed to you. Yeah, take it, take it. Okay.
+Parasa Neeharika   38:24Yes, sir, I'll go through it once.
+Nish Bhutani   38:30Is Malavika joining or no?
+Parasa Neeharika   38:36She said she got stuck in something, some other work, and she'll join in a while, but I don't think she might would have completed.
+Nish Bhutani   38:40Mm.Okay.
+Amit Dwivedi   38:45Can you pin in that again, Neeharika?
+Nish Bhutani   38:45Yesterday, actually, huh.
+Parasa Neeharika   38:48Sorry, Amit.
+Amit Dwivedi   38:49Can you ping her again?
+Parasa Neeharika   38:51Yeah.
+Amit Dwivedi   38:53Just tell her that we've finished one session and if she's free we can maybe cover her piece also.
+Nish Bhutani   39:08Yesterday, Puneet and I kept missing each other on it, so I'll try them again maybe today.
+Amit Dwivedi   39:12Okay.But I spoke with him.
+Nish Bhutani   39:16But changing the time, you spoke with him, so...
+Amit Dwivedi   39:18So he said that he'll get it done.
+Nish Bhutani   39:21Okay.
+Amit Dwivedi   39:23Um...But yeah, I'll have to cheque with him today.
+Nish Bhutani   39:26Yeah.Sure, sure. And I think if we, when I talk to him, I also mentioned that, look, we're getting some of these positive results. So it's good for marketing to get involved, like, for instance, on the geolocation thing.
+Amit Dwivedi   39:35Move.He said that, you know, one week, 10 days, I can understand, but if it's not moved in three, four months, then there is some other issue. I'll try to find out. That's what he said. So most probably he'll speak because he also came in new. I'm sure he was not aware of what was happening. He was not updated also.
+Nish Bhutani   39:45Mm.Yeah, yeah, take it.Sure, sure, take it.
+Parasa Neeharika   40:00Ah, Malavika won't be able to join, is what's missing.
+Amit Dwivedi   40:03Okay.
+Nish Bhutani   40:04Okay, let's do this. We can let's go through the what I put on this tier code deck so at least we can use the time for that. Shariq, if you want to go, you can go ahead.
+Parasa Neeharika   40:066.
+Shariq Haroon   40:20Sure, okay, all right. Thank you. Thank you, everyone.
+Nish Bhutani   40:21Thank you. Thanks.
+Parasa Neeharika   40:23Yeah.
+Amit Dwivedi   40:23Thank you.
+Parasa Neeharika stopped transcription

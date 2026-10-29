@@ -1,0 +1,627 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20261027_113021UTC-Meeting Recording
+October 27, 2026, 11:30AM
+1h 56m 31s
+Shariq Haroon   0:40Any Ecom.
+Parasa Neeharika   0:40Hi, Shivam. Hi, Shivam.
+Varun Babji   1:49Yes.
+Shariq Haroon   1:54Evan.
+Parasa Neeharika   1:56Hi, Aman.
+Varun Babji   1:58Hi, everyone.
+Parasa Neeharika   1:59Just checking with Nish.What do you mean, Aditya, Aditya Patil?
+Nish Bhutani   4:18Hi, hi, we can start.
+Shariq Haroon   4:22Anish.
+Nish Bhutani   4:24Right.
+Shariq Haroon   4:25Yeah, so.Again, my.So, Nish, this was this was a first weekend for Rfid sales signal, and we...Got to see some good numbers.In fact, that we shared number shared in the chat box.This is for just one store.
+Nish Bhutani   4:52Just talk, just.Just talk us through it.
+Parasa Neeharika   4:55Hi, Nish.Set no definition.
+Shariq Haroon   5:00So, the, yeah, sure.
+Parasa Neeharika   5:01Ohh, okay.
+Nish Bhutani   5:01Just talk us through the numbers, yeah.
+Shariq Haroon   5:04The the weekend which is 24th and 25th of October, Saturday and Sunday, self checkout.
+Parasa Neeharika   5:05The.Yeah.Okay.I can't see.
+Shariq Haroon   5:14Total contribution to value was at 19% for on Saturday and 32% on Sunday.
+Parasa Neeharika   5:19No.Depends.And.
+Shariq Haroon   5:24At the same time, express checkout contribution for both of these days was 2% and 1% specifically from the comparison particular.
+Nish Bhutani   5:35Express checkout means.
+Shariq Haroon   5:35To.I think is checkout an app.
+Nish Bhutani   5:40OK, OK, so self self checkout on app.
+Shariq Haroon   5:40As in in customers, they their own app, yeah, that.
+Nish Bhutani   5:44Okay, so the.Got it, so there was.
+Shariq Haroon   5:48That that was like 2% and 1%.
+Nish Bhutani   5:51Ah, so there you are, so there's a clear preference for the keywords.
+Shariq Haroon   5:56They are clear, clear preference for the class, 19% and 32%, and this is just the first weekend.
+Nish Bhutani   5:58Okay, which is not surprising, right?Got it.That's great. And how did how did it compare to self checkout earlier in the same store?Previous weekend.
+Shariq Haroon   6:10In the same store, there was it, I think, yeah, sorry, sorry, there was a self checkout earlier. I have to get that number. I am not sure what that is. I have to get that number.
+Nish Bhutani   6:21Yeah, I mean, what I mean by self checkout is the app checkout.Rane.
+Shariq Haroon   6:25Or the app checkout, ohh, cheque out an app.We have that number also we can get.
+Nish Bhutani   6:29We should, we should, yeah, let's just, let's just ongoing just compare two things, day by day and week by week, which is kiosk, self checkout on app.And, uh, and obviously, yeah, may see those two things, right?
+Shariq Haroon   6:48Yep, yep, okay, okay.
+Nish Bhutani   6:49Compared to the compared to the previous periods.
+Shariq Haroon   6:52Yep, OK, alright.And, um, as...
+Nish Bhutani   6:58Any significant issues or?
+Shariq Haroon   7:01So the significant issues we have already solved for them. One, there was payment issue, some tender ID related issue which we had to firefight on, that was on Friday. Another issue which came up significantly and was a big issue was how Rfid and that was the Rfid communication approach.
+Nish Bhutani   7:07Okay.Mm.Mhm.Okay.
+Shariq Haroon   7:20Earlier we had used a different one, which is LLRP, and we had to change that to an IoT approach. So we saw significant improvement in terms of detection rate and overall time spent in terms of creating that card. Earlier it was ticking around 3, 4 seconds, so it has been brought down to 1.5, around 1.5.
+Nish Bhutani   7:28Okay.Okay.
+Shariq Haroon   7:41Seconds.
+Nish Bhutani   7:43Okay, great. That's really good. And are we tracking some key metrics and
+Shariq Haroon   7:50That we would start doing this. We have not, I want to do that. It's on my mind, which is that we wanted to roll this out and that was kind of the urgent pressing thing at hand. But yeah, that's all that has been on my mind. We want to, just like how we do for our Ecom app, we should be having metrics for.
+Nish Bhutani   7:52Okay.Ah.Okay. Okay.Yeah.
+Shariq Haroon   8:10Yeah, the entire funnel. That's on my mind.
+Nish Bhutani   8:12Correct, correct, correct. And also, you know, and including things like that, time to complete a transaction and also, right, and yeah, and also alerts if we're seeing anything unusual in terms of certain kinds of transactions not going through or...
+Shariq Haroon   8:19Yes, yes, including things like that.
+Nish Bhutani   8:31you know, certain transactions kind of taking a long time. I'll give you an example. Some actually someone on my team said they went to a van Husen store.And it took them 5 to 10 minutes to scan a QR code, UPI QR code. Like they literally said it took 5 to 10 minutes. And the reason was not technical, it was because the phone was not detecting the QR.And their analysis was that the machine itself was so scratched the screen.that it was able to detect the QRs. Now, what's probably happening is that in that store, the number of, and they said that was the only machine available, whatever reason. So what's probably happening is that in that store, the number of QR transactions is belowas a percentage is below what you would see on average for stores, right? And that's the kind of data point that should kind of trigger an alert. So I'm just giving you an example, but think about, yeah, you're exactly right tracking the funnels, but also what are the kinds of operationalSort of data points that should trigger.Thank you.
+Shariq Haroon   9:51So one of the things, yeah, one of the things that I have.
+Nish Bhutani   9:53Yeah.
+Shariq Haroon   9:55as an afterthought, ask the team to start building on is that some kind of diagnostic if it can run on the edge device and it can notify the HO user that this system is down for such and such reason. And not just that, that's just for the HO user, for the store staff and for customers also it should.change to a different screen saying that the system is down and they can use the others other systems which are working.
+Nish Bhutani   10:19OK.Okay.
+Shariq Haroon   10:21Meanwhile, yeah, so that's also because currently what was happening is if any system was down, people were reaching out manually that this system, this particular kiosk is down for such and such reason, and then only we were reacting to it. So if there was an automated way of reaching out to actual users and notifying them that this kiosk is down for such and such reason.
+Nish Bhutani   10:29Yeah.
+Shariq Haroon   10:41It helps in reacting faster.
+Nish Bhutani   10:45Understood.
+Varun Rajwade   10:49More, so one is of course you could look at this, create like in store you just create a sort of a help section, right? Because this is an assisted journey also rather than making it all full tech because your throughput will not be that much.In a store in in in our city in Kurla, which is a pretty large store, there we are looking at 100 builds a day in 10 working hours, right? So you can't even base it on velocity and stuff like that. There's there won't be that much.You'd probably be faster by just getting the help button or something of that sort and getting that feedback right into you. That's it. You are where is the tech thing.
+Shariq Haroon   11:39So, you mean to say, Varun, are the customer reaching out for help?
+Varun Rajwade   11:43No, our staff, because our staff itself is there, right? See, the customer tell the staff this screen is not working. Staff should be able to have one way to escalate to you.
+Shariq Haroon   11:45Okay.Yes, yes, yes.Yes, yes, yes.
+Varun Rajwade   11:53Because you can't, unlike Ecom, where you can at least base actions on velocity, here you can't, because they ordering on checkout, maybe 30.
+Shariq Haroon   12:06Yes.
+Varun Rajwade   12:08So that's not enough to say, okay, this is a bad R or something is broken or something of that sort. You can also look at basic diagnostics, right? Just whether the screen is live, that sort of stuff, you should ask the vendor. But rest keep a help button for staff to raise out alerts.
+Shariq Haroon   12:26Yes, so this is what this is what I had thought of. I'm just pasting it here. This is what I had thought of earlier when I thought about this.
+Nish Bhutani   12:33I thought we we do have we do have a help button, right?
+Shariq Haroon   12:37Yeah, so that's this is different, Vignesh. What I'm talking about is more to do with the device being down and either the device notifying us or somehow the store staff notifying us via the device.
+Nish Bhutani   12:38I thought.Apeksha.Mm.
+Shariq Haroon   12:52And the help button, which we had discussed earlier, which will be closely working or sending information to the now app, that's more for customer assistance. That's less to do with device malfunctioning and more to do with customer assistance, customer actively seeking assistance.
+Nish Bhutani   13:03Yes.Correct.Correct.
+Varun Rajwade   13:13So.
+Nish Bhutani   13:18Okay.
+Shariq Haroon   13:18And, uh, on phase two, we have started working already, uh, Varun shared the scope for phase two.
+Varun Rajwade   13:26Yeah, I think just share it here. It would be useful for just a quick one minute.
+Shariq Haroon   13:29Okay.
+Varun Rajwade   13:32And then we should move on.
+Shariq Haroon   13:34Yep.Okay.So, this, uh, this phase two, the phase two here, uh, sorry, just mentioning phase two.which we are talking targeting for November month.One is the credit note redemption. I'll just quickly go through the list. Second is PT credit note, PT credits redemption, GV gift vouchers, employee discount, centrally configurable idle screen video, so that each screen is having their own video and imagery. Saved cards, loading up saved cards.
+Varun Rajwade   14:14Yeah.
+Shariq Haroon   14:24Store configuration page in the app itself. Insignia day zero max cap limit. UPI QR on screen because currently it's on the Pilab device, so you're wanting to have it on the screen itself. Self checkout to be passed in same posting XML, as in which particular type of transaction.
+Varun Rajwade   14:43No.
+Shariq Haroon   14:43While the kiosk is coming through, but just as a while, which type of transaction it is self checkout versus regular exception error fix while returning, and then multiple quantity return changes. This is more to do with DC 65 less front end and ticket size offer for app selling.because like you would have seen, buy 300 rupees worth of more and get 50 rupees additional discount, things like that. So that app selling can happen. These are what we're taking in November.
+Varun Rajwade   15:05Yeah.Yeah.And let's also, this looks fine, I think let's also discuss the December rollout, as well as at what stage do we move the trial room part. Now that we have confidence in this, that's actually a big unlock, which we should start discussing along with the single order multi-fulfillment piece, which Nish has mentioned.
+Shariq Haroon   15:21Yes, yes.Yes, and I think now, Varun, that we have confidence on this and we have confidence on the Rfid communication approaches. We should start probably, because currently we are relying on that vendor. We are relying on that vendor to do that smart trial room. We can start putting in our hardware in Viviana and our tech in Viviana.
+Varun Rajwade   15:42Expanding also.
+Shariq Haroon   15:52to start experimenting even in pilot capacity.
+Varun Rajwade   15:55Yeah, we should. We should start. And parallely, I think with Vikrant, you should align A rollout plan, taking this self checkout into, let's say, 10 more stores, that sort of thing, right? So 10, 50, and then whatever.
+Shariq Haroon   16:10Yep, yep, OK.
+Varun Rajwade   16:13Thanks.
+Nish Bhutani   16:16Okay, so any update on the RFI on the trial rooms piece?
+Shariq Haroon   16:22Not really, Nish. I've not, I've not been able to look at that piece so much. Once you're live with the Jaypore store, which is going live tomorrow, then we, and then I'll have some time at hand.
+Nish Bhutani   16:24Okay.Okay.Mhm.OK.Is there a plan to install right imminently in mode? No, no, this is really good, really good update. And just on the Rfid piece, besides analysing the data, if we can start installing an additional trial room so we can get more comprehensive data, that will be good.
+Varun Rajwade   16:43No, but this is, I think, a great update then.
+Shariq Haroon   17:00Yes, so and that's what I was discussing with Varun. I was thinking that instead of relying on that vendor now, because you have confidence on how the reader reads tags and what kind of communication or channels or approaches to use, we can start deploying our own tech and our own hardware instead of, because that would be OPEX, which is.
+Nish Bhutani   17:00Chicken.Hello!Mm.Mm.Okay.
+Shariq Haroon   17:19Which is, which is, which has an expiry date. This would be our own hardware which does not have an and can run indefinitely.
+Nish Bhutani   17:24Okay.Okay.
+Varun Rajwade   17:27And the other thing is, each of these functionalities, I think you should just now, let's say you build in November. November is a relatively small release in that sense, right? It's not new UI in that sense, it's more enhancements. But when you go into a trial room, you should bring it back into only, let's say, our...PMC or RC, so we can quickly cheque, get confidence, and then take it across more stores, so that cycle you should just repeat. I think the superb Praveen and I were just smiling when we saw the numbers. It's superb numbers to see.
+Shariq Haroon   17:56Okay, okay.Thanks, thanks.
+Nish Bhutani   18:04Yeah, very good, Shariq. That's great. Is there a plan to put up signage also directing people towards kiosks, or will that do you want to wait on that?
+Shariq Haroon   18:07Thank you.So, there, there, yeah, there, there are two things happening: one, there is an in-store audio announcement going on, asking people to try out self checkout, and there is also a moving ticker tape of sorts on where the self checkout kiosks are that this can be and go, there's a ticker tape of sorts.
+Nish Bhutani   18:22Mm.Mhm.Okay.
+Shariq Haroon   18:36Just like there is a above stock market or some sex, and like the symbols and then numbers, and they keep on changing. Just like that, there's a ticket asking people to scan, pay, and go stand, scan, pay, and.
+Nish Bhutani   18:52Okay, the announcement sounds a little annoying, but...
+Shariq Haroon   18:55Yeah, so it become intermittently, mostly mostly it's music. They come intermittently.
+Nish Bhutani   18:56Like, you see.RI.Okay.Okay, alright.
+Varun Rajwade   19:07Okay, great. Next, I think, Neeharika.
+Parasa Neeharika   19:15Yeah, actually, Malavika, for go on my student, then.
+Varun Rajwade   19:21Alright, just pull that in, but Rohit, since you are here, you can start.
+Parasa Neeharika   19:21This one.Well.
+Varun Rajwade   19:35Rohit, are you there?
+Parasa Neeharika   19:37OK.
+Varun Rajwade   19:37Not a bit.
+Parasa Neeharika   19:40The phone.
+Rohit Indumukhi   19:40I can.Projecting.
+Varun Rajwade   19:46Hi, you can go next.
+Parasa Neeharika   19:48No.
+Rohit Indumukhi   19:49Yeah, I'm just projecting. Give me 30 seconds.
+Varun Rajwade   19:52Sure.
+Parasa Neeharika   19:54Okay.Yeah.Okay.
+Rohit Indumukhi   20:00Yeah, hi, Anish. Hi, Varun.
+Varun Rajwade   20:03Hey, hey.
+Parasa Neeharika   20:03No one.
+Rohit Indumukhi   20:06So, I just let me know if you're able to see the screen.
+Parasa Neeharika   20:10Yeah, I think.
+Rohit Indumukhi   20:17Are you able to see their deck?
+Varun Rajwade   20:20Yeah.
+Rohit Indumukhi   20:21Yeah, so I think from the last update where we were, we were live with the pilot, we have now gone ahead and executed a lot more touch points in RC. I believe you have experienced a few of them at RC. And what's happened in the last 45 odd days is that we also executed this.
+Varun Rajwade   20:42No.
+Rohit Indumukhi   20:44for Pujo Stores, as well as nationally, we have also executed it on the window for one of the GTMs during the Onam campaign. So that entire capability that we had built has been rolled out in some form or the other.most of the East Stores and to some extent on the on the storefront nationally. In terms of learnings, I think what I had surfaced in the last conversation, we required to have a triangulation between the VM, GTM team and Central Tech, where we have now moved to where the process is now instated and.The VM and Ecom GTM team are empowered to do this process end to end on their own. I did hear about Neeharika also surfaced, and I know you also faced a bit of issues with respect to some landing pages, and that's a rigour where...VM is trying to, Varun especially is trying to induct this entire new process into their SOP so that the touch points are not missed out. I think the other big learning is that, and I'll show you the numbers, the numbers, yeah.
+Nish Bhutani   22:00So I think the issue was not so much about touch points getting missed out. It's about URLs having to change, correct? That was the main thing we identified.
+Varun Rajwade   22:08Yeah.So what had happened, Rohit, when you were doing that walkthrough was, let's say you're saying it's on the entrance, you have a fresh style sort of a collection. When you scan the QR, it's only going to that capsule, that limited capsule, which has five products in it.
+Rohit Indumukhi   22:11The.Right.
+Varun Rajwade   22:30Right, so it doesn't really open up any window in that sense.
+Rohit Indumukhi   22:30Correct.Right, so I'll address that, I think.
+Nish Bhutani   22:35And then also when collections move around, then the QR is no longer valid. So the SOP needs to incorporate that.
+Varun Rajwade   22:41Next time, what will happen is, next time, let's say you have a new collection, then either the QR has to be reprinted or you'll have an out of date, irrelevant thing, right? Say, let's say new collection is this, but it's showing some other product when you scan.
+Rohit Indumukhi   22:45What?So I'll address both. The first one I'll address is when the campaign changes what's supposed to be done. The backend URL has to change. And to do that, the empowerment has now been given to the Ecom GTM team, which was earlier being held between some of us.
+Varun Rajwade   23:02No.Hmm.
+Rohit Indumukhi   23:19VM needs to now handshake with Ecom GTM to ensure they communicate what's the new campaign and the update happens. This is now aligned with Varun. Right, so it's now fully aligned. I am hoping that these kind of deviations will reduce. Unfortunately, at...
+Varun Rajwade   23:28Ahh.Huh.
+Rohit Indumukhi   23:38At this scale, maybe for RC, we will create a dashboard where we can ensure there are triggers if there is a gap. But at scale, we today don't have a process where we're able to figure if the QR has not been updated. That's not something which you have solved. I also checked Decathlon and if.
+Varun Rajwade   23:51Yeah.Yeah.
+Rohit Indumukhi   23:58They have solved this by reducing the variability in the campaign. So they kind of typically land the customer on standard category pages, which don't need consistent update. In our case, because you want to show trend spots and other aspects, it's a very difficult.
+Nish Bhutani   24:10Mm.
+Rohit Indumukhi   24:18piece. The way to do it is the VM has to include this as part of a process in their SOP and that's been now aligned with Varun and Meera.
+Nish Bhutani   24:28Ticket, but do we have do we have data on how many? I mean, I'm sure we do, but how many customers are actually trying to use? OK.
+Varun Rajwade   24:28Ohh.
+Rohit Indumukhi   24:28The second question, I think, yes.I, I'll show you that.Yeah, I'll show you that.The second question you kind of raised is why is it landing only on that specific capsule? And I'm assuming you didn't even like the overall experience of the page. Essentially 2 parts to it. Today we don't have a UI where we can render multiple looks together. And that's the UI upgrade that I had presented to all of you.The update there is that the design had been signed off way back in end of September. Development has started and Swapnil tells me that it will get rolled out by December end, which means from Jan we will be able to have a page where I can do a little bit of storytelling on that collection.I can also drive discovery of other similar collections towards the second, third scroll. And then it takes you to the new season collection towards the end. So that's the entire UI which is under development.
+Varun Rajwade   25:33Actually, on that UI angle, say, go ahead, Nish, close it.
+Nish Bhutani   25:33Okay, great.I was just going to say I hope that UI you will use for online as well, promoted online because...
+Rohit Indumukhi   25:43Oh, absolutely. So what we are developing is not a...
+Nish Bhutani   25:44Yeah, because then the effort is worthwhile, you know, rather than just doing it for this, yeah.
+Rohit Indumukhi   25:50So the UI is not being, it's not a static UI. We are developing the assets to create that UI, which means those assets can also be replicated for online. And the use cases are very similar. For instance, for this Pujo, where we add a landing page on some collections, even from our performance marketing ads.
+Nish Bhutani   25:55Okay.Mm.Okay, sure.Yeah.
+Rohit Indumukhi   26:10We couldn't really show the entire collection and the shop they look feature, right? So now with this UI coming through, even online will get sold.
+Nish Bhutani   26:10Yeah.Thank you.
+Rohit Indumukhi   26:21Why aren't you saying something?
+Varun Rajwade   26:21Just one piece, Rohit, there. I think on the actual collection landing page, right? See, when we at the entrance, I don't think there was a disconnect because it meant to be landing, right? Where the disconnect came was on gifting, because in gifting, ideally we would have we should have landed onto a...Gifting like a collection page, right? Not a PL. What ended up happening is you are in a PL. There is no, there is no relevance. You might have been in the girl section, you are showing boys or whatever, right? There, ideally, you should have, we should have a kids landing page where you can create.certain age groups, genders, looks, that sort of thing on them.
+Nish Bhutani   27:05Actually, we found a gifting page right for kids that makes sense, Neeharika.
+Varun Rajwade   27:12Han.
+Parasa Neeharika   27:12Yeah, that was that was on the app.
+Nish Bhutani   27:14Yeah.
+Varun Rajwade   27:16So then we, while we are iterating through, we saw that on homepage, there's that kids page, right? So we landed on that, but that is not gifting, that's overall kids. So a replication of that could also be another hack that is there from a landing page perspective.
+Parasa Neeharika   27:17So.Yeah.I.P.A.
+Nish Bhutani   27:37But the, but the overall thing, sorry, go ahead. It was for gifting only, right? Neeharika, I think it was a gifting one, yeah.
+Parasa Neeharika   27:37It was lifting only.
+Rohit Indumukhi   27:37Got it.
+Varun Rajwade   27:37Yep.
+Parasa Neeharika   27:40Yeah.Yeah, within within the gifting section in the kids, yeah, we open the the page, so maybe we can use the same thing that makes.
+Nish Bhutani   27:47Yeah.I think the over.
+Rohit Indumukhi   27:50Alright.
+Nish Bhutani   27:53Yeah.Yeah, yeah, I think the overall point actually, Rohit, and I think you and between you and the BNM team and the store, maybe you're more on top of it, but it's important that you maintain ownership on this from a user perspective overall, so...
+Rohit Indumukhi   27:59Hmm.Yeah, yeah.
+Nish Bhutani   28:14It's less about executing the tasks and more about is it achieving the objective and ongoing monitoring of that, basically, right? So, and I'm saying this for everybody actually in terms of ownership of experiments. It's not just key. I'm not saying that this is what you did, Rohit, but I'm just saying that in general.
+Varun Rajwade   28:17Yeah.
+Rohit Indumukhi   28:24Yeah, yeah, no, perfect.
+Nish Bhutani   28:34We should just keep a holistic view and then maintain, keep checking on that as we throughout the running of the experiment.
+Rohit Indumukhi   28:43Sure, absolutely. So I know I'll address the gifting piece also. By the way, when we took it live, we didn't have the gifting dedicated page live. It's now live and I think we might have missed updating the QR. I'll pick that up as a learning and we'll get it updated.
+Nish Bhutani   28:45Superapp.
+Varun Rajwade   29:02Sure.
+Rohit Indumukhi   29:04Yeah, so I think broadly, more touch points executed. Pujo Stores got executed, like I said. The UI pages should be out by December, so that should render a better experience. And lastly, the AI editing of images was also one of the tasks we had picked up as part of this project.Their kids is at 100% AI shoot. We have started shooting important capsules on AI, and in the next couple of months, we should be in a place where a large part of our Apparel shoot will also move to AI-based modelling. The two, three big...
+Varun Rajwade   29:40Nice.
+Rohit Indumukhi   29:44gaps which I wanted to surface is that I think one on Android, because of more a worldwide gap rather than just us, the page load time is high. You would have experienced that it halts on the homepage for a minute, for a couple of seconds, a second and a half, and then it gets redirected to the landing page.This Varun, I believe, is still not solved. Um, I'm just, you know...
+Varun Rajwade   30:09Yeah, this I'm told is an adjust problem, so I'm I can double click separately, but I'm told it's an adjust problem.
+Rohit Indumukhi   30:13Yeah.Yes.
+Varun Rajwade   30:33Mm.
+Rohit Indumukhi   30:33you through some numbers. So that's the broad progress. So I'll just, I think some of this RC in terms of execution, you would have already experienced. So I'll skip this. More touch points executed and you would have seen all of this, right? So I'll skip and go to the numbers directly.
+Varun Rajwade   30:36Team.Yeah.
+Rohit Indumukhi   30:53So here are the numbers, right, on the output KPIs. We had documented 2 output KPIs. One on that they should drive more traffic to enable discovery. We really didn't expect conversion because these are product-based QRs and not necessarily self checkout and other aspects. And we had said on-some mix should improve.I have now tracked traffic and Nish, I've been looking at this traffic every week in my ORMs. The numbers have not been great for me to come and report anything meaningful. So if you see here on the app, the numbers are relatively low.Naturally, because we have gone with a QR code where it lands on the M site more, unless you already have the app and it is deep linked. So it's roughly started at about 15 odd sessions a week, and then it's kind of toned down. This is purely just RC.
+Nish Bhutani   31:35Yeah.
+Rohit Indumukhi   31:56I think the big learning here, and we've...
+Varun Rajwade   31:57What happened in week 20? Just before we go further, we obviously go further, but what happened in week 20? Numbers are much better, so I just wanted to cheque that.
+Rohit Indumukhi   32:08Yeah, I honestly will have to come back on that. I, yeah, I'll have to come back on that, yeah.
+Varun Rajwade   32:10OK, fine, fine, fine, no problem, no problem.
+Nish Bhutani   32:16This would include anyone, anyone in this, like, obviously anyone like from the team also trying it out, right?
+Rohit Indumukhi   32:16Yeah, so I think on this.It would, but no, we had removed those. The test cases we had removed. So that's not getting captured here.
+Nish Bhutani   32:31Okay, okay, okay.
+Rohit Indumukhi   32:37Yeah, I think this is the piece that I wanted to highlight that if I go back and show you the app is at 46 in a cumulative number. But why don't if I now look at that same 46 for week 16 to 30 at 44, adjust for the same period through the same QRs.the same UTM parameters is reporting a 250 kind of a number. So the number suddenly jumps. This is only on the app. And this is essentially the confusion and the limiting piece on tracking it where Adobe, I'll have to look at Adobe because...
+Varun Rajwade   33:01Do the Nath.Okay.Yeah.
+Rohit Indumukhi   33:16The M site also gets supported there. And I just, I don't get to look at the web numbers, but the numbers in the app look inflated. So which is the version we are supposed to look at and how do we deep dive on this becomes quite a difficult task.
+Varun Rajwade   33:31Yeah, so let's pick this up because the two platforms do attribute differently. This attributes in...
+Rohit Indumukhi   33:37Let's cheque that our configuration on both the platforms today is last touch. However, how they...
+Varun Rajwade   33:44No, no, Wani, Wani, if you install an app but don't open, Adobe won't even come to know, right? So that's why I just want to deep dive. Fair point, I think it's a clear gap. But before we conclude on that, we should just deep dive in a separate conversation and bring it up in next week's call.
+Nish Bhutani   34:05What exactly are these numbers? What do they represent?
+Rohit Indumukhi   34:05Thanks.These are, these are, oh sorry, these are sessions per week. This is week 16 to week 30.
+Nish Bhutani   34:15So these are the QR QR sessions per week.
+Rohit Indumukhi   34:18Got it. And essentially, if we believe about 10 to 15 sessions a week, that's two per day that we are able to drive on the app. And on the web, it's about one per day at best.
+Nish Bhutani   34:26Yeah.So these are Adobe numbers you have here.
+Rohit Indumukhi   34:35These are Nda numbers and the app number is 46 the M web M site is 177 but on edges the 46 throws up to be a much larger number so.
+Nish Bhutani   34:38Mm.It.
+Varun Rajwade   34:49So, okay, let's let's this.
+Nish Bhutani   34:49And then the numbers, the numbers are just views, basically, like how many, yeah, views, yeah.
+Rohit Indumukhi   34:53These are views because that was a first output KPI saying that are a lot of people browsing it, which would have helped them just know more about the product, find the size, all of those things.
+Nish Bhutani   34:57Mm.Mm.Correct, correct.Yeah, I mean, look, if the Adobe numbers are correct, then it's certainly very disappointing. And that's okay. Yeah.
+Varun Rajwade   35:06But this is a...
+Rohit Indumukhi   35:13No, the problem is that if it's about an attribution mechanism, then ideally whichever is the largest is to be believed, right? I mean, how can I just say there are 11 people who clicked on the QR because whatever be the definition, the traffic can only be triggered by clicking on the QR, by scanning the QR.
+Nish Bhutani   35:19Alright.
+Rohit Indumukhi   35:35So it essentially means that the higher number is the one which is at least more believable. What is accurate, even I don't know. Only Varun, you can help us answer that.
+Nish Bhutani   35:40Mm.Mm.
+Varun Rajwade   35:47Okay, so these are, we'll look at, I'll personally go uninstall my app and see what is just reporting. I want to open up and let's see whether that mismatch happens. My hypothesis, whether it's correct or not, or whether there's a gap we'll figure out.
+Nish Bhutani   35:48OK, let's look into that.
+Rohit Indumukhi   36:03Yeah, just.
+Varun Rajwade   36:05Okay.
+Nish Bhutani   36:05And then the next, the next step will be Rohit, then figuring out our customers actually getting value out of it, right? So...
+Rohit Indumukhi   36:12Correct, and there I was, I don't know if Hemant is on the call, is he around?See that?
+Parasa Neeharika   36:20No, he is.
+Rohit Indumukhi   36:20Hemant is OK, because I have tried to nudge the store team to kind of adopt. See, one of the things, and by the way, in fact, let me just complete the deck. I'll come to that piece on what does good look like.
+Parasa Neeharika   36:22Tell me, Congress.Wagh.
+Rohit Indumukhi   36:43Yeah.So on Pujo, and I'm going into this also to give you a separate set of numbers to see how the experiment has worked elsewhere. So on Pujo, we did an even more diligent work of executing it across multiple stores. What you're seeing here is the number of stores that got executed.So we had 26 stores which carried the window having the QR. About 22 stores had the primary, the entrance pop shop. Gifting was executed in six and the trend spots that exist within the store, the same 22 stores had seen.execution. This is the one on window display which would have also seen our city.This is the entrance pop shop.These are the gifting.Brands.and the trend spots. Now in Pujo, why I'm raising this is because it's a very similar flavour. However, some things really, you know, are standing out. The numbers are a little bit better on the trend spots, which you can see down below. So during Pujo week, you know, the numbers look a little bit better than.otherwise. And the window also saw enough traction which we didn't expect. We thought no one on the window will scan the QR and this was more of an experiment. Again, what I'm reporting here are Adobe numbers. My belief is if we go down the route of adjust, these numbers will look a little bit better.And find my size also saw, you know, a good decent traction. Now why am I bringing this up is that in East because we executed it and we also know how much the store teams were aware. This is without any store training.
+Nish Bhutani   38:23Mhm.
+Varun Rajwade   38:39Mm.
+Rohit Indumukhi   38:40And the ZBH there, Rajeev and the store RSMs, they are now of a strong belief that the next thing to do is to really educate the store staff and give them an objective around this. Right, and that's the only way to really drive this. And I'm able to draw that parallel between our city and Pujo.
+Varun Rajwade   38:54Mm.
+Rohit Indumukhi   39:02I wanted therefore to have a conversation with Hemant here on this call to just bounce off thoughts on how we can make the store adopt it. Because in our city also I have spoken to the store manager a couple of times. He was quite enthusiastic about the idea. He believed in it. He believed customers will use it.But I don't think customers are intuitively going and scanning enough. And it all then depends on the store staff to guide them.
+Nish Bhutani   39:30You know, I think, Rohit, we should have a conversation with Hemant about this. It's one thing for the store people to be aware and when it's useful for customers, say, hey, if you are not finding something, you can use the QR code to find more. I'm not sure about setting an objective and saying pushing them, pushing customers to scan the QR because that's not really.the purpose of the experiment, right? So we have to, it has to be a fine line, right? There's no point artificially inflating numbers because the store staff have been set an objective also. It should be something that inherently is helpful. And yes, then if the store staff feel like it's going to be helpful to the customer, they can tell them about it. So let's have a discussion.
+Rohit Indumukhi   39:56Yeah, yeah.Okay.Yeah.
+Nish Bhutani   40:18and see what's the appropriate way to do it.
+Rohit Indumukhi   40:18Thank you.Sure. The other thought I wanted to raise in this forum is how can this get tied to the other experiments that we are running? And there were a couple of things on my mind. One of them is that the numbers are low, but whatever be the number, if we were able to...Varun get the information of, you know, the customer who is scanning this, especially the ones who have already signed up. Does it then get into the other experiment where we are trying to, you know, send dedicated notifications and convert that customer, if not during this session, maybe during a later session?
+Varun Rajwade   41:04Yeah, data should.
+Rohit Indumukhi   41:05And there I engaged with Lakshmi.
+Varun Rajwade   41:07Ha, ha, bully.
+Rohit Indumukhi   41:10I engage with Lakshmi. What I understand is today these QR codes which we have created, there is some technical gap to be able to extract the device ID and therefore get to that phase. So that's the other piece which I tabled and I believe Lakshmi is working towards.
+Varun Rajwade   41:28You won't need a device ID here, maybe we'll again connect separately. I think in the interest of time, let's connect separately. You won't need a device ID, you should ideally be able to send push notification or if logged in, then send communications. Device ID is specific is a Ratnadeep, but let's connect offline as it is, we have to solve the mismatch.
+Rohit Indumukhi   41:30Mm.Okay.
+Nish Bhutani   41:45But besides notifications, I think it's about just looking at the funnel.How much time is being spent by the customer on the page? How much are they clicking around? And then eventually does it lead to some kind of conversion, right? And Varun, I think one of the things, I don't know how internally this works, but one of the things we discussed was that...
+Varun Rajwade   42:01Yeah.
+Nish Bhutani   42:10We need to very easily enable these funnels in almost a very automatic way, like issue like plug and play, right? And make it very easy to analyse the funnels also to look at the data.
+Varun Rajwade   42:23Yeah, so in Clevertap, it's actually very easy given the data is there. So that's a title. We'll just double click Rohit, what all data is getting captured. And then it's about creating both dashboards as well as cohort like flow charts of consumers who scan those.
+Nish Bhutani   42:24No.Mm.
+Varun Rajwade   42:41And then, now flows there.
+Rohit Indumukhi   42:45Sure, pick. The last thing is nationally, we have also executed these QRs on the window. And that's a better number. The number there I have is about 40 to 50 visits a week on an average just on the window.So that's generating some good traction.
+Nish Bhutani   43:08Nationally means or across the board.
+Rohit Indumukhi   43:12Cross the stores, of course, this is not gotten executed across all the 300, 400 stores. I don't have the number in right now with me because it's in fact WIP, but I can see in the...
+Nish Bhutani   43:16Okay.Okay, okay.But you're saying 40 to 50 per week per store.
+Rohit Indumukhi   43:27Just quickly project this. It's much larger number actually than that. I hope you're able to see the screen.
+Nish Bhutani   43:34Yeah.
+Rohit Indumukhi   43:35Yeah, so these are the kind of visits on the window.That's actually higher, it's about 95.
+Nish Bhutani   43:40This is.This is, but this is across multiple stores.
+Rohit Indumukhi   43:46There's multiple stores.
+Nish Bhutani   43:50I mean, it's not a massive number, but I don't know. I don't know how to, yeah, but I don't know how to gauge.
+Rohit Indumukhi   43:53Hey, it's not, it's not.Yeah.
+Nish Bhutani   43:58I mean, I think maybe on a per straw basis, it would be easier to gauge, you know, how this is performing. Yeah. Yeah.
+Rohit Indumukhi   44:03I come back on that type.In fact, Varun, you are here. Can you tell us nationally how many stores you have executed on the window QR?
+Nish Bhutani   44:09Tick.
+Varun Babji   44:17So, in Festive, we have 140 windows across the country, excluding including East. So, in 300, 400 words, we're having 140 windows, and on every window we have made this QR code specifically for...
+Rohit Indumukhi   44:29Sure.
+Varun Babji   44:36For each and every store, and secondly, we are also having a QR code on the entrance pop shops, so those are the numbers which are, yeah, which you are showing are actually of that, I think.
+Rohit Indumukhi   44:39Okay.Yeah, that action.Sure, okay. I think I'll come back then, Nish. It's not yet matured, so I'll come back.
+Nish Bhutani   44:50So, Rohit, yeah, yeah, yeah, and Rohit, one thing to analyse is like, what kind of context does it work? Like you said, in certain Festive things, the window QR actually worked. So, what is the additional value we're giving to the customer, right? Versus, okay, we have a window display and we put a QR.
+Varun Babji   44:53Book.
+Nish Bhutani   45:12my feeling is that there needs to be some context in which the customer says, okay, this will be useful for me to actually scan it, right? So let's try and get some of those insights based on what you've seen right now. So then we can continue the experiment where it makes sense and remove it where it doesn't.
+Rohit Indumukhi   45:22Yeah.I think, I mean, I'll put my thoughts into what insights can come out of it, but my reaction is that the numbers are just too small to see if they really throw a story. So I think the first step for me is to spend some energy with Hemant on
+Nish Bhutani   45:44Mm.Okay.
+Rohit Indumukhi   45:53How do we get this to scale up meaningfully for us to, you know, get some insights out of it? But I'll look at it.
+Nish Bhutani   45:55Okay.Okay, fair. Yeah, take a look at it. Like you said, some stores you were surprised in the window. There was results right now. What was it about what was displayed in those stores that triggered that, right, as an example?
+Rohit Indumukhi   46:09Sure.
+Nish Bhutani   46:12Okay, good. Thank you.
+Rohit Indumukhi   46:13Thanks.The.
+Parasa Neeharika   46:16And I just want to add one point to you, Nish. So, Rohit, when we have visited the store, just one point I want to bring this to you is, so we are seeing that people are scanning now. Once the user scans it, what we need is the user to come back and scan it.
+Nish Bhutani   46:20Mm.
+Parasa Neeharika   46:35And that happens when they see the value when they scan the QR code. Right? Now, what we have observed is the number of products that we are showing on scanning the QR code are comparatively very less compared to the number of products being displayed at that particular pop shop.So that is one point maybe we'll need to cheque again because if I'm just scanning a QR code expecting that I'll see more of that similar collection and I see just one or two products, then again maybe customer might not come and scan it.
+Rohit Indumukhi   47:13I think we have already taken a note of this. Why don't we have in the latest transports, we have moved away from just the look to the entire drop collection, right?
+Varun Babji   47:24Correct. So what we have discussed is like, you know, let's keep it a little broad and not necessarily to be specifically to what has been highlighted on the managements. So internally we had that discussion and I have informed the styling team, whoever is making the styling guidelines for the managements.For the entire the store, I asked them to, you know, inform the the backend team and also increase the collection range of what's not been actually displayed on the meric ones.
+Parasa Neeharika   47:55Tuition.
+Rohit Indumukhi   47:58But I think she's referring to specifically the RCT experience. You may want to double cheque if that's updated.
+Varun Babji   48:02Yeah, RC, yeah, I was also there. I think what I came to know was there is little lag of, you know, one or two days when the collection gets changed in the store versus the content that is being tagged at the back end. So we are trying to minimise that, henceforth we will not be able to see this kind of change problems.
+Parasa Neeharika   48:14But I can see.
+Varun Babji   48:24Which means the information that they supposed to go to the backend team needs to be two to three days in advance so that you know it will be reflected exactly on the day when the collection is changing.
+Rohit Indumukhi   48:24Okay.OKOK.
+Varun Babji   48:37There might, there was actually what happened on that particular day is the collection has been changed, but the information has not gone to the back end. Henceforth, I know the lag of two days was there.
+Rohit Indumukhi   48:50Right, OK.
+Parasa Neeharika   48:52Okay.Thank you.
+Rohit Indumukhi   48:55Thanks. Thank you.
+Nish Bhutani   48:57Thanks.
+Parasa Neeharika   49:00I did.I am Koyya there.
+Malavika Goli   49:09Yeah, hi, sorry I was talking on mute. Quickly share my screen.Ohh...Is it was well?
+Nish Bhutani   49:22Yes.
+Malavika Goli   49:24OK, so I will.Quickly, so I have not reworked on this because the data was very recent. This is on 22nd last week. So this is for the geo-fencing functionality. We have about 9,00,000 customers who have installed the app.Among that, 8 lakh has have given the access. After giving the access, 11,000 have denied. And among these, 1,00,000 for the two stores where we have the pilot on, we have about 3,000 customers.together.For our city mall, we have 410 customers who have purchased, which has gotten us a revenue of about 10, 10 CR. And then for Indranagar, we have about 7 CR that we have generated.
+Nish Bhutani   50:32This is again within 48 hours you're saying.
+Malavika Goli   50:36This is under three days.
+Nish Bhutani   50:40Three days, 72 hours, okay.
+Malavika Goli   50:41Yeah, yeah.
+Nish Bhutani   50:52Okay.
+Malavika Goli   50:52The next day, or, or within three days.
+Nish Bhutani   50:53Okay, okay, so just show that five-off figure here also next time.
+Malavika Goli   51:00I'll try to get it. It's, I get it for one time. It's, yeah, it's a three-hour activity to get that together. Yeah, it's like a manual, insane level of manual data picking and pulling from here and there to board time.
+Nish Bhutani   51:03Is it a pain?Oh.Mm.Oh my god.
+Malavika Goli   51:18So, but I'll I'll get it for the next meeting.
+Nish Bhutani   51:24This one, this Databricks software doesn't allow you to.Doesn't do it for you.
+Malavika Goli   51:31It it doesn't it doesn't have the breakup, so it just does the time-wise, so we have to go understand the time, then make it in convert that into hours, so it's like it's insane amount of effort that goes on that.
+Nish Bhutani   51:42Mm.Otp.
+Malavika Goli   51:49Ohh, that's the problem.But I'll get it for next time. I'll share that, Nish. We also have the AB testing, if you remember that you asked us to work on, where we show the notifications to the customers who have entered the geo location and we not show.
+Nish Bhutani   52:17Uh-huh.
+Malavika Goli   52:18to some of them, right? So this we did for this duration 14 to 22nd. Among that, so it is a 50-50 that we did, 206 on each. So the customers who have not got the notifications have also...
+Nish Bhutani   52:19Better.Ahh.
+Malavika Goli   52:37made the purchase, but then this was the revenue. And then the customers who have got the notifications, they have these many people have converted.
+Nish Bhutani   52:40Yeah.Amazing!
+Malavika Goli   52:49And this is the revenue.
+Nish Bhutani   52:50This is like, this might be the most solid evidence I've seen in this entire project.
+Malavika Goli   52:56Mm.
+Nish Bhutani   52:58So one thing we should do, I mean the difference between 8 and 25 is massive, so I'm quite sure this will be statistically valid.
+Malavika Goli   52:58Yeah.Mm.
+Nish Bhutani   53:08But just, you know, on the web, there are all these like significance calculators for AB testing. You might be aware.Um...So you can...
+Malavika Goli   53:18Okay, so Nish, what I can do is maybe I will dig deeper into this 25. And I think, I think I'm understanding what you're saying. I think what will make sense is for you to understand if the customer has received products in the cart and wish list. Because yeah, happy when the customers might be going, but.would have bought something like of a minimal value or they would have just gone and
+Nish Bhutani   53:42No, no, that's not what average order value is a good thing to get for sure. I mean, you have revenue, it would be good. Actually, average order value is just dividing the two, right? But yeah, yeah, I was saying something a little different, which is AB testing make confidence metric.
+Malavika Goli   53:46Hey.Yes, this by this, yeah.Okay.Yeah.Atcha that, okay. Yes, we can get in, but these numbers are too small.
+Nish Bhutani   54:04I'm quite sure this will be like over 95% confidence. Just get that also. Because the difference between 8 and 25 is a lot. If it was like 8 and 10.
+Malavika Goli   54:09Hmm, I'll get that, I'll get that.Mm.
+Nish Bhutani   54:16Then, the confidence would be very low in this result.Right, but because it's 8 and 25, the confidence should be pretty high.
+Malavika Goli   54:21Mm.This is also for just one week, Nish.
+Nish Bhutani   54:29Doesn't matter. What matters is only two things, the sample size and the difference in conversions. Right? Although you write about week also, it's possible week to week, there's some way, for some external reason, there's differences in behaviour. So we'll keep running it. I'm just, yeah.
+Malavika Goli   54:30Sikka.Mhm. Mhm.Mm-hmm. TK, I'll share that across also. Yeah, this is you.Hey.
+Nish Bhutani   54:49I'm just saying that it will be interesting to just note what is the confidence in this result.
+Malavika Goli   54:55Mm-hmm, sure.
+Nish Bhutani   54:55Take it, but this is good, this is good, yeah.
+Malavika Goli   54:59Ohh...
+Nish Bhutani   54:59Neeharika, we should definitely add this data to our keep our deck updated.On for the steer code, and just add this also, yeah.
+Parasa Neeharika   55:09Yes.Yeah, sure.
+Malavika Goli   55:15That is on this page. I have a good update on Wi-Fi. Anish, we just went live with our Wi-Fi on Pantaloons, so our city mall. As in we just have the Wi-Fi functionality up, but as in it is working, so it...
+Nish Bhutani   55:23What?
+Malavika Goli   55:34We just had a call, we have all the APs in place and the Wi-Fi is working well. Now the next step is for us to go about building the page with Pantaloons branding on it and...
+Nish Bhutani   55:34Atul.Mm.
+Malavika Goli   55:53the entire flow of customers sharing their mobile number authentication. It's working, yeah, yeah, only the Wi-Fi part is up. And so we are, so this is the next set of activity which the Vodafone team will work on.
+Nish Bhutani   55:57Oh, okay, okay. So it's not live. It's working. It's different from live. Okay, okay, okay.I see.Mm-hmm.
+Malavika Goli   56:12Parallely, the CRM API, the API which is basically for the Vodafone team to share the mobile number, share the mobile number and the store details with us, is also ready. So we are, we will have that KT call sometime this.
+Nish Bhutani   56:16Mm.Yeah.
+Malavika Goli   56:35week, we'll give them a walkthrough on what is it that they need to integrate on their end and push every time there is a successful verified customer logging into Wi-Fi. So they will share it with us and from there we will have customers mobile number and we will be able to work on the.
+Nish Bhutani   56:36Mhm.
+Malavika Goli   56:54customer journey. Now what I will also do is, sorry I did not have the time to take Varun through the ideas that we can work on for the campaigns that we can do.
+Nish Bhutani   56:58Okay.Just, just, sorry, just one thing: if you're confident about the A/B test numbers.
+Malavika Goli   57:14Bo.Mhm.Okay.
+Nish Bhutani   57:21Then are you confident about them?
+Malavika Goli   57:24It's just one week. We usually do any kind of AB. We do it for about 3 weeks.
+Nish Bhutani   57:26Okay, let's make another week. Take it. Let's wait two, three weeks, because then we should, as Varun has pointed out a few times, we should scale this up. Once we have that, you know, another week or two of data.
+Varun Rajwade   57:29Ean.
+Malavika Goli   57:36Yeah.Okay.
+Nish Bhutani   57:40then it feels like it should be scaled up across the network.
+Malavika Goli   57:44Absolutely.Take care.
+Nish Bhutani   57:50OK, go, go ahead, sorry.
+Malavika Goli   57:53Okay, so on the Wi-Fi.
+Nish Bhutani   57:53How are we doing on time, Neeharika? How are we doing on time?
+Parasa Neeharika   57:54I'm so sorry.Yeah, I'm so sorry. So, Malavika, this might take some time, right? So, maybe in the interest of time, can we connect tomorrow at 5:00 where we have the call so that we can get subjects?
+Malavika Goli   58:01Yeah.We can, we can do that.
+Nish Bhutani   58:07Chalke.
+Varun Rajwade   58:09Yeah, do that.
+Parasa Neeharika   58:13And, Malavika, just one point to: I left the notification, the notification regarding where we are saying when the when the customer enters your fence, then again, that's going where it's saying that you are 200 metres away from the panto store that is still going today also.
+Malavika Goli   58:16Hmm.Good.Yeah.
+Parasa Neeharika   58:32So, could you please cheque the movies?
+Malavika Goli   58:36Sorry, can you repeat that? What notification is going?
+Parasa Neeharika   58:36Yeah.
+Nish Bhutani   58:39The old one, the old notification is still going.
+Parasa Neeharika   58:40The notification say the old notification saying that you are 200 metres away from the.
+Malavika Goli   58:45Ohh.
+Parasa Neeharika   58:47Because this was like last week on Monday.
+Malavika Goli   58:47Is that Jigisha? Have you not changed it?
+Varun Rajwade   58:49Do not stop that notification.
+Parasa Neeharika   58:52On Monday, when we have visited for the store visit, that at that time also, I was.
+Malavika Goli   58:52Sorry, Varun.Yeah.
+Varun Rajwade   59:03So, who was supposed to change it?
+Parasa Neeharika   59:03So, just cheque once, so, so, so, so, so, so, so, so, so, so, so...
+Malavika Goli   59:05Jigisha.Jigisha, are you on call?
+Jigisha Patel   59:12It.Wasn't hello, can you hear me?
+Varun Rajwade   59:21I think, Neeharika, you can go on mute to some background noise.
+Parasa Neeharika   59:24Schools.
+Varun Rajwade   59:26Go ahead, Jigisha.
+Jigisha Patel   59:28Yeah, hi. I actually, this discussion was done earlier. It technically wasn't me. It is passed on to Lakshmi and Lakshmi was supposed to because even my discussion with Dikshant and now his replacement also was that.The Lakshmi was to take them through, you know, setting these up, so that's what the last bit was that Lakshmi was to, yeah, OK.
+Malavika Goli   59:55That happened.No, no, that happened. Yeah, that happened.SOW.
+Jigisha Patel   1:00:04Yeah, then I'm sorry, what then what was the expectation?
+Malavika Goli   1:00:08They are just they are just supposed to add the new text that you had.
+Varun Rajwade   1:00:16So, have you got the communication finalised, Malavika, Jigisha?
+Jigisha Patel   1:00:21Yes, all of that is finalised and that has been shared. Yes, yes.
+Malavika Goli   1:00:22Jigisha has worked on something.
+Varun Rajwade   1:00:25Okay, so Malavika, we have done enough time pass there. So let's, it's not, this ideally is marketing, but fine, let's just get it done with Lakshmi. I can't keep, we can't keep giving consumer the wrong communication. I'm very clear about that. So take the basic template, improve it in Clevertap.And I'll have a chat with Puneet separately.
+Malavika Goli   1:00:50Okay.
+Nish Bhutani   1:00:56Okay, who's next?
+Parasa Neeharika   1:00:58Okay, Jigisha.
+Jigisha Patel   1:01:02Sure, okay. So just some numbers, updated numbers.
+Nish Bhutani   1:01:07Ohh, sorry, before sorry, before Jigisha starts, were we the product QR thing we're still working on right? That response to the product you are scanning.
+Malavika Goli   1:01:19The the issue you mean the the the the blur issue? Yes, that.
+Nish Bhutani   1:01:20Yeah, yeah.Yeah, it's blur in the speed and everything.You know?
+Malavika Goli   1:01:28Hi, the speed is impacted because when it is too close, it's not detecting well. It's also because we are on the free plan.
+Nish Bhutani   1:01:35But even otherwise, like, you know, even when you see it clearly, it's not detecting. I compare it to like Google Pay, where even when it's blurred, it picks it up. So that's what we should aim for. Varun, I think you're on mute.
+Malavika Goli   1:01:42Yeah, I am.We are on a free plan niche we are trying to tweak.
+Varun Rajwade   1:01:50Sorry, you're on mute. One of the challenges I think, Malavika, is the size might just be too small. Just see exists, because even on my camera app, I was not able to scan. Forget about Pantaloons app. Camera is not able to scan, but camera app I use didn't make biz bar for QR scanning, right?
+Nish Bhutani   1:01:50Alright.
+Malavika Goli   1:02:11Mm.
+Varun Rajwade   1:02:11So just do one experiment also, if we have a slightly larger QR, right, even if we even if we do it digitally, right, just take the QR and expand it and see that and see does that improve.
+Malavika Goli   1:02:19Okay.Yeah.Mmh.Hey.
+Varun Rajwade   1:02:29Because if camera app is not going to be able to detect, Pantaloons is not going to be able to detect. But there were also one or two other challenges which I have shared with you on that recording, which is more that we need to solve.
+Malavika Goli   1:02:35Again.Hey.That is sorted.Those all okay.It's gone in today's okay.
+Varun Rajwade   1:02:48And that's released on app.
+Malavika Goli   1:02:51Released on app, so basically that issue where for certain pin certain QRs, wherever there is a deviation rate, so that it is done for app for M side, we are still trying to figure out a way, Varun, because M side camera is not in our control.So, we are not able to work on the assumptions that Shariq had shared, as in there is a logic that he shared on three series, you know, sort of a thing, so we are not able to control that on M side, so we're still trying to figure out how we can solve that, but for app it is sorted and it's...Live, it's deployed through today, OTP that went in today.
+Varun Rajwade   1:03:38Oh, thanks. So then, Neeharika, let's go back into store. Maybe in the evening or tomorrow, I'll just go into store and let's scan. Let's see.
+Parasa Neeharika   1:03:47Yeah, I checked. I just want.
+Varun Rajwade   1:03:49But also experiment with just increasing that QR.
+Malavika Goli   1:03:50But, but, that Varun is still open. I will keep Neeharika posted.
+Parasa Neeharika   1:03:57And just one point here, so some some there are certain tools like which we can use that is that can magnify the QR in case of small QRs, so just see if something like that can.
+Malavika Goli   1:04:11We are currently on free version in Neeharika. That's where the challenges are coming.So, where?
+Parasa Neeharika   1:04:18So, within the within the camera, when the user is scanning, that is at that point, I'm saying if we can have something like a magnifier.
+Varun Rajwade   1:04:26Hey, we have a we are on the free QR reader.
+Malavika Goli   1:04:31Oh.
+Varun Rajwade   1:04:31Is that the cause of the problem?
+Parasa Neeharika   1:04:32Acha.
+Malavika Goli   1:04:35Yeah, Varun, to some extent, definition of why the issue is that, so we're trying to tweak on and see what else can we do if there are some other tools which can help us.
+Varun Rajwade   1:04:36Then, that's...No, no, what is the cost of a paid QR? Can you just share that across? Now, if it's a small cost, we do it as cost of business, do it as cost of business, now it's a small cost.
+Malavika Goli   1:04:49I'll identify.Okay.Okay, take it. I'll cheque on that.
+Varun Rajwade   1:05:00Just get the costings also.
+Malavika Goli   1:05:03Take care.
+Varun Rajwade   1:05:03The wrong problem.
+Malavika Goli   1:05:07Take it.
+Parasa Neeharika   1:05:10Thanks, Malavika.
+Malavika Goli   1:05:12Thank you.
+Parasa Neeharika   1:05:14Vishak.
+Jigisha Patel   1:05:18Yeah, hi, I'm sorry I'm not putting my camera on. I am a little unwell and not in a state present in the state, so I am not using that. I'll just share my screen to share the updated numbers on our gifting.experiment better, right? So some nice outcome we may say, but again, this I feel is skewed because of the festive season. So we see.This is the post QR period. 5th September is when we went live with the QR code. I have taken a similar period before in the store. And right now we see a positive traction towards the categories. But I also have a feeling that especially for kids where I have a feeling that this wouldwould also be a result of the fact that we have moved into the festive season per se. The clicks or the on the QR code, sorry, not the clicks, but the scans numbers updated, I do not have at the moment, unfortunately. I haverequested them. The person in charge wasn't around yesterday. So I'll just try to get those also and I will share this across with you guys. So that is on the.
+Nish Bhutani   1:06:42Hey, right. Yeah, no, just sorry to interrupt, Jigisha. Varun, this is what I was referring to when I said, like, how can funnels be kind of plug and play both?
+Jigisha Patel   1:06:45Sorry.
+Nish Bhutani   1:06:55operationalizing but also getting the data because as Jigisha saying the person who was going to get to the data was not available.Like, how can this be self-service?
+Varun Rajwade   1:07:07No, so in this is these are Power Bi reports in Power Bi as well as in our, I'm sure you're aware of that whole genie piece, right? She can literally say, okay, tell me my RC contribution of handbags versus Infinity and he'll give you the result.
+Nish Bhutani   1:07:17Yeah.No, not handling the contribution, the scans, the QR scans.
+Varun Rajwade   1:07:30The QR.
+Nish Bhutani   1:07:30Like how many scans were on, you know, she's saying she doesn't have access to the data on the number of scans for gifting.
+Varun Rajwade   1:07:37That's it's all in Clevertap, that's the some still login and access, so is there in Clevertap where the number of scans as dashboards are there, right? It's basically what Rohit was also calling out, so then that...
+Nish Bhutani   1:07:49Yeah, correct. So Jigisha would have the login for that or no?
+Jigisha Patel   1:07:54Yeah, I do. So I will I will cheque on that then. OK, I wasn't aware of this because I thought this was tracked in Adobe. Yeah.
+Varun Rajwade   1:07:56So.
+Nish Bhutani   1:07:57Yeah, yeah, this we are, don't wait on in.
+Varun Rajwade   1:07:57I think so.
+Nish Bhutani   1:08:01Okay, okay. So yeah, so just go ahead and do that and get the ticket. Okay. Okay.
+Jigisha Patel   1:08:02Yeah.Sure. Oh, yeah, I'll have a cheque and I'll get back to you on that. That is one thing. The other piece was Nish, based on the walkthrough that you guys had the other day. Yesterday, I had connected with Neeharika and we had a bit of a discussion. Some bit of it already was kind of taken up
+Nish Bhutani   1:08:10All right, OK.Mhm.
+Jigisha Patel   1:08:26with Rohit on how we, you know, optimise our landing pages, et cetera. So for the kids piece, one of the bits was that we landed on the current gifting page, which we had designed, which is, I think, looks something like this, right? The other bit was that.So what if we do a separate kids gifting landing page and we have one, you know, boys and girls class section? Because one of the call outs that was there is that in the girls section, we should land them on, or the suggestion was that in the girls section, the QR should land on the girls page and the boys QR should land on the boys page.To which my view is that sometimes when you're looking for gifting, you could also be looking for different genders. So we rather have one landing page and then the customer can onwards pick and choose whosoever or whichever category or gender they want to choose. So just wanted to.cheque with you guys, does that make sense or how would we want to go ahead?
+Nish Bhutani   1:09:33You know, okay, so here's the thing. Normally if you're in the girls section and you're scanning for gifts, most likely you're looking for.
+Jigisha Patel   1:09:34Okay.
+Nish Bhutani   1:09:43something related to girls, right?Bhat?If the gifting page has a very easy way to quickly see like girls or boys.right, then it's still okay. But I think we have to go with the majority case, which is most likely if they're doing it in one section and that's what they're looking for, you know.So, but yeah, so it depends on what this looks like on mobile in particular. This gives gifting.
+Jigisha Patel   1:10:08Sure, if...
+Nish Bhutani   1:10:16If it easily allows you to access girls' gifts, then yeah, and boys' gifts, then potentially we could use it for both.That's OK.
+Jigisha Patel   1:10:23Yeah, so that was the idea. I mean, that's where I was coming from, that instead of like men, women, kids, you would just have, you know, girls and boys person. So something similar looking. And then obviously we do not have much on this page, but something similar looking, but we curated for
+Nish Bhutani   1:10:33Yeah.Yeah.
+Jigisha Patel   1:10:42kids as such. That was the thought over here.
+Nish Bhutani   1:10:44Yeah, okay.Yeah, I think Altamas has a message here on the chat.
+Varun Rajwade   1:10:50Even Nish, I have to also drop out. I have a parallel call which is now started at six. Thanks.
+Nish Bhutani   1:10:54Okay, okay, yeah, yeah, yeah.
+Parasa Neeharika   1:10:56It.Okay.
+Altamas Khan   1:11:00called in another discussion, I can come back in 10 minutes. Yeah.
+Parasa Neeharika   1:11:01Yes, yes.
+Nish Bhutani   1:11:03Okay, that's fine, yeah.
+Parasa Neeharika   1:11:04Share, Shah.
+Nish Bhutani   1:11:07So, uh, so Jigisha, let's do that. Can you click on this click kids thing?And can we see it in mobile mode?
+Jigisha Patel   1:11:17I'm not sure if I can do that. Let me see if I can share it.
+Nish Bhutani   1:11:21Actually, you know what we can do? The philtres are there, right?
+Jigisha Patel   1:11:26Yes.
+Nish Bhutani   1:11:29This was not the same gifting page we saw, right, Neeharika?
+Parasa Neeharika   1:11:33Yes, yes, yeah, Nish, we have we have seen this only on the mobile.
+Nish Bhutani   1:11:34It is.So, what I would do is...
+Parasa Neeharika   1:11:38Yeah.
+Jigisha Patel   1:11:38It is the same.
+Nish Bhutani   1:11:40So what I would do is I would just set the philtre accordingly, depending on which section you're in. But my suggestion is that normally when you're in a particular section, you're looking for those kinds of clothes, right? You're not in the girls section looking for boys clothes. Now there's always a chance, but we have in marketing, we have to go with the.
+Jigisha Patel   1:11:47Sure.
+Nish Bhutani   1:12:01The majority, basically, right? Yeah.
+Jigisha Patel   1:12:02Okay, so fair enough. Where I was coming from the thought process, like for example, in my case, my friends have kids of both genders. So I would be just casually browsing and then, you know, go ahead and scan and I could be wanting gifts for both. But okay, if that's the idea, then we would curate it that way, that the...
+Nish Bhutani   1:12:20Hmm.
+Jigisha Patel   1:12:24get the QR code in the girls section lands on the girls page and the QR code in the boys section lands on the boys pages. Yeah, like you rightly said, yeah, yeah, yeah, we just need to, yeah, set a Twitter and that should be done. Yeah, so, okay, so, all right, so then I'll coordinate that because we'll probably then need to, Varun, in this case, we need to reprint the.
+Nish Bhutani   1:12:32Yeah, and we can just set the philtres accordingly. Take it. Okay, okay, fine. Yeah.Okay, alright.Okay.
+Jigisha Patel   1:12:49or...
+Nish Bhutani   1:12:52Varun is not here, but yeah, I think ohh Varun Babji is here.
+Jigisha Patel   1:12:53Signage, right?
+Varun Babji   1:12:54Yeah, yeah, it is possible. So currently we are having two communications, one in girls section, the other one is in boys section. So if we want to just reject the entire communication and make it new, it is possible. We have to generate a new QR code and...
+Jigisha Patel   1:12:55Okay, no, no, he's there, he's there.
+Varun Babji   1:13:15We can get it done, but it's just that it'll take since it is a vinyl cut and you know manually it is going to take little effort in terms of executing it. It will take at least a day's time once we send the artwork.
+Nish Bhutani   1:13:28No, sure, that's fine, that's fine.
+Jigisha Patel   1:13:31Okay, sure. So, Varun, essentially communication doesn't change, the QR code changes per se. Otherwise, what we are talking would be, would remain the same as such. Yeah, only the QR, only the... Okay, sure. So then I will just have the QR code figured and I'll share that with you.
+Nish Bhutani   1:13:32Okay.Puneet.That's right.
+Varun Babji   1:13:41Okay, cool. Yeah, then it will be much faster.POD.
+Nish Bhutani   1:13:49Okay.
+Jigisha Patel   1:13:50Okay, and the other bit was essentially Nish, the other project assigned to peak was the EPC to Ean journey, right? Which technically in terms of the project outline is kind of concluded. But I believe we also want to have some marketing aspects in the sense that how can we
+Nish Bhutani   1:14:02Mhm.
+Jigisha Patel   1:14:13communicate or how do we educate the customer on that particular piece, right? That also is the idea that we want to now implement per se. And if you could have some signages which could talk about if the QR code is scanned, then there are these aspects or you know, you get more choice or if the size is not available, you will get more.like your size, et cetera, right? So that's something that needs to be evaluated per se. So that's again a piece that I discussed with Neeharika yesterday. So, yeah, sorry, Nish, I thought you had.
+Nish Bhutani   1:14:39Yeah.These are the ones for the product labels. Is that what you're talking about? Yeah, okay. Yeah.
+Parasa Neeharika   1:14:53Yes, yes, the the recommendations that they have tomorrow.
+Nish Bhutani   1:14:57Got it, got it, okay.By the way, those ones are only for the app or they also apply to mobile web.
+Jigisha Patel   1:15:01Yeah.
+Parasa Neeharika   1:15:07only app because that scanner is specifically mixed to the search bar on the app.
+Nish Bhutani   1:15:14But what if you scan it using your camera? What happens?
+Parasa Neeharika   1:15:18It doesn't, it doesn't take anywhere, it just throws you some error.
+Nish Bhutani   1:15:21Okay, just cheque, just cheque on that, because the messaging might have to change, little we might have to add messaging if people don't have the app, what they should do, you know. I mean, I know we have something about downloading the app, but just cheque if it works on the web, if it works on the web or not, just cheque that.
+Parasa Neeharika   1:15:24Yeah.So, we have it.Chips.
+Jigisha Patel   1:15:42Okay, so I will evaluate this with Varun and Babji, I mean, yeah, and I will get back to you on this because, you know, how, when, if at all possible, what do we communicate per se, right? So, yeah, I will just, yeah, discuss this. Varun, unless you have...
+Nish Bhutani   1:15:47Yeah.Okay.Sure.
+Varun Babji   1:16:00Yeah, so I have, yeah, I have developed that communication which Neeharika has sent yesterday. Shall I, shall I project or shall I post it in the group?
+Parasa Neeharika   1:16:11Yes, yes, Varun.Maybe you can just put it because Jigisha is also there.
+Varun Babji   1:16:13I'll just take the screen for a minute.
+Jigisha Patel   1:16:13Yeah, Varun, because I kind of am done this. Yeah, yeah, yeah, yeah.
+Varun Babji   1:16:17I just take the screen for a minute.Is this visible?
+Nish Bhutani   1:16:27Yeah.
+Parasa Neeharika   1:16:28Yes.
+Varun Babji   1:16:30So, Nish, on our visit in the recently, we were discussing about the product tag having a QR code, and we need to talk about the benefits. So, this is what we have developed, what Neeharika has given, and I have evaluated how it can be laid out in terms of, you know, communication.
+Nish Bhutani   1:16:40Yeah.
+Varun Babji   1:16:49fonts, etc. Because the same font and the same style has been used across the store. We can evaluate this and I have one point of view. Now this I was thinking this to be in each and every brand. Maybe 11 communication should be sufficient is what I'm thinking because.
+Nish Bhutani   1:17:02Mhm.
+Varun Babji   1:17:11Parallelly, there are price callouts and other communications also running across the store.
+Nish Bhutani   1:17:16Yeah, yeah, you have to see kind of it. Yeah, you definitely can't overdo it. So just put it where, you know, the point is for people to slowly get educated and see it, right? It doesn't have to be in every place in the store.
+Varun Babji   1:17:21The.Yeah.
+Nish Bhutani   1:17:30It doesn't even have to be in every brand, to be honest. Okay, it just has to be in enough places in the store so people, as they're browsing, they can see it.
+Varun Babji   1:17:34Mm.Okay.
+Nish Bhutani   1:17:41Hmm?Okay, so you use your judgement.
+Varun Babji   1:17:45It.
+Nish Bhutani   1:17:47Um, and just, yeah, one thing actually I would suggest is, ohh, one question is, we have seen more sizes, colours, and looks.
+Varun Babji   1:17:47Sure.OK.
+Nish Bhutani   1:17:57Do we want to save images or photos or something like that?
+Parasa Neeharika   1:18:01Exit traffic.
+Varun Babji   1:18:01Yeah, photos was written, so I was feeling like, see more sizes, colours, images, and looks, you can see.
+Nish Bhutani   1:18:10Sikka.And you know one thing if we can do, I was just looking on the app.So we'll have one.Oh, but these will all go to the PDP, okay. It's not like it'll be specific to like images or whatever. TK, eventually I think what we'll, if this, if there's some success with this, we'll have to develop a version of the PDP that's specific to browsing in store, which doesn't have so many details and all that, but for now it's fine.
+Varun Babji   1:18:31Look up.Mm.
+Nish Bhutani   1:18:41I think. Sorry.
+Varun Babji   1:18:42Okay, only hassle I was just thinking around is you know what we have experienced while we are scanning the tag. It is slightly slow to land you on the page.
+Nish Bhutani   1:18:45Mm.No, no, yeah, yeah, yeah, don't put these up until that issue is fixed. Okay, just wait on that. It has to work properly before we encourage people to do this.
+Varun Babji   1:18:58Okay, so I will...Okay, cool.
+Nish Bhutani   1:19:06Take care.
+Varun Babji   1:19:07Yeah.
+Nish Bhutani   1:19:08This tap the scanner next to the search bar, it might be helpful to put an image there of that scanner thing, that icon.
+Varun Babji   1:19:13And I come, yeah, yeah, yeah, it was there. I will, I'll just put that in. I probably might miss out on that.
+Nish Bhutani   1:19:18Yeah, yeah.Yeah, yeah, OK.
+Varun Babji   1:19:21Okay.
+Nish Bhutani   1:19:25And this, you know, new to the app scan to download. If you can somehow put it near the QR code, I think that'll be better.
+Varun Babji   1:19:33We can flip it, actually.We can flip this and that.
+Nish Bhutani   1:19:39Maybe something like that.
+Varun Babji   1:19:41You can do something like this.
+Nish Bhutani   1:19:43Yeah, yeah, that might, that's probably better. Take it.
+Varun Babji   1:19:47Okay, so I'll hold this and once I get the clearance that these are working, I can, and it is very much possible to do it in a day's time. The moment I come to know that, you know, yeah, now the QR codes are working on the app or on the mobile, this can be printed at the store level only.
+Nish Bhutani   1:19:59Chicken, chicken.Okay, wonderful.
+Parasa Neeharika   1:20:06And Varun, here the image of the product back goes, or does it appear like this?
+Varun Babji   1:20:10No, no, no, so the image of the product tag is not looking good, hence I have made it, you know, vector-wise I have been putting the same tag. It looks too tiny, so already the size of the communication also is little small and the tag also will become too small for, you know, somebody to look at. Henceforth, I have removed the image of the tag.
+Parasa Neeharika   1:20:14Okay.Okay.Gorgeous.Okay.Got it.Got it, okay.
+Nish Bhutani   1:20:34You know, one thing, one question I have is, do customers even think of these as products?
+Varun Babji   1:20:41The.
+Nish Bhutani   1:20:42We, I mean, we are obviously think of them as products, but maybe we should say clothing tag or something like that.Mhm.Mm.
+Varun Babji   1:21:09What I have seen is, you know, there is a separate tag in which the QR code is clearly visible and it is written just for two lines, scan to no more.
+Nish Bhutani   1:21:14Mm.Interesting. So we can look at that maybe down the road a little bit. Let's see first how this works. You know, Varun, the other thing is like, I'm a big fan of user testing in general. So even before you print this in large quantities or whatever the final thing, you could always print it and...
+Varun Babji   1:21:22Yeah.Yeah.Mm.Hello.If.Yes.
+Nish Bhutani   1:21:38In the store, just show it to some customers and see what they, how they interpret it. Is it clear? What are they understanding, etc. You know?
+Varun Babji   1:21:43Yeah, yeah.Yes, yeah, possible to do, yeah.
+Nish Bhutani   1:21:48Ah, okay, okay, cool.
+Varun Babji   1:21:49Okay.
+Nish Bhutani   1:21:52Thank you.
+Varun Babji   1:21:53Thanks, Nish.
+Jigisha Patel   1:21:57Yep, so that kind of sort of rounds up my bit, yeah.
+Nish Bhutani   1:21:58Okay.Okay.
+Parasa Neeharika   1:22:03Yeah.
+Nish Bhutani   1:22:05Okay.
+Parasa Neeharika   1:22:07Thank you.When is there?
+Varun Babji   1:22:11No, from my end, that is one thing, and we also we can reevaluate what all the communications that are actually there in RC. I will what I will do in for the next call is, you know, probably I think the messaging can be relooked at it. Nish, I will just put put up a deck where...
+Nish Bhutani   1:22:12And.
+Parasa Neeharika   1:22:14What was the?
+Varun Babji   1:22:30Touch point wise, what is exactly there in the store and we can we can look at it and we can retake it. Is it actually making sense or do we need to change couple of words, etc. so that it will be because some of them are not having great traction as well.
+Nish Bhutani   1:22:33Yeah.Sure.Sure, sure.Yeah, yeah, and maybe there also you can get some customer feedback. You know, if people look at it fresh, you get a different point of view. So, okay, sounds good.
+Varun Babji   1:22:51Yeah, yeah, sure.Cool, yeah.
+Nish Bhutani   1:22:59Okay.
+Varun Babji   1:23:00Yeah, that's from my end.
+Nish Bhutani   1:23:01Okay.
+Parasa Neeharika   1:23:02Okay, thanks, Varun.
+Varun Babji   1:23:03Thanks.
+Parasa Neeharika   1:23:04Ultimate, you can go.
+Nish Bhutani   1:23:07Okay, so Altamas had the high, high. So remind me what Altamas experiment was. It was around like appointments or something, right? Personal shopper.
+Altamas Khan   1:23:07Yeah, Anish.Personal shopper, the personal shopper assistant is, yeah, is what there and yep, so, so what what I've done Anish on this project is that like a month back did a full research or say a third party research to understand how Shopper Stop is doing it and you know in my internal.
+Parasa Neeharika   1:23:16Insignia.
+Nish Bhutani   1:23:18For insignia.Mhm.So they have it for their loyalty programme.
+Altamas Khan   1:23:36Yeah, they have it for First Citizen Club Black Member. They have a personal shopper assistant. It is a very, very different programme. Basically, it provides a lot of things, services. So they have a lounge. They do the building in the lounge itself. The collection and everything is brought by the personal assistant, shopper assistant, and you know, service has been done. There's a separate changing trial room also.
+Nish Bhutani   1:23:39Okay. Okay.Mm.
+Altamas Khan   1:23:59for them. This style is basically they are the stylist and they are very strong information about the product. So like giving an example, they might be able to tell that why a device is cost 3000 and why a gas or a Gantt jeans or say a G style is cost 10, 12,000. What's the difference between the product?
+Nish Bhutani   1:23:59Mm.Mm.
+Altamas Khan   1:24:19So they can educate, so they have weekly or say regular trainings happening on the product, on the offerings, on styling and all of those stuff. So that's how their personal shopping assistant programme has been done. And it is for the tier, top most tier loyalty customers for them. And Shopper Shop is big in that term from the loyalty programme point of view.
+Nish Bhutani   1:24:19Mhm.Yeah.
+Altamas Khan   1:24:40In my internal discussion, I've also got the information that pre-COVID 2019, we also did a something similar programme. Like we had a personal shopping assistant programme. The difference was it was not a very specific to any particular tier or the loyalty or customer.
+Nish Bhutani   1:24:49Hmm.Okay.
+Altamas Khan   1:24:59It was bifurcated between bags. So there was a maroon bag kept on shopping bag as compared to the black shopping bags. And whichever customer picks up the maroon bag, there were two or three this assistant defined for selected stores where the experiment was done. And they used to go and guide them that, you know, this is a collection, this is a styling part of it. They had their incentive programmes.
+Nish Bhutani   1:24:59Mm.Mm.Mm.
+Altamas Khan   1:25:21that you know how much more they can bring the billing, how much more they can do it. So it was completely basis the bags pickup. Sometimes they used to call also to the customer.
+Nish Bhutani   1:25:29Because we were comparing, we were comparing people who picked up the maroon bag and the other people who picked up the other bag.
+Altamas Khan   1:25:34otherwise was not picked up and because that's the differentiator for assistant guys that you know if they are putting an effort is the billing more than what the regular one was and their incentive programme was also built that way but but this people this assistant used to also do calls also because they realised that you know they had the insignia members contact or something they used to also sometimes call them.
+Nish Bhutani   1:25:41Oh.
+Altamas Khan   1:25:53and do that piece. I think, but then COVID hit and it was only done for one zone is what my information which I have received. And then it was never continued back. Now in the current state, okay, and whatever I have discussed, like, you know, because Hemant is the one who I was discussing with, who looks after the entire store, staff, manpower and stuff.
+Nish Bhutani   1:25:53Okay.Okay.Mm.OK.Mmh.Mhm.Mm.Mm mm mm.
+Altamas Khan   1:26:15We don't have resources in a way who can give styling tips or who can guide and give that information driven. So we need that level of staffing in the 1st place. Okay, even if we have to do a pilot in one store and do it for an insignia, we need those quality, you know, resources to bring that value out.
+Nish Bhutani   1:26:23Mm.Mm-hmm.Um...Mm mm.
+Altamas Khan   1:26:34that you know, and they are more informed and, you know, resources at our end. So that is one piece. The second is that key, the bandwidth, the time, like, you know, the training which will be required to be done to this kind of stuff, like, you know, will take, will take a time. And also from the larger perspective, from the longer perspective, because I'm also working, because I look after the digital media and the digital part of it.
+Nish Bhutani   1:26:35Mm.Toll.Mm.Arun.Toll.Wow.
+Altamas Khan   1:26:58And the way we are trying to position a brand towards more segment 6, more like, you know, giving them the look and feel and appeal like Zara and H&M, like there in some of some of the conversation it has come saying that, you know, we want to make a store feel self-served and you know, we want to bring in like cut off from this kind of, you know,
+Nish Bhutani   1:26:58Yeah.Mm.Mm.
+Altamas Khan   1:27:17Services, and you know it's saying that this customer are more informed, they know what they're coming for, and you know their experience is a little different, and hence there is some kind of a pause or a halt on this this project, and you know, and if we have to take it ahead of the pilot, also we'll need all support coming from say a training team, staff team, and all of those things before to do a pilot, or else.
+Nish Bhutani   1:27:21Mm.Yeah.Okay.Okay.Hmm.
+Altamas Khan   1:27:37The pilot might not turn out to be fruitful if you do it with the existing staff also is what my understanding is it. And that's where, you know, probably, you know, direction from you will help that, you know, how do we take it ahead from this length.
+Nish Bhutani   1:27:37Okay.Sure, sure.Okay.Okay.Understood. You know, okay, the fundamental thought here, okay, so firstly, long term, obviously the point was not necessarily to do personal shopper, but then to say.If this is a success, then can the store staff with the help of technology?guide people. But if you take a step back further, the thought is what can you provide insignia members?that will increase their spend and loyalty, right?
+Altamas Khan   1:28:28Correct. Yep. I think it is more, see whatever I have understood from the loyalty team and also insignia member, if we look at their pattern of purchase, okay, maybe they are also coming at a peak season time for us. Like they also purchase heavily during USS. They purchase heavily during Festive time.
+Nish Bhutani   1:28:30So.Mm.Mm.Mm.
+Altamas Khan   1:28:49Now these are the times when in store we have rush queues also. They will feel valued.
+Nish Bhutani   1:28:49Mm.Sorry, I actually need to take this call. So can you hold for a few minutes or do you have, or we can continue tomorrow maybe. Let's continue, let's find another time where we can discuss this. Yeah. Okay. No, hi Sooraj.
+Altamas Khan   1:28:57Yeah.Yep, yep, yeah, yeah, sure.Done, done, done, then we'll do the Nish. OK, cool. Yeah, thanks.
+Nish Bhutani   1:29:09Hello!Hi, Suraj.Was there anyone else, Neeharika, or that's it?
+Parasa Neeharika   1:29:22Hemant has left, but then tomorrow we have a call. If you, if you can spare some time tomorrow, we can continue on that. We anyway have a call scheduled.
+Nish Bhutani   1:29:24Not sure.Yeah, let's do that. And I think from next week, maybe we'll, since we've done slots now, we can make it an hour and a half. Because anyway, people are attending for less time. But this was good today. I think we got a lot of updates, so that's good. Okay. All right. Thank you. Bye.
+Parasa Neeharika   1:29:34Yes, yes. Yes, yes. Okay. Yes, okay. Yeah, yeah. Okay, yeah. Sure. Thanks. Thanks, Nish. Thanks again.
+Nish Bhutani   1:29:54Hi, Suraj, how are you?Are you going crazy?with the festive season and running around travelling. Okay, good, good, good, good.Haha.Okay.Not sure.Ohh.Understood, understood, and how is your how is your wife liking your new job?I said, how is your wife liking your new job?Yeah.Uhh...That's good.Yeah, yeah, definitely, definitely, so that's good.Mm.Right, right.Not a bad idea.Ah.Ohh, great, great.Oh, amazing. Amazing. Fantastic.Yeah.Amazing.Amazing.Of course, of course, of course.Yeah, yeah. I was just saying that just following on from the last time, I think we gave you an update on the project. So basically two strands. On one hand, I think some of the team members in marketing and...and marketing and within the Pantaloons team, I think because there had been some movements, Sandeep had moved out, etc. There was a...Correct, correct. So now, because of that, I think there was some lack of involvement among some team members, not because just that, but just various things, including the festival season going on and all that. But now the good thing is like things are kind of people are re-engaging and I've met with Vikrant also, so he's also taking an interest. So that's positive.So hopefully some of the things that we're stalling will move forward, but the other side is that on two or three projects, two or three kind of strands within the project, we're getting some very interesting results, right, which are potentially extensible to kind of more widely in the network.So I just wanted to find a time to kind of, you know, for the project team to give you an up to update you on some of those also.Huh?Yeah, yeah, yeah.Take it, take it. So what I'll do is I'll turn the Neeharika to who manages your calendar.You manage your calendar, TK. So, OK, OK. So, and then they have to e-mail you, TK, yeah.Oh.Speaker.Tejas.Yeah, yeah, yeah, I'll tell her that.Sure, sure, sure, take it.Fantastic. OK, that sounds great, Suraj. So look forward to that. Yeah. OK. All right. Thanks. Bye. Bye.Yeah.Yeah.No.Button.It.OK.Oh.Yeah.
+Parasa Neeharika stopped transcription

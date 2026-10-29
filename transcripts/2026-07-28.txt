@@ -1,0 +1,565 @@
+﻿Project Next Horizon  Weekly Review-20260728_111210-Meeting Recording
+July 28, 2026, 5:42AM
+1h 22m 59s
+Parasa Neeharika started transcription
+Varun Rajwade   0:03There's a broader.
+Nish   0:04yeah, remember now, like see the other styles or something.
+Malavika Goli   0:07One was on.
+Varun Rajwade   0:09Yeah, there's one mix and match one. Now what Varun is sorry, Rohit is pushing the VM team is to get more of those signages done across the store because again, these are interesting funnels, right? They are too small just now to make meaningful change of any form or.
+Nish   0:13Okay.Take care.Yeah.
+Varun Rajwade   0:28Manner, but just the fact that these funnels are existing itself interesting like Suraj yesterday said, right, this is the only way it can grow, this is not the way it can grow now.
+Nish   0:29No, correct.sure.yeah.Cool.
+Varun Rajwade   0:42Right, so he will join in. I think Hemant and all those seem to be caught up in some session or the other. We will just have to tell them now going forward that this session, you know, either make it sacrosanct or if you can't make out then if you can't make the time then tell us ahead of time so that we can reschedule or something of that sort.
+Nish   0:52They have to somehow block out, yeah.
+Varun Rajwade   1:01Otherwise, we won't move ahead with the same speed.
+Nish   1:02No, just threaten them. Just say that midnight, probably you're not don't have any other meetings, so we'll do it at midnight if you don't attend this one.Hello, I cancelled a call. I told you when Narendra Modi to make this meeting since since Amit was throwing around names, I thought I should also throw a name around.
+Varun Rajwade   1:16Yes.
+Nish   1:28Amit said I have a meeting with Ashish, so I said I have a meeting with Modi and I am still attending.
+Varun Rajwade   1:34Either, but I will tell this guys, make sure they are at least informing us well in advance so that we can reschedule if okay so.
+Nish   1:39Okay.Hello.Theek ***. So let's go ahead, whatever. Yeah, let's go ahead with what with Malvika and Sharik.
+Varun Rajwade   1:52Yep, Shari, you can start.
+Shariq Haroon   1:52So Nish, as discussed yeah, last time I have created a flow chart of sorts of the smart trial room and we are discussing with Varun because in my head there are 3 phases that are clearly coming up and while we have not put together a user journey.On the screen, like a prototype, Figma prototype, but we have put on a flow shot how the user would be. So let me share my screen. and.Forward to you.Is my screen visible? I know the fonts are very pretty small.Is it with me?
+Varun Rajwade   2:36Yeah.
+Shariq Haroon   2:37Yeah, OK, thank you. So we are looking at essentially 3 phases. The first is pilot. Are we calling it pilot because we are going ahead with an off the shelf SaaS product and that SaaS product is lim this pilot is limited by the capabilities of that SaaS product.
+Nish   2:39Yes, it's correct.
+Shariq Haroon   3:00And why are we not merging phase 2 into pilot is only because the fact that we want to solve for speed and urgency and early learnings. And that is why we don't want to customise the official product because they say anyways a 3 month pilot.By the way, if you look at competition, a lot of competition either don't do it this way, and sometimes even if they do, it is not as glorified and it would just be contained within the pilot scope. that.We are talking about so the phase 2 and 3 that we are talking essentially we have not seen any domestic player doing it at all. I have not thoroughly researched up on how.Some players globally are doing it because sometimes these are not documented well enough and people have to be there in person to explorer the screens. But at least the players that are present domestically, none of them are doing beyond the pilot scope. Okay, so lets get.
+Varun Rajwade   3:57Okay.
+Shariq Haroon   4:08Started.
+Varun Rajwade   4:09Please share unmute.
+Nish   4:11Sorry, just to understand one thing.Okay, there's the enters trial room and there's the enters trial room area. So this is just enters the actual trial room, is it?
+Shariq Haroon   4:16Yes, sir.Yes, this is enters the actual tribome.
+Nish   4:27But you'll have a separate.Detector for the trial room area or no?
+Shariq Haroon   4:35Yes, and that's for phase 2. that's for phase 2.
+Nish   4:38Actually, I am just thinking actually if...Okay, let me put it this way: these RFID detectors, are they expensive or no?
+Shariq Haroon   4:50These are expensive. It depends upon. So in terms of detectors, there are 2 kinds of detectors. First there is an antenna and then there is a reader. A reader can talk to multiple antennas. So if you are dedicating it, say.
+Nish   4:53Help.Got it.
+Shariq Haroon   5:08For a single, and it is about density of antennas also, and I think a reader can carry up to 6 antennas, which means 6 trial rooms, individual trial rooms. So if we are looking at higher coverage, then that means we are little cost effective in terms of the hardware. If we are looking in terms of lower coverage, just to.
+Nish   5:18Okay.Okay.
+Shariq Haroon   5:28Smart, we're still dedicating a reader for just to Anna, so that's how.
+Nish   5:34Okay, no, I am just thinking that see.And let me ask one more question, does the trial happen only inside the trial room or do they also have like mirrors and etcetera outside? So if someone is just trying on a jacket, they don't need to go into a trial room, right? They can just put it on and look at it in the mirror.
+Shariq Haroon   5:42Okay.We have normally seen sometimes, I mean Hemanth would be able to correct me here, but in my limited experience of being in a Pantaloons store and otherwise other stores, I have not seen people.
+Nish   6:02Mhm.
+Shariq Haroon   6:11Trying out a lot outside in the open. It is very category specific, just like you said, jackets and things that like an overcoat or a coat or a blazer, those are tried outside. But most of the stuff that that's tried inside the gym because most of the times.
+Nish   6:18Okay.Order card.
+Varun Rajwade   6:26Also, Nish, detecting someone trying in the middle of a store, you will have a mirror right now. How do we detect right? It will be very hard to detect that because then you get a lot of the noise of the garments moving around.
+Nish   6:33Yeah.We can't, we can't. No, I was.No, what I meant was in what I meant was in the trial room area, is what I meant. But.
+Varun Rajwade   6:43In the travel room area, there are sometimes mirrors, but generally it is more inside.
+Nish   6:47It is inside theek. So what I was saying was that to me, actually the simplest step in terms of the pilot isn't this isn't the simplest step. I think Sharik, there's some noise coming from your end.
+Shariq Haroon   7:03Okay, sorry.
+Nish   7:05Isn't it the simplest step that we just do the entrance to the tribe room area and as kind of the phase one?And because that we don't need a screen, we don't need anything. This is just simply detecting what's going in and then later correlating it with what's being purchased or not.
+Varun Rajwade   7:29Yeah, I think that.
+Shariq Haroon   7:31In fact, Nish, on there can be a little more advanced version of that is that we have individual antennas at each of these trial rooms and not have this field. That is also an option. And then we are knowing which exact customer is buying which particular EPCs and not buying which particular EPCs.So instead of getting because when they are billing they are giving them mobile numbers, and when we are billing they are also capturing EPCs.
+Nish   7:50How we know the customer?Okay, but for that we don't need the antenna now. I mean, we just need to know that they entered, I mean.
+Shariq Haroon   8:06But if there is a lot of customer as in closely packed together, which happens usually in a queue and usually there are queues outside a trial room day, I don't want the reader to be start picking up multiple EP C's and mis tagging them to customers.
+Nish   8:22I see. So you okay, so you're saying it's better to detect them at the entrance of each trial room rather than at the entrance of the area because people might be walking back. Also, to your point, there'll be staff also potentially.
+Shariq Haroon   8:22And that is why I want some kind of isolation.
+Varun Rajwade   8:38Yeah.
+Nish   8:39Moving stuff around that area, yeah.
+Varun Rajwade   8:42Shariq, I think to start off with, see we have you had also last time mentioned that there are some 4 or 6 readers and therefore you will do it in men's. And I think rather than making it at a bare level, we should do it at an I would go with an entrance because what do we want to do in the first step?The first step is to create another funnel within the store of saying 100 tried, 30 bought, right?
+Nish   9:10No, but Varun, I think Shariks point is that he's agreeing, I think, with that. What he's saying is for better detection, he still wants the antennas in within each trial room or at the entrance of each trial room. He's saying that will give us better detection, but we won't have the screens, so we will still use it for the funnel.
+Varun Rajwade   9:29But Shariq, what I am not understanding is why would it give you better detection by doing it at a Bay level? In fact, if anything wanted lead to a little more double counting, right? Because 2 base, 2 RFIDs will detect the same EPC.So aren't you better of having one which does that whole area?
+Shariq Haroon   9:49So yeah.So there are ways to isolate create a virtual isolated environment of sorts by having anchor tags. How anchor tags work is that and especially an RSID reader is doing nothing but streaming a date data of say EPC S with the time stamp.Registering against against a time stamp and the RSSI value, which is the relative strength indicator value, which is nothing but like if I were using a torch and that light is bouncing off a surface, what is the strength of or the luminosity, luminosity of the light that bounced off of the surface? That's the RSI plain simple over simplify it.And the RFIT leaders reading nothing but the respective EPCs and their RSI values and time strapping them. When we have anchor tags, now these anchor tags are also beaming up their own EPCs and the respective RSI value if we are able to.Look at the tags which are inside the trial room, then those tags will have a relatively higher RSI versus these anchor tags. And let us just say there is another customer present in adjacent trial room and their EPCs are also getting red, but those EPCs would come with a lower RSI value than these anchor tags.And that is how we are creating a virtual environment. Now these EP C's, that we assuming we have created that virtual environment and they're able to tag EP C's uniquely to customer, we now know that these 5 EP C's were brought in versus 2 got sold to that customer with that mobile number and the cost with these 2 EP C's.Now, when we look back at our stream data of EPCs, we look, we realise that 5 EPCs were detected, 2 of which got sold to this customer, which means these 3 didn't. And now we know which EPCs didn't get sold to which exact customer, this unique customer mapping.Will not happen if we are not doing at individual rooms and we are doing it at a single day because it is sorry at the entrance. If I do it at the entrance then because sometimes people are standing in queue. If I am holding the government versus the person in front of me versus the person behind behind me, it gets a little confusing for the system to.Do this kind of virtual isolation that can happen with anchor ties, and that's how we want to take this.
+Varun Rajwade   12:17Okay.Okay.Okay, got it. Tired.
+Nish   12:24Theek *** so and by the way, this is interesting Varun, this will help fill out the funnel that you were just talking about also, right? Maybe that's what you intended that you've scanned a QR code.Now, obviously, that's not going to be the main top of the funnel. Mostly people won't scan anything, but it will be interesting to also overtime see people scanning QR code truck and then either trying and then purchasing.That that'll actually that'll apply even more when we have product specific QR code, then we can really kind of go to loop, right? Then we can start to fill out the product.
+Varun Rajwade   12:58Yeah.once the DPCAN goes live, then we can actually do more of that. But even then, till then, Sarik, my only worry was are we making it too small by focusing on men's in that sense and therefore are we better off saying okay.
+Nish   13:04Correct, exactly.It's important.
+Shariq Haroon   13:17So there is a change, there is a shift.
+Varun Rajwade   13:21Lets have little less, so you go ahead, you are saying something.
+Shariq Haroon   13:24Yeah, there is a shift. I think we are moving away from men's to the earlier women's ethnic trial room which is a set of 6 because which makes sense, which makes sense.
+Varun Rajwade   13:34Which makes lot more sense.Okay.
+Nish   13:40Okay, so we won't for now, we won't do the product, the product cards, etcetera, right? The screens.
+Shariq Haroon   13:46Okay, so because I took this up with Sandeep.
+Nish   13:48The product card was going to appear on a screen installed in the trial room. Is that what is happening?
+Shariq Haroon   13:54yes.
+Nish   13:56I mean, if you're happy to do both, that's fine, but we shouldn't get held up because then the product card also has to be because the product card will also have to be designed right in software or we just spent. Yeah. So I would say take it stepwise. Anyway, the RF, the antennas have to be put. So lets start getting that data first.
+Varun Rajwade   14:01Yeah, that's my limited point. Yeah, that let's.
+Shariq Haroon   14:07Yep.And.
+Nish   14:16First, and then let's add the screens. Ek.
+Shariq Haroon   14:21Okay, because then I took it up with Sandeep and I explained to him that our experiment 47 and 48 can happen even completely full, full scope without the screen. But as I said that, lets have the screen do experiment those use cases as welland that is why the pilot that is mentioned over here it considers screens as well. However, from an.From a scope of experiment perspective, 4748, it is fully covered if we don't have the screen.
+Nish   14:48So I don't think, I think what we are just saying is, I mean, anyway, you have to put in the antennas, right? So we might as well go live with the antennas and in parallel, and then you can move on to adding the screens and the cross card that can happen in parallel. There's this MVP diagram that some of you might have seen here, I will show it to you.
+Shariq Haroon   15:05Yeah, sure.
+Nish   15:11I don't have seen it. One second, one second.
+Shariq Haroon   15:12Okay, sorry, getting a call. Give me a minute, please.
+Nish   15:17sure.Where is this thing?You can sense of MVP.You guys have seen this before.Param.
+Shariq Haroon   15:47No understood, looking at the first time.
+Varun Rajwade   15:48No.
+Nish   15:49Okay, so the idea here is that don't try to build the car.
+Varun Rajwade   15:50okay.
+Nish   15:55Because until you build the car, you can't go anywhere. First, build the skateboard, then add maybe the head, make it a scooter, then make it a cycle, then motorcycle, then make it a car, right? So basically, what I'm suggesting is let's do this, right? And then we can add in the screen and everything.
+Varun Rajwade   16:07Yeah.I think Shari, for this we should just start the funnel, should start reading, start figuring out what works, what doesn't work. We can always have, see it need not be 100% accurate estimation of the consumer.The fact that you can even start with some directional stuff, right? And as it is, as we add in the EPC to EN, that funnel will also increase how many people are themselves voluntarily scanning. We will also have to improve our app checkout that will also increase the adoption, the signages. So we will have.So there will be other ways of identifying consumer over and above just RFIT. So I think you should first try and get a mass reach of trial and then fine tune it.
+Shariq Haroon   17:08Okay, all right, point taken, point taken. So we will, when we are proceeding with this, we will put, we will plan to put up the screens, but anyways, we will put the antennas first so that the readings can start coming, start coming.
+Varun Rajwade   17:19yeah.
+Nish   17:22Theek hai.
+Shariq Haroon   17:22Okay, but let me share my screen.
+Varun Rajwade   17:24And have some form of reporting, right? On day one itself, you should start having some form of reporting. 100 went into trial room, 100 scans were detected, how many went into purchase which products. So even in those really piddly numbers, right? Just now what Rohit mentioned or even the geo fencing, the very small numbers.Just the fact that there's a number means there's more interest.
+Shariq Haroon   17:48Understood. Understood.
+Nish   17:48Also, Sharik.As we do product specific QRs, just keep in mind that when we show that product card on the screen.We can say didn't find your size or colour, scan QR to check online for availability because quite often in the child room you won't find your size, right? So that can be good place to prompt.
+Shariq Haroon   18:20Okay, all right, sure, we'll take that considered in phase 2, but yeah, we will take that.
+Nish   18:26Yeah, exactly. Theek. So and remind me, which store are we putting these things in? You said which is.
+Shariq Haroon   18:29I will share my screen.Vibhana, Vibhana Moltane, Vibhana.Yes.
+Nish   18:38Okay, and obviously you'll have to do a fair bit of QC to make sure that it's all kind of, yeah.
+Shariq Haroon   18:44Yes, we yes, it's accurate and the data that is coming is of high quality.
+Nish   18:48Yeah.Correct, correct. Is there a risk also that so once an antenna picks up an EPC, what is it? EPC or yeah, I keep forgetting. Yeah, EPC, EPC, okay. Once I guess PC is a good way to remember it. Once it.
+Shariq Haroon   19:01EBC.
+Varun Rajwade   19:01EPC EPC.
+Nish   19:10Picks up the EPC.Now, if you're moving in and out of the child room, will it?With the same piece of clothing, will it keep giving you that thing like is there some software based filtering that says the same ETC in within 3 minutes, just regarded as one instance or something like that?
+Shariq Haroon   19:29Yeah, so there is intelligence which is sitting on top of, in fact, if you look at the if you look at how official capability that also has this ability to tell or alert the store staff that this EPC has been lying for so many minutes, illustrate is beyond a threshold, then the store staff can go and clean that smart or a room.
+Nish   19:31Okay.Yeah.Mhm.
+Shariq Haroon   19:51Because we don't want merchandise to be just lying there indefinitely.
+Nish   19:55No, what I mean is in terms of detection.It shouldn't be detected 5 times when it's really just the one customer carrier, you know what I mean? So the software takes care of that, right? Okay, so those are the kinds of things you'll have to just QC when you do it, right? So it's acting correctly.
+Shariq Haroon   20:04Exactly.Yes, in fact.Of course, of course, we'll take that into that.
+Nish   20:15Okay.
+Varun Rajwade   20:16Maybe Shari, just run it through me separately. You can have a quick 15 minutes.
+Shariq Haroon   20:21okay.So the pilot that we're looking at considers the screen is there and not just and this document is prepared more from the lens of the customer and the user journey of the customer and less from what's happening behind the scenes in terms of analytics. That's not covered as part of it.
+Nish   20:32Sure.We should, we should look, yeah, we should do that also. We should look at the, in fact, let's do this. Let's not go through this whole thing right now, because anyway, it will take it in stages. We understand from the front end flow is very simple. This the detection happens. I think the back end is more important. What do we see? What are the rules?
+Shariq Haroon   20:47okay.
+Nish   21:03Is it filtering correctly? All those kinds of things.Make sense?
+Shariq Haroon   21:09Make sense. I just wanted your opinion on this because I wanted to understand if structuring this in 3 phases is fine or do we do 2 phases? How do we take this? I wanted your broader guidelines on that.
+Nish   21:14Okay, theek hai theek hai.Okay, take it.
+Shariq Haroon   21:25Okay, so customer it is a trial room overhead RFID, which is the antenna, detects products EPC S product cards appear immediately. Customer opens product details as in they would click on a particular product, open up a PDP equivalent available sizes.
+Nish   21:44What? Sorry, details meaning they keep on the image and the details appear or something.
+Shariq Haroon   21:48Yes, the details appear.
+Nish   21:51Why do we even want to make them do that? Why don't you just show the image and the details right there next to it?
+Shariq Haroon   21:58Because if they are carrying multiple like 345 and.
+Nish   22:01got it. Of course, of course, theek, it makes sense.
+Shariq Haroon   22:07Then they would open up the detail. Available sizes and colour variants are shown. This is linked with store SOH as in stock on hand. So whatever is available in the store, only the goes get reflected to the customer. The customer can request for another size or colour. of.
+Nish   22:26So this is where, by the way, if something if there's a size or colour not available.
+Shariq Haroon   22:27It's the cast.
+Nish   22:34We can show that also and we can have the prompt for ordering online, scan the QR to order online.
+Shariq Haroon   22:39Yeah, that's Facebook, that and that's Facebook.
+Nish   22:41Theek hai. Okay, theek hai.
+Shariq Haroon   22:45So if the customer is not requesting for another size of colour, the customer continues to try trying the items and the customer exits the trial room. However, if the customer does request for another size of colour, then a fetch request is sent to the back end store staff.
+Nish   22:47Hello.Yes.Thank you.
+Shariq Haroon   23:04And staff finds the requested item, places item in a bag on the kiosk outside, then not, and then the items are there and then the request is completed.
+Nish   23:16Okay, so this is where inspiration from Blinket or Zepto Tomato, the customer needs some status on what's happening because they have no idea how long to wait.
+Shariq Haroon   23:28Exactly, Nish, and we were discussing about that. And because it is been off the shelf, we have kept that in phase 2. And I the more and more we thought about this as in we are going with an off the shelf solution because otherwise we will have to develop this from scratch and it just to prioritise speed and emergency. And I think the eventual end status that we do develop it from scratch.
+Nish   23:29Yeah.Because it's off the shelf means.Thank you.
+Shariq Haroon   23:50And that's phase 2 and phase 3. But what is off the shelf and bound by the capability which is being offered.
+Nish   23:57So there's no way for even the staff to say, yes, I've accepted this request or anything like that.
+Shariq Haroon   24:03There is, there would be a dashboard of sorts and they would have to keep refreshing it to look if there's a alert.
+Varun Rajwade   24:10So we have to with him or.
+Nish   24:11No, but somehow somehow they're going to be alerted, no?They're going to be somehow when the staff finds the requested item where they get alerted in some way, right, to find this item.
+Shariq Haroon   24:22Yes, there is a dashboard like a desktop dashboard and there the alert would come and a staff.
+Varun Rajwade   24:28No, I think Sharik, one thing we have done on Madura side is there is now 3 hour delivery, 4 hour delivery, right? Which means invoicing has to happen of an ecom order within 30 minutes, right? So when an hyperlocal order comes, there is a bell which rings or a notification is sent.
+Nish   24:29And who would?
+Shariq Haroon   24:49So I am aligned.
+Varun Rajwade   24:50And they are sitting on, they've got a power app on which so it is like a click app, right? I think for this and the self kiosk, we have to integrate into a power app or a click app which is then used by Hemon's team. So you have to make sure Hemon's team is then able to use that.Right, don't make it a dashboard because dashboard no desktop ek peeche hota hai dukaan ke. It has to be on an app, it has to be on the store managers phone, maybe one the at least the department heads phones. It has to be a little more proactive than that.
+Shariq Haroon   25:21Yeah.
+Nish   25:22Okay, thank you.
+Shariq Haroon   25:25So, what we are looking at here, and I understand Varun, and we were thinking of the same thing that it has to be a notification based up proactive reach out to the user to the store shop and not like a reactive search all the time. I understand that you said that we are bound by the current capability of.The off the shelf solution and that's what pay is scoped in pilot. If you look at the one that we are proposing, which is this phase and that I have moved it, moved the screen to this phase, then this is what happened. If the customer is requesting a bring to me, then bring to me would create, it would be one item at a time.And it will create a task and it will show the ETA to the customer.
+Nish   26:08So tell me one thing, Sharif.
+Shariq Haroon   26:09At first.
+Nish   26:11In this off the shelf solution, there's no way to alert. Basically, you're saying this is only a dashboard.
+Shariq Haroon   26:16No way to alert, yes.
+Nish   26:24Unless you...For the pilot, I am just thinking.And there's no way for the staff to even enter that I've accepted this request.
+Shariq Haroon   26:38No, I that's task assignment and which is covered over here, but it is not at all.
+Nish   26:43No, I'm not talking about task assignment. I'm just saying like just literally on the dashboard acknowledging.
+Shariq Haroon   26:50That's also not there. There's no there's no way communication between the staff and the customer that the staff has acknowledged and this is the ETA. Ideally, that all of us should be there.
+Nish   26:51Yes, that's also not there.Who's who's off the Who's off the shelf solution is this?
+Shariq Haroon   27:02This is so invitation has partnered with some Samartha Info, if an office has solution from them. And by the way, our research Samartha Info, Samartha Infotech.
+Nish   27:10Madhus.Oh, so there are IT services first.
+Shariq Haroon   27:16Sell IT services.And none of the retailers that we have.
+Nish   27:21Ultimately, ultimate. And so you ultimately you are saying we will develop our own, correct?
+Varun Rajwade   27:22No, I think.
+Shariq Haroon   27:26Yes, that's clear. We'll develop our own. That's clear.
+Varun Rajwade   27:31I actually had a slightly wilder thought, Nish. So ultimately, do you even want to go to, let's say, a full self checkout there itself?Right, if you have a therefore, should I make this application trial room application be checkout enabled?
+Shariq Haroon   27:50Hello.Yeah, which is this fulfillment?
+Nish   27:53I don't think I don't.But checkout enable doesn't help me get the size I want. I'm requesting.
+Varun Rajwade   28:00No, in not just that. In general, if I have liked it, then I don't want to go and stand another queue, right? I just don't know where itself have right at. That's a probably a wild thought.
+Nish   28:06Mm.
+Shariq Haroon   28:06Exactly that, exactly, yes. And this is why we are calling this phase as fulfillment focus. We were not want to identify the customer, but we still want to fulfill that order and use the checkout experience as a precursor to placing an order.
+Nish   28:22Really.
+Shariq Haroon   28:26So if the customer is willing.
+Nish   28:26I would say we could.Understood. No, I understand what you are saying. Yeah, we can think about that separately. Maybe you prompt them to add it to their app checkout or something like that. I don't know if you want to tie up their you really want to tie up the trial room also because trial room also has cues. No, I don't want to tie up the trial room with checkout.
+Shariq Haroon   28:41So we are creating a QR, we are creating a QR.
+Varun Rajwade   28:50That's also a good thought, actually. Yeah, there's a challenge to that.
+Shariq Haroon   28:55We are doing this Nation Varun, that if the customer wants to continue to purchase and they want to continue the online thread, add items available items are on the screen to a virtual card, they will get a QR. They scan that QR, they transfer their card, their virtual card onto their app or M web.
+Nish   29:03Sure.Busy.That's it. I think that's a good solution. Yeah.
+Shariq Haroon   29:15They login and place an order, and if they want to pursue that offline journey, then they can just carry out their products, go to the till, login using their mobile number, and choose either counter pickup or home delivery. And now this these 3 boxes they assume are self checkout phase 2.
+Nish   29:21Yeah.Sure.Yeah.
+Shariq Haroon   29:34Capability is there is live wherein we were talking about fulfillment multiple types. So this assumes that all of that is live.
+Nish   29:37sure.Yeah, look, and look, the reality is 90% of people want, they will want to carry the clothes out and do it themselves like people don't want to fidget around, but that's okay. Throughout in different places in the journey, if you give them the ability to do self checkout, then.Together, it will add up to something more meaningful than what we have today, right? So it's fine.
+Varun Rajwade   30:05Yeah, as it is just need 2 more people to use for the conversion target.
+Nish   30:08Yeah, exactly. Okay, 2 more means 2% time.Yeah.
+Varun Rajwade   30:17We just need, sorry, 3 more people to convert right at the end of the day for that, for that, for the conversion target to be hit. So it's like theek hai, one person uses it once in a while and then.
+Nish   30:21For every 100, 3353100, okay, correct, correct, yeah, take it.But in terms of this, in terms of, yeah, sorry, go ahead.
+Shariq Haroon   30:31And sometimes it would happen.
+Nish   30:37I was gonna say in terms of that whole size thing.Okay, there's another way to do it, but then relying on the store people actually doing it, right, which is you put a timer and we ourselves have a SLA that says it will be delivered to you within 90 seconds or something. But even that we can't really rely on this whole dashboard, who will, who will actually?Hemant, do you actually man this dashboard at the store?Will there really be someone always paying attention right for the pilot? I guess I don't know.It just seems like it's just going to be probe to human failure.
+Shariq Haroon   31:27It could be, it could be.
+Nish   31:28Varun, how Varun, like how long? Just wondering, is it worth it just not rolling this out? It will be develop our own solution.
+Varun Rajwade   31:39I think so may getting the EPC the first to my mind of phase one our key should be getting trial room, getting inside the anonymous piece because that will help us improve the merchandise in that store, which is actually a very big unlock. It is not consumer led.Directly, but it is a big unlock of conversion. If you have the right merchandise, you will convert more right now that I think is more important before going into all of this, which is then to my mind a phase 2 and should be linked with the self checkout and you Sharik, my worries you can't you know at the end of the day staff.Is going to either like and adopt a solution or discount right? There is they generally going to be very black and white right? Ki ya toh achchha hai ya toh bura hai right? ***** ka koi nahi hota hai. So then you might will go when you are really ready at least that's my view. Hemant, your view if you are.If you have heard the conversation, else can chat separately. I think Hemant Hemant seems to be on maybe another call probably.
+Nish   32:51Okay, so lets do this. One thing we can do, Sharek, is we can say check if this your size is available in the store or online.And we can show them, yes, your size is available in the store. Please ask the store person for help or no, no, it is not, but you can buy it online. That we can do, I think.
+Shariq Haroon   33:14In the pilot, in the pilot.
+Nish   33:18Yeah, when you put up that screen, that product screen.I think that's easy to do, right, to check the size and all.
+Shariq Haroon   33:25Yeah, that's easy. No, that can be covered as part of the pilot, as in not expecting bring to me, but at least notifying.
+Nish   33:28Exactly, so even even exactly, even that is useful. Like achchha theek hai, if my size is there, I am gonna ask for store person for help to help me find the size over here. That's better at least than I have some control rather than I am just waiting, you know.
+Shariq Haroon   33:41Yeah, that they can do.
+Varun Rajwade   33:44Yeah.
+Nish   33:48Ticket sounds good.
+Shariq Haroon   33:48Then we would keep and we would keep phase one and 2 as in sorry, the fulfillment phase and the personalization phase separate, or do we want to merge them into one when we are building our own?
+Varun Rajwade   34:00My view, they should be separate. My view should like what Nish should, right? At least get something started and then iterate.
+Nish   34:03Separate.Yeah, the product cards will have to design a little bit if that specification will be needed. Besides product details, you can show looks also so people can see how it will look, what are the recommended looks with this product, that kind of thing that we have to decide.
+Varun Rajwade   34:20Okay.Shariq, if I have to think about this right, I would just use the same self checkout kiosk, the main UI, just that the trial trial room version will have little more help focus. It obviously won't have checkout for now, it will be more on help, it will be more on alternate sizes.So the look and feel should remain the same so that consumer goes from here can be very easily nudged into a self checkout, right? Then they're not figuring out acha a journey ka sa o journey ka sa, it should be a very easy transfer for them.
+Shariq Haroon   35:01Yeah, absolutely. I agree. I agree.
+Nish   35:03Also, Varun Varun, it should also align with when they are scanning a product specific UR code, what they see, it should align with that also somehow.
+Varun Rajwade   35:14Somewhere it, but that is then taking them on to the Ecom right now. The Ecom and the self scan the kiosk will fundamentally be different because the amount of data that's there in Ecom right generally.
+Nish   35:14Right.But my point is, and maybe this is stepwise, right? But the product detail page may not be as useful in the store. It could be have the same information, but just displayed a little differently potentially.We just have to think through that, if you know what I mean. Yeah, like looks could be more important rather than and you don't need all those stupid act, every little like bread crum and this and that, you know. So, but that's a whole maybe you're right. I mean, that's a whole different thought process that we are doing through.
+Varun Rajwade   35:44Yeah, we think that's a fare.Yeah.Yeah.
+Nish   36:05To me, there's potentially, there's potentially a stored version.
+Shariq Haroon   36:05One more thing.
+Nish   36:10But you already have the store mode, but there is a store version of the product detail page also.Potentially.
+Shariq Haroon   36:25One more thing, Nisha, that I wanted to bring your attention to is that in both the phases that are that are our own phases when we are developing is that we are wanting to include the effects of lighting and that's new, but I think it's pretty much required because different.
+Nish   36:25Okay.Yeah.
+Shariq Haroon   36:45Dresses are to be worn in different settings and those setting often come with different kind of lighting. So if the customer can visualise themselves in that kind of lighting and if that can some may be linked to the products or the colour of the products or the theme of the products and.And the customer can also select on their own. I think that would be an experience uplift.
+Nish   37:12So you're saying that they can change the light, they will be able to change the lighting in the travel. That's interesting idea. So like if you're wearing a cocktail dress, then you're kind of like dimmer light, dimmer lighting.
+Shariq Haroon   37:22Yeah, exactly.
+Nish   37:26and you could potentially do that automatically yourself.
+Shariq Haroon   37:30Automatically as well and manual trigger base both.If the customer wants to override that automatic one, then the customer can choose it.
+Nish   37:35Interesting.Sure, interesting, interesting. Yeah, we could look at that little bit down the road, yeah.
+Shariq Haroon   37:45Which which is the street?
+Varun Rajwade   37:45Yeah.
+Shariq Haroon   37:50And there are 2 kinds of default lighting also like one is a vacant light default as in nobody is inside the trial room. And then there is like an emphasised lighting, not changing colours but like a greater luminosity or something like that, which is like helping the users.
+Nish   37:51Great.Yeah.Yeah.
+Shariq Haroon   38:11Letting them know that this is the room has detected their presence. So like 2 default lighting instead of one.
+Nish   38:12Thanks, sir.Yeah.
+Varun Rajwade   38:19Just make sure that it doesn't make may have to be very careful with trying to overdo it because it is trial room and people are sensitive around privacy and all that, right? So just that one last piece I would not do the rest I think is very.Cool.
+Shariq Haroon   38:41okay.
+Varun Rajwade   38:43You don't want to tell someone that I know you tried. That's a slightly weird zone to be in.
+Nish   38:47Yeah, correct, correct, correct.
+Shariq Haroon   38:48Bye.Okay, alright.
+Nish   38:55Good Sharik, appreciate all the detailed work you're doing really. I mean, it's great to see like every week. I think you're showing progress, whether it's on the kiosk or the RFID, that's really good.
+Varun Rajwade   38:58Put up.
+Shariq Haroon   39:10Thank you, Miss, appreciate it.
+Varun Rajwade   39:15Jigisha, do you want to go next? I think Hemant, are you back or still in a meeting?
+Hemanth Gollavilli   39:21Yeah, I'm back, Madam. I'm back.
+Varun Rajwade   39:24Okay, can you update?
+Hemanth Gollavilli   39:27So, yeah.So, on the...On the first piece, Nish and Varun, where we need to curate those tech inputs to enable them in the store. There is a discussion with Rohit, which is pending, which is not done. I have scheduled it for Wednesday tomorrow. So once that is done, we will quickly move to Malika and you.To share the developments required to be able to navigate to those pages via the QR in the store. Parallelly with the VM team, we are asking the design for the kiosk that needs to be placed in the front of the store where it will be communicated to the customer that.
+Varun Rajwade   40:23Okay.
+Hemanth Gollavilli   40:23It can't be a simple message like scan for a personalised experience, right? We have asked them to come up with something.
+Varun Rajwade   40:27Yeah.
+Nish   40:30That sounds like what the consultants say. Let's scan for personalised experience.
+Hemanth Gollavilli   40:33yeah.So we have left that to the experts to come up with, I mean, so they will come up with a...
+Nish   40:40Take care, I do Hemant. I do want to review it. Yeah, whatever the messaging they come up with.
+Hemanth Gollavilli   40:46Sorry.
+Nish   40:47I said whatever messaging they come up with, I do. I do want to review it. Yeah, I want to review the touch points. Yeah, perfect.
+Hemanth Gollavilli   40:51Yeah, certainly.Certainly, certainly. So the recommendations we had in terms of all the VM elements, we'll wait for them to formally, you know, come back with the exact messaging, verb items or comms that will go in, then we'll review and we'll vet it, and then only it will go live.
+Varun Rajwade   41:13So, Hemant, one thing did Rohit reach out to you? He was he had some very interesting data points on our city for the existing scannings that he is driving on the VM related to SF genes and a few other places where he put the VM S.
+Hemanth Gollavilli   41:33Right.
+Varun Rajwade   41:33Daily in a may he was just calling me up saying daily it seems to be like 10 scans are happening of that. Given a store of 800 to 1000 footfalls, it is not too bad, right? Given that the just 4 touch points in a very large store, I think there is something that we are on to. He is also got some 2 orders.
+Hemanth Gollavilli   41:43yeah.
+Varun Rajwade   41:53In ecom, I have asked him to figure out with Lakshmi how many orders came in store, so that we build that funnel a little more, saying that in assi may say how many went to ecom and purchased, which is also good for us, but how many went remained in store and purchased was also good for us, it doesn't matter.
+Hemanth Gollavilli   41:54Mhm.Right, in fact, I was talking to the RSM also. So even he had a very strong point of view that VM, the entire VM game needs to be really taken up to the next level in this store to be able to do all the experiments or to actually drive results in the experiments we are seeking.
+Varun Rajwade   42:25I'm dumb.
+Hemanth Gollavilli   42:33Because that store is anyway constrained by, lets say, a high attrition where they're finding it difficult to engage the staff effectively with the customers. I mean, all this agenda is any new to a store manager and a department manager. So for the staff, it is even more, lets say, a little intimidating that we are asking too much from them to engage with the customer.
+Varun Rajwade   42:50Even newer.yeah.
+Hemanth Gollavilli   42:57So, VM really really has a strong play in this in all these experiments that that's the like like that's the fundamental input to getting results in several experiments that we have designed and hence yeah. So tomorrow, Rohit and I are catching up because a lot of VM led initiatives are also sitting in Rohit's experiments.
+Varun Rajwade   42:59yeah.Absolutely.And we will have to push the VM, the central VM team saying is pay thoda extra focus dalo type.
+Hemanth Gollavilli   43:17So yeah, right.PM is a little more cosmetic in their approach, so we have to bring them down to...
+Varun Rajwade   43:29Explain that this is not about the most beautiful thing, this is about functionality and experience.
+Hemanth Gollavilli   43:34Yeah, so that I will have to sensitise them a little that I don't aim for too much of a polished approach. We will get there, but more importantly, we may have to first because a lot of these things we are also figuring out with them.
+Nish   43:34What about poetry?
+Hemanth Gollavilli   43:55Right, where if they go for a direct kill, may or may not happen. So that's the brief from our end to them.
+Nish   43:55Yeah.once we start getting enough volumes, then we can start changing the messaging and seeing which ones people are reacting to better. Yeah, the truth is also sometimes like nobody knows the answer. It's like you make your best guess, but then things also surprising.
+Hemanth Gollavilli   44:08Yeah.Right.Yeah.Right. So that's one starting point which has which has been a little slow addition Varun over the last 2 weeks. But once tomorrow's meeting between me and Rohit is concluded, I think then we will pick up pace mid of August is where I see, let's say.
+Nish   44:23Yeah.
+Hemanth Gollavilli   44:40Of course, we will have to take your timelines, Varun and Malvika, on how fast, how soon can we put up these pages on the app. But I think fairly couple of weeks into development, this should be up is what my sense is.
+Varun Rajwade   44:56So lets also sit this week slightly bad but early next week once you and Rohitak clear Ki ye pages design karne hai right ye karna hai right? Lets say sit on how far on the designs and therefore what sort of hacks we can have.
+Hemanth Gollavilli   45:04right.Right, theek hai to then Mish August 2nd, 3rd week, yeah.
+Nish   45:15Okay, also keep one thing in mind also that I found that sometimes you can get useful suggestions from AI itself on your designs. So you create a design, you go into AI, you obviously have to give it the context. No, but you still need to set up that DPT for this project so it has the full context.
+Hemanth Gollavilli   45:28Right.
+Varun Rajwade   45:37Yeah.
+Nish   45:38Because once you have that, then you can put this in and say, what do you think? And it sometimes get useful pointers like this is too fluttered or this question can be stronger, those kinds of things, right? So just keep that in mind also.
+Varun Rajwade   45:42Yeah.
+Hemanth Gollavilli   45:46Picture.Right.
+Varun Rajwade   45:49I will have a chat with Niharik on this so that it runs as a project also, yeah.
+Hemanth Gollavilli   45:50Then we should look back.
+Nish   45:53Think so.
+Hemanth Gollavilli   45:56So the other 2 experiments, Nish and Varun, will continue to build week on week. That's the rigor we have established on staff assisted selling and the app led checkout. So those 2 are happening and we are gaining traction week on week. So in fact, we have taken some aggressive targets for Q2.Linked to those projects at a national level as well. So those 2 won't slow down. I mean, they will continue and with a little more focus on our city and capability building of the staff, we should be able to achieve slightly better growth than the network. That's what we are aiming.
+Varun Rajwade   46:31So for app checkout, what is the current number in our city and what would be target in that? Because of course, we have to improve the app checkout, but for now, what, how can we drive that?
+Nish   46:31Take care.
+Hemanth Gollavilli   46:41Right, so.App checkout bol rahe ho ya phir staff assisted order placement on app bol rahe ho.
+Varun Rajwade   46:48Staff assisted may I'm saying either way may basically okay, let me say app checkout. There are 3 components right? One is an app checkout, just telling the consumer that you know, Sir, you can in case of longer queues ma'am, you can use the app and move out right? Second is staff assisted and 3rd is where let's say kiosk and all that adoption, right?
+Hemanth Gollavilli   47:01Use the app to checkout, right?Mhm.Self checkout kiosk, right?
+Varun Rajwade   47:12So now for each of these, I am sure you have numbers that you are targeting as part of this initiative for our cities, basically you have a network wide number, but our city numbers, I think we should just see those numbers and also see what all.
+Hemanth Gollavilli   47:30Right.
+Varun Rajwade   47:32Do we need to do to drive that? It could be just something like once someone has entered the Jio fence, you just tell a notification saying that you can always checkout on specifically on peak day, right? Sunday evening, you can always checkout on the app.
+Hemanth Gollavilli   47:34Right, so.Right.
+Varun Rajwade   47:53Right, so they are aware of that or you have better signages or whatever, right? So I think we should have a focused experiment on these 3 with targets because this will help us then take into a wider network and create the case for Suraj to say, OK, this seems interesting, let us take it ahead.
+Hemanth Gollavilli   48:08Right, so in fact, we the network is better versus our city when it comes to checkout on app. In fact, we have progressed a lot. So just to give you a number, FI 26, the app checkout on app was live in 100 outdoors.The mix of bills which we are going on to app checkout was 1.5% in Q1 we have added another 130 doors taking the total count to 30 and we have had some VM interventions. The mix improved to 2% last 6 weeks via RSM S we have been really really driving this deep.Last 3 weeks the improvement has been 4%, 4 and half percent% and last week was 7.4%.
+Varun Rajwade   48:55Wow.
+Nish   48:56Wow.
+Hemanth Gollavilli   48:58so and we just got the RSMs on board. We have told the RSMs that we can't actually go with this kind of manning at the cash tills. You have volumes now because it is USS, right? It is your chance to educate the customer and really all single bills, 2 bills, please ask them to checkout on app.
+Nish   49:01Okay.
+Hemanth Gollavilli   49:15We have given them clear guidelines on detagging counters, location of detagging counters, everything, and we see a lot of progress in the last 3 weeks.
+Varun Rajwade   49:23And that's amazing, that's phenomenal.
+Nish   49:24That's great. And there's no signage or anything. That's me, just achchha.
+Hemanth Gollavilli   49:27There is a signage at the detagging counter and yeah, and the at the cash, yeah.
+Nish   49:33Is this, by the way, Varun, this is not a specific experiment. No, we do have this experiment right on app checkout, but it's staff assisted. I think maybe we should.
+Varun Rajwade   49:33I think.We have, we have, we have.No, we also have staff assisted, but then we have the self kiosk. Well, of course, there's a self kiosk. There's another form of self checkout, right? This is just app checkout in that sense, there's another form and ultimately it helps aid conversion.
+Hemanth Gollavilli   49:49Yes, hello.Yeah.
+Nish   49:56Hemant, what the numbers you're giving to about our app plus kiosk or just add?
+Hemanth Gollavilli   49:56Anybody else?No, only app. So Nish kiosk is there only in 14 odd doors?
+Nish   50:02Only.Achha theek hai, understood. So take it. So I think if we are going to then push the 7 point whatever number higher, then we need to think about mechanisms that don't involve the staff and the staff should be there, of course, that's a good part of it.
+Hemanth Gollavilli   50:07So anyway, that is insignificant, yeah.I.So he's the leader right, we will try to tighten it this year because right, and we give experience from the business from the So that's where the VM intervention, the stress on VM intervention that I highlighted.
+Nish   50:24But then how do we add to that with other communications, signage, etcetera? So let's why don't we experiment with that in our city?
+Hemanth Gollavilli   50:43That is gonna really help because today it is largely driven by the staff. In fact, during peak hours, what store managers are doing is they are assigning a specific stylist to identify customers who are carrying one or 2 products and then asking them to checkout on app, right? So, but this is not sustainable, they are doing.It right now to educate, to make them aware. But going forward, I think a lot more organic push will come from VM.
+Nish   51:06sure.
+Varun Rajwade   51:10Hemant, one thing I am just thinking we have to look at how does the staff get all these notifications, and that's one area that I request you to drive a bit because, for example, let us say I come in, I am a 7 star member, I start scanning, right?
+Nish   51:10Yeah.
+Hemanth Gollavilli   51:18What about data?
+Varun Rajwade   51:29Now my propensity for a large bill is much higher than a average customer, right? So let's say I start scanning, CleverTap will come to know that this is Varun, right? CleverTap will come to know that he is a 7 star member, right? Or an insignia member because wo datum me aata, right? I should have an ability to trigger out a notification to store manager saying, hey, Varun is here.
+Hemanth Gollavilli   51:33Right.Which we discuss with the right.Kumar Kumar.
+Varun Rajwade   51:53He is, He just checked out this product right such that the staff can then go and assist Varun and try and convert some other larger, larger bill value things.
+Hemanth Gollavilli   51:57Right. So can we link it to the current experiment where we are saying the kiosk at the entrance where we are asking customers to scan it once they enter the store?If they are already an existing insignia or a 7 star member, it triggers some sort of messaging, yeah.
+Varun Rajwade   52:17It can, it just has to now what is that messaging? I don't know. See abhi, that's what I was telling Sharik Singh Madura, what you have done is there's a power app, right? Jahaan pe wo data ping attack ki hyperlocal order aa gaya, even then Madura, this use case is not there because.It is more an Ecom use case as opposed to a recognition of customer use case in MFI. You don't need a recognition of customer, it is a EBO format, right? But here in the department store format, it is very important to know where the customer and the fact that a 7 star and insignia customer has come in. So if you can just figure out.
+Hemanth Gollavilli   52:35Right.Whether you do it, either or project presentation.
+Varun Rajwade   52:54I could even start by simply sending a WhatsApp to the store manager, right, saying that, hey, Varun is your 7 star member, just scanned this product just at the entrance.
+Hemanth Gollavilli   53:01Rest, all the people, society, all the people. We are fess of doing all of the program sure.
+Varun Rajwade   53:12Right. That can have a very big impact on both conversion and bill value.Aap per wo receive kaise hoga wo samajh log ek bar.
+Hemanth Gollavilli   53:21Aur vaise thoda actually na what happens today is any insignia member who walks in na the customer anyway, sorry, the stylist on the floor towards the end anyway, ask them for insignia, like if they want to enroll in insignia and then they happen to mention that we are insignia.
+Varun Rajwade   53:25Click.
+Hemanth Gollavilli   53:41Then the entire conversation changes and moves, right? Because then.
+Varun Rajwade   53:43Changes.Yeah, so ye agar even I am just thinking for our city, lets say I am just network ka baad mein dekhenge for our city, lets say if someone scans a QR at the entrance or I identify it is a insignior 7 star customer, we can auto trigger on WhatsApp.
+Hemanth Gollavilli   54:01Right.
+Varun Rajwade   54:04To one number, you can just give that number. Lets start there.
+Hemanth Gollavilli   54:09Right.
+Varun Rajwade   54:10Right, lets say some store manager number or assistant store manager do number de do, I will auto trigger a communication to them saying that Varun 7 star member is just scanned at entrance or just scanned this product, go and assist. As long as you have figured out a mechanism for your staff to execute, we can we can do that on the tech side.
+Hemanth Gollavilli   54:27Mindset already as part of usme usme ek hi challenge that this personalised shopper, which is a concept which a lot of brands, especially large format brands, have kind of let go, right?Mainly because during a peak time, if there are 1520 people who are these Insignia Sevensta customers, attending them becomes complicated because then anyway the number of stylus on the floor in a big store is not more than 2022. so.Allocating those that space time to those customers, not sure whether they wanted a personalised shopper or not, but still approaching proactively becomes a little operationally constrained. we can.
+Varun Rajwade   55:18No, of course.
+Nish   55:18This is where the appointment thing can be maybe more useful potentially, right? Where we have no based on our capacity, we can increase and decrease the slumps.
+Hemanth Gollavilli   55:21Yeah, right.Correct, correct. At least appointment will give me a sense of how many customers, what's the kind of expectation.
+Varun Rajwade   55:29Appointment koi karta nahi apne, not that structured.
+Hemanth Gollavilli   55:32Wo nahi karta hai wo shoppers mein shuru kiya tha beech mein ek bar, book your stylist, book your trial room ye sab kiya tha usne.
+Varun Rajwade   55:35Wo appoint wo collective mein nahi chalta apne panelist toh chance hi nahi hai.
+Nish   55:39Aur time aur aur yahaan toh time mein bhee.
+Varun Rajwade   55:43How, as Indians, we are not that structured to say process one step, one where more on the fly.
+Hemanth Gollavilli   55:46Correct, correct.
+Nish   55:47Not at all.
+Hemanth Gollavilli   55:51Correct, correct. So thoda say a complicated to do to move to a personalised shopper kind of a model.
+Nish   55:54That's true.Let's do this. Let's do this, Varun. We had talked about doing a kind of re brainstorm, taking stock where we are, what are the other things that we haven't taken up, new ideas that have come up so that we can green light kind of the next set of things to work on. So let's consider them all together.
+Hemanth Gollavilli   56:17The other important thing to consider, Nish and Varun, is like just strike me, right? We look at absolute conversions right in any store, but the mix of family slash individual visitors to that store also has an impact.Of impact on the conversion because end of the day we are measuring total number of walk ins. We are not counting how many groups walked in or how many individuals walked in, right? And when the mix of groups walking in increases, conversion anyway will be lower for that store because they're buying as a group, they're making one bill, right?
+Nish   56:52That.
+Hemanth Gollavilli   56:53So in our research, if you rec there is, the opportunity is also higher. So then the basket size ABV should be higher. Yes, correct. We have to balance because for in the research that we have done it, the share is almost 505050% right, 50% are coming as groups.
+Nish   56:54That's true, but then.No, you're right.Then the basket size become important becomes important exactly. So that's why we have those 2 metrics, yeah.
+Varun Rajwade   57:02Yeah.
+Hemanth Gollavilli   57:13Be it a couple or a family, or so I was just thinking maybe that is also point which needs some attention on like 50% walkins are groups, yeah.
+Nish   57:20Actually, this is a good, this is a good point. This is a good point. So we have sort of not exactly set a target, but we have said, okay, if we can increase conversion by 3 percentage points, we will have the specialist to review. Actually, what it should be is a mix of conversion increasing and average basket size increasing, adding up to that.
+Hemanth Gollavilli   57:28Delhi.
+Nish   57:41600 crore hours. That's, I think that's a good point. That's something we should look at. so.
+Hemanth Gollavilli   57:46Not okay, so that's the mindset change. Okay, we end up learning any AIG. So that's for the.
+Varun Rajwade   57:50So, Hemant, also I will speak, I will maybe if you are free, I will come down. I just want to discuss on this. I don't want it to be a personal shopper program, but I think there are lot of value to identifying a top consumer because they generally like.A bit more coaxing and a bit of ego massage ki sir apa gay vaape mein as in like you are part of our valued customers. Like you said, right, that the moment insignia happens, the conversation changes, right? How do we enable that? I just wanna brainstorm with you because I think that can be a big unlock.
+Hemanth Gollavilli   58:17Right.Otherwise, I think more or less this is fine process. Sure, we can, we can. So, in fact, like how if I have to talk about a close competitor, how lifestyle does it is they have this program called Edge, right? They have dedicated aisles at the billing counter.
+Varun Rajwade   58:35Yeah.
+Hemanth Gollavilli   58:38They have a slightly dedicated space in their stores where there is a sofa, where there is a sitting area. It is all about edge customers, right? And if they want, they can get a personal shopper. Not that everyone gets a personal shopper, but if they can always approach and ask for a personal shopper. So the there are ways to do it, we can look at it and experiment.
+Varun Rajwade   58:47Yeah.Okay.Okay, fine.Cool, great numbers Himant, I think.7 and a half on this app checkout gives me a lot of hope.
+Hemanth Gollavilli   59:12Yeah, Suraj has given me target of 40% so I would.
+Nish   59:12Yeah.
+Hemanth Gollavilli   59:17Jump to conclusion yet.
+Varun Rajwade   59:18No, this app checkout pe 7 and half kar sakte hai toh achchhe app checkout pe jyaada kar sakte hai. That's the.
+Hemanth Gollavilli   59:23Nahi, exactly. So right. So what we are really gearing up Nish and Varun is by September, which is prior to just festive, we are wanting to go to a 25% mix so that the entire store teams are geared up to handle 1/4 of the walk ins.
+Nish   59:24And especially once QR codes are there, make life a lot easier.
+Varun Rajwade   59:27Yeah.OK.
+Hemanth Gollavilli   59:43On self checkout, that's the objective with which we are moving. Of course, it will need a lot of support on tech VM staff and planning a lot of things. When the trigger has started to build in, we just trying to continue the trigger.
+Nish   59:57once with GM, like once the kiosk is rolled out, then it's working well, then we can really kind of, at least in those stores, we can really put out the silence. These are the different ways to checkout.
+Hemanth Gollavilli   1:00:02Right.Right, we should, yeah.
+Nish   1:00:11But we can start doing that in stores that don't have the chaos, we can start doing it anyway, right? Like you can checkout on the app. So it's so that we will, I don't know, that's not covered under a current experiment, but we or is it already?
+Varun Rajwade   1:00:13Even now.Need to connect and fine tune the list now, but.
+Hemanth Gollavilli   1:00:26Yes.Right.
+Nish   1:00:29The things. So let's plan that meeting, Varun, if you can just connect with Amit and Niharika and let's plan that in person meeting should again take another good 23 hours, I think, like we did last time. So take care.
+Hemanth Gollavilli   1:00:31For that, you can't do it at all, right?
+Varun Rajwade   1:00:41Yeah.Yeah, and also get in Sandeep on that one. I will switch to Sandeep.
+Nish   1:00:47Correct, correct, correct.
+Varun Rajwade   1:00:50Okay, cool.
+Hemanth Gollavilli   1:00:51Okay, sure.
+Nish   1:00:51Hey, also one just quick thing, why don't when you create this GPT or whatever you call it, just put in all our meeting recordings also, just throw everything.
+Varun Rajwade   1:01:00Sure.
+Nish   1:01:02Get the full context.
+Varun Rajwade   1:01:02Sure. I'll also speak to Praveen. What's the most secure way to do that? Because this is now data I don't want in the public GPT. So how do you have a secure GPT? I'll just have a chat with him.
+Nish   1:01:09Yeah.Yeah, on ChatGPT, I know there's a way to turn off like phone remember over, who knows what they do with that.
+Varun Rajwade   1:01:20Yeah, God knows what it is like Google, right? Don't send me personalised, don't remember my history, God knows what it does.Cool, just on that scan piece, let's then close with Mallika Mallika on EPC to VN. What is Are we on track?
+Hemanth Gollavilli   1:01:36Thank you. This is time, I think.
+Malavika Goli   1:01:41We are on track. There was a SSL certification challenge which we have now sorted, so we will be able to track it for this August 5th sort of a launch date.
+Varun Rajwade   1:01:55Very good. Just I think the release you're releasing on both app and M web or only on app just now.
+Malavika Goli   1:01:56Yeah.No, it'll be on both.
+Varun Rajwade   1:02:08So the UAT link, just send it to Nisha and to me so that we can just go through the UI. You can just put it on this group. This is the EPC to AN reader.
+Malavika Goli   1:02:11Achchha.Okay.
+Nish   1:02:15Sorry, this is for what exactly? This is for what?Eater.
+Varun Rajwade   1:02:22For the QR on the tag, right? See the Q, the tag has 2 things, right? It is a QR and as the barcode. We had initially used the barcode because we didn't have a QR reader and we didn't know what to do with it. Now with this whole experiment, now we know that EPC scan is important part of this experiment, right? So we build that.
+Nish   1:02:25Achchha.So this is EPC reader, not EPC to AI, not AN to this. Oh, it converts, acha convert to correct, correct, correct. Yeah, theek ha.
+Varun Rajwade   1:02:41Is an EPC reader.No, it will be, it will read the EPC and land you onto the onto the PDP and then there. So you can toggle into app checkout and all that.
+Malavika Goli   1:02:54Theek.
+Varun Rajwade   1:02:55So I think all of this has to then tie in together to get that 40%, which Suraj has give as a major, major goal.
+Malavika Goli   1:02:56Okay.
+Varun Rajwade   1:03:06so Malvik, I just send the UI to Nishant to me and even Amit, saying that this is the UI, take some screenshots, show it to us along may send it to us along with the link.
+Malavika Goli   1:03:06Yeah.Yeah.
+Varun Rajwade   1:03:25And specify that is only nobody should check it out on web, right? So people specify that, right?
+Malavika Goli   1:03:32Yeah, sure, I'll do that.
+Nish   1:03:33It won't work on the app right now or?
+Varun Rajwade   1:03:36No, so she is done app and M web, but app in iOS, because all of us are on iOS, needs the that what is that UIDUDID or something to release to get the.
+Nish   1:03:39Hello.Yeah, and then and then there's a specific app through which you get the releases.
+Varun Rajwade   1:03:51And it is very complicated to go down that road, so therefore at least on MY we will get a sense of the UIUX. Yeah, it will be a SIM UX.
+Nish   1:03:54Okay.It'll be the same kind of UI being sent, and then you can show it to us on a call also once it's in beta or whatever, but cheeker sounds good.
+Varun Rajwade   1:04:04Yeah.
+Malavika Goli   1:04:04Yeah.Sure, on the geo fencing bit, we had earlier targeted for 20% on the click through rate for the notification that goes to the customers. So basically, the matrix here is how many customers are clicking on the notification and then walking in the store.And we had targeted ourselves internally as a 20% on the click click through rate.
+Nish   1:04:32And what And what was the basis of that 20%? Is that what you're seeing in general? or?
+Malavika Goli   1:04:37I did some market research. I did some research on this earlier, Nish, to see how the competitors who have implemented this functionality in the market have seen the result.
+Nish   1:04:50Retail, retail competitors.
+Malavika Goli   1:04:53Retail, yes, so it showed 20%. So we were I was looking at the latest numbers. So we have about 477 customers who have done the push notification, who have seen the push notification across Indra Nagar and our city. Those are the 2 stores we have this activated on.
+Nish   1:04:55Okay, take care.Hello.When you say seen, that's seen is different from receive.Or is it received?
+Malavika Goli   1:05:15Seen.
+Varun Rajwade   1:05:15No, she means received. I want no seen received.
+Nish   1:05:17Received.
+Malavika Goli   1:05:17Received on it is received and out of that 21 have walked into this 91 have walked into the store which is giving us about 9, yes, that's about 19% yeah.
+Nish   1:05:21Thanks.91 out of 477.I walked into the store.
+Varun Rajwade   1:05:34Its also because you are in the geo fencing area, but...
+Nish   1:05:38No, I understand. But wait, okay, now I am getting confused. Are you saying 20% we wanted walk into the store or 20% we wanted clicking on the notification?
+Malavika Goli   1:05:47We wanted 20% clicking on the notification, but it is actually done good. We have 19% walkins.
+Nish   1:05:53Better. Okay, so how many click?
+Varun Rajwade   1:05:54No, so how many have clicked on the notification?
+Malavika Goli   1:05:58So it is about 36%, so we will have to go back and change.
+Nish   1:06:01Wow.
+Malavika Goli   1:06:04And that too, this is come, this is a communication which is like a very, it's a GBT con, yeah, it's a very generic conversion. So I will have to sit with Jigisha and I was thinking we can do 2 things to improve this right if we have something which is store centered.
+Nish   1:06:10Generic kind of.No.This is bearing.This is very encouraging. So 91 actually walked into the store and then we got some purchases. How many purchases did we get?
+Varun Rajwade   1:06:23I.
+Malavika Goli   1:06:27Yes, 1,44,000 worth of purchase. Yes, rupees.
+Nish   1:06:30Rupees.
+Varun Rajwade   1:06:31No, so Malika, one sec, I just want to make sure the funnels are absolutely correct, right? So for.
+Nish   1:06:33That's fine. So the what? So my.
+Malavika Goli   1:06:36Hi Varun, I have vected this. No, I vected each and everything last one mein gadbad tha.
+Varun Rajwade   1:06:42One sec, one sec. So 477 entered a geofence fair.
+Malavika Goli   1:06:46Yes.
+Varun Rajwade   1:06:47They got a communication fair. How many communication?
+Malavika Goli   1:06:50No, not 477 have got the communication. We don't know how many entered the Jio fence because everyone who had entered the Jio fence as per as we have shared. So we are assuming 477 and has entered and 477 has.
+Nish   1:07:04Who has the permission?Right.
+Malavika Goli   1:07:10Received the communication, yeah.
+Varun Rajwade   1:07:11Received a company, lets make that assumption. Theek hai, wo baad mein dekheli, right? So 477 received the notification, they entered a geofence out of which 36% clicked on the notification. Current notification is just saying hey, pantaloons is nearby, right? There's nothing more than that, right?
+Malavika Goli   1:07:14Mhm.Yeah.Yeah.yeah.
+Varun Rajwade   1:07:29So that's 150 customers now out of those 150, how you are saying 91 walked into store?
+Malavika Goli   1:07:36Yeah, 91 have made. We don't know how many walked into the store. We 91 have made the purchase.
+Varun Rajwade   1:07:43Sorry, 91 made the purchase. That's insanely high. I am a little worried. One sec.
+Malavika Goli   1:07:45Yeah.
+Nish   1:07:4981 made the purchase or 91 walked into the store.
+Malavika Goli   1:07:50Okay.We don't. We would not know how many walked into the store.
+Varun Rajwade   1:07:55My day was made the purchase, so I'm.
+Nish   1:07:59yeah, that's true.
+Varun Rajwade   1:08:00No, Mallika, one sec, one sec, one sec, one sec. It is getting me very interested but also very worried.
+Nish   1:08:05Yeah, that doesn't seem likely that out of 477 who got the, yeah, it's not true.
+Malavika Goli   1:08:06Okay.
+Varun Rajwade   1:08:09I would love it to be true, but I am just before I stick my neck out and tell this number to anyone outside this call, I want to triple check it, right?
+Nish   1:08:18Don't tell, don't tell this doctor. I'm already telling you.
+Varun Rajwade   1:08:21So Mallika, the are you sure the 156 which is the one who got the noti who picked on the notification out of that 91 purchased or out of the 477?
+Malavika Goli   1:08:37Out of the 47791 purchased.
+Varun Rajwade   1:08:39Okay, so first you have to create 2 funnels out of the 156 how many purchased out of the 4 the non clickers how many purchased right first funnel. Second thing is what I want to make double sure is the.
+Malavika Goli   1:08:42Yeah.
+Varun Rajwade   1:08:58My Lakshmi gets the purchase time, she didn't get it in real time, she gets it the next day from Databricks. The purchase time of the purchase should not be before the notification was sent.
+Malavika Goli   1:09:09Okay.
+Varun Rajwade   1:09:17Right, because just now when the geofencing captures might be slightly wonky, right? I just want to make sure that is taken out, right? It is only a more linear journey that notification was sent and then purchase happened. It should not be purchase happened. Oh, and by the way, on the way out, we figured out that you are in the geofence, right?
+Malavika Goli   1:09:37yeah.
+Varun Rajwade   1:09:37In which case, a little more polluted a sample, right? So just double check this number.
+Malavika Goli   1:09:42But Varun.Sorry to debate on that if.
+Varun Rajwade   1:09:46No, of course, please debate this such a good number.
+Nish   1:09:49Never apologise for doing it. Baru likes to wait.
+Malavika Goli   1:09:51What I think is, I mean, you have made a point that customer has made the purchase walking out the store, he receives the notification, but he was already in the store. And if I mean, I will go back and check on the numbers, but if the customer has...Has seen the notification and because he would have been in the vicinity anyways, so he has to go to the store. Being in the vicinity, he would have received the communication.
+Varun Rajwade   1:10:24Yeah, the idea is not see idea is not attribution of communication. The idea is incrementality of driving customers to store. See, I am not interested in attributing in CleverTap, right? That's not at all the point. Yeah.
+Nish   1:10:39Pallavikas point is that by definition, if they have entered the store, they would have received the notification. So then the question. So the question is more about who actually look, clicked on the notification. Did they click on it before or after?
+Malavika Goli   1:10:46Yeah, no, so I will go back.
+Varun Rajwade   1:10:54So then another so and I now I hear what Nish mentioned or what you are also saying. Then another option we should just think from a tech point of view is once see just now I am asking we have a wide geofencing right? We castor I think a 150 metre.
+Malavika Goli   1:11:07Yeah.If that is a doubt, we'll have to check this with the details.
+Varun Rajwade   1:11:14Radius just to cover malls which are typically big, right? Secondly, once you enter a geofence, also we are updating the geofence every one hour or I asked her to update it to one hour frequency because that message had come up, right? Pantaloons is access to your location, so we want to avoid that.
+Malavika Goli   1:11:15Yeah.Yeah.Yeah.yeah.Okay.Okay.
+Varun Rajwade   1:11:37So once you enter a Geo fence, then that frequency needs to increase and the radius needs to reduce, right? So that we are also we are also able to identify that, okay, the customer entered the mall. Did the customer come close to our store? That's then a more interesting piece.
+Malavika Goli   1:11:52In.
+Varun Rajwade   1:11:56That's a separate conversation that we you should have on. How do we dynamically alter the geo fencing location and keep progressively making the consumer warmer and warmer from a lead perspective?
+Malavika Goli   1:12:10Yeah.
+Varun Rajwade   1:12:11But this data set up half an hour with me tomorrow and Lakshmi, I want to go through this data in gross detail because this is super exciting but also super boring.
+Malavika Goli   1:12:20Sure.
+Nish   1:12:24Also, lets do one thing guys, see some number of people who walk into the store would have bought anyway, correct? So we also need to ideally look at the totally walk ins to a mall into the mall.Historically, and how many end up purchasing at Tantoo's and then take care. So and then we look at the differential.
+Varun Rajwade   1:12:48Wo mil jaayega aur city mein mil jaayega.
+Nish   1:12:54Take care.
+Varun Rajwade   1:12:55Yeah.
+Malavika Goli   1:12:57Okay, one interesting data I just wanted to share with you, Nishvi, you had us last time.
+Nish   1:13:00Oh, by the way, also Malvika, I want to mention to suggest to Varun that since if we truly exceeded our goals by 80%, then that 1,44,000 ka jo profit, I know I was supposed to say 80% is your bonus. Okay, so just want to mention that.
+Varun Rajwade   1:13:15Yeah.I would love that to happen. Malika would love that to happen even more.
+Nish   1:13:19Malvik has now recorded this like board member said.
+Malavika Goli   1:13:22I will record this. This is already recorded.
+Nish   1:13:25Okay.
+Malavika Goli   1:13:28Now I will sit and work on each content for each store.
+Varun Rajwade   1:13:29No, but this is...This super interesting if this is true, right? I just want to make sure it's true.
+Nish   1:13:35Yeah.
+Malavika Goli   1:13:39I will get you all this supporting data warden.
+Varun Rajwade   1:13:43Be ready for a grilling session on this anyway, but...
+Malavika Goli   1:13:46On it, one interesting point Varun also want to share on the same bit before we move on is on one thing that Nish had asked last time if we are able to understand how many customers have signed up and then after signing in, how many of them have.
+Varun Rajwade   1:13:59Unshared location.
+Malavika Goli   1:14:05Denied so we have so far about 39,000 customers who have given access to the location and about 0.7 custom 0.7% customers have denied after accepting to share.So we Varun.
+Nish   1:14:24Denied after accepting mails.
+Varun Rajwade   1:14:26So you first allow access and then you which is not too bad.
+Malavika Goli   1:14:27So they said.
+Nish   1:14:27First Allah, sure. And this remind me, this has been rolled out nation in the new version nationwide, right everywhere.
+Malavika Goli   1:14:37This is across, yes.
+Varun Rajwade   1:14:38Location access is nationwide, the geo fencing is only in 2 stores, but that number also what I our city and Indra Nagar. But I was just asking also on the data points the CleverTap data points that are being consumed. I don't think they're that much. We should be able to roll it out to all 400 now.
+Nish   1:14:41Correct. I know. Which 2 stores? RCT and?
+Malavika Goli   1:14:47Indra Nagar.
+Nish   1:14:48Okay.
+Malavika Goli   1:15:03Yeah, Varun. So that is 0.1% of the actual consumption that's happening.
+Nish   1:15:03All.
+Varun Rajwade   1:15:09That's like I have just asked Lakshmi, I will ping you and Lakshmi. So basically, Nish CleverTap charges us for data points, number of events we send. So I just wanted to calibrate and make sure this does not spike up costs, but the amount of cost it will.
+Malavika Goli   1:15:13Okay.
+Nish   1:15:18Correct.yeah.Sure.
+Varun Rajwade   1:15:27Costs may the additional number of data points is negligible compared to the benefit that this can get us.
+Nish   1:15:29Sure.Potential benefit here. So take it. I think we need a whole like analysis of this with the funnels, with the cost and return. Now 39,000 accepted the location commission, but how many were offered? How many downloads were there? Like what is the higher up in the funnel?
+Varun Rajwade   1:15:36So I.Yeah.Yeah, this is very interesting.
+Malavika Goli   1:15:52So we have about 1,20,000 downloads.
+Nish   1:15:53Okay.Not bad. So 1/3 were expecting, were accepting, basically. Wow, that's really a lot more than I expected. That's great. People jaldi, jaldi, jaldi, jaldi, so.
+Malavika Goli   1:16:01Hey.
+Varun Rajwade   1:16:07We are fairly liberal with giving data now, Joe B disco, Joe Leno time.
+Nish   1:16:14By the way, I have seen, I think it was Zamato of Links. Someone had this trick, okay, it's sneaky. By the way, some of these players are being investigated also because they don't show the proper breakdown of cost. You have seen that, right? Like, oh, you are buying a ₹200 item, you are paying ₹400, the detail is all hidden for you. But they did this interesting thing where they had like...Yes and no, but the no looked grayed out as if you can't click on it, and the yes was of course like brightly coloured, and I also hesitated. I was like, no is not a day that is great.
+Varun Rajwade   1:16:47Dark patterns, no under the government is coming on.
+Nish   1:16:51Yeah.
+Varun Rajwade   1:16:54Okay, so this is very interesting.
+Nish   1:16:57Good, very good. Yeah, okay, Jagisha, we have.
+Varun Rajwade   1:16:59EPC 2 and we have a good update. So I think between the 2 we will have good progress on these 2 tracks. Jigisha, on communications on the geofencing, we now got all the details, are we able to configure the campaigns?
+Jigisha Patel   1:17:16Varun, I need to run it fast Sandeep since he was banned just yesterday. So that's yeah, that's the otherwise, I think as far as images are concerned, those will probably take some time the development of the images.
+Varun Rajwade   1:17:22Okay, I use this back yesterday, yeah.Okay.
+Jigisha Patel   1:17:35Nitish Nish to the yeah, yes.
+Nish   1:17:37Achha, on the communications Jigisha, let's make sure that as we look at this fund data, we also report for ourselves where new communications are pushed out and then what impact that has on the fund.
+Jigisha Patel   1:17:53Sorry, sure, okay.
+Nish   1:17:53So I think between you and Malvika on the funnel, so between you and Malvika, you will have to coordinate, just maintain a spreadsheet and just track like, okay, with these communications, this is what the funnel looks like, etcetera.
+Varun Rajwade   1:18:04yeah.
+Jigisha Patel   1:18:06Okay, noted. Nish, just to the point that you had made, you had sent a reference last time saying that products can be customised. The thing was, I think the idea was to show the very specific product that the consumer wanted to buy. No, it was generic to shorts or yeah, it was.
+Malavika Goli   1:18:07Yeah.
+Nish   1:18:22Isn't that what that was?it wasn't.
+Jigisha Patel   1:18:27In that sense, generic right? It is in the screenshots that you were looking for, etcetera, etcetera, which particularly I think would be a little bit of a challenge in my view. But that I will just yeah, check with Deekshant and I will get back. yeah.
+Nish   1:18:29Achchha achchha.I see.Theek hai, theek hai. Initially, we can initially then we can try the category level and then move on to specific product.
+Malavika Goli   1:18:46What's wrong?
+Jigisha Patel   1:18:46Yes, yeah.
+Varun Rajwade   1:18:47And Mallika, when is the development getting done on cart and wish list checkup with that store inventory?
+Malavika Goli   1:18:54We will be lie by August end with that feature.
+Varun Rajwade   1:18:57Okay.So basically then what we had discussed Nish with Suraj Singh that you have a certain card or a certain wish list against certain PDP, how much of that is eligible? Mallika, make sure it's also extended into PDP viewed, right? Because CleverTap has all that data.
+Malavika Goli   1:19:17But one customer would have browsed a lot of products. Should we look at the last browse, last browse, go in that sequence and say?
+Varun Rajwade   1:19:25No, you will see if you have a cart, great, that's highest priority. If you have wish list, second highest priority within PDP, you could go in any FIFA logic or Lifo logic, right? Whatever when you have last browsed, use that.
+Malavika Goli   1:19:29Yeah, wish list second.
+Nish   1:19:30Wish rest.You see there are 2 things that matter in marketing, there's recency and there's frequency. Okay, so use some combination of the 2, right? If in the last whatever, take week or month or whatever, let's say week, if there's a...
+Malavika Goli   1:19:37Is it cool?
+Varun Rajwade   1:19:44Yeah.
+Nish   1:19:55Product that I have looked at recently, but only once, then that's also important. But if also I have looked at a product 3 times, that's also important. So you can come up with some formula that balances recency and frequency. Take care.
+Varun Rajwade   1:20:05Got it.And let that configuration be in clever tab, but from a tech. Sorry, I think Nishi was saying something. No, yeah, good.
+Malavika Goli   1:20:10Yes.
+Nish   1:20:17Also, I was gonna say that I was gonna say that X when you look at these things, maybe that will happen automatically, but make sure you exclude things that have been purchased already. That's the most annoying thing about retargeting on the Internet, is like you bought something and you keep getting chased about it, right?
+Malavika Goli   1:20:32yeah.Yeah.
+Nish   1:20:36So if something has been looked at a lot, but he's already purchased it, then exclude that.
+Malavika Goli   1:21:02Haan.
+Varun Rajwade   1:21:02Tech, right? Let marketing then decide how you want to communicate that, right? Which image do you want to use, which you don't want to use? But from a technology lens, any so you should look at we lookups between card, wish list, and PDP.
+Malavika Goli   1:21:04yeah.
+Varun Rajwade   1:21:22With store inventory.Right, that's a phenomenal capability that to have that phenomenal.
+Malavika Goli   1:21:31Yes, okay.
+Varun Rajwade   1:21:31Specifically, as you integrate with QR product scans, you'll be able to therefore say, OK, what products you had scanned, you might not have purchased in store, right? Next time you're in store, you can pop it up or you can pop it up on ecom in so you can actually create a very nice loop for consumers.
+Malavika Goli   1:21:36It's a power.Yes.Okay.Okay.
+Varun Rajwade   1:21:58Yeah, okay, Jikisha, also on that gifting, Vera V.
+Jigisha Patel   1:22:03So gifting the PDPs are ready for that. Once I have the QR, we should be able to go live in a couple of days itself. I am hoping the QRs would come by UOD or latest tomorrow, so by end of week this should be ready to I mean we will be already rolling.
+Varun Rajwade   1:22:22And QRS are with this guy Vaikunt.
+Jigisha Patel   1:22:25Yeah, I've just written to him. I got the final URLs yesterday, so I've written to him this morning. I've also messaged him. I'll just try to get in touch and fill it out. Yes, Nisha speaking on.
+Varun Rajwade   1:22:35Okay, fine, take it. Okay, cool.
+Nish   1:22:38Gifting communications. We had already the BM had already reviewed, right? And we had reviewed that on the call, I think. Yeah, take it, take it.
+Varun Rajwade   1:22:51Okay, great. Cool, good. Thank you.
+Nish   1:22:53Okay, good. Thank you. Alright, thanks guys. Good progress. Very good. Thanks.
+Malavika Goli   1:22:56Thank you.

@@ -1,0 +1,442 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260818_110037-Meeting Recording
+August 18, 2026, 5:30AM
+1h 1m 28s
+Parasa Neeharika started transcription
+Parasa Neeharika   0:36Hi, Nish. Good morning.
+Nish Bhutani   0:37Hi, morning.How's the progress with Varun and you with the?New experiments.
+Parasa Neeharika   0:48Oh.So, I have shared them for review to a met and Varun, and maybe just quickly, I'll just share it for you before others join.
+Nish Bhutani   0:54Okay.Sure, sure.
+Parasa Neeharika   1:05So, the experiment, and we have just listed down the description, so we have discussed, and then maybe we can see, maybe I'll share this with you as well. Nish, you can go through it if there are anything to be modifications to be made, please let me know, I'll correct it.
+Nish Bhutani   1:10Yeah.Show, show, show.Sure.
+Parasa Neeharika   1:24And then should we discuss regarding this in today's call itself?
+Nish Bhutani   1:31We could actually, it's not a bad idea. I think we should do that. Yeah.
+Parasa Neeharika   1:35Because anyway, Jigisha and Altamas are not joining. I think Varun Babji is also not joining. So, we will conclude other with other owners, like whatever is the update, and then maybe we will try to start this part.
+Nish Bhutani   1:43Okay.No, Okay.Do we have any updates from Jigisha and Altamas?
+Parasa Neeharika   1:57Jigisha has shared the update saying that she has prepared the QR codes are ready and she has shared it with Varun Babji, but since he is also on leave, so there's no update on when it is going, when to go live.
+Nish Bhutani   2:05Ohh.Okay.
+Parasa Neeharika   2:15So the go live is only pending. So that again, in our last call, we have discussed that Varun Babji has to come to us with whatever of the signages for the review he has to give us for the review. But that is also yet to be received.
+Nish Bhutani   2:15And the signage and all is final.He has to give meaning he has to review it or.
+Parasa Neeharika   2:35He has to provide to us for review. You have asked.The signage and the content.
+Nish Bhutani   2:41No, I thought Jigisha had Jigisha had already written the content, right? And I had reviewed it.
+Parasa Neeharika   2:50So, this is for the the queue.Should I come there?No, Nish.No, OK, yeah.Oh, just a minute.
+Nish Bhutani   3:04Oh, you're talking about the QR code for the labels?
+Parasa Neeharika   3:09Just a moment, Nish. I'm just moving to Varun's cabin.
+Nish Bhutani   3:10Okay, okay, sure, sure, sure, sure.Chalke.
+Shariq Haroon   3:37Pandit.
+Nish Bhutani   3:39Hi, Asha.
+Parasa Neeharika   4:11Nish Varun is here.
+Nish Bhutani   4:15Ahire.
+Shariq Haroon   4:17Varun.
+Parasa Neeharika   4:17So sorry, I my.
+Shariq Haroon   4:21Yeah.Varun, not very audible.
+Parasa Neeharika   4:25Meeting that, are we audible now?
+Shariq Haroon   4:31And what by the year?
+Nish Bhutani   4:33Yeah, I can hear you, Arora.
+Parasa Neeharika   4:33Okay, so I went to the other meeting room and then I'm wondering, Kiao and then Neeharika mentioned we are doing it remotely.
+Nish Bhutani   4:42Okay, okay.
+Shariq Haroon   4:45I was looking.
+Nish Bhutani   4:45Okay, so...Okay, let's just do the updates first.
+Shariq Haroon   4:48We will.
+Nish Bhutani   4:53So firstly, I just want to understand like Jigisha updates, Neeharika, just take it for each of her experiments.
+Parasa Neeharika   4:59Ohh.Yes, maybe I'll just speak Rashi.So, Malavika might be might not be able to join Nish, so there's a some P.Zero on Super App which she is working on.
+Nish Bhutani   5:17Okay.Okay.
+Parasa Neeharika   5:25Right, Vishak just called it, given a...like a feedback on the app.
+Nish Bhutani   5:34Okay, okay.Vishak who?
+Parasa Neeharika   5:38Vishak, Vishak, Vishak had, Vishak own app had an issue, so now everyone is trying to figure out who I can, right?
+Nish Bhutani   5:39Vishak, ha ha.Yeah, okay, okay.OK.
+Parasa Neeharika   5:51So, this is the update from Jigisha.
+Nish Bhutani   5:52So what Jigisha is saying is gifting.
+Parasa Neeharika   5:55Sorry.
+Nish Bhutani   5:56Once he's back, I should run on the sample production go live. Akshay, so that's basically on that the production stage.Okay.
+Parasa Neeharika   6:05But she has she shared the final iterations, so then you should ask her to send it as part of the protocol, send it here, let Nish, yes, yes, me.
+Nish Bhutani   6:16I think she did, right? I think I reviewed these, if I'm not mistaken.
+Parasa Neeharika   6:20The gifting QR, you have seen it. I thought it was more the the first prototype, not in the prototype, it was more the concept as the as opposed to the actual ones. Maybe, maybe, right, maybe, but the final ones were not reviewed, Nish. So, so final one.
+Nish Bhutani   6:23I'm OK.Okay, okay, maybe. I don't know. Yeah, I'm not sure. I'm not sure.Okay, okay, so then do send. Did she send it to me already or no? Did I miss it?I don't know.
+Parasa Neeharika   6:44Sorry, Nish.
+Nish Bhutani   6:46She hasn't sent them at all, right? Or I'm just wondering if I missed it. Okay, okay, okay, okay. Take care.
+Parasa Neeharika   6:49No, she has sent them, no.
+Nish Bhutani   6:55Yeah, so let us send those to us before they go into production. Yeah.Push notifications for your geotagged customers.
+Parasa Neeharika   7:03Thanks.
+Nish Bhutani   7:10Okay, so the ones that we've done right now are not the ones that Jigisha had suggested.
+Parasa Neeharika   7:16No, so if you remember the current one is your 200 meters away, right? That's just the plug that was there to prove the fact that take the take is working right, and then we can say.
+Nish Bhutani   7:24But there was only one notification. No, was there only one notification or?
+Parasa Neeharika   7:28There's only one notification, the rest hasn't been activated, and that's what they are yet to be done. I don't know why she needs to show it to Sandeep, just send it on message and get a response, right? I'm getting so many responses from Sandeep on that. Just, I think we need to push her a bit, right, because this is...
+Nish Bhutani   7:29Asha.Okay.Yeah, who's going to push her? Yeah.
+Parasa Neeharika   7:47This is like the lowest hanging fruit up.
+Nish Bhutani   7:53**, ***, this was today, so just tell Jigisha Neeharika who can who can reach out to this is a message to you, was it Jigisha?
+Parasa Neeharika   7:53The one.Yes.
+Nish Bhutani   8:05Tell you what, why don't you put her updates on the overall group? Okay.
+Parasa Neeharika   8:11Yes.
+Nish Bhutani   8:11So that way it's like better than, you know, she also knows that everyone's aware of it. And then just respond on there saying that this is what came out of the Tuesday call with everyone, including Nish and Varun. That for.2, like if you can't get a time today, then just send him the message and get it approved, right?
+Parasa Neeharika   8:29Sure, sure, I'll do that.
+Nish Bhutani   8:31on the other content for the notification.
+Parasa Neeharika   8:35So, this is related to that 200 meters one, where, so that has to be corrected, so I will I will set up a call with Malavika and Jigisha and both two and three is actually the same point, yes, yes, this is 2 points, yeah, same.
+Nish Bhutani   8:35What does this mean?Archer.The.It's the same point. That's just one specific notification, right?
+Parasa Neeharika   8:52related to the notifications and the content.
+Nish Bhutani   8:56Why don't who's gonna review that text that 200 meters one?
+Parasa Neeharika   9:00No, so there she wants to send it to Sandeep and get him through it. I'm assuming she's taken her boss who's the loyalty head through it. In fact, last time my suggestion was we should maybe use Rohit's team to get it done, but fine for now I don't want to change that.Owner, I'll I'll finger and push her, and you also put it up on the group, and also.
+Nish Bhutani   9:27Nini, I'm talking about that specific 200 meter one, right? That's the only one that she needs to exchange on.
+Parasa Neeharika   9:33No, actually, that's the only one which is going.
+Nish Bhutani   9:38I know, but we need, but that's the...
+Parasa Neeharika   9:38There's nothing else about.
+Nish Bhutani   9:41I know, I know. So the second one, she's anyway supposed to meet Sandeep or whatever. Yeah, we'll push her on that. I'm saying on the third one, on the one meter one, who's going to make the text change?
+Parasa Neeharika   9:53Jigisha is going to make the content for that.
+Malavika Goli   9:56I will make the change yet. Hey.
+Nish Bhutani   9:58Okay.
+Parasa Neeharika   9:58Are the the actual take the configuration will be done by maybe Malavika for this one?
+Nish Bhutani   10:06Text, not text, text, the communication change.
+Parasa Neeharika   10:09The content will be Jigisha running it through Sandeep, so that that's so actually niche.2 and.3 are exactly the same, there's no difference.
+Nish Bhutani   10:13Okay.No, no, I know that, but she's saying I'm yet to receive a direction from you, Malavika.
+Parasa Neeharika   10:22So basically, I told her, I sent her the screenshot saying that this is something that is going today and we need to correct this. So for that, I said that maybe we'll have a quick call with Malavika, Jigisha and me that I couldn't do that last week. So this is just a five, 10 minutes call, Nish, that is not a big thing.Thing, I'll just close that, and then...
+Nish Bhutani   10:42No, no, you don't need 5, 10 minutes even.You just send her that someone should just send her the text, no?
+Parasa Neeharika   10:46Actually, I...I sent, I sent, but then again she wanted a detail on it. Maybe I'll just give her a brief saying that this is this is what it is.
+Nish Bhutani   10:57Which text did you send her?
+Parasa Neeharika   11:00So the one where we are saying that you are 200 meters away from the bank loan store. So that is the screenshot that I have shared with her.
+Nish Bhutani   11:08No, no, no, for some reason I'm not able to get across. I'm saying someone needs to write the new text and send it to her to Jigisha.
+Parasa Neeharika   11:17Yeah, I think.
+Nish Bhutani   11:19Right. Or Jigisha just needs to write it herself. Why does it need a meeting? I don't understand. All we need to just tell her this. Instead of 200 meters, just say that, you know, just name, put the name of the store and the mall. Say, you know, CartPantaloons is, you're close to CartPantaloons at.
+Parasa Neeharika   11:28Got it, got it.Hello.
+Nish Bhutani   11:39Our city mall or whatever, right? That's what you were intending, right, Varun?
+Parasa Neeharika   11:44Yeah, actually, it is like saying, you know, basically, let's say if you are a shirt consumer, right? Check out the latest collection in Pantloans, Indranagar store with a CTA to location, right? Or CTA to Google Maps, that sort of thing.
+Nish Bhutani   11:56Exactly, yeah, so basically just instead of saying to exactly, so exactly, so instead of instead of saying.
+Parasa Neeharika   12:05You're 200 meters away, which is too direct.
+Nish Bhutani   12:07Yeah, yeah, so just basically tell her instead of saying 200 meters just put the name of the store and the location saying you are close toUh, CartPantaloons at our city mall. Just give her that example and then she can word it however she wants.
+Parasa Neeharika   12:20RCT Store.Sure, OK.
+Nish Bhutani   12:27Yeah, OK.
+Parasa Neeharika   12:28Yes, but I think we have to drastically push her, yes, yes, because marketing is supposed to be doing this now.
+Nish Bhutani   12:38Yeah.Okay, Sikka.
+Parasa Neeharika   12:42But just, if you click on the latest message that I've sent on Horizon, Nish, last time the question that we had was, what is a window within which consumers come and purchase, right? So, just go up for Uberka table. So, basically about...But 1,80,000 consumers have given us permission. 32,000 have denied permission at the time of install slash opening. But people who gave us permission and then denied is 2595, right? Of which some 1422 have entered the geo cluster and therefore let's assume 1422 notification saying.
+Nish Bhutani   13:11Yeah.Sure, sure.
+Parasa Neeharika   13:24for now, right? Uh, 174 purchased, right? Now if you go down.
+Nish Bhutani   13:25Yeah.
+Parasa Neeharika   13:32Of that 174.About 15, the Niket line, the last one is 2 days after, which is 15. That means basically this notification was able to influence a good number of people. And specifically, what's very interesting is within an hour, one to two hours, two to three hours, right? Because that's the window of a mall or a store consideration visit.
+Nish Bhutani   13:47Mmm, that's great.Mm.Yeah.
+Parasa Neeharika   13:58Right? So there is, even if I just look at the first three, 4 rows, that's about 100 consumers, right? Out of 1400 who have entered the geo cluster, that's a pretty, pretty amazing number to look at.
+Nish Bhutani   14:03Yeah.Yeah, that's very good. Yeah.Yeah.It is actually, it is. And as we improve the notifications and all, hopefully that number can go up.
+Parasa Neeharika   14:22And that's something that we have to therefore Jigisha push this, say push this with Jigisha including this, you know.
+Nish Bhutani   14:22Right.
+Parasa Neeharika   14:33Maybe a group with me, yeah, yeah, and I then go and speak to Sandeep and Samit and all that drama we can do to just get this done, sure, sure, but I am seeing the good opportunity and we just think being too slow about it.
+Nish Bhutani   14:47And this we you said we have rolled out in two malls, correct?
+Parasa Neeharika   14:51Just now, two stores.
+Nish Bhutani   14:53Mm.
+Parasa Neeharika   14:55But I think with this number, I just want to, there I want a procedural go ahead from Sandeep. And this week, next week after the award, we'll have a slot with him for a full update on next horizon. And this will then just be a procedural update to my mind, saying if you're getting.
+Nish Bhutani   15:10Yeah.
+Parasa Neeharika   15:14this sort of influence, then what's the harm? Even if it means slightly more, you know, data point usage and therefore maybe a couple 10 lakhs more a year, but this itself is a strong influence.
+Nish Bhutani   15:17Then, let's...Yeah.Yeah, yeah.Um...Yeah, I think I think that's exactly right. In fact, it'd be nice if that put those purchase numbers we can put rupee figures against those also, you know, I mean.
+Parasa Neeharika   15:44Yeah, so there she's put it cumulatively. If you look at last row of Indra Naganathan, that's 2,67,000, that's cumulative. I think Malavika, fair point for the for within that day purchases that have happened, right? So the first five rows just put out a number, value number.
+Nish Bhutani   15:47Correct, correct.Yeah.Correct.Yeah, and what we should do is as we roll this, see, we're going to have new messages, right?And...We should track that location given and then denied.Figure.
+Parasa Neeharika   16:21Yeah.
+Malavika Goli   16:22That's there.
+Nish Bhutani   16:22Right? Yeah, but that's something we need to keep tracking because, you know, if some messages for whatever reason really turn people off, that number will start to climb, that 0.5%, right? So that's the thing that we have to watch.It would be also, we also decided, right, that clicking on the notification will take them somewhere. What did we decide?
+Parasa Neeharika   16:47So it could take them onto like a store page or for now in just to drive store visit, it can simply take them into Google Map directions.
+Nish Bhutani   16:58I think that's best, Google Map. Let's just decide on that.
+Parasa Neeharika   17:02Ah, because that then make...
+Nish Bhutani   17:02But it won't be Google Map though, because Google Map won't work right inside the mall.
+Malavika Goli   17:07Oh.
+Nish Bhutani   17:08We had actually said some kind of schematic, but we don't have that for every store, right?
+Parasa Neeharika   17:09Hey, you.No, I think it will the idea is to take them into the mall, right? And say, this is a CartPantaloons. It's got the collection. By end of month, we'll also be able to run the scrub against what you have seen on cart and all that and say, here are three things out of the cart which are there, go try. That sort of thing, right?Therefore, directions make it, we can experiment at directions versus a ECOM, CTN, do an AB test and see what works better.
+Nish Bhutani   17:41Okay, but directions you're saying like a lot of times they'll be in the mall also and directions may or may not work, correct?
+Parasa Neeharika   17:49No, directions to mall will work within the mall, third floor, and all that won't work, of course.
+Nish Bhutani   17:56So what do we do about that? It's okay. We just live with that, I guess.
+Parasa Neeharika   18:00We can figure it out, maybe for High Street, Indira Nagar, we put it directions for mall experimenting to figure out what exactly works, because this is a new funnel for everyone.
+Nish Bhutani   18:05Mm.Yeah, you know what would actually be useful, and this could be a very simple page. I don't know how easily you guys could generate it, right? Which is, like you said, on High Street, you put the Google Maps on for malls, you put...Just the location, like third floor, whatever, right? And maybe you put like the two neighboring stores next to whatever, whatever, right? That kind of thing.
+Parasa Neeharika   18:43So we'll iterate on this Nish.
+Nish Bhutani   18:45Let's start with Google Maps. It's fine. We can start with Google Maps. Yeah, because we go to measure the click rates of each notification, because that will also tell us something, you know. Yeah.
+Parasa Neeharika   18:47Yeah, we'll figure out.Yeah, I will also check whether within CleverTab, Google Maps, and I'm throwing an idea out there, right? I'll have to check is there incompatibilities of any form, but the fundamental piece is that we have to drive to store. Once you've entered into geolocation, it's not about e-com as much, it's stored.
+Nish Bhutani   19:01Yeah.Correct, definitely.Definitely store, definitely store. Okay, good. This is good data. Take care.
+Parasa Neeharika   19:20In case of mall, mostly the push notification is going to the customer once the user is inside the mall. In most cases, I have tested it twice, so no time I was inside the mall and then only I received the message. Good. Yeah, because that cluster is also 200 meters. Malavika, was the exact geo fence, is it 200 meters?
+Nish Bhutani   19:34Mm.
+Malavika Goli   19:41Yeah, Varun, we can increase it if needed, but yeah.
+Parasa Neeharika   19:42Yeah, so therefore it will be available. No, no, we shouldn't. We shouldn't make it too broad.
+Malavika Goli   19:49Also, we are checking every 60 minutes, so only when we get the response of them.
+Parasa Neeharika   19:54Okay, anyway, we'll take that offline on how we fine-tune that. Maybe we just have to try experiment and see what works. But I think there's a good use case coming up.These are the actionables from last week. Maybe we can go with this and then, yeah, follow up, we can good targets, yeah, so this you have already mentioned that we'll have this next week to set up a call with Sandeep, and then so Hemant, can you update on this like?the correlation or quartile analysis that we discussed to see the adoption versus conversion.
+Hemanth Gollavilli   20:56So I'm looking at one month data niche. So here last three weeks we have data for both the self-checkout and the checkout from the kiosk because our city has both options, checkout on app and checkout on kiosk. So we are combining both. This correlation is not yet done. I mean, I'll complete it this week.
+Nish Bhutani   21:01Mhm.Mhm.Yeah.Okay.
+Hemanth Gollavilli   21:18I'm looking at one-month data.
+Nish Bhutani   21:20But you're doing it not only for our city or others also.
+Hemanth Gollavilli   21:24So our city will be the test case and the remaining will be a base scenario. So the spike, additional spike in our city is what we would consider as, you know, the outcome connected to the inputs that we are giving. Because self-checkout on app is happening in other stores also.
+Nish Bhutani   21:28Yeah.OK, but you.Understood, but you, but self-checkout on app is not in all the stores, correct? It's in 200 stores.
+Hemanth Gollavilli   21:46Yeah.230 stores, yes, that's right.
+Nish Bhutani   21:53Out of how many total?
+Hemanth Gollavilli   21:55400 stores.
+Nish Bhutani   21:56So let's do three groups then. Yeah.
+Hemanth Gollavilli   21:59Okay.
+Nish Bhutani   22:02I mean, the our city doesn't have a specific kiosk push or kiosk or self-checkout push, right? I mean, let me put this for all the kiosk plus app checkout ones stores are the same, right? Like the push is the same.
+Hemanth Gollavilli   22:18There are 13 stores which have a dedicated kiosk in the stores. The checkout on app feature is there in 230 stores.
+Nish Bhutani   22:21Right.Mhm.And those 13 stores, we've right now treated the same. There's nothing special about our city, correct?
+Hemanth Gollavilli   22:33You're right, nothing special except for the staff interventions.
+Nish Bhutani   22:34Okay.No, no, that the staff interventions is what I mean. Like our city, we've done more staff intervention than for self-checkout.And...
+Hemanth Gollavilli   22:46If I, if I just look out, self-check out in silos, then no special interventions, but the overall project horizon piece sitting in our city, yeah, yeah.
+Nish Bhutani   22:49Mm.No, no, that's okay. So let's, I think let's just do 3 clusters then, right? Let's do kiosk plus app.Let's do app checkout and then the other stores. And let's compare the three. And we'll look historically also for before these interventions were started, right?
+Hemanth Gollavilli   23:02Cortana.Okay.Under.Sure, sure. So I'll get this done this week.Right, right, right, pre and pre and post.
+Nish Bhutani   23:15Uh, pre and post ticker. OK, sounds good.
+Parasa Neeharika   23:18And Hemant, therefore, you are going to give correlation not just for our city, but for all stores, right?
+Nish Bhutani   23:23Exactly.
+Hemanth Gollavilli   23:23Yeah, yeah, because there has to be a delta between, let's say, the likes of our city stores and the normal stores. So hence, like what Nish proposed, we'll look at it in clusters. We'll see how strong the correlation is across these three clusters.
+Parasa Neeharika   23:40Yeah.The also one, there are two deltas, right? One is just by looking at, of course, the big delta is next horizon. That's the one that we, of course, have to evaluate across all the capabilities that we are building, right? But the second delta is just by increasing self-checkout slash.
+Hemanth Gollavilli   23:55Right.
+Parasa Neeharika   24:01App checkout percentage does conversion increase.Or does L2L increase better?
+Hemanth Gollavilli   24:08L2L may not be the right metric, Varun, because ASPs are also going high this year. The ASPs are better.
+Parasa Neeharika   24:15Or maybe order L2L, right? Order number of orders is that equal.
+Hemanth Gollavilli   24:19ABV also, see there are two, there is slight noise, there will be a slight noise in the data because versus last year one, the ASPs are different. The ASPs are in the range of 6, 7% higher. The second is the PT and PT mix would have an influence on the ABV, which is different for every store.So if I take average bill value and, you know, L2L growth, these two factors which differ at a store level will influence the outcome. Conversion is a very straight.
+Parasa Neeharika   24:48Do both correlations, because it is easy, right? In Excel, it's easy. One is number of orders, and that has increased, and second is, at the end, everyone wants NSV, and has that increased.
+Hemanth Gollavilli   25:01Number of orders, customer entry, the number of orders, uh, if they're increasing in the same proportion, yeah.
+Nish Bhutani   25:03But...I, yeah, I think we're looking at Varun. Yeah, I think we were we were talking about looking at percentage of self-checkout.
+Parasa Neeharika   25:07But eventually.
+Nish Bhutani   25:15Correlated with conversion percentage.
+Hemanth Gollavilli   25:17Correct, correctly.
+Parasa Neeharika   25:18Okay, maybe one question, Hemant, is in all these stores, do we have that automated football counter?
+Nish Bhutani   25:19Ohh.
+Hemanth Gollavilli   25:27Yeah, yeah, yeah. Footfall counter is there in all 400 stores.
+Parasa Neeharika   25:28Then, then we can use that, then we can do that, because I didn't want to learn the manual counting. Fine, then, then you're right, Nish, and then that's the best way to do that.
+Nish Bhutani   25:31Mm.Yeah.Sikka.
+Hemanth Gollavilli   25:40Right, right.
+Nish Bhutani   25:41Okay.
+Hemanth Gollavilli   25:43So I'll circle back on this Nish by Friday.
+Nish Bhutani   25:46Sure, sure. Sounds good. Yeah, we definitely want to, if whatever we find, good or bad, we definitely want to present this to the steer call. So take care. Take care.
+Hemanth Gollavilli   25:55Yeah.OK, sure.
+Parasa Neeharika   25:57Yeah.
+Nish Bhutani   26:00Okay.
+Parasa Neeharika   26:05Jigisha said.Check with her only, and this we have seen now, and so this is Malavika, this is supposed to be by in the month end, right?
+Nish Bhutani   26:10Yeah, yeah.
+Parasa Neeharika   26:19Live on Mathin.Malavika.
+Malavika Goli   26:22Yeah, yeah, yeah, it's on track.
+Parasa Neeharika   26:24Live on one thing, right? Not P.A.T.
+Malavika Goli   26:27No, UAT. EPC is in SIT currently. Yeah, maybe we can track. No, it will be September 4th, go live. So yeah.
+Parasa Neeharika   26:29Good.That's fine.I just want to see the journey once. I think, yeah, I think you had shown the the screenshots to mention, but now that we are into SITUAT, why don't we actually take a product, do the scan?
+Malavika Goli   26:49I will.Yeah.Yeah.
+Parasa Neeharika   27:03Show it to Nish and me, run it, run us through the UI events also.
+Malavika Goli   27:08So, Varun, we are in SIT now. We have some bugs. I will show it to you once we are in UIT.
+Parasa Neeharika   27:17So.And also, how will that data flow into Clever Tab? How, you know, what specific data flows into Clever Tab? Of course, EPC should flow, but more important, EN and the fact that Malavika scanned the EN has to flow.
+Malavika Goli   27:37Hmm. Yeah.
+Parasa Neeharika   27:44Are we on the Wi-Fi part?Now, on Wi-Fi, she had asked me to check with Anup, the CISO. So, Malik, I had a chat with him yesterday. I don't know if he's updated you. I told him, so don't treat it like one big rollout, and therefore the number of stringent checks can be slightly relaxed.
+Malavika Goli   27:46Andy.Yeah, Varun.Farm.
+Parasa Neeharika   28:05So, go ahead. I think you'll let a call with Alliant also, right, in the evening.
+Malavika Goli   28:10Yeah, Varun, thanks for pushing on that. So the context to the call was clear, so we could route it in that directions. So now we have given an approach and Atlanta is okayed to take it that way, and Anup has agreed.to look at this as an exceptional okay, although they don't have the certifications in place, but we will look at it as exceptional case and have this up provided they are working on our approach. So maybe in a day or two, they will let us know and then we can take it forward.
+Parasa Neeharika   28:48As long as they put on e-mail that yes, we are in the intent of solving this and what Anwar just needs to make sure is that from a entry perspective, this is not a weak spot through which someone can enter and hack into our systems, right? I'll have a chat with him saying that that's the bigger thing for just now.
+Malavika Goli   28:54Mhm.Mhm.Mm.
+Parasa Neeharika   29:07As opposed to all the infosec validations, because C.K. and D.P.D.P. is still a few months away, so it's not like we have an immediate 250 crore fine on that.
+Malavika Goli   29:08Okay.Okay.Okay, take care.
+Parasa Neeharika   29:27So, nobody else takes this outside the schools, right? So, I just don't want the POC to start like a bath, bath for what time?
+Nish Bhutani   29:33The.Yeah, yeah, yeah.Yeah.
+Parasa Neeharika   29:45Aluka, but commercials are all signed off.
+Malavika Goli   29:48No, Varun, since InfoSec did not sign up, we did not take it to Sandeep yet.
+Parasa Neeharika   29:54Okay, so send it now. See, I've got a in principle from Anand. Send it to Sandeep today and loop in, Hemant, Shariq, and Neeharika, whoever you need. And let's at least, Shariq and Hemant, let's have a conversation with Sandeep. I'll also go and ping him saying that.
+Malavika Goli   29:58Mm.Okay.
+Parasa Neeharika   30:15A one-time approval with Vijay, then we'll have to we'll have to figure out whether it works and work accordingly with our actions.
+Malavika Goli   30:19Mhm.Learn it.
+Parasa Neeharika   30:26Albert has to go today.
+Malavika Goli   30:28Yeah.
+Parasa Neeharika   30:30Yeah.I think Rohit is not to.So, on QR Hemant, since neither Rohit nor Varun are here, are you aware of what's happened? There were 27 QRs to go live within the store, and there were certain VM things to be done.
+Hemanth Gollavilli   30:47So.Yeah, yeah, actually, uh, Varun is down with Dengo.So he'll he won't be joining today. So Rohit and I are catching up with Sandeep today in the evening, 530. So there we intend to discuss the, we're discussing Pooja and what interventions from Omni Ecom will be there in Pooja. So there Rohit and I kind of felt we will pitch in and walk him through the.
+Parasa Neeharika   30:56Ohh.Of course not.Okay.
+Hemanth Gollavilli   31:16whole VM led QR agenda. So today we're going to discuss that with him.So, so nothing executed yet, but I will walk Sandeep through this, and once Varun is back, we'll get into execution.
+Parasa Neeharika   31:31So, the twenty-seven QRs, and what are Varun Net to do on VM interventions on customer journey that is aligned with you and Rohit just now, but not yet executed.
+Hemanth Gollavilli   31:42Yeah, that's aligned with me and Rohit. We will align Sandeep today, but not executed. There is some work to be done by Varun and VM team. So once that is fine-tuned, like the communication revamp, the fine-tuning of all the comms, which Nish also asked, I think that's still pending from their end.So, we are gonna also push, uh, you know, not Sandeep to help us get it sooner from the VM team.
+Nish Bhutani   32:15So, execution wise, what do you anticipate, Hemant? Like, when do you think this could go live?
+Hemanth Gollavilli   32:20It.Uh.
+Nish Bhutani   32:22Realistic, like, give a realistic estimate.
+Hemanth Gollavilli   32:26So.
+Nish Bhutani   32:26Not one to not want to please the Horizon Group.
+Hemanth Gollavilli   32:29Yeah, yeah, I think VM team will at least take a week more to come up with the comms. Like even if even if Sandeep, let's say, pushes them and asks them to circle back quickly, they'll take at least a week to come back on the exact communication design and everything.
+Nish Bhutani   32:34Mm.Yeah.Mm.Mm.Mm.
+Hemanth Gollavilli   32:49Once that is finalized, I think then it's a matter of few days because it's Mumbai printing and all, doesn't take a lot of time. So couple of weeks is something which is optimistic. It can stretch to three weeks if let's say the alignment on comms and design then is not so fast tracked.
+Nish Bhutani   32:55Yeah.Yeah.Three weeks maybe. Okay. Okay.Take it, take it, take it, take it. Let's just try and close with Sandeep today, and then move it on to VM. OK, OK, OK.
+Hemanth Gollavilli   33:07Yeah, the lesson.Tick, short.
+Shariq Haroon   33:20Hi, Nish. So, this basis, last week I discussed a simplified MP UI has been prepared for the RFID Smart Dragon screen. I'll share my screen.So it starts like this. The customer taps it to start and then the products that are brought into the trial room are detecting. The customer is expected to click on any one.Let's just say the customer is clicking on the first ones, then it would appear something like this because they have brought in M along with them. It will say you have this already and available size and available color would be there. Also sizes that are not there in store.
+Nish Bhutani   34:12Shariq, last time we had last time we had said that we should also indicate.Just like you have you have this, we should have a label saying in store for the others.Because otherwise it seems like they're not available at all.
+Shariq Haroon   34:26No.Okay, okay, okay.
+Nish Bhutani   34:30Maybe something light or something, but yeah.
+Shariq Haroon   34:34But it wouldn't be repeating.
+Parasa Neeharika   34:34Yeah, it's a good problem.That's OK. I think you can, if you let's say, go and use a small icon, not a not a very heavy text, it will look, it will still look fine.
+Shariq Haroon   34:38What is?Aarti.Uh-huh.Okay, or do you want me to rename this online to only available online or only online? And then rest can be assumed to be available in store.
+Parasa Neeharika   34:59See, for now, we had also said that the primary use case is to convert in-store on that day, right? We're looking at Omni stock possibly as the second iteration, right, with that QR. So for now, I think you could even say iterate more of the in-store piece.
+Shariq Haroon   35:07Yeah.
+Parasa Neeharika   35:18And make that more of the focus and less the only online one.
+Nish Bhutani   35:22Actually, what he can do, there's no harm. See, I think if all the labels say either in store, you have this, or online.
+Shariq Haroon   35:27No, no, no.
+Nish Bhutani   35:36Then it's pretty clear, I think, no?
+Parasa Neeharika   35:40It is, it's just in case it gets cluttering, may of course all three is based, but within all three, first two are more important. Of course, what you have is the most important, but what's in store is also very important. Third is then a good to have is just the prior in my viewer hierarchy. Of course, we would want all possibility there.
+Shariq Haroon   35:41Yeah, it is.
+Nish Bhutani   35:43Cluttering, you're saying? OK, fine, fine.
+Shariq Haroon   35:53Sikkim, M.P.A.
+Parasa Neeharika   36:00They can be managed in the UI.
+Shariq Haroon   36:02Very good.
+Nish Bhutani   36:03I'm just thinking on the online one, the, okay, but think of the use case. One of, yeah, one of our, yeah, no, no, I'm just thinking, I'm just kind of thinking out aloud that we have said that one of the common use cases is not finding your size.
+Shariq Haroon   36:09There is a use case, so I agree that we have discussed.
+Nish Bhutani   36:22Right.
+Shariq Haroon   36:23Yes, yes.
+Nish Bhutani   36:24And often you discover that when you try something on, right? So I think putting online is not a, I don't think it'll distract too much. It's not going to respond right when you click on it.
+Shariq Haroon   36:28Absolutely.
+Parasa Neeharika   36:35Sure.
+Shariq Haroon   36:38Exactly, and that's the use case. Let me quickly jump to that in five.
+Nish Bhutani   36:39Or maybe, or maybe, ohh, this is a touch, this is a touch screen, right? Or no?
+Shariq Haroon   36:45If somebody clicks on Excel.This is what happens. I don't necessarily want to give up on that online. Of course, this is not ordering via the QR generated. This is like more to do with the Pantaloos app that they have already. Why not let just them buy it using the Pantaloos app and give them that barcode scanner which they can scan and place an order?From the Pantalus app, and we're not talking about virtual QR, we're not talking about an in-store order placement from the smart trial loop. It is just carrying it, carrying that information and along with that and placing that on the Pantalus app. Why to miss out on that opportunity?
+Nish Bhutani   37:20Mm.
+Parasa Neeharika   37:21Very impressing.
+Nish Bhutani   37:21What do you think, Varun? I don't think there's any harm. It's not cluttering it too much, right? Yeah, yeah, yeah. So I think we can just have 3 labels in store.
+Parasa Neeharika   37:24No, no, this is interesting. I like it does no harm.
+Nish Bhutani   37:34you have this or with you, whatever you want to say. Maybe with you will be shorter, right? That you can decide and online. And it's understood if you're saying online that it's not in store. I think that's pretty, yeah.
+Shariq Haroon   37:40Okay.Yeah.Okay.
+Nish Bhutani   37:51If something is both in store and online, then only show in store, don't show online.
+Shariq Haroon   37:51Okay.Of course, of course, of course, and this remains as is the QR for items that are with them and items that are available in store. They can place an order from the this remains as is, which we discussed last week. The only addition that we have made is is this piece.
+Nish Bhutani   37:56Yeah, yeah, take it.Got it.
+Shariq Haroon   38:14wherein they can continue their online journey and just scan the product which is not available in store for now. Later on we'll merge this along with the one on top and have this in the collective order.
+Nish Bhutani   38:15Locker.Okay.So you just have to finalize the wording and all, like complete purchase will have to say complete purchase and.
+Shariq Haroon   38:28Yes, yeah.
+Nish Bhutani   38:34I don't know, somehow that they have to de-tag and all that, whatever we normally say, I guess, I don't know. Or is that, does it appear, I don't know how that, yeah, something like that, right? Those kinds of things we'll have to just tell them.
+Shariq Haroon   38:39Yes, yes, fine.
+Nish Bhutani   38:44But.
+Shariq Haroon   38:45So, I think we should be trying this out in the same way we are now, so, because when we...Doing self-checkout in Liviana, we would not be having hard tags, at least for that duration. So, having this run in Jiviana, because the smart trial room, the basic, the pilot one which we are doing with the off-the-shelf product that we are also doing in Liviana, so the problem of doing away with the hard tags and not having the...
+Nish Bhutani   39:06Yeah.
+Shariq Haroon   39:11not having the customer to expect to remove the hard tags some way or the other, that problem goes away.
+Nish Bhutani   39:17Sikka.Okay, send us this final version so we can give any specific feedback.
+Shariq Haroon   39:19Give me.Sure, okay, okay. One more thing on the CCTV bit, I know we had a...
+Nish Bhutani   39:23But it's looking good.Oh, we should also consider, sorry, if they touch on the...On an in-store size.Right, then we should give them some kind of message.
+Parasa Neeharika   39:40Thank you.
+Shariq Haroon   39:42Yeah, which is which is this uh the insert size with this message, either add to cart or bring it to the.
+Nish Bhutani   39:47No, no, bring it to me. We are not doing right now, no?
+Shariq Haroon   39:50Are they installed one or not doing?
+Nish Bhutani   39:51Remember?No, because then we have to do the whole operational thing with the store stuff for the MP.There's no bring it to me. It's get it yourself. It's put your clothes on and go get it yourself.
+Shariq Haroon   40:10Okay, okay.
+Nish Bhutani   40:10But that might be too long for a button. I'm joking, I'm joking.Correct.
+Shariq Haroon   40:23From scratch for with ourselves on our text that we would have bring it to me.
+Nish Bhutani   40:26Yeah, yeah, yeah, then we will, but I'm actually most interested in the first version we're rolling out. You know, everything else is like looking ahead, huh? So give a version that's just the first version also.
+Shariq Haroon   40:33Hello.Sure, I'll share the first version also.
+Parasa Neeharika   40:38Nish.Nish, this was discussed in in our meeting when we discussed about the next set of experiments. So maybe once we discuss in detail about those experiments, Shariq will be clear on what is in the scope of this. But, Shariq, I think what you should also just present is this is as it is when we build that in house, right?
+Nish Bhutani   40:52OK, take it.
+Parasa Neeharika   41:01Or in in-house, as in on this on our stack in some form, right? But our current go live is with whatever that vendor has, right? Can you show that UI UX? I think, because I just want to that currently is a bit of a black box.
+Shariq Haroon   41:01Yes, yes.On a sec.Exactly, exactly.Uh, OK, let me quickly pull it up. Uh, it it is there in one for me, but it could quickly pull it up.
+Parasa Neeharika   41:21Because to Nish point, that is the one that you are rolling out as early as possible.
+Shariq Haroon   41:24Yep.Play.
+Nish Bhutani   41:34Hey, we need to, while sharks bring that up, we need to find a time with Sandeep, right, to go through the next set of experiments.
+Parasa Neeharika   41:41Yes.
+Nish Bhutani   41:44So I think we should just have that discussion with everyone in the room and with Sandeep.
+Parasa Neeharika   41:48Yeah, speaking, Vamsi.
+Nish Bhutani   41:49That's probably best, rather than repeating ourselves.And that should happen before the steer call.Do you call anything? I think, anyway, I think this week is unlikely.
+Parasa Neeharika   42:08Yeah, this week though, the AGMs and all that, it's unlikely.
+Nish Bhutani   42:11Yeah.
+Parasa Neeharika   42:13I think Amit is also checking right, checking with Ashish because Randhir couldn't give me a slot, sure.
+Nish Bhutani   42:17With Ashish, yeah.It's okay. I think realistically we also want to be fully ready because we should have Sandeep to buy in also on the on the next set of experiments.
+Parasa Neeharika   42:31Yeah, but I just message them saying that possible mean this week type.So this, if you go down, choose an item you'd like to explore. This is not exploration. It is like here are the things in your cart, right? And also how do we manage the non-RFID products or do you just not have them?
+Shariq Haroon   42:58We would, and there's no way to detect them, but we'll not have them.
+Nish Bhutani   43:00Not have them, yeah, yeah.
+Parasa Neeharika   43:02So, then just communicate that in some form, because otherwise, like, imagine a situation where, right? So, just have some form of communication, just figure something out.
+Shariq Haroon   43:11Call Sangeet Srivastava.Yes.How is that?
+Nish Bhutani   43:19Yeah, I can just say if, yeah, if some items were not detected, please check out manually or at the boss or whatever, yeah.And I think when they select other size, there should be a message in the first version. There should be a message saying.
+Shariq Haroon   43:28OK.Hey, Cortana.
+Nish Bhutani   43:34You know, the size is available in the store. Please ask, please ask a store person for help, or...add to cart use with your phone, whatever, because sometimes they might not need to try it. They're like, hi, it's, you know, slightly looser will be fine or whatever. So we have to kind of tell them what to do, basically.
+Parasa Neeharika   43:46No.And Shariq, one more piece is, this is a new experience, right? I don't know what's going to be the VM outside, but someone should not get spooked out saying that this trial room, right? You shouldn't get spooked out. How do you know that these are the three garments that have picked up, right? So have...
+Shariq Haroon   44:13Oh, I see, I see. We'll have some kind of a visual cue. Yes.
+Parasa Neeharika   44:15Speak with Hemant and and VM, saying, like, stand, we are trying out a new RFID thing, so you'll get your products will get order detected. Don't worry, we are not seeing that sort of stuff, or something on this screen that says...
+Shariq Haroon   44:25Ajeesh.
+Nish Bhutani   44:25Mm.
+Parasa Neeharika   44:34We are trying out a new RFID and therefore you are not seeing because consumer shouldn't get spooked out with this. It's a very sensitive part of the experience.
+Shariq Haroon   44:40Yes.Yep, yep.
+Nish Bhutani   44:45It can, they can be a little thing said, how do you detect items at the bottom or something? Also, you know, besides those messages that Varun was talking about, yeah.
+Shariq Haroon   44:46Yeah.
+Parasa Neeharika   44:51Just factor that in, because that's where you don't want a red light while incident to happen again.
+Shariq Haroon   44:54Yeah.I agree, I agree. We'll have the visual cues, Varun. I think they're important. Few, few people, how they call it out is that they mention it, that's a smart trial being outside.
+Parasa Neeharika   45:12Yeah, yeah.
+Nish Bhutani   45:13Not a bad idea.
+Parasa Neeharika   45:14While you are about to enter a smart trial, everything will things will get order detected.
+Nish Bhutani   45:18Mm.Yeah, and then, like I said, on the screen also, you can have a little like small on in the corner, like how do you detect items or something, you know?So, chicken.
+Parasa Neeharika   45:29Okay.
+Shariq Haroon   45:31Sure, OK. So, this is the next thing. We're not, we're not telling to, we're not telling the customers that we're bringing the items to them. We're just saying that these size is available.
+Nish Bhutani   45:43So I think we should say that we should what we should say is see this I see remember like rating and all we won't have but we should just have a message saying like.This item is available, item is available in store.
+Shariq Haroon   46:00I will.
+Nish Bhutani   46:01Please ask a store person for help if you want to try it on or something.
+Shariq Haroon   46:05Okay, okay.
+Nish Bhutani   46:06No, not please ask customers.
+Shariq Haroon   46:09Okay.
+Nish Bhutani   46:10Yeah.Please, nobody cares, okay? Or they can directly, like I said, they can add to cart.
+Shariq Haroon   46:13Yeah.Yes.
+Parasa Neeharika   46:16OK.
+Shariq Haroon   46:17And then the other one.The other one, we are bringing the items to the customer, the other one that the level just showing, the one that we are developing.
+Nish Bhutani   46:27Sure, sure.But that will be once we develop our entire solution, right, and have the operational rollout for the stores also. Take it.
+Shariq Haroon   46:33Yes, yeah.Yep, yep.
+Parasa Neeharika   46:36Just not just assume it's all manual and of course you'll have to work manual.
+Nish Bhutani   46:39Yeah, yeah.So Shariq, the important thing right now is to focus on the very first thing that we're rolling out, you know, and just get that finalized, right?
+Shariq Haroon   46:46Uh-huh, okay.No, OK, alright.
+Nish Bhutani   46:51Yeah.
+Shariq Haroon   46:54We also discussed, and Varun, you reached out on the CCTV, if we could have a two-month pilot instead of 1. These are the use cases that we are tracking. We've been doing a pilot and we've asked the vendors now that it will be a two-month instead of a one-month. And these are the use cases.That would be assessing the platforms with the three platforms that will be going ahead with Agrex, Orify, and Recurrent, and...These are the use cases, so I mean, we can go through them one by one. If any more details are needed on any one of them, I can, I can, or do you want me to share this? It's a bit of a list.
+Nish Bhutani   47:42Yeah, maybe just go ahead and share that on the GROUP.And then, you know, as part, so we did have CCTV in the next round of experiments. Within this, I think we'll have to maybe narrow down a little bit and see which ones we want to do first versus later.
+Shariq Haroon   47:56Bigger.
+Parasa Neeharika   48:00So, Nish, as it is this, like I mentioned, very good, sorry.
+Shariq Haroon   48:00So, right now, we're asking the vendors to do everything.Sorry, I think right now we're asking our vendors to do everything, the entirety of this list as part of the POC, because we want to assess the capabilities and then decide on which vendor to partner with for scaling up.
+Parasa Neeharika   48:12I think this is.
+Nish Bhutani   48:12Asha.
+Parasa Neeharika   48:16Yes, I'm just going to be back in two minutes. Praveen just calling you something.
+Nish Bhutani   48:19IC.Okay, look from this project's perspective, the customer journey tracking is the most important one.
+Shariq Haroon   48:22So...Yeah, this one.
+Nish Bhutani   48:30Yeah, so if you can tell people, tell the vendors to do these first.That'll be the best, right?
+Shariq Haroon   48:39Okay, alright.
+Nish Bhutani   48:42But let me just kind of review these ones offline. Broadly speaking.Okay, I don't want to take up too much time on this. Is there anything else we need to go through, Neeharika, before we...
+Parasa Neeharika   48:55Ohh.No, Nish.
+Nish Bhutani   48:58No? Okay, take it. So...So.OK, so you know I haven't given this too much thought, but...Certainly you, I know I can see certain things like dwell duration in here, entry time, exit time. This is within each zone, right?
+Shariq Haroon   49:29Yeah, so that's I think the first one, there is heat map analysis and customer dwell time that's attributed to a zone, special zone brand or section.
+Nish Bhutani   49:29God.Got it.Got it. What about Ron as a footfall analysis is also by his own?
+Parasa Neeharika   49:41Hey, Mathin.
+Shariq Haroon   49:47Foot for analysis is for the store and defined departments and zones, but in a way, the foot for the customer dwell time and heat map, they also cover zone by, so it's kind of covered in across these three.
+Nish Bhutani   49:52Got it.Got it.I mean, historically, what I have found is that if we give...If we give like, you know, whether it's a product manager or a developer or whatever, the actual reports that we want.Um...Right, whether it's funnels or whatever, then they come back, but maybe this is maybe this is sufficient, I don't know, because what I'm looking for is like, so besides heat maps, I'm looking for funnels also, right?which is so when people, you know, of the people who enter this particular department.How many go to the?trial zone, trial, trial room, how many then go to of those like will they be able to track the same people across the store? They will, right?
+Shariq Haroon   50:59Yes, they will. Yeah, that's the code ask for this particular section. Non-PIA customer journey. So I identified that this is a unique individual. I'm not necessarily knowing that this is Shariq, but a unique individual. And this unique individual is transitioning across cameras. And then I need to know that when...
+Nish Bhutani   51:02Okay, okay.OK, got it.Yeah, yeah.
+Shariq Haroon   51:17and where did they go? And if I can track that, their presence inside my store, that's the unique non-PIA customer journey that we're talking about.
+Nish Bhutani   51:20Understood.Okay, interesting. And that's using facial recognition or how is it doing it?
+Shariq Haroon   51:30Not necessarily just special attention. It's also about the clothes that they're wearing, the combination of and the posture and everything. Yes, overall.
+Nish Bhutani   51:36So overall, so all aspects of appearance basically.
+Shariq Haroon   51:40Yes, yeah, because face getting a handle on face would be too difficult.
+Nish Bhutani   51:41Understood.
+Parasa Neeharika   51:43And this is also sort of flowing into the wider AI strategy that is presented to Aman. One of the levers was CCTV Analytics, so it's also got a sponsorship at there.
+Nish Bhutani   52:03Okay, good.
+Parasa Neeharika   52:03Right, so this, and the idea was, as it is to to do this for bank loans first before you take it to any other brand, so then this is like the test bed for that entire piece.
+Nish Bhutani   52:16Got it.
+Parasa Neeharika   52:18So it is beautiful here.
+Nish Bhutani   52:20Take care, take care. This is looking fairly comprehensive. Just share it once in the group for any feedback. Yeah, OK. Take care.
+Shariq Haroon   52:26Yeah, some *******.
+Parasa Neeharika   52:37Should we go to the next set of experiments? Yeah, I think because...
+Nish Bhutani   52:40Interestingly, if people check out on the, I guess they'll still be de-tagging, so we will be able to see if they convert it. Okay.So what is the situation like? Some stores have detagging and some stores don't have it?Like have tags and some stores don't have tags.
+Shariq Haroon   53:07So, and that's why, at least in the...Are you asking me this?
+Nish Bhutani   53:11Yeah, yeah.
+Shariq Haroon   53:13So, and from a self-checkout point of view.
+Nish Bhutani   53:16In general, I'm general, I want to know.
+Shariq Haroon   53:20Also, there is a possibility, Nish, that some stores might have it and some stores will not have it. Stores like, especially in Patna or Bihar, they seem to have a very high filterage rate. So probably those would continue to have it. The best end state would be not any store to have it.But I think that some schools would have it. If some schools do have it, the last thing that we're keeping on self-checkout is configurable, and that will be basis the definition that we provide that they do have or do their own, and then the last thing can appear or not appear as part of the customer journey.
+Nish Bhutani   53:40Mm.
+Parasa Neeharika   53:41Oh.
+Nish Bhutani   53:48Sure, sure. Okay. Take it.Got it. Ticket.
+Parasa Neeharika   54:07Yeah, I'm sure they know.Ohh.
+Nish Bhutani   54:14Okay.
+Parasa Neeharika   54:17So, so first, in Nish, just a quick thing, Neeharika had sent out to Amit and me the description of the further experiments. I don't know what Amit, but I have not looked at it and neither has he is what Neeharika is saying. So, Nish, just allow me today.
+Nish Bhutani   54:28Yeah.Yeah.
+Parasa Neeharika   54:36This today, tomorrow to go through it, but that was more the experiment description. I think the rest, and we'll just fine-tune the description, the rest we should probably plan out prioritization within this and and just and assignment to whom and she's called that out.
+Nish Bhutani   54:37Sure, sure.Sikka.Yeah.
+Parasa Neeharika   54:56Uhh...And just run, maybe today we just run it through you, Nish, and then.We just refine the experiment description and send that out further.
+Nish Bhutani   55:12Yeah, yeah, no, why don't you review it and send it to me, and then I can review it offline. That's fine. Yeah, take it, take it. I mean, you can share with me also, Neeharika. It's fine, and I'll I can review it at the same time. That's fine. Take care.
+Parasa Neeharika   55:16Sure, that I can that we can also do, where I just go through it, uh, and...Yeah, yeah.Yeah.One thing, Neeharika, just make sure more.
+Nish Bhutani   55:28Also, Varun, when will you go ahead?
+Parasa Neeharika   55:30But.
+Nish Bhutani   55:32I was just going to ask when will you get time to set up the AI for this project? Because I think it can...
+Parasa Neeharika   55:39In fact, I was just telling her that that's a to-do. We just muted for two minutes and done a quick sync up. I'll connect with her after this. I have a half an hour as it is. I'll sit with her and just give the brief and help her figure that out then.
+Nish Bhutani   55:43Yeah.Haha.Okay.Sure.Because I'm just thinking also that it will give us some good ideas also for the new set of experiments, right? If we put all the results, all our call recordings, everything into it, it can actually help us refine the next set of experiments and make certain suggestions potentially, you know? Yeah.
+Parasa Neeharika   56:02Yeah.Yeah.Yeah, yeah, and even if it doesn't do it immediately, it is the right thing to do, because overtime it will do it.
+Nish Bhutani   56:19Yeah.Are we doing that in general for projects at ABFRL? I mean, ABOF? No, we're not.
+Parasa Neeharika   56:23No.No, no, no, no, we are, so let's say the most important cost item is let's say the buy sheet, right? That is actually out of out of all our costs, that's the largest singular line item, right? That currently runs on mostly excels and maybe it has.
+Nish Bhutani   56:28Mm.Mm.Mhm.
+Parasa Neeharika   56:46It syncs into, you know, sort of a master Excel, which sort of is run through the mancom or the CRCO or the XCOM of each brand, but with the buying sheet, we don't have like a nano plan type software where...
+Nish Bhutani   56:56Mm.Yeah.
+Parasa Neeharika   57:05Everyone buys basis a very structured format and all that.And that's actually a large opportunity, I think, because it's all simulation, right? How buyer, to my mind, you know, buyer works on not necessarily the most real-time business projections and all time across all ranks.
+Nish Bhutani   57:12Understood.Yeah, yeah.
+Shariq Haroon   57:18S.A.
+Nish Bhutani   57:19Mm.Yeah, I mean specifically the buying function you're right about. I'm just thinking in general.
+Parasa Neeharika   57:31Yes, Shariq.
+Nish Bhutani   57:37when you're doing any kind of project, right, being having an AI assistant.you know, would be useful in a lot of projects. Yeah.
+Parasa Neeharika   57:44It is more minutes and that where it's used. It's not used as a, generally it's not used as a single repository and maybe that's therefore an interesting brief seeing that how do we make this probably a copilot at a project level and that will be an interesting brief to look through.
+Nish Bhutani   57:48Yeah.Repository, yeah, yeah, yeah.Sure.Yeah, yeah.What were you saying, Shariq?
+Shariq Haroon   58:09Oh no, I was saying currently we are also doing an evaluation of Anand plan because Varun mentioned Anand plan, but that's mostly from planning lens, less to do with buying and costing.
+Parasa Neeharika   58:20Got it.
+Nish Bhutani   58:26Okay, Chalke, so I think the most important next step is getting Sandeep and then the steer call, right? And in between those, we will then have to work on a fresh deck for steer call. Fresh means additions to the deck. So, take that.
+Parasa Neeharika   58:36Yeah.Yeah, yeah, absolutely.Okay, cool. Thanks. Thanks, Nish. Thank you.
+Nish Bhutani   58:47Alright, thanks. Bye, bye.
+Shariq Haroon   58:49Thank you, thank you, bye.
+Malavika Goli   58:50Thank you.
+Parasa Neeharika stopped transcription

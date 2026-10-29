@@ -1,0 +1,505 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260908_123253UTC-Meeting Recording
+September 8, 2026, 12:32PM
+1h 7m 8s
+Shariq Haroon   0:36Yeah, Nish.
+Nish Bhutani   0:38A Shariq.I'll just put on mute until other people join.
+Shariq Haroon   0:45Yeah.Able to hear you, uh, give me a minute, please let me check.
+Nish Bhutani   0:51I'll just put it on mute until others join. Just see, Varun should be joining. I think Neeharika and Amit are not available today.Hello, can you hear me?Hello!
+Varun Rajwade   2:42Ankish.
+Nish Bhutani   2:46Hey, hey, Varun.
+Varun Rajwade   2:47Hi, hi, Malavika. Hi, Shariq.
+Shariq Haroon   2:48Hi, hi, Nish, hi, Nish, I met him.
+Nish Bhutani   2:51Yeah, yeah, you're audible, you're audible.
+Varun Rajwade   2:53I think Neeharika is on leave today.
+Shariq Haroon   2:53Thank you. Thank you.
+Varun Rajwade   2:58And Malavika seems to have dropped off and will join back.
+Shariq Haroon   3:02PE.
+Nish Bhutani   3:02Okay, so Varun, why don't we, you drive it and we just get quick updates from everyone, whatever. And then let's talk about the next set of experiments as well. Okay.
+Varun Rajwade   3:12Yeah, OK. Uh, Shariq, uh, mates, uh, you can.
+Nish Bhutani   3:18Oh, right now it's just Shariq.
+Varun Rajwade   3:20Malavika, I think, has just she joined in and must have had a network issues.
+Nish Bhutani   3:22Raja.Alright, chat, chat.And then what about Rohit, Jigisha, Hemant? Are they joining?
+Varun Rajwade   3:28I'll, I'll just...
+Nish Bhutani   3:31Just ping everyone once, yeah, yeah.
+Varun Rajwade   3:32Bing.Aman seems to be.On leave.Okay, so at least let's get the updates from the usual till we get others to join.
+Shariq Haroon   4:49Maybe, maybe I'll go ahead. Yeah, OK. So, we have started receiving data on Smart Trial Group. In fact, the dashboard is getting populated now. Let me, let me, and I have a few screenshots on the dashboard. I don't have a...
+Varun Rajwade   4:51Yeah.Okay.
+Shariq Haroon   5:07I don't have an active login credential, which I'll get, but data has started to flow in. Let me quickly show a few snapshots of the dashboard.Yeah, so you might want to ignore the first two. That is just about inventory, which is anyways there in the RFID platform. So you might want to ignore the first two. The third is telling me, telling us what is the total count of items that are tried. By the way, before we start, there are currently two trial rooms.out of the six which have an antenna. For the remaining 4, antenna is still on its way. And hardware delivery is yet to happen, but which means that we have activated for two. And the data that we are looking at is for August 28th till September 3rd. So this is slightly dated.Ohh.And of just two smart toil rooms. So the total items, it tells the total items straight. And Nish, to your point, last week we were discussing how does it classify which items are actually being tried and what are the guardrails for a session. We have discussed those and.It seems that the logics that we have in place are pretty decent, pretty mature. I'll take and illustrate it with an example. Say for example, there is a tag and there are two adjacent trial rooms. A tag is detected in one of the trial rooms and then it switches from.One, the first trial room to the second trial room, and it immediately switches back. In this scenario, it will not be counted as two separate sessions belonging to two separate trial rooms, and it will be that the read of that EPC will be looked up in continuation, and if...they see that this EPC is switching from one trial room to another trial room and then switching back again, they would attribute it to the first trial room and keep it as a single session instead of splitting it into multiple sessions. That is 1. The second.
+Varun Rajwade   7:18Alice.Understood.
+Nish Bhutani   7:23OK, and is the and that's the kind of thing that the vendor themselves take care of, or we've had to do anything? OK, OK, OK, OK.
+Shariq Haroon   7:28The vendor, yeah, the vendor themselves are taking care. I just understood it from them.
+Varun Rajwade   7:30So you should just validate that logic, Shariq. Ask them to present to you exactly what is the logic, right? Because vendor log, they'll just say, all the data will go for a toss. So just get them very specific BRD, PRD, and validate that.
+Shariq Haroon   7:45Yes.OK, OK, alright. In fact, Varun, we will get that from them, but because the eventual objective is to build it internally, so yeah, we will.
+Varun Rajwade   8:01It will also help us understand how are they suppressing and therefore what do we need to build.
+Shariq Haroon   8:01Not ask them to build it. Yes.Yes.Yes, exactly. We'll get that. We'll get that. Second, second.
+Nish Bhutani   8:10Yeah, actually, that's a good point. That can be useful intelligence for our own development.
+Varun Rajwade   8:14Yeah.
+Nish Bhutani   8:14Yeah.
+Shariq Haroon   8:15Yep, another another thing that they do quite interesting is they, because they're continuously once a tag once an EPC is detected, if they're continuously looking at looking at or scanning for that EPC, which means that if there is any discontinuation.of reading of that EPC, then they would wait for two minutes before saying that it has been.moved out from the smart trial loop. And if within that span of two minutes, if it is detected or picked up again, then that is attributed to the same session, not a new session. This is helpful because...Any kind of sometimes it might happen that an EPC is layered between something or between a or between a garment and there's some metal presence or there is something which is causing in obstruction for the reader to read the EPC. So to maintain that same session attribution, they are there.having this two-minute waiting period before discarding it or ending that session. So the end time for an EPC is the last seen time, which is finalized, closed, post waiting for two minutes from the last seen time.
+Varun Rajwade   9:35This this last two, this 2 minutes now, it's like a hard code. I think that that might work for now, but we have to think through that slightly more. It has to be a more dependent on net new reads versus earlier card, right?
+Shariq Haroon   9:35That is how it is.
+Varun Rajwade   9:54when the consumer first went in, they had, let's say, 4 EPCs. Then she left, a new consumer came in. She'll likely have fresh 4 EPCs.Just that delta change should trigger a session thing, because two minutes will not work in a festive.
+Shariq Haroon   10:16Yes.
+Varun Rajwade   10:16Then we'll end up with the false or a gap in data.This in in peaks.
+Nish Bhutani   10:22So let's ask them for, you know what, let's ask them for all the variables also that they're using.
+Varun Rajwade   10:27Ah.And let's think through that part and that we should ask them to very specifically code for us in the dashboard.
+Nish Bhutani   10:28And, yeah.Right.
+Shariq Haroon   10:36Okay, okay, yeah, okay. Uh, we so I'll just continue with this. So items tried. This is nothing but this post.
+Varun Rajwade   10:44And this is how many days data?
+Shariq Haroon   10:46This is 28th of September, so 28th of August till 3rd of September.
+Varun Rajwade   10:51About a week.
+Shariq Haroon   10:53About a week.
+Varun Rajwade   10:56About a week, we have 6,252 unique entries. So I am probably going.
+Shariq Haroon   11:02Yes, these are these are these are entries as in entries of EPCs, not entry of people, entries of EPCs, because the sales data has not been patched up yet, and that is why the funnel also is not complete, which is why it's not here. So, the funnel ends at from discovery to just...
+Varun Rajwade   11:17Yeah.
+Shariq Haroon   11:22try on it is not sorry from all EPCs to unique EPCs tried and it doesn't extend to sales right now because we are asking for the sales data to be exported. I think it's still as a change request it's still being worked upon with our POS team. So.
+Varun Rajwade   11:37Understood, understood, understood.
+Shariq Haroon   11:41If we look and this is the demographics is just basis that product master. So if there is some women or some aspect written on that product master definition which would attribute it to a female gender, then that's female and kids would be of course like if the.product master test that it is kids like KW or something which specifies kids and others would be mostly non-apples which does not speak clearly with gender it is attributing to. So it is just from that product master lens.
+Varun Rajwade   12:14And if you go back at the top right, there is a gender, right, male, female versus kids. What is that?
+Shariq Haroon   12:23That that is that is the product master based inference, whether it is a female who is trying those products or or whether those are crystals.
+Varun Rajwade   12:30I says both are the same product master-based inferences.
+Shariq Haroon   12:34Yes, yes.
+Varun Rajwade   12:35Okay.
+Shariq Haroon   12:38Um...No.This piece on the left bottom, fitting room insights, this is the total number of entries of EPCs. The total EPCs, unique EPCs which entered the smart trial room. Conversion is of course 0 because we're not patching up sales data yet. Average time, now this average time spent in the trial room is basis on those.logic philtres and attributing it to a single session and all of that happening, then that average comes out to be 4 minutes. Because sometimes it also happens that the EPC was observed continuously across different trial rooms, switching, toggling between one trial room to another trial room, but they're not different sessions, they're a single session.It has to be attributed to a single session or single trial room. So this is basic, all of, post all of that cleanup. The average time spent in a trial room is around 4 minutes.
+Varun Rajwade   13:35Understood.
+Shariq Haroon   13:36And that dwell time, that is just a placeholder. This has absolutely got nothing. That's just a placeholder, 29 minutes. We're not capturing it. It is actually the time spent prior to entering the trial room, but we have no way of capturing it. If ECTV analytics is able to tell us that, then it is that data is.linking up over here. That is just a placeholder.
+Varun Rajwade   13:59So I think we just have to then tighten all our understanding of each of these definitions. Custom, give them certain requirements, think it through, give them certain requirements, but they're also building bases R logics and R flows. For example, this tool, that sort of thing, we should just fine tune and...
+Shariq Haroon   14:15So, I have given them.
+Varun Rajwade   14:20Okay.
+Shariq Haroon   14:21So I have given them the requirement or understanding that we discussed in our last week call. Once it is sold, how to attribute it to a session. That understanding I have given. So the sales attribution piece or the sale patch up that they are doing, or basically the sales data that they are building, this is that I'll...Because I just had this call yesterday with them, I will.
+Varun Rajwade   14:42No, it's very good update of this.
+Shariq Haroon   14:44to create my understanding on how it should be, what the definition should be, and share it with them so that they can upgrade their definitions.
+Varun Rajwade   14:51Okay.
+Shariq Haroon   14:53Okay, and then these are the top five products, which were those five.And at least five products, both tried and sold. Of course, sold is not working because it is not patched up yet, but tried is currently working. So these are the top five products that we tried. And again, these are clean data.
+Varun Rajwade   15:09If you just look it up, can you do a manual look up of this versus sales and see funnel just out of curiosity till they build this in this very easy to build now.
+Shariq Haroon   15:20Yeah, we can do that.Yes, yes, we can do that. I actually wanted to build it by EBC, but in the sales data that we're generating or the offline snapshot of it which sits in Databricks, currently EBC is not getting exposed. It is getting exposed in the data dump that we will be sending out to the smart trial room folks.
+Varun Rajwade   15:37Ohh.
+Shariq Haroon   15:43Just like we're sending out to the RFID platform, EPC is there, but in the Databricks queue view, EPC is not there, so we could not, and that is why we're relying on that data to be pushed out.
+Varun Rajwade   15:54This is now this women AW26 women, this is at an EN level as it is, right?
+Shariq Haroon   16:03Yes, this is added in ELL. Yes, yes, that's true. It is added.
+Varun Rajwade   16:06So what I'm saying is if you just download from the portal top 500 ENs or top 500 ENs, right, and then map to sales data in that particular store, till these guys build their platform, you'll at least get some insights into how many were trialled versus how many were sold.
+Shariq Haroon   16:14Mhm.Understood, understood, that we could do, yes, that we have that we do.
+Varun Rajwade   16:30And therefore, is it like, are we seeing anything that, because the starting point of this exercise was, of course, to build a consumer funnel, but also to figure out which products are getting tried but not being purchased, that sort of thing, right? And you'll at least get to.
+Shariq Haroon   16:47Yep.
+Varun Rajwade   16:49get a sense where what is the percentage mix of trial versus the percentage mix of purchase and is there a difference in this in nice cute data to look at types.
+Shariq Haroon   16:53Which is?Yes, yes, that we could do. Yes, we will do that.Yes, yes, absolutely, absolutely. That'd be good.I think that's all I did on this side.
+Varun Rajwade   17:06This is a good update.
+Nish Bhutani   17:07Okay, so this is this is great. This is great progress. You guys can hear me, right?
+Varun Rajwade   17:14Yeah.
+Shariq Haroon   17:14Yes, yes, Nish.
+Nish Bhutani   17:15Okay.And we can start to ask them to layer on more data on, okay, so I see you have demographics, which is probably based on product, right?You can also look at one one version of demographics where
+Shariq Haroon   17:29Yes, in the space.
+Nish Bhutani   17:35Like female and kids together, female and male together.That kind of thing, because that'll this religious point that will give us a sense for, you know, what products, and then one can kind of double-click on that, but you know what products are women buying?Actually, they won't take him in the trial room though, so I guess together, well, it could happen with kids.Could happen with kids, but less likely with.
+Shariq Haroon   18:01Yeah, it could happen and that is what that is what coming out is if we see there is a decent percentage of kids as the 8% which are present in the trial room. So women are taking kids to try out some items.
+Nish Bhutani   18:07Other.Mm.Sure, sure.Okay, but yeah, I guess it won't be too much overlap when women are trying out themselves and taking the kids with them. Okay, that's maybe less important. We can start to look at other cuts like based on the products. So what kinds of products are being tried out in terms of categories, those kinds of things.Right, so dresses, and then over time, one can dresses versus trousers versus whatever, and over time, it'll be interesting to see kind of how those shift, you know, month to month or season to season. So, anyway, but I'm just giving suggestions right now, that part is less critical than the...
+Shariq Haroon   18:44Yep.
+Varun Rajwade   18:50No.
+Shariq Haroon   18:50Yes.
+Nish Bhutani   18:55Varun that Varun talked about.But that is really interesting to start seeing the initial data.and see top five conversions, lowest five conversions, etc.
+Shariq Haroon   19:10Absolutely, absolutely, we can do that, yeah.
+Nish Bhutani   19:11Yeah, okay.In fact, we can look at the full list of conversions, doesn't even have to be.Chetan.
+Shariq Haroon   19:19Yeah, but just with while we are looking at this, just one caveat to this is which is that why we want to not all trial rooms are covered with this technology, so it could be the case that transactions are happening and trials are happening, they're just getting bypassed from these set of trial rooms.
+Nish Bhutani   19:20Blue.Jha.Oh.
+Varun Rajwade   19:36Yeah, it's not a, see, it's not a definitive thing just now. It's just, it's just trying to see which RI. We say this is such a small sample size that there'll be a lot of things outside it as it is.
+Nish Bhutani   19:40Yeah.
+Shariq Haroon   19:43Yeah.Yes, yes.
+Nish Bhutani   19:48We do we do we have the reader installed for the overall trial room entrance or no?
+Shariq Haroon   19:55For the overall trial room entrance, no. But how we wanted to proceed with this was that there was a trial room bay containing 6 trial rooms. So we wanted to place antennas in each of these six, which covers the entire bay.
+Nish Bhutani   20:04Today.Oh, okay, understood. Okay.
+Shariq Haroon   20:10But currently they're just too active because the remaining 4 hardware is in transit.
+Nish Bhutani   20:15Oh, hardware, hardware. Okay, fair.Okay.OK, this is good. Shariq, good work.
+Varun Rajwade   20:24Okay.
+Nish Bhutani   20:25Let's, let's, let's look at the funnel for next week, yeah?
+Varun Rajwade   20:25Uh...
+Shariq Haroon   20:29Sure, sure.
+Nish Bhutani   20:30Okay.
+Varun Rajwade   20:31Okay, Shariq, in the kiosk, I think just let's update this is your meeting in Bangalore also.
+Shariq Haroon   20:38Yes, so...On the kiosk, on the kiosk, Nish, we are proceeding with the user journeys that we had discussed. We had an extended workshop last week, Thursday, in Bangalore with the tech team and product team, and we gave a download brief of how the journey is. We are splitting it into...multiple phases, September and October end and November end. I think we are targeting the end state, the journey that we looked at, that's the end state as part of November end rollout. But because Korla is going live in first week of October, there is a...bare bone version which is going live there. When I say bare bone version, it is essentially about user entering their mobile number that is identifying them so that they can earn points. Redemption of points is not there in the September end version. Additionally, what's there is...Parity in terms of price. So any store discount or any store pricing which is running, agnostic of who the customer is, that will get extended to the RFID self-checkout. Anything which is individual or customer specific like a coupon, loyalty coupon, that's.Part of the November end or beyond, because there's loyalty 2.0 also coming up. So, once loyalty 2.0 comes up, then we'll have to do some bit of changes on the RFID Sales Checkout software solution as well, but for the September end, which is for Kurla.Customer identification, earning of points, the journey including...Price parity, that's that's uh being considered.
+Nish Bhutani   22:30Okay, and the...Have we decided on the hardware for the kiosk at this point or no?
+Shariq Haroon   22:40So the hardware components, yes, we have decided and I think the fixture, how the fixture look like that also the VM team visual merchandising team has decided.
+Nish Bhutani   22:49Okay.
+Varun Rajwade   22:51This horizontal versus vertical is that is that intellectual debate solved or is it still raging?
+Nish Bhutani   22:51And you?
+Shariq Haroon   22:58I think so, Sooraj says, do have this, have that, that is what Sooraj said to me.
+Varun Rajwade   23:01Ohh.Okay, so we basically build the tech accordingly.
+Nish Bhutani   23:04Okay.Yeah, yeah, and then we see.
+Shariq Haroon   23:07Yes, so we're building tech, which is fun flexibilizing between horizontal and vertical, we are building support.
+Varun Rajwade   23:12OK.Thanks.
+Nish Bhutani   23:16Okay, great.
+Shariq Haroon   23:19And I think post Phoenix Cola, there is another store which is coming up in Jaipur immediately after a renovated store. That's also RFID self checkout. So we are in a way we will be building for that as well.
+Varun Rajwade   23:27Singh.
+Nish Bhutani   23:33We're not doing it for cities anytime soon, or...
+Varun Rajwade   23:33Ohh.
+Shariq Haroon   23:37We are not doing for our city anytime, and that's a very interesting point. Yes, yes, I think it's more to do with how.
+Nish Bhutani   23:41Because of physical constraint.
+Shariq Haroon   23:46Visually, the store should look like, because while we are solving for, and this is a point that I have been talking to the RFID hardware designer and people in CPC and procurement also, that while we are solving for, and it is important for important to solve for, we should also be solving for.
+Nish Bhutani   23:48Yeah.Yeah.Yeah.
+Varun Rajwade   24:06Okay.
+Shariq Haroon   24:07the full network because Sooraj wants 40, 50% of the entire network to be RFID self-checkout. If that's because we're talking about 2000 fills, 2000, 40, 50% of that is around 800,000 tills. So if 800,000 tills are going RFID self-checkout, then we can't, we'll not be having the luxury of renovating each store.
+Nish Bhutani   24:13Correct.Yeah.
+Shariq Haroon   24:26and having a specific layout or a new design for each store. So essentially we're talking about portable, modular, configurable hardware that is simply deployed like a all-in-one solution. And that I think we have not picked up that discussion yet between us, between merchandising and procurement.
+Nish Bhutani   24:30Yeah.
+Shariq Haroon   24:48As in from a solution, England.
+Nish Bhutani   24:51So when you say modular portable, you mean like the whole.Surrounding kiosk, signage, everything kind of is all, it's like a modular kitchen essentially, that kind of thing. It's like.
+Shariq Haroon   24:58Yes.It's like a modular piece, yes, so that it can.
+Nish Bhutani   25:04Yeah, that you can just move in.
+Shariq Haroon   25:06This can still move in agnostic of which store is it going in. It can move around, it can fit anywhere, it can be self-sustaining. It's not dependent on a wall, it's not dependent on.
+Nish Bhutani   25:14So it'll have to be somewhat configurable also, the shape of it and so on. Yeah, understood.
+Shariq Haroon   25:17Yes, yes. So that design and fabrication, we have not picked it up, which I think we should in some time.
+Nish Bhutani   25:23Okay, okay.Shete.
+Varun Rajwade   25:27But just one thing on that, have you shipped across that trial, the trial installation to the dev team because they wanted to start trying, so just cheque that one.
+Shariq Haroon   25:39Yes, I think that's arriving on 9th, which is tomorrow.
+Varun Rajwade   25:43Love.OK, so self-checkout in terms of phase one, we are aligned till when have we got Sandeep's approval for costs? Is it phase one, phase two also, or is it everything?
+Shariq Haroon   25:58Everything, everything, put together.
+Nish Bhutani   26:01Yeah.
+Varun Rajwade   26:01OK, thank you, and I also briefed Hemant, the Hemantha saying that what we had just discussed right, trial room, smart trial room, as well as a single order, multiple fulfillment, will all sit on the same stack, so we have also asked him to lay it out in architecturally and he'll show it to me.
+Nish Bhutani   26:14Just.
+Varun Rajwade   26:20on Thursday, how is he planning to do that also?
+Shariq Haroon   26:24Okay, okay.
+Varun Rajwade   26:27Okay, anything else on any of your other points?
+Nish Bhutani   26:29Okay, good.
+Shariq Haroon   26:32No, nothing.
+Varun Rajwade   26:35OK, good, good update. Now, Jigisha, you can start your update.
+Nish Bhutani   26:41Shariq, if you...Yeah, that's the funnel data even this week.then we can include it in the Steaco update also.
+Shariq Haroon   26:53Sure, sure, Nish, yeah, okay, yes.
+Nish Bhutani   26:54So yeah, so just see how quickly you can get. We're trying to schedule it for next week. I don't know if it'll happen next week, but...
+Shariq Haroon   27:01Sure, OK. I'll try including a weekend as well.
+Nish Bhutani   27:01But, yeah.
+Varun Rajwade   27:02Calendar is calendar has been a very long WhatsApp thread, right? Nish, what is the right lot to meet?
+Nish Bhutani   27:08Ohh, God!Zia.
+Varun Rajwade   27:13You gave it.
+Nish Bhutani   27:16reminding me of my days working in large companies.Everyone's calendar is always full.
+Varun Rajwade   27:23Yeah.
+Nish Bhutani   27:26Yeah.
+Varun Rajwade   27:30In Jigisha, you can present your section.
+Jigisha Patel   27:36Hi, David. Two quick updates. One is the gifting piece is finally live. We have put up for signages in the kids and in the handbag section. Just one piece that I would like to update for you guys. One is that what we havefinally decided keeping everything in mind is that these will be sectional signages and individual merge will not be tagged. The reason being that the rotation of the merge, etc, etc, how it is placed, some might be on controller, some might be on browsers, etc, front facing, side facing, so this is it did not.
+Varun Rajwade   28:07Yeah.
+Jigisha Patel   28:17really makes sense from that perspective. Also, the moment there are sizes are short, there will be a rotation. So hence, they are sectional sized sandwiches that are put up. What I'll do is I'll also, I have, I had shared the pics with Neeharika. I'll also just drop the pics, the deployment pics in this chat as well.This has gone live only late night Friday, so I currently do not have any readings or any update on, you know, click-throughs, etc. I will put that together also, you know, after once a week is over, something like that, a four or five day charter on how those numbers are looking.
+Varun Rajwade   28:58Oak.
+Jigisha Patel   28:59Yeah, so, yeah.
+Nish Bhutani   28:59Jigisha, can you send us some photographs of the installations, like the signages and the sections? Yeah. Okay, again, just...
+Jigisha Patel   29:04Yes, yes, yes, yeah, yes, Nish, yes, now that's what I mentioned, and yeah, I had shared those with Neeharika. I'll drop them. You do want me? Yeah, yeah, I had shared them with Neeharika. I'll drop them in this chat as well, and if you want, I'll mail it across too, so let me know what we chat is fine, right? Okay, so I'll just...
+Nish Bhutani   29:11Oh, you had? Oh, okay, okay.Yeah.From chat is fine, that's why that is fine, yeah, yeah.
+Jigisha Patel   29:23drop that in the chat in a bit. Yes, in the Teams chat, yes. Also, just yesterday, I have shared the final notification content also with Malavika and Lakshmi on all the geotag notifications. This includes the occasions that we had earlier identified, which were those points based, etc.
+Nish Bhutani   29:25In the Teams chat, yeah, okay.Okay.
+Jigisha Patel   29:47And also the alternate text that was required when we were talking to a person when they are getting close to the store, right? Where one of them was that you are just 200 metres away, etc. And we wanted to modify that so that it doesn't sound too intrusive. So yeah, so.All of those pieces are also shared. Some of them come with options. We can maybe AB test and see which one is working well for us and then maybe continue with that one.
+Varun Rajwade   30:19Yeah, so there also, Jigisha, we should, I think, talk to Dikshant and get the setup for in Clever Tap and I'll get Lakshmi to just show how to build it out.So set up a call with Dikshant and Lakshmi, but let the configuration be with Dikshant. Tomorrow if you have to change content, try some new thing, all that should sit. It's easier to sit in the brand.
+Jigisha Patel   30:35Yes, Sooraj.Shah.It.Shah.Desai.Okay, Lakshmi had anyway mentioned that we'll have a catch up on Thursday. She has fixed a slot of 1230 for her. I'll just speak to her if she's going to involve Dikshant in that particular piece as well. Yeah.
+Varun Rajwade   30:57Help.Also, align with Rohit, because Dikshant will want his alignment, right? So, let's get that closed, OK?
+Jigisha Patel   31:05Shah.Sure, okay, yeah, okay, yeah, yeah, so these were the two bits with me, so this is, yes, yes, Sandeep has gone through all the content, all, so that is where we got a little bit of dealing, so he's gone through all the content, he's had the understanding, a little bit of tweaks here and there, that's what I have.
+Varun Rajwade   31:14And Sandeep has gone through all the content now.
+Nish Bhutani   31:14So, uh...The.
+Jigisha Patel   31:27Updated, and the final one which is shared is a basis of Sandeep's consensus.
+Varun Rajwade   31:31Okay, good.
+Jigisha Patel   31:32Yeah.
+Nish Bhutani   31:35OK, so.The way.Um...
+Varun Rajwade   31:41Right, your voice is cracking.
+Nish Bhutani   31:43Sorry, one. Yeah, yeah. Can you hear me now?
+Varun Rajwade   31:46Yeah.
+Nish Bhutani   31:47OK, so sorry, one was the gifting piece, the second project, remind me that you just update all.
+Jigisha Patel   31:55So the second project was dominantly as far as yeah, it was the notification piece, which also in a way is so a lot of pieces are between me and Malavika. So the notification piece is also, yeah, with Malavika per se, but I worked on it. My second project was the EPC, yeah, EPC to EAN, which again.
+Nish Bhutani   31:58Oh yeah, the notification. Yeah, yeah, the notification. Yeah.Yeah, yeah, yeah.Sure, sure, but Malavika, yeah, yeah, yeah, on the content.
+Jigisha Patel   32:16Dominantly sits with Malavika more than, uh, more than me, so she is the one who then gives the updates on, yeah, that's how it was, Nish, yeah.
+Nish Bhutani   32:18Go.Understood.Yeah, yeah. So, Malavika, on the notifications, when can we get these new ones live?
+Malavika Goli   32:30Oh.
+Varun Rajwade   32:30No.
+Malavika Goli   32:32Sorry, but I'm going.
+Varun Rajwade   32:33So, that's what Nish will loop in Dikshant from Rohit's team and Lakshmi will show how to run them. I think Jigisha, you should target by this week. They're all rolled out now that content is ready.
+Nish Bhutani   32:35No.Mmh.OK.
+Jigisha Patel   32:52Shobha, not.
+Nish Bhutani   32:52And Malavika, then the, I don't know who the reporting for this piece will come from, but let's review not just the overall sort of impact in terms of the funnel, but also for individual notification.
+Malavika Goli   33:06Mhm.
+Varun Rajwade   33:09Yeah.
+Malavika Goli   33:10OK, yeah.
+Nish Bhutani   33:11Yeah, so let's have the breakdown also, okay, which funnel with, you know, yeah, basically you break down the entire funnel by notification as well.
+Malavika Goli   33:18Mhm.
+Varun Rajwade   33:19And Jigisha, given that we are only doing it in two stores, and now you should have some sense of incrementality, put a 20% control group.
+Nish Bhutani   33:21St.
+Varun Rajwade   33:30Right, Lucky, we start seeing some incrementality. We already have the basic funnel about 8, 9% convert. Now we want to see how much is incremental.
+Jigisha Patel   33:31Okay, Shah.Okay.
+Varun Rajwade   33:46Okay, so connect with Dikshant and Lakshmi and let's take a look.
+Jigisha Patel   33:50Yes.
+Varun Rajwade   33:51Okay, Malavika, your updates.
+Malavika Goli   33:55Oh, yes, so I can just share my screen.P.Oh, so is it visible?
+Varun Rajwade   34:08Uh, yeah.
+Malavika Goli   34:10Okay, yeah. Sunish, you had asked me to get the store data. Just facing some challenges on that front. Okay, what happened? This disappeared.
+Nish Bhutani   34:10Yeah, I can see it here.
+Varun Rajwade   34:22Yeah.
+Malavika Goli   34:22Something's wrong.I'll just reshare.Are you able to see the screen or is it for me?
+Varun Rajwade   34:39We can see.
+Nish Bhutani   34:39No, we're not, we can see the screen, but not the slide on the right is not appearing. I think maybe we have to relaunch PowerPoint. Yeah, yeah.
+Malavika Goli   34:44Okay, it's right now. Yeah, I'll just, yeah, I'll do that.MS systems troubling.
+Varun Rajwade   35:32If it's creating a trouble, I think Rohit, you present first, and then we'll go back into Malavika.
+Rohit Indumukhi   35:39Yeah, sure.
+Malavika Goli   35:43I'll also join by Gaurav.
+Varun Rajwade   35:44Shah.
+Rohit Indumukhi   35:49Just projecting.So there were, I think, two pieces that I had I was trying to get to in terms of the update. One is on the product discovery. So the good part is we have rolled out across 48 touch points now. This got rolled out on Friday, between Friday and Saturday. So I have the images.If you would like to look at it.Oh.I hope you're able to see this screen.
+Varun Rajwade   36:2748 touchpoint means 48 stores basically.
+Rohit Indumukhi   36:30No, no, I'm talking about RCT 48 more touch points. We had we had been live on 4 touch points, so another 44 have gone live.
+Varun Rajwade   36:34Four.Oh, interesting.
+Rohit Indumukhi   36:42So this is one such example of where Shop Mode looks has gone live, you know, for this kind of dial-based product.Sorry, it's all come as images, so I have to.This is how gifting has gone live. Products which are meant for gifting.
+Varun Rajwade   37:04So, this is also tying into Jigisha as the gifting project, or this running independent.
+Rohit Indumukhi   37:10No, this is this is right now just product discovery. These are packs which we wanted to show here.
+Varun Rajwade   37:17Understood.
+Rohit Indumukhi   37:20Yeah, this is again very similar on the kit section. So these are walls. I'm showing you an example where earlier we had done only browsers, right and bottom shops. These are all browsers where it took some time to figure, you know, how does it get rendered and how does it get looked? So this is how it's.
+Varun Rajwade   37:29Yeah.
+Rohit Indumukhi   37:40now looking like.
+Varun Rajwade   37:43No, it looks really near 48 so fair touch point coverage. So I think now we'll start seeing better numbers also more scans.
+Rohit Indumukhi   37:47Yes, yes.So I wanted to in fact address that piece. I'll just come to that. I'll show a couple of more interesting ones. I think it's right. Thank you.
+Nish Bhutani   37:49Mm.
+Rohit Indumukhi   38:00Okay, so I'll just come to that, please.
+Nish Bhutani   38:00Hey guys, I also want to keep a quick eye on time also. So firstly, it's great to see all these things are rolled out. We're not seeing any data right now, right? It's too early or have we start?
+Rohit Indumukhi   38:09Yes.I, it's too early and I wanted to in fact address that piece. See, when we took the four stores live, 4 touch points live, Varun, we've kind of tried to work with Lakshmi and Arun to solve this piece on what should be our right.
+Nish Bhutani   38:16Mm.Mm.Okay.In.
+Rohit Indumukhi   38:31measuring model right on web traffic we're going to Adobe and on app traffic we're going to adjust. Now the numbers are not speaking to each other and right now the way we have rolled out the QR code is we haven't kept it restricted to the app. So if you have the app it gets deep linked and you land on the app.
+Varun Rajwade   38:39Mm.Shah.No.
+Rohit Indumukhi   38:52Otherwise, you're going to Adobe. There's also conversation on, should we simply stick to Adobe by not creating QR codes in Adjust? Right, so that we have one system where we track end to end. But that's a decision that I require you and Malavika to take, because right now we don't, I really don't know where to look at. The numbers are not stacking up.
+Varun Rajwade   39:10Oh.Sure. No, so as it is, I'm speaking with Arun in the evening on the broader issue that you have raised, right? So then I'll tape it up and come back to you in a day or two on that.
+Rohit Indumukhi   39:15Um...And the reason I'm saying that is because when I look at adjust, the same for touch points show much higher visits in four, in two weeks I got 350 visits on adjust. Whereas on Adobe, ideally it should have reflected there as well. It was only showing 150 odd visits because Adobe tracks both app and...web because the difference is so huge I don't know which one to trust and I'm not able to go to the store.
+Varun Rajwade   39:51And Adobe also has a last touch. So I think if you look at first touch in Adobe, is the number different or first is also saying.
+Rohit Indumukhi   39:57No, no, it's similar. It's very similar.
+Varun Rajwade   39:59OK, tick, so I'll come back on that, yeah.
+Nish Bhutani   40:02Yeah, hey, Neeharika is on the call, so are we recording the call or is anyone taking follow-ups?
+Varun Rajwade   40:10I...
+Rohit Indumukhi   40:12Thing is getting recorded.
+Shariq Haroon   40:12The recording started in my understanding. It started at the beginning of this one.
+Varun Rajwade   40:12I think someone's recording.
+Nish Bhutani   40:15Hello?
+Varun Rajwade   40:16So I think Shariq could start recording, OK, Rohit Apka.
+Nish Bhutani   40:17It was recording, not sure. Kinger, Kinger.
+Varun Rajwade   40:32Ah.
+Rohit Indumukhi   40:32Now, why I took all of your feedback, Nish, you have signed off on them. So it's gone into now development. I think the budget got approved, Shariq, by Sandeep and Aditya, only last week.
+Varun Rajwade   40:32Ah.
+Nish Bhutani   40:45I don't recall the landing page design. We reviewed that.
+Rohit Indumukhi   40:50Yes, we did, and...
+Nish Bhutani   40:51It's been so long ago, I think that.
+Rohit Indumukhi   40:53I can present it. Just give me a minute.
+Nish Bhutani   40:59And this is for collection, is it?
+Rohit Indumukhi   41:02So, uh, there are...There are two separate pages, one wherever we want to show a collection, how will it render so that customer is able to browse that collection, more collections, and within that looks. Then there is a brand store because we're also, we raise this piece, right, to customers know our brands enough. And so we have created a brand page where.
+Nish Bhutani   41:07Mhm.Okay.Mm.Oh.
+Rohit Indumukhi   41:26We're talking a bit about storytelling around the brand and then discovery into multiple aspects of the brand.I might take two minutes to pull that out. It's a heavy file.
+Nish Bhutani   41:38OK, no problem. Meanwhile, let's get Malavika update going.
+Rohit Indumukhi   41:40Sweet.
+Varun Rajwade   41:41Yeah.
+Rohit Indumukhi   41:41Yeah.
+Varun Rajwade   41:44Good, Malavika.Malavika, can you hear us?Ah, she seems to have some issue today, some network issue.
+Nish Bhutani   41:55Oh, she's done.I think it's you, Varun. She has an issue with you.
+Varun Rajwade   42:02That, that I know she has for multiple years, but...
+Nish Bhutani   42:03He called her on, and she, and she, she hung up.
+Varun Rajwade   42:08But in case she can't join, I'll update subsequently. I think let's move on to the other agenda of next phase.
+Nish Bhutani   42:19So, uh, you have that file, Varun.
+Varun Rajwade   42:21Well, with Malavika, I think the only thing I have to cheque is hi.
+Malavika Goli   42:22Hi, Joey.
+Nish Bhutani   42:24Oh, here she is, yeah.
+Malavika Goli   42:25Hi, sorry, my laptop, it's flickering. There's some issue and the IT guy is not there. I'm not able to share. Varun, can I share the attachment? It's...
+Nish Bhutani   42:31Hotmail.
+Varun Rajwade   42:34Yeah, just two things. One is you can share the notifications update as an attachment. That's fine. On EPCA to EN, when have we gone live or when are we going live?
+Malavika Goli   42:35Okay.EPC to EN will go live this month in Varun. There is 1 discovery that we had today. When the customer is landing, scanning a product, which is the EPC, and it is getting redirected to, so our system is basically searching, understanding the EN and searching.
+Varun Rajwade   42:52Okay.
+Malavika Goli   43:11searching it on the website, right? And in that, what's happening is that the current search functionality is working and then the customer is landing on the PL page with the product being listed. However, it's not looking nice, so have asked the customer.
+Varun Rajwade   43:13Mm.
+Rohit Indumukhi   43:18Yeah.
+Malavika Goli   43:30Our start team to look at a way where we can take the customer to the PDP of that page instead, so...
+Nish Bhutani   43:37What is the PL?
+Malavika Goli   43:39PL.P. is basically the listing page.
+Varun Rajwade   43:42The search page, so it's almost building A1 product search page, but Malavika, this is how also our barcode search just now is working right, so I think we should we should go live as soon as possible with VPC to EN. It also just gets see the idea is not.
+Nish Bhutani   43:42A listing page, ha ha ha, got it, got it, got it, yeah, yeah.Oh.
+Malavika Goli   43:52Yeah.Hmm.
+Varun Rajwade   44:02technical perfection ideas to also understand, is anyone scanning? Just now we have no view, right? It's that also. Parallelly, we can look at both barcode and EPC directly moving into PDP. So whatever you can roll out, roll out just now.In my Vipul.
+Malavika Goli   44:23Atcha, okay, take it, so, uh, so that's on track for this.
+Varun Rajwade   44:26Because we had said about 10th, 15th September, so we should try and hold that one and then do an update around the end of September.
+Nish Bhutani   44:31Hello!And how long will the P LP to PDP change happen to take? Could be easy, right?
+Varun Rajwade   44:41That is, that will be one sprint, so she's basically dealing, we release in three weeks case sprints, so she is moving from this sprint to next sprint. I'm just saying whatever you can take live, take it live now, and then we do another one.
+Nish Bhutani   44:49Yeah, sure, yeah, sure, sure, sure, yeah, and so when the PL comes up, it is the category of product that will come up, or what?
+Malavika Goli   45:01Just that product, just that product, but the customer will have to click on it, yeah.
+Varun Rajwade   45:03That product.
+Nish Bhutani   45:05Or just that product. I see ticket. That's all right. Anyway, look right now and this right now what we're not going to get much usage until we have the signage up. Basically, the BNM part is what's critical.
+Varun Rajwade   45:16Yeah.
+Malavika Goli   45:17Mm.
+Varun Rajwade   45:19Yeah, so you don't need to wait for perfection, just have something, you know.
+Nish Bhutani   45:20So.
+Malavika Goli   45:20Okay.
+Nish Bhutani   45:22Correct, correct. I can't remember now, did we design the text for the VM? We haven't, right? We haven't written the text at all.
+Varun Rajwade   45:28No.Ohh.
+Nish Bhutani   45:31So...Someone here, I think, in this group should take it on, and then we pass it on to the BNM team.
+Varun Rajwade   45:42So...
+Nish Bhutani   45:42No, that will go faster rather than asking them to come up with it.
+Varun Rajwade   45:45Okay.
+Nish Bhutani   45:47Completely.
+Varun Rajwade   45:50So, E.P.C. to end fine, Malavika speak to Varun Babji, and let's get their input.
+Nish Bhutani   45:56Who can, who can, anyone here can kind of, you know what I can do is I can give some pointers. I think we might already have those in fact in the spreadsheet. What are the kinds of things?
+Varun Rajwade   46:06So my sense is Malavika and Shariq just connect with Varun and try and push it that way.
+Malavika Goli   46:13Okay.
+Varun Rajwade   46:14Mm.
+Nish Bhutani   46:14So yeah, so let's, my recommendation always is put something in front of people for their feedback. Like this is what we want to go live with to the best of our knowledge and then that always goes faster than asking someone to come up with something. Yeah, so let's Shariq and Malavika, if you can collaborate on that, that will be.
+Varun Rajwade   46:30Yeah.
+Nish Bhutani   46:34Uh, that would be great, huh? OK, see you.
+Malavika Goli   46:37Yeah, sure.On the the.On the EPC to EN, there's one thing that we are adding. It's basically if the customer is logged in and then scans a product and then goes to the PDP. So we are trying to save this as an event and push it to CT.So that that that entire customer navigation is recorded and then we are able to, yeah, so that will that event will start flowing into city by this month end again, by the time we'll have this entire feature up. So that will be then able to marry and work on further.
+Varun Rajwade   47:12Yeah, yeah.Okay.
+Malavika Goli   47:29communication and I'll reach out to Jigisha for that on how do we work on that text.
+Varun Rajwade   47:35OK, thanks.
+Malavika Goli   47:38That's one. And on the Wi-Fi bit, Varun, we have concluded, mostly concluded on Alliant. We will not be proceeding with those guys. I have set up a call with Praveen of the VIL guys.
+Varun Rajwade   47:53On VIL.Yeah.
+Malavika Goli   47:56to help us with negotiation and all that. So right now they're quoting about 5.5, including Wi-Fi services and DOT compliance and rest of the things which is there on GL. But yeah, again, this is a little pricey, so we are, we'll be meeting them on.10th to see how we can negotiate and then I'll be able to take update further.
+Varun Rajwade   48:21Okay.
+Malavika Goli   48:21What an issue.
+Nish Bhutani   48:26Any significant changes in the view location based data that we're seeing or?
+Varun Rajwade   48:26Okay.
+Nish Bhutani   48:33Or.
+Malavika Goli   48:33Oh, okay, I'm not able to share. I'll just, I'll just, I'll just read out. There is no analysis, new analysis. I will just, once my laptop's up and running, I'll just share this screenshot in the chat.
+Nish Bhutani   48:35Or any, I mean, yeah, yeah, but any analysis that...Mentioned.To send it out, yeah, sure, sure, yeah, yeah.
+Malavika Goli   48:52Yes, so we are for now we are on track for the two new notifications which we were working on for 9th of September. That is if the customer is in the vicinity of the store, 200 metres vicinity of the store, and if the products in his cart and the products in his list list, either of these.
+Rohit Indumukhi   49:05Yeah.
+Malavika Goli   49:13And in that sequence, if they are available in the store in the size that they're looking for, then we will also reach out to the customers through a notification. So the first reference.
+Rohit Indumukhi   49:14The.
+Nish Bhutani   49:20Mm.OK, this is an order shopping in the cart or in the Vista.
+Malavika Goli   49:28Yes, so the sequence that we're going to look at is first look at the cart. If that fails, then wish list. If that fails, then we go to the generic near your store, favourite store sort of a message.
+Nish Bhutani   49:30No.Vikas.Peter.Peter.Yes.
+Malavika Goli   49:47And so far we have about.450 customers who have made purchases, purchased across both stores, geo. And we have about 7,80,000 from our city and about 3.6 lakh from the Indranagar. So this is what our analytics say.
+Rohit Indumukhi   50:09Okay.
+Malavika Goli   50:14I'm also trying to fetch the date.
+Nish Bhutani   50:15And roughly half of that is within 5 hours.
+Malavika Goli   50:18Yes.
+Nish Bhutani   50:19Okay.
+Malavika Goli   50:20Yeah.Mm.Mm.Mhm.
+Varun Rajwade   50:44You have to estimate that, okay, if this becomes 200 stores, how much is that data points likely to be? How much is the cost likely to be? And what is the incrementality of this notification?
+Malavika Goli   50:54So Varun, I looked at the cost that we have incurred so far in the last one month for the two stores, it is about 203 rupees. So it doesn't look very pricey.
+Varun Rajwade   51:04OK.Okay, this give me the bottom of working. Remember, two things will happen. Two will become 200, or two will become 400, and number of apps will also scale up, right? So we have to keep both multiplication factors and then come up with a cost for Sandeep.
+Nish Bhutani   51:08Yeah.
+Rohit Indumukhi   51:08Yeah.
+Malavika Goli   51:10Mhm.Mhm.Yeah.
+Rohit Indumukhi   51:26Yeah.
+Varun Rajwade   51:26To sign a phone.
+Malavika Goli   51:28Yeah, sure. Varun, just a quick update, we have about 40% customers who are given our location permission on the app, and about 6% have given and then denied. So the 40% that I was talking about earlier are excluding the 6%.
+Rohit Indumukhi   51:29No.
+Varun Rajwade   51:29What?Are this part right? Take it, take it. OK, so not too many people seem to deny, basically, which is good.
+Rohit Indumukhi   51:46But.
+Nish Bhutani   51:47Yes.And, yeah, yeah.
+Malavika Goli   51:52Right now, yes.He.
+Varun Rajwade   51:54Up.
+Nish Bhutani   51:55Okay, let me give you, you know what, I think the new experiments, let's separate a set up a separate call, Varun with Neeharika involved and Amit as well, so we can just assign those to people. Some I think are closer to getting going and others are.
+Rohit Indumukhi   52:00I.
+Varun Rajwade   52:02Yeah.Yeah.
+Nish Bhutani   52:14Or do you want to quickly share it now and we go through it?
+Varun Rajwade   52:17No, I think let's go to within once and because it's.
+Nish Bhutani   52:20Yeah, Sikka, Sikka.Yeah, let's do that. I'll give you a quick update. I spoke with Nida Suriyanarayanan.
+Varun Rajwade   52:30Sapra.
+Nish Bhutani   52:30About BNM.Sapra, Sapra, sorry, OK.
+Varun Rajwade   52:34Bhat.
+Nish Bhutani   52:36I spoke with Meera and about kind of the VM and she said, yeah, you know, obviously Varun Babji was being unwell was an unusual event. She was also not sure which of the requests were coming from our project versus some other project. Rohit, did you get a lot of?feedback from the BNM team or did they pretty much approve everything you would ask for?
+Rohit Indumukhi   53:01No, there was quite a lot of feedback that Varun had to, so it took quite a bit of time to align on the structure and the mechanism of it.
+Nish Bhutani   53:04A Chadha.Structure and mechanism meaning what exactly?
+Rohit Indumukhi   53:15So, so when how will it render right? Will it be on a A4 size like card kind of a thing, or will it be a standee? What will be the language? Yes, yes.
+Nish Bhutani   53:25those kinds of things. Or even language, there was a lot of feedback.
+Rohit Indumukhi   53:29Yes, yes.
+Nish Bhutani   53:30Okay, okay. Prateek, that's fine. And I said to her, I said, look, we obviously need your expertise. It's not like, but she was saying there were a lot of different things and you know, we had to give a lot of feedback. But she also wasn't fully aware of the context of the project. And they get a lot of different requests, right? So they're not always sure which is related to which project. So what I said to her was, I said, look.You should talk to Varun Rajwade and...Neeharika and get the full context of the project.And ideally, you or Varun Babji should attend our weekly meetings, because otherwise, you know, from their perspective also, it's like, okay, we've just given them something, and then like, okay, now what do we do, right? And the other thing I explained to her was that, you know, because she was a little concerned, like so many signages and all that, I said, look, everything is an experiment.
+Varun Rajwade   54:16Someone is asking me, could there anything?
+Nish Bhutani   54:27So it's not like we're necessarily doing something and that everything we do is going to be permanently in the store.But certainly it's an experiment to see if we can give more guidance to users, right? And help them in the process.So I think that context needs to be given. So Varun, maybe you and Neeharika can also reach out to her and just make sure you sit with her and Varun Babji and give the full context and explain to her that we're not trying, and I told her also, I said, look, we're not trying to do everything in 100% perfection. Obviously, we can't do something very floppy in the store, but.
+Varun Rajwade   54:47I love it.Yeah.
+Nish Bhutani   55:01If you do something to 80, 85 percent.At least that gets things going fast and we start getting the feedback. And then whatever works, we'll keep, whatever doesn't work, we'll remove.
+Varun Rajwade   55:09Yeah.Yeah.
+Nish Bhutani   55:14So, so she said she'll also follow up with you guys, but you guys also reach out.And, uh, and then at least...I'm glad to see today that certain things have been cleared, and I think at least she's also aware that we're feeling some implications, so...And then again, reminder, I'll mention this on the chat also, remind her that.She, she, or someone from, or she or Varun should join basically a weekly call.
+Varun Rajwade   55:41Yeah.
+Nish Bhutani   55:42You know, so then we also come up with requests that they have their inputs early in the process, rather than right at the end.
+Varun Rajwade   55:50Sure, so I'll I'll have a connect with the with her.
+Nish Bhutani   55:51Yeah.Yeah, Sikka.And, and then let's set up a separate call on the new experiments, then.
+Varun Rajwade   56:03Yeah, good.
+Nish Bhutani   56:03Yeah?Maybe, as maybe the smaller team can decide on which ones to roll out, and then we can involve the larger team, yeah, yeah.
+Varun Rajwade   56:08We can just have the first conversation there.Yeah, OK.
+Nish Bhutani   56:14Okay, sounds good guys. Let's keep the momentum going and let's some of the data that we want to get out. Let's try and get that this week itself if possible.
+Varun Rajwade   56:17Oh.Shah.
+Nish Bhutani   56:27Rohit another question, I think.
+Rohit Indumukhi   56:29Yeah, so I have the UI now. Do you want to see it or should I send it over a mail to you, Nish Varun?
+Nish Bhutani   56:37Let me just take a quick look. I have one minute. We have one minute, so...
+Rohit Indumukhi   56:41Okay, so...
+Nish Bhutani   56:42I actually have to get to another meeting.
+Varun Rajwade   56:43Oh.
+Rohit Indumukhi   56:45Are you able to see right the screen?
+Nish Bhutani   56:48That's loading.
+Varun Rajwade   56:49Loading.Yeah.
+Rohit Indumukhi   56:54Yeah, so see, this is how it will look like, right? If you have the QR code lag.
+Nish Bhutani   56:56S.It's still actually it's like I'm seeing a black screen actually.
+Rohit Indumukhi   57:04KC.
+Varun Rajwade   57:04It's loading for me at least, Nish.
+Nish Bhutani   57:08Ohh, it's great.No, it is okay, got it.
+Rohit Indumukhi   57:12Okay, so the QR code will land on a page like this. And let's say that mannequins had a sip and spot collection. This is to show you that a collection like that would have about 10 to 15 looks. So we want to put up either a video or a banner that lands to all these specific products.
+Nish Bhutani   57:17Mm.Mm.Mhm.
+Rohit Indumukhi   57:33Then the second section will have the hero products that were used as part of marketing this particular collection. So it could be the top 10, 5 to 10 products, a scrolling piece.
+Nish Bhutani   57:45Wait, I'm a little confused. The thing you showed on the top.
+Rohit Indumukhi   57:48Yeah.
+Nish Bhutani   57:50That's...On the right is a landing? What is that?
+Rohit Indumukhi   57:55No, no, this is to give you a sense of what does SIP and spot collection include. So it has about these looks, right? And the mannequin looks like this. So this is a banner. It's a, it won't look like this. It won't look like this.
+Nish Bhutani   57:57All right.Got it.Okay, okay.Understood.Ah, okay, okay. So, so I should really, so on the right is all reference. I should focus on the left, basically, correct?
+Rohit Indumukhi   58:19That's correct. So this will be a banner which will land to the some 40 odd products including accessories that are part of that collection.
+Nish Bhutani   58:20Okay, take it.Mm.No.
+Rohit Indumukhi   58:30Right, and then you have the best picks. So some 10 products which are the hero products of that collection would be directly a PDP scroll here so that you can get into the products directly. And then...The third section, by the way, these sections are interchangeable. We look at customer behaviour and keep changing the scrolling piece. The third one is where those specific looks are then rendered. So if you click on one look, again, these are placeholder boxes. Let's you click on the first look.
+Nish Bhutani   59:08Mm.
+Rohit Indumukhi   59:09you will get a pop-up which has the top or the main piece and then the other pieces here. And we're going to put two toggles, one where you can buy the entire look in one go, add that to the cart, and the other would essentially be a toggle for you to look at the store mode versus a global mode.So you'll be able to also figure if that look is available in the store or not.
+Nish Bhutani   59:30Yeah.Okay.
+Rohit Indumukhi   59:36And then it directs you to, yeah.
+Nish Bhutani   59:36So, so, so Rohit, this time this entire funnel, you're going to be tracking P.K.
+Rohit Indumukhi   59:42Okay, so earlier the page was simply, let's say this one, right? Just the 40-50 products on a PLP with no communication. So now this is what we will use. And I think I missed mentioning that between the first banner and the best picks, we'll also have a small area for a write-up because there are a few storylines where.For example, it's a Disney collection that we can call that out. And yeah, and then after that, we direct them to other collections, right, if they're interested and locations and so on. These are usually 4th and 5th scroll, so we don't expect the customer to go here a lot.
+Varun Rajwade   1:00:05Yeah.So, one question, Rohit, is...
+Nish Bhutani   1:00:21Store.Okay, I actually have to go, but Rohit, just go ahead and send this out as well. This is the, this is, it's just this one page, right? Or there's more.
+Rohit Indumukhi   1:00:32There are totally 3 pages. This one, there's a brand store and then there is a listing page also. All the three are send it out.
+Nish Bhutani   1:00:35Beep edges.
+Rohit Indumukhi   1:00:47Okay.
+Nish Bhutani   1:00:47Give us clarity, yeah.
+Rohit Indumukhi   1:00:50PE.
+Nish Bhutani   1:00:51OK, you guys can continue. Sorry, I have to leave. Yeah, OK. Thanks, everyone. Yeah.
+Rohit Indumukhi   1:00:52Okay.
+Varun Rajwade   1:00:52But.No, I just have one doubt.So, Rohit, on this, when the customer scans, will we default toggle into that store inventory or will we make it default ECOM inventory?
+Rohit Indumukhi   1:01:07Not thought about it. I wanted views. Ideally, it should not be default because the customer is browsing it either for information or because they're not able to find that piece there. So I would keep it globally, but we are yet to decide on it.
+Varun Rajwade   1:01:25And I think maybe it's just worthwhile putting a like a AB possibility, right, or a toggle where we can decide, right, so that there's no tech build further because it can go both ways, right? See, for certain things for at the entrance you want to enter show only store inventory.
+Rohit Indumukhi   1:01:34Yeah.Dikshit.Thank you.
+Varun Rajwade   1:01:47Right, tomorrow when you go into an entrance thing, and I'm talking a broader QR project, right? Not just this particular one, but let's say at the entrance there's a QR you want to show store inventory, right? And therefore auto toggle. Whereas here you might not want to auto toggle because there are certain, this might also be about browsing additional inventory.
+Rohit Indumukhi   1:01:55Yeah.No.
+Varun Rajwade   1:02:09So we just have to think that through once.
+Rohit Indumukhi   1:02:13Take it.
+Varun Rajwade   1:02:14Hmm.
+Rohit Indumukhi   1:02:15You can.
+Varun Rajwade   1:02:15Okay.
+Rohit Indumukhi   1:02:16So, the reason I wanted to bring this up is, yeah.
+Varun Rajwade   1:02:17I'll just come back to you on this.
+Rohit Indumukhi   1:02:21The reason I want to bring this up is Shariq, while I know the budget is aligned, I might need help from you to figure out, I don't know if I should be looking up to you or Varun or you, Malavika, essentially timelines for executing that UI, I don't know who to.
+Varun Rajwade   1:02:21Good.
+Altamas Khan   1:02:29Yeah.No.Dikshit.Play, play.
+Varun Rajwade   1:02:38It'll be all in the, it'll be in our main econ track only, so it'll be at Usha and Swapnil and Malavika in that sense.
+Altamas Khan   1:02:40I can be predicted.
+Rohit Indumukhi   1:02:48Okay, no, for this forum, how do we get clarity on the timeline? Because I, even if I, I can at best ask Swapnil and he'll again have to ask, I don't know, Shah. So is that the mode you want to go or should someone own the UI?
+Altamas Khan   1:02:48I need something.Play, play.
+Varun Rajwade   1:03:02No, we can even, you can write my Malavika can come back on timeline, so it will go back into the same, you know, that same resource pool, which is the common PANTALOONSPFXTEAMIND.
+Altamas Khan   1:03:02Call Bhaskar.No.Seven minutes from...
+Rohit Indumukhi   1:03:12There is an additional capex approved, right, Shariq, for these UIs, because we wanted to run a parallel track.
+Shariq Haroon   1:03:18That is correct. That is correct. There is capex approve last week.
+Varun Rajwade   1:03:19OK, that I wasn't aware of. OK, OK, fine then.
+Rohit Indumukhi   1:03:22No, that is why, if you're not aware, then it's a concern. That's exactly why I brought it up. Kivo money approval, then where is it going?
+Varun Rajwade   1:03:30Then, self-checkout, additional, I wasn't aware. Fine, Malavika, you can just step back and cheque it and cheque where what are timelines.
+Rohit Indumukhi   1:03:42I know Swapnil had a point of view and he was supposed to reach out to someone, Varun in your team. I don't know if it's Malavika or Rusha or who, but essentially there are four UIs. There is what I showed, there is brand store, there is a PL which can be customised and you know multiple aspects to that. And then the 4th one is the...The other project with Jigisha and I are working right, store entry, where we wanted to show what Hemant presented as part of deep dive, saying that there are three types of customers, browsing, occasion, and then very specific product. So that UI also is at a design phase. The other three are actually at a phase where it can go.
+Varun Rajwade   1:04:11Yeah.Yeah, yeah.
+Rohit Indumukhi   1:04:23go ahead for development. So between these four, I need someone's help. We can drag them to get them out as a, you know.piece because there's approved budget for it.
+Varun Rajwade   1:04:37Then I think Malavika can hold the update and come back on that. So Malavika just look at this and come back.
+Rohit Indumukhi   1:04:43Shaikh.
+Malavika Goli   1:04:48Yeah, I'll just cheque on this one.
+Rohit Indumukhi   1:04:51Okay, alright. Thank you.
+Varun Rajwade   1:04:53Okay, and...
+Altamas Khan   1:04:55Varun, hi, I need three or three things on which I need, you know, how do we go ahead on our project one, and so just to say that it is the shopper assistant part, OK?
+Varun Rajwade   1:04:55Yeah, Altamas.Ahh.
+Altamas Khan   1:05:12So, one of the pieces, the actual shopper assistant manpower, and you know the the human resource which will be required is left to do that, yeah, so that I've spoken to Hemant, yeah, I've spoken to Hemant on it, but I'll discuss it further next week with him.
+Varun Rajwade   1:05:23That's Hemant.That's clearly in.Ohh.
+Altamas Khan   1:05:31when these back probably is like this you will need and how do we go about it and the store which we can pick up because where we can do the pilot.
+Varun Rajwade   1:05:37Store should be our city again. They're doing everything on our city.
+Altamas Khan   1:05:39Store RCT and insignia on and and insignia on the and RCT and insignia only the is there is like the booking mechanism is what we were I was discussing here with him also that you know he should it be a consumer first initiative booking mechanism.
+Varun Rajwade   1:05:45Pal.
+Altamas Khan   1:05:59It can be through WhatsApp or it can be through our app or it should be like initially a call driven service with generally shopper shop also does.
+Varun Rajwade   1:06:04Call Base Kalekar, low take a start over.
+Altamas Khan   1:06:08Correct, to call this is a shopper shop, you call this shopper shop, call appointment, and then when the person comes, then they give their entire personal shopping assistant.
+Varun Rajwade   1:06:19Yeah.
+Altamas Khan   1:06:20T.K. So, yeah, I'll just cheque with him and then how soon we can get some direction so that we can do the pilot.
+Varun Rajwade   1:06:28Then you can put in take.
+Altamas Khan   1:06:31That is a faster one, and we can just send a saying that, you know, book your appointment through WhatsApp.
+Varun Rajwade   1:06:34Yeah.Yeah.Or just call us and it's an informal thing, store manager is doing it all that basically informally with that.
+Altamas Khan   1:06:45Informally, we build a WhatsApp mechanism, and then eventually it should go back into your app only, like you just go in your system and do the booking.
+Varun Rajwade   1:06:53Yeah.Yeah.Yeah.Full on that.OK, cool. Thanks, Shivam.
+Shariq Haroon   1:07:03Thank you.
+ stopped transcription

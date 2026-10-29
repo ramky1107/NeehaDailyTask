@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Next Horizon</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">NH</span>
+      <div>
+        <div class="brand-name" id="projectName">Project Next Horizon</div>
+        <div class="brand-sub" id="lastUpdated"></div>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <a href="#home">Home</a>
+      <a href="#experiments">Experiments</a>
+      <a href="#actionables">Actionables</a>
+      <a href="#results">Results</a>
+      <a href="#meetings">Meetings</a>
+    </nav>
+  </header>
+
+  <div id="sampleBanner" class="banner" hidden>
+    Sample data. Experiment owners, metrics and actionables are placeholders until the experiment files and meeting transcripts are loaded.
+  </div>
+
+  <main id="view" class="container"></main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260922_053041UTC-Meeting Recording
+September 22, 2026, 5:30AM
+36m 33s
+Malavika Goli   0:15Hi.
+Parasa Neeharika   0:17Hi, Malavika.
+Malavika Goli   0:23I have your data. It's not available in one place actually. We have to get it from different places, but I have it. I'll share it to you by today.
+Parasa Neeharika   0:29No.Okay.OK, Malavika, so all of this, this will include all the data that has been mentioned in that in that mail, right?
+Malavika Goli   0:40Most of them will be there. Some of them we are not able to get, so I was trying to see where all we can pull it up from. I think 90% of them is there in place. I will let you know if not that. I will at least ask Lakshmi to share that with you so that something's coming. And for the rest, we will figure out.
+Parasa Neeharika   0:43Okay.Okay.OKOK.Yeah, yeah, no.
+Malavika Goli   1:01some way to see what we can do at this point. If not, we will add the necessary events in place. Yeah.
+Parasa Neeharika   1:08Okay, yeah, yeah. And yesterday I had a call with Lakshmi, but then she is also expecting a clarity on certain events specific to in-store funnel. Yeah, yeah.
+Malavika Goli   1:18I spoke to her. I spoke to her after that. Yeah, yeah, yeah. So it's clear. She's working on fetching those. I've told her a couple of things. I've guided her. So pull it from there and she'll share it with you. Hopefully by today.
+Parasa Neeharika   1:26Correct, correct.Yeah, sure.Okay.
+Malavika Goli   1:35The our CEO review, so it's a look, you know, everyone's stressed on that. Once that's off the plate, I think by today or tomorrow morning she'll be able to share that.
+Parasa Neeharika   1:47Okay.Oh.Hi, Nish. Hi, Shariq.
+Malavika Goli   1:54Hi, hi, Nish, hi, Shariq.
+Nish Bhutani   1:54Hi, hi, Neeharika. Hi, hi, everyone. Neeharika, I won't be able to actually join the call today. I'll hang up now because I have an early morning flight and it's late night here now. We, you guys can continue with the updates and then just...
+Parasa Neeharika   2:04Okay.OKOK.Okay, fine.Oh.
+Nish Bhutani   2:13I'll land on Thursday morning and I'll call you for an update. But meanwhile, in between, I'll be on e-mail.
+Parasa Neeharika   2:18Yeah, sure. Okay, Nish, yeah.Understood. Yeah. Okay. Okay. Yeah. Thanks. Bye.
+Nish Bhutani   2:22Okay. All right. Okay. Thank you. Bye.
+Parasa Neeharika   2:32And Malavika and Shariq, maybe you can just quickly share your updates and then see. I think Rohit said he'll join by 1130. I'll connect with him.Call Nikhil.
+Malavika Goli   2:44Okay.
+Parasa Neeharika   2:47Yeah.
+Malavika Goli   2:47I have a quick, not a major update, but sort of a progress update on the Wi-Fi bit. So we spoke to Varun, we met Praveen along with the Vodafone guys last week. And Praveen has somehow convinced them that we pull it off.
+Parasa Neeharika   2:49Okay.
+Malavika Goli   3:07For free, as a POC, so.
+Nish Bhutani   3:11Ahire.Sorry, I'm just interrupting for one second. Neeharika, is the meeting fixed?
+Parasa Neeharika   3:19So, today, Amit has a call at 4:00, so he said that he'll cheque during that time and confirm us. Once I have that update, so we are looking for 28th, that is before the strategy meet. So, if we have the confirmation from Ashish today, I'll update you Nish.
+Nish Bhutani   3:23K.K.Okay, so probably next week it will be right? Sometime or no?Okay, chicken.Rane.When can you send me the deck outline, like the basic, even if all the data is not there?
+Parasa Neeharika   3:45So I'm still working on it. I was unwell, so I couldn't complete it. I'll try to do it by tomorrow Nish.
+Nish Bhutani   3:48Acha, cha, OK.Okay, fine. Take it. Okay. All right, let's just leave ourselves enough time. Like, it shouldn't be this week, basically. Yeah, okay. Otherwise, it's fine. Take it. Okay.
+Parasa Neeharika   3:53Right.Okay, bye.Yes, yes, yeah. I'll try to make sure that I'll do it before so that there's a time for accommodating the feedback as well. Yeah, okay, yeah.
+Nish Bhutani   4:04Yeah, yeah. Okay. All right. Okay. Okay. Sorry to interrupt you, Malavika. Okay. Thanks. Bye.
+Malavika Goli   4:11That's okay, Nish.Yeah, so, so we had met the Vodafone guys along with Praveen and he somehow tried to convince them to pull it off for free to as much as possible. So those guys will be visiting our stores. The I see. So the thing is that is.There are certain hardwares that goes into the setup of Wi-Fi rate, which is the actual investment. So Praveen has asked them to see if the existing APs that is available in our store can be used. So they'll be doing a store visit to see.
+Parasa Neeharika   4:40Thanks.
+Malavika Goli   4:55what we have in place and how we can leverage that.and then initiate this POC. So for free, basically, right? Or with or if that means a minimal investment for the APs, then we will do that. In addition to that, what we have also understood is the APs that we invest.
+Parasa Neeharika   5:05Okay.
+Malavika Goli   5:23anywhere can be used by another vendor if you choose to move out because that's basically, that's what's powering the Wi-Fi, right? So the same APs can be used and the APs that they're providing are best quality ones, right? So we'll be able to reuse it.
+Parasa Neeharika   5:28Okay.Okay mhm.
+Malavika Goli   5:40later on if you choose to decide, choose and decide to change the Vendor.
+Parasa Neeharika   5:45Mmh.
+Malavika Goli   5:46Right, so that's on the Wi-Fi bit. For the geo-fencing bit, I don't have the data with me, unfortunately, but I will. Okay.
+Parasa Neeharika   5:56I have it yesterday, yesterday Lakshmi shared it with me, yeah, yeah, OK.
+Malavika Goli   6:00Lakshmi shared it with you there. Okay, great. Take it. So, and she also mentioned the AB testing is possible. So she's added, she's doing some, adding couple of things to, you know, for us to be able to do that. So that's an effort that she's putting across.
+Parasa Neeharika   6:08Mhm.Mhm.
+Malavika Goli   6:19Hopefully by next week that setup's up and we will be able to get into the activation of ANBs. Okay, so that's on the geolocation bit. The additional notifications on the...
+Parasa Neeharika   6:19Yeah.Okay.Mm.
+Malavika Goli   6:41product available in store, you know, that development that we have done, that is live. Someone from the brand has to go and update the content so that there's more traction to it. Right now, it's just running on a, you know, like a...
+Parasa Neeharika   6:43Yeah.Okay.
+Malavika Goli   6:56Gemini content that we picked, it's a very basic content. Again, basic language, but if you want to make it more brand-centric or you know, look at it from marketing, catch point, you know, all that polished way. So that is something that the brand can go and do at any time. Brand marketing, Jigisha's team.
+Parasa Neeharika   7:08Hmm.
+Malavika Goli   7:16So that's an update on that.
+Parasa Neeharika   7:16Mhm.
+Malavika Goli   7:22Uh, Ian, yeah, yeah, go on, go on.
+Parasa Neeharika   7:22So, here, Malik, sorry, sorry. So, with respect to the content, Bhardwaj is not included in the notifications that were created by Jigisha. They were, and those which she mentioned that she has also sent it to Sandeep and...Got it approved from him, so what is not the same, Malavika?
+Malavika Goli   7:43Mm.Ohh.I don't know. I think she, see, we have created a section where they can go and update and make the changes.So, as I know, the section is, hmm, go on.
+Parasa Neeharika   7:58Because the reason...The reason it got delayed, like we we had been waiting for these messages from Jigisha from a long time. The reason for this was that he has he has been waiting this content and then getting it up in a perfect state, bringing it to the perfect state after getting approval from.
+Malavika Goli   8:02Mhm.Yeah.Yeah.
+Parasa Neeharika   8:20Sandeep and all. And now, that's why I'm just asking you, because if this took this long for only that purpose, why should we even again work on the content part?
+Malavika Goli   8:22Thanks.No, I think we are not working on the content part. We are just working. Someone has to go and update it in the section.So there is, there is basically, you know, the clever tab, right? You have the access. They have to just go to clever tab and choose the notification and go there and, you know, add the content, yeah, whatever they want. That's all.
+Parasa Neeharika   8:48Yes, yes, yeah, yeah.And then add the message, yeah, yeah, yeah, yeah.So that part has not been done by you is what you're saying.
+Malavika Goli   9:05Yes, that part's not done by me. What we did earlier was a dummy thing and we went up with that and we handed it over to Jigisha. So I'm not sure if this content, I can go and check, I'm not sure if the content is up or not because she was driving it.
+Parasa Neeharika   9:10Mm.Because Malavika, I have been checking with Jigisha. This was just a couple of days ago when I asked her what is the what is the status on the implementation? She was saying that I have shared it already with the Malavika. So now Malavika will be implementing it. So there is.
+Malavika Goli   9:28Okay.Pal.No, we we will not do that. No, we don't have the access of doing that. Some, there is a team I forgot, not able to recollect the name. There's one specific person from Jigisha's team and Rohit's team, I think, Rohit's team also, and they they do these communications. Whoever is working on the communications on CleverTap.
+Parasa Neeharika   9:54Ohh.
+Malavika Goli   10:01communications or notifications that goes to customer, the same person will do this.
+Parasa Neeharika   10:02Mm.Got it. I think then there is some gap in understanding. Maybe we'll need to clarify it to Jigisha stating that she only had to ensure that this is implemented.
+Malavika Goli   10:19Okay.
+Parasa Neeharika   10:19in that sense. Maybe we can have a quick chat for 5 minutes or something, Malavika. I think that would be better, right? Because she is thinking that you will implement. So, yeah.
+Malavika Goli   10:26Yeah, sure.Yeah, yeah, I need time.Okay, okay, okay. Take it, no problem. Take it, no problem. We can have that.
+Parasa Neeharika   10:36Yeah.Okay.And.And also, if you, if you have checked it, I have shared one slide with you, Malavika, so where we have seen that.
+Shariq Haroon   10:45Call.
+Parasa Neeharika   10:57So, there's a scenario that is when the user, when the user has entered has been in the geofence within the geofence, the location access was set to while using the app and app was not running in the background because of which we couldn't even detect.the customer who has been inside the geofence. But then when the user scanned the QR placed at the entrance and it redirected them to the page on the app, that is when app opened and the customer was detected to be within the geofence. Okay.So, so in this case, we should we should add an additional logic to ensure or see that whether...whether the user has scanned the QR and then and then opened the app because of which you we have detected him within the geofence or he has entered the geofence and has received a message and because of that message they have entered the store.Otherwise, we will be wrongly attributing the user thinking that he has entered because of the because of the push notification that we have sent.
+Malavika Goli   12:21See, I think those cases we will have to manually understand and remove because, huh.
+Parasa Neeharika   12:26Yes, yes, totally agree, because all of these are just our learning that we'll get. So because this is something similarly that we have identified, Varun just told to share it with you so that you'll consider on how we can handle this use case as well.
+Malavika Goli   12:31Mhm.Yeah.Mm.Okay, I'm trying to think. I don't have answers right now, but I'll figure out something.
+Parasa Neeharika   12:51Yes, yes.And also the message obviously that we have already discussed, because after now the user is inside the store and he's getting a message saying that just 200 metres to go, which is again around push because he's already inside the store. So we should keep that message also something generic to ensure that.
+Malavika Goli   12:58Mm.
+Parasa Neeharika   13:13whether he's inside the store or near the store, it should be relevant to the customer.
+Malavika Goli   13:19We will not be able to see define because right now, see, if you look at it from the point of view also, technology point of view also, what's happening is we have been given a lat-long, like a point, Google point by the store team. Okay, now this point can be the entrance or this point can be.
+Parasa Neeharika   13:28Mmh.Outside.
+Malavika Goli   13:42some point, the person that would have, you know, when they're trying to figure out what the lat long is on the phone, they would be somewhere inside office area that could be about 50 metres away from the, say, the entrance. Now I'm not actually sure how big the store can be, but for the...
+Parasa Neeharika   13:49Yeah.Mm.Correct, correct.
+Malavika Goli   14:02practical reasons point of view, let's look at it as, you know, say 50 metres away from the entrance, okay? Now this guy, so if it is 50 metres away from the store, this, we don't know, right? Because it's a moving point.
+Parasa Neeharika   14:08Yeah.I understood, yes.And it could be possible that he might be just be there in the ground floor and our store is on the 1st floor. Even then, it doesn't make sense. Like from the tech perspective, it is difficult for us to analyse that. Only thing is we can see that if the user has received this message after.
+Malavika Goli   14:29Yes.Yeah.It will not, yeah.
+Parasa Neeharika   14:41scanning the QR code. That we can do right.
+Malavika Goli   14:43Mm.After scanning the QR code, should we stop him from the notification?
+Parasa Neeharika   14:47Quess.And what I'm saying is the notification can be generic. Instead of saying 200 metres to go, we can say that there's a new collection at the store. Please feel free to explore or something like that.
+Malavika Goli   14:57Thank you.Mm.Yeah, notification.
+Parasa Neeharika   15:18These cures are Rohit.
+Malavika Goli   15:18Neeharika.
+Parasa Neeharika   15:21Rohit, so he has deployed 48 QR codes right at the entrance pop shop.
+Malavika Goli   15:25QRs have a source is what I'm trying to understand. Are the QRs stating that they come from this particular store? I don't know about that.
+Parasa Neeharika   15:36Kinger store, I think they would have some parameter link to it.That is, yes, you are.
+Malavika Goli   15:44And they will have something now. So what is what is that is?
+Parasa Neeharika   15:49You are will have the parameters linked, like whatever parameters we want to link, like specific product or collection, we can we do that, so store also can be one of such parameters.
+Malavika Goli   16:06Mm.
+Parasa Neeharika   16:10Maybe we can discuss with Rohit and see.
+Malavika Goli   16:11If Rohit is, once Rohit is back, if we can...Understand what is the if what are the values that's coming from there? Maybe we can link to that and figure out the solve. OK.
+Parasa Neeharika   16:16Yes.Yeah, yeah, sure.Okay.Anything else, Malavika, from your end?
+Malavika Goli   16:37That's, yeah, that's there's one more.Huh, see the EPC to AN is on track for October 1st week per release, so we'll deploy it with that release, yeah.
+Parasa Neeharika   16:48Yeah, yeah.Okay.And I have updated Jigisha and Varun regarding the VM specific to the EPC to VAN that Nish was talking about in our last call, if you remember. So there, I explained them whatever is the context on which the VM has to be deployed.Only thing is if they need specific screenshots or anything related to the journey, maybe they may reach out to you, Malavika.
+Malavika Goli   17:27OK.
+Parasa Neeharika   17:28Yeah.
+Malavika Goli   17:30Sure.
+Parasa Neeharika   17:32Okay.Shariq, maybe you can.
+Shariq Haroon   17:39Yeah, sure, Neeharika. Neeharika, so on the RFID self checkout bit, I think development is progressing and we're looking good for first week of October.
+Parasa Neeharika   17:52Okay.
+Shariq Haroon   17:53Hey, Hemant, team will be releasing it for testing on 29th, and then Ashutosh team would be doing that testing.
+Parasa Neeharika   18:00Mmh.
+Shariq Haroon   18:0529th, 38th, that week, the next week essentially. And then the week after that, we are exposing it for UAT.
+Parasa Neeharika   18:08Okay.Okay.
+Shariq Haroon   18:14And it it should go live by end of first week of October, which is around 9th of October. I mean 6th or 9th, whatever the store opening basis. So we are on track on the RFID cell cycle.
+Parasa Neeharika   18:20Rain time, I get home.Mmh.Got it.
+Shariq Haroon   18:34And of course, there were hardware considerations and we have finalised this hardware. I think the fixture or the VM aspect of it has also been finalized. And we will see it in action in Mumbai and Kurla and in Pacific Mall in Jaipur. I think both of them are opening at the same time.
+Parasa Neeharika   18:44Mm.Okay, okay, because in these stores anyway, we are having the the kiosk that is that is the reason you're saying that we'll cheque it in these stores.
+Shariq Haroon   19:01Ohh.Yes, because the RFID set checkout has a dependency on physical kiosk. So unless the kiosk will not be able to see it, maybe the pilot capacity we can see it, but that will be with exposed hardware components. I don't know if that's the best experience. Maybe we can wait for a week or so and then see it in the exact production environment.
+Parasa Neeharika   19:10Ohh.Okay.
+Shariq Haroon   19:25Yeah.
+Parasa Neeharika   19:25Okay, okay.And when exactly is this, Shariq?
+Shariq Haroon   19:28So, that's on.So I think the store is, the store opening date was given as 6th of October. Maybe it will shift towards 9th is what I'm getting.
+Parasa Neeharika   19:40Okay.
+Shariq Haroon   19:42Oh, yeah, I mean the week.
+Parasa Neeharika   19:43First 2 weeks of October, Khanduri.
+Shariq Haroon   19:46Yeah, after, so depending upon how you're calling the first week of October, assuming the first, the first is a Thursday and then second is a Friday. So if that's the first week of October, then...
+Parasa Neeharika   19:57Okay.
+Shariq Haroon   19:58Two weeks into October, we'll see it, we'll see it in action in production.
+Parasa Neeharika   20:03Okay, noted.Mm.Hmm.
+Shariq Haroon   20:12And, of course, the approach that we have taken is a staggered one that is September end, there is something that's getting delivered, then there's something which is October end, and then there's something which is November end. For example, loyalty point redemption is part for later, whereas...
+Parasa Neeharika   20:31Okay.
+Shariq Haroon   20:33Just the basic buying journey, which is customer identifying themselves using mobile number and logging in.with just the mobile number and not the QR and pricing being consistent as that of the in-store pricing. That is what we're taking up in September and go live. Coupons and all of that, they are in fact parked for much later, which is because of loyalty 2.0.Because coupons essentially will be redesigned or.Be re-housed place somewhere else, this is the loyalty point of structure, so you don't want to be working anything on something which will be discarded in short term.
+Parasa Neeharika   21:19Got it, got it.So overall, this will be taken up in three phases in that case, right?
+Shariq Haroon   21:26Yes, so September 9th, which is October, whenever the store opens, we see the first phase, which is like the basic version, then comes the...
+Parasa Neeharika   21:27Okay.Ohh.
+Shariq Haroon   21:38October end version, which you see in November, and then the constant November end version, which you see in December, and because this is all Android-based, so the update should be happening.
+Parasa Neeharika   21:43Okay.
+Shariq Haroon   21:49at the end of each month.
+Parasa Neeharika   21:49Okay, month now. And Shariq, the journey that will be going live in the October 9th or whichever date you specify. So this is the new journey that you have shown us, right?
+Shariq Haroon   21:59Mmh.Yes, yes. I mean, part of that journey, because that journey also included like coupon reduction. The coupon reduction is not there, or loyalty point reduction is not there. Yes, so part of that journey, but that journey, part of that journey goes live in September versus October.
+Parasa Neeharika   22:04Okay.Understood. You mentioned that, right? Correct, correct.And.Got it, fine.And what about the the RFID trial room?
+Shariq Haroon   22:27In fact, I wanted to show that to Nish. We have not been able to push out the data in an automated fashion from POS to RFID smart trial room solution, but we have done that manually and we have done that forA week.
+Parasa Neeharika   22:48Okay.
+Shariq Haroon   22:48And I wanted to show that actually, let me just.It showed Kedar.Great.Yeah.I'm sharing my screen.
+Parasa Neeharika   23:13Yeah.
+Shariq Haroon   23:17Something like this.Unique EPC is right, 914 and.
+Parasa Neeharika   23:23Yeah.
+Shariq Haroon   23:271359, this is about a week, 14th of September to 20th of September.There were about 1300 EPCs that were tried. 914 were unique out of that. Conversion was around 26%.
+Parasa Neeharika   23:39Okay.Okay.
+Shariq Haroon   23:43Which is 244 EPCs exact item which we have bought and EPCs got registered address is still unconverted EPCs are 617 unique options from these EPCs of 994 are 520.
+Parasa Neeharika   23:45Mhm.Got it.
+Shariq Haroon   23:59belonging to 466 tiles and multi-tied EPCs because each EPC might be tried multiple times. They're at 292.And, like, if, for example, on the left, what I'm looking at are the total number of EPCs that were tried.
+Parasa Neeharika   24:16Mmh.
+Shariq Haroon   24:17And then there is trial room one, trial room 3, and if an EPC was detected in both the trial rooms. So that's the breakup on left. The breakup on middle is how they translate into various categories.
+Parasa Neeharika   24:25Okay.
+Shariq Haroon   24:35Women ethnic versus women's best versus kids. Because remember, we have put this in a women's ethnic section. Of course, sometimes we'll also detect Western depending upon proximity of that category to this trial group. And sometimes kids as well, because kids tend to talk with their mothers.
+Parasa Neeharika   24:36Yeah.Got it.Mm.Yes, yes, yeah.
+Shariq Haroon   24:53So, all this is that break up, and then if we break that up further into whether they have tried once or tried multiple times, this is that break up, and whether then then finally they are converted and not converted, which is that twenty-six.7%, so the two forty-four.In the bottom right green that we are looking at.
+Parasa Neeharika   25:18Got it.
+Shariq Haroon   25:20So we create something like this, and...There was the number one.It.Yeah.
+Parasa Neeharika   25:32The 520 unique options which you mentioned.
+Shariq Haroon   25:34Sorry.Thank you.
+Parasa Neeharika   25:37The 520 unique options is of overall unique EPCs tried or specific to.
+Shariq Haroon   25:43So unique EPCs and unique options would mean there is a delta because EPCs can be different sizes also.
+Parasa Neeharika   25:52Yes.
+Shariq Haroon   25:53An option is a set which is a size set put together.
+Parasa Neeharika   25:59Outed size, color.
+Shariq Haroon   26:00But not different colors. The moment we switch different colors.We're talking about our different options, or let's just say...
+Parasa Neeharika   26:10Got it.
+Shariq Haroon   26:12Different colours belong to the same style, but not to the same option.
+Parasa Neeharika   26:17Okay.
+Shariq Haroon   26:18That is why there is a travel from 520 to 466 because it could be that somebody tried it on and tried on a different colour and then they switched to a different color.
+Parasa Neeharika   26:31Okay.
+Shariq Haroon   26:32And that is why the number of size are lesser.not as less as the travel from 914 to 520, which means size switches were far more frequent than colour switches.
+Parasa Neeharika   26:35Got it.Got it.
+Shariq Haroon   26:50And multiplied is also an interesting bit because.
+Parasa Neeharika   26:50Ohh.
+Shariq Haroon   26:54People might have liked that product.And that's why you can see that the multi-tribe.Sorry, surprisingly, the multi-try is bulk of that is moving to unconverted.So they might have liked the product, but because of the script, we are losing out on such customers. It will multi-try is a very strong indication of them liking the product.
+Parasa Neeharika   27:12Okay.Mmh.Mm.And this mighty trade.
+Shariq Haroon   27:21Was she the single player?
+Parasa Neeharika   27:24Sorry, sorry, and this multiplied code also. I'm so sorry, I'm so sorry.
+Shariq Haroon   27:25What's the signal? Yeah, please.
+Parasa Neeharika   27:30Okay, I'll just complete. So this multi-tried will include the users. The same could be possible that the same user could have tried it again, or else the same piece could have been tried by two different users, right? We don't have that split.
+Shariq Haroon   27:31Please welcome.Yeah.the same user could have tried. So that is currently not there because yes, what you're saying is true. The same user could have tried it multiple times versus different users trying it. So.I mean, one way of doing that is looking at how separated in time are they.
+Parasa Neeharika   28:10Ohh.
+Shariq Haroon   28:10But that logic I don't think has been built yet.
+Parasa Neeharika   28:14Currently, what is the time frequency that window that we are considering?
+Shariq Haroon   28:19So, currently, it is just...When you say window, that window's not there, it's just about a day. So if on 14th it was tried twice, then it is multi-drive.
+Parasa Neeharika   28:22Okay.Okay, okay.
+Shariq Haroon   28:32Yeah.
+Parasa Neeharika   28:32Mmh.Okay.Okay, Shariq, thanks. Please go.
+Shariq Haroon   28:43Are there a few others also?So, this is this is that option. Each bubble represents a unique option, the style plus color, and it is colour coded depending upon the conversion rate. If the conversion rate was far too low.On the horizontal axis, we have options, that is the total try-ons, and the vertical represents EPC conversion rate. If the conversion rate is too low, but the try-ons are high, then we're just colour coding it differently and calling it as not great fitting candidates.
+Parasa Neeharika   29:28Mm.
+Shariq Haroon   29:33versus the green ones which are like...
+Parasa Neeharika   29:34Okay.
+Shariq Haroon   29:37Getting bot far more frequently than others.versus the blue ones which are...Which are having exceptionally high conversion rate. I mean, just a linear representation of.How good off of it that is?
+Parasa Neeharika   29:59Okay.Even if a single try, they are just immediately purchasing.
+Shariq Haroon   30:07Yes, even for the single bank.
+Parasa Neeharika   30:08Okay.
+Shariq Haroon   30:11Like, for example, this blue candidate, this is a single dry candidate. It was tried once and it got converted. That is why the EPC conversion rate is 100%.
+Parasa Neeharika   30:23Okay.
+Shariq Haroon   30:25versus say this particular candidate or this candidate, the green one, it was tried 10 times and the conversion rate is 50%, around 50%, which means that it was bought five times.
+Parasa Neeharika   30:31Yeah.Okay.Got it.And each bubble signifies one EPC or one option.Correct.
+Shariq Haroon   30:50So each bubble is an option and the size of that bubble is the EPC.So, basically, how many of that option?
+Parasa Neeharika   30:56Got it.Stop Quantity Song.
+Shariq Haroon   31:01Pandit.
+Parasa Neeharika   31:05Okay.
+Shariq Haroon   31:09They better.Now, this is this style level sizing disparities. I mean, one size could be doing good, and over here we are going into very thin waters.Sorry, shallow orders, because the data is too thin, too, too sparse. We, you know, we created this, but not.Maybe the best point in time to look at this data. The point that we're trying to make is that some sizes might be better.at representing body types versus other sizes in the same EM, sorry, in the same option.For example, L got tried two times and both of the time it got bought versus Excel got this got tried four times, but has a conversion of 0. But again, I'm saying this, we have built it, but it's far more meaningful when we have a lot more data. That's too thin.
+Parasa Neeharika   32:00Mhm.Okay.Yes.
+Shariq Haroon   32:23Okay.
+Parasa Neeharika   32:24Jha, okay.
+Shariq Haroon   32:31No, uh, this is...an attempt to create a market basket analysis, as in what products are coming out together.And this is just the bill wise analysis. So we take a bill number, which is this bill, the total EPCs, the trial EPCs, total EPCs, total units, and the net bills spent. For example, over here, the second one, you can see the trial EPCs are six, the total unit spent.
+Parasa Neeharika   32:54And.
+Shariq Haroon   33:05One 15.So...
+Parasa Neeharika   33:08Okay.
+Shariq Haroon   33:08And I think this still needs to evolve a bit. Also, a lot more data needs to flow in overhead to be able to create any sort of market bar sheet analysis in terms of if there is any kind of proximity or propensity or correlation of 1 category or one merchandise versus another.
+Parasa Neeharika   33:23Yeah.
+Shariq Haroon   33:32For example, if I'm buying a jeans, will I be buying a t-shirt? That thing.But again, this makes more relevance: one, when we have more data, second, when all trial rooms are getting mapped right now, because the T-shirt that I'm buying is near placed in a smart trial room, so I'm going inside and checking out that T-shirt versus the jeans which is far away from a smart trial room, and...
+Parasa Neeharika   33:44The.com.Correct.
+Shariq Haroon   33:59I will not be buying and it will end up in that 15.
+Parasa Neeharika   34:02Mmh.
+Shariq Haroon   34:02This makes a lot more sense when we have a lot more data, and all travels are covered.
+Parasa Neeharika   34:10Currently, Shariq, total, because they have kept it in women's trial room, any idea total how many trial rooms do we have and in how many of these we have it installed?
+Shariq Haroon   34:25So currently, the women's ethnic section, the trial room bay that we are targeting, it has six trial rooms in total, and we're wanting to do all six of them. Hardware has been put in two out of those six currently. So the data that we're looking at is for two.
+Parasa Neeharika   34:32Yeah.Is to.Oh.
+Shariq Haroon   34:41So, which is which is this one over here, the trial room one versus trial room 3.
+Parasa Neeharika   34:47Okay.But again, next to some other sections also, there would be another trial rooms specific to women, right?
+Shariq Haroon   34:58Yes, because for example, men's, you will not see any men's category being tried out because as a separate room and we have not addressed it, aimed it at all. So you're missing out on that data.
+Parasa Neeharika   35:08Correct.Okay.
+Shariq Haroon   35:18Ivy.More, bye.This is the trial room wise breakup of the same data. If we add up 552 and 247, it will get the same value. This is a trial room wise breakup, which means that which trial room is occupied, how much? If you want to get that kind of analysis, that's also possible.
+Parasa Neeharika   35:33Got it.Yeah.Okay.Mm.
+Shariq Haroon   35:51The last one is just only to see.Product mastery development.with the final state, whether they were converted or not converted. That's all.
+Parasa Neeharika   36:02Okay.
+Shariq Haroon   36:04Yeah.
+Parasa Neeharika   36:06Shariq, if you can just share these screenshots, maybe if I can have a call with Nish, I will just experience on this. OK, yeah.
+Shariq Haroon   36:14Yes, yes, of course.Okay.
+Parasa Neeharika   36:18Okay.Fine, then I think maybe we can come to work. Thanks, Malavika. Thanks, Shariq.
+Shariq Haroon   36:27Okay.
+Malavika Goli   36:28Thank you.
+Shariq Haroon   36:29Bye bye.
+Parasa Neeharika   36:30Bye.
+Parasa Neeharika stopped transcription

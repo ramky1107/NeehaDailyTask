@@ -1,0 +1,463 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20261013_053034UTC-Meeting Recording
+October 13, 2026, 5:30AM
+57m 4s
+Shariq Haroon   0:36Yeah, me, Erica.
+Parasa Neeharika   0:36Hi, Shete.Shariq, I need some help from you. So, basically, for for the for the steer code for the steer code deck in the chance to add some insights that we have, so of course things are not concrete insights because we are we only have to the RFID.
+Shariq Haroon   0:53Yes, sir.
+Parasa Neeharika   1:09Digital installed in two trial, but at least what kind of data are we receiving and how this could help us, so all of those has to be added, so...
+Shariq Haroon   1:20So...Those slides that I shared presented that day, I can share those slides with you. That works.
+Parasa Neeharika   1:27Yeah, just share it with me. If if that works, then I'll go ahead with that. Otherwise, I'm reaching free.
+Shariq Haroon   1:34Okay, okay.
+Parasa Neeharika   1:35Oh.
+Shariq Haroon   1:36Let me do that right away.
+Parasa Neeharika   1:38Riya.It.Now we have.Yeah.Thanks.
+Shariq Haroon   2:07Thanks.
+Parasa Neeharika   2:08Okay.
+Nish Bhutani   2:10Hi, guys.Can you hear me?
+Parasa Neeharika   2:13Yes, yes.
+Shariq Haroon   2:14Yes, sir.
+Nish Bhutani   2:14OKOK.
+Parasa Neeharika   3:06Before I said, we'll be in a while, I mean, by before that, we can start with Sureddi.
+Nish Bhutani   3:15Okay.
+Parasa Neeharika   3:16Yeah.
+Nish Bhutani   3:17Uhh...Who is anyone else joining today?
+Parasa Neeharika   3:23Sure, like, no one told that they will be joining also, so I'm expecting their charm.
+Nish Bhutani   3:26Okay, Shete.Okay, so from next week we're changing the time, right?
+Parasa Neeharika   3:32Yes, yes, we know it for six months and just confirm it.
+Nish Bhutani   3:34Take it.Chicken, chicken.Okay.Okay, Shariq, go ahead.
+Shariq Haroon   3:43So Nish, I don't have a lot this week apart from the fact that the hardware kiosk has been set up in Mumbai office. So if you're visiting anytime, you can try it out for yourself. And few things that I wanted to discuss on the hardware kiosk, which I've also pinged Varun about because Varun was asking what's the user.
+Nish Bhutani   3:50Okay.
+Shariq Haroon   4:01business feedback on the RFIDs and checkout. I'll just maybe pull that up and have a discussion around it.Yeah, so three main areas, the response time between RFID app and D365, whenever an item is added to cart.Is a lot, because every time RFID app is checking with B65 to fetch pricing of the entire card, and that's that communication takes time, because B65 in itself takes time. It's not nothing way to network over here, but it's more to go with the response time of B65.
+Nish Bhutani   4:24Very nice.Mm.Mm.Yeah.
+Shariq Haroon   4:42And there isn't much that we can do about it for now.
+Nish Bhutani   4:43Mm.How much time is it you to mention this last time also?
+Shariq Haroon   4:49It's taking about 3 seconds per item, 2 1/2 to 3 seconds per item.
+Nish Bhutani   4:52Okay.Okay.Do we can we do we what do you're saying we we show one item at a time?Can we add a message saying checking price?
+Shariq Haroon   5:09Yeah, we have, we have added like loading products, just mention that as loading.
+Nish Bhutani   5:11Okay. Loading product. Okay.Sorry.Okay.Um... hmm.
+Shariq Haroon   5:20And I mean, I'm also not the best person to solve for D65 with actually Imran from Praveen team, and we've had a discussion around it. Maybe cleaning up article master is one way, maybe.
+Nish Bhutani   5:26Sure.Mm.
+Shariq Haroon   5:33I don't know, some evolved ways of just pushing the price master daily as a proactive measure instead of a reactive call. And that's, now we're talking different architecture altogether. But I mean, these are less ways of solving for it. In fact, the second one I haven't discussed with Imran.
+Nish Bhutani   5:40Mm.Got it, but this is also a POS problem you had said, but POS see it's less apparent basically, yeah.
+Shariq Haroon   5:59Yeah.So, uh, we'll have to discuss, uh, maybe with, because Imran is saying it can't be solved.
+Nish Bhutani   6:01Mmh.This.typical Microsoft also. Okay. And this is obviously happening over the internet, right?
+Shariq Haroon   6:10Maybe we have to take it.Thank you for reading.
+Nish Bhutani   6:17This up, yeah.
+Shariq Haroon   6:17It's happening over the internet.
+Nish Bhutani   6:20I think one thing I would do, Shariq, on your end.So I often find that, you know, these kind of waiting messages, you know, are frustrating because the messages stays there for a while, nothing's happening.To the extent that you can give sequential messages.So things like item detected.When the first, when the RFID reading happens, you know, you say item detected, then you say loading product data, then at least like people feel like there's something happening, you know.That's what I would suggest.
+Shariq Haroon   7:00Okay, I'll like I'll like.
+Nish Bhutani   7:01I don't know if there's something else you can say in between, but yeah.
+Shariq Haroon   7:06Okay, yeah, we'll try that, yeah.
+Nish Bhutani   7:08Just look into that. Yeah, take care.And any other major feedback or no?
+Shariq Haroon   7:14Yeah, the three, the three major. The second is open MRP or multiple MRP. Right now we have blocked them because what open MRP or multiple MRP is, open MRPs are those kind of products wherein upon scanning the barcode, the MRP has to be key in or typed.
+Nish Bhutani   7:16The car.
+Shariq Haroon   7:32Buy desktop.
+Nish Bhutani   7:34Mm.
+Shariq Haroon   7:34And we have blocked it out for obvious reasons, because then the customer can type whatever they, they will not have context what to type, and B, with malicious intent, they can type whatever they want.Uh, that's why we have blocked over.
+Nish Bhutani   7:46So there we are saying what get ask for help. So we're saying what I'll get help or something or what are we saying?
+Shariq Haroon   7:51We are saying, we are saying, uh, to go to the, asking them to go to the billing counter, as in manned billing counter.That is what we are asking for now.
+Nish Bhutani   8:00Okay.
+Shariq Haroon   8:02Uh, that's the message it shows.
+Nish Bhutani   8:03We.We can't, oh, because is there any kind of, there's no kind of administrator login right on the POS, like a store login?
+Shariq Haroon   8:12There is no kind of administrative login.
+Nish Bhutani   8:14OK, so then the later next version.We should have that because I need the better solution would be they call for help and someone writes it in for them basically, right, rather than them having to go to the pods.
+Shariq Haroon   8:27Okay, okay, that's a good way, that's a good way of solving for it, and same goes for I think for multiple MRP, multiple MRP, same instead of typing it in, instead of it being free, it's selection between two or three MRPs that are, this is essentially for cosmetics which are batch based, the EN or the barcode does not change.
+Nish Bhutani   8:28Yeah, yeah, yeah, yeah, yeah.Better.Mm.Mm mm.
+Shariq Haroon   8:46Whereas the pricing changes for recent batches, and that's why multiple MRPs exist against the same barcode, so...
+Nish Bhutani   8:50I see.How often would this happen for every 10 or every 100 boss checkouts? How often do you think the open MP and multiple MP would happen? Any idea?
+Shariq Haroon   9:07It will be very less, less than 5%, but I'll have to double cheque on that number.
+Nish Bhutani   9:09Yes.Okay, okay, okay. Bye. Take care.OK, and then the third one.
+Shariq Haroon   9:16The third one is insignia and this is more to do with.How, what commercial guardrails have they put? So, Insignia as a programme means that the customers can pay 1599 and subscribe to this Insignia programme, which is our top tier loyalty membership, and it allows for 10% additional discount. Let's just say if a customer is willing for 30,000 rupees.
+Nish Bhutani   9:25Mm.Mm.Correct, correct, correct, correct.Mm.
+Shariq Haroon   9:43and they can simply buy insignia for 1599 and get 3000 rupees discount. So to avoid such kind of practises or discourage, what we have done is we have for the first day, we have put in a limit of the same that they're paying, which is 1599.
+Nish Bhutani   9:49Mm.
+Shariq Haroon   10:02So the max that they can redeem or get.
+Nish Bhutani   10:02Mm.
+Shariq Haroon   10:07discounts availed for is just 1599 on the first day. Day one onwards, no such restrictions apply, but day zero, this restriction does apply. Currently, P365 is not equipped to handle this.
+Nish Bhutani   10:10Mm.Mm-hmm.Mm.
+Shariq Haroon   10:25with self checkout while it is equipped to handle it by itself. If there's a man billing counter, then it is equipped to handle by itself, but with self checkout it is not equipped to handle. So we are putting it up for phase two. And for phase one, what we're doing is we're not allowing just this scenario, the day zero scenario to be built on.
+Nish Bhutani   10:40GROUP.
+Shariq Haroon   10:46RFID self-checkout.
+Nish Bhutani   10:50So.How would they, how will you, I mean, you're saying you're not going to allow it, meaning you won't allow people to buy insignia.
+Shariq Haroon   11:01So buying insignia anyways is not a journey inside RFID self checkout. So somebody buys insignia from a manned billing counter and then comes on the same day, in the same session, comes to the RFID self-checkout and they try to bill. Or if they buy it online and they try to bill it, then it will pop up.
+Nish Bhutani   11:01Or like yours.In the chaos, okay.Ohh.to chaos or if they buy it online.Then, what will be?
+Shariq Haroon   11:20That will have to go to the man billing counter to avail discount, yes.
+Nish Bhutani   11:22Go to the pause. OK, that's fine. That's fine. OK, so it will just say that because it will will give explain anything or it'll just say please go to the pause counter.
+Shariq Haroon   11:32Right now, we're just saying, but we can add that explanation. We can add that explanation.
+Nish Bhutani   11:37Uh, for your what do we say for your insignia discount or something or no?
+Shariq Haroon   11:42Yes, right now we are saying for insignia discount, please go to the manned billing counter to get your insignia discount, because if we go to the manned billing counter, then they would be able to avail at least 1599 worth of discount on day zero.
+Nish Bhutani   11:58Sure, sure. I think the only thing is we don't want them to feel like they can, even for future times, they can't get the boss discount.They can't get the insignia discount if they go to the kiosks, right?
+Shariq Haroon   12:07Mhm.
+Nish Bhutani   12:12Store.
+Shariq Haroon   12:14It's a very unlikely scenario because for this to happen, the customer has to 1st queue in on the manned billing counter.
+Nish Bhutani   12:14No, no.Yeah.No, but they might also buy insignia online, right?
+Shariq Haroon   12:21Bye.
+Nish Bhutani   12:24Oh, no.
+Shariq Haroon   12:24I am not sure if they are able to buy it online. Maybe Varun will be able to tell if they are able to buy it online.
+Nish Bhutani   12:31Mm.You can just ask AI.No, you cannot actually buy it all, right, according to Gemini, anyway.
+Shariq Haroon   13:02So, it's a very edgy corner case that we're talking that they would have to go to the billing counter and then go to the other. So, anyway, we're picking this up in phase two, such that even for day zero, at least 1599 worth of discounts they can avail. We're picking that up in phase.
+Nish Bhutani   13:04Yeah, Tika, Tika, Tika, sure, sure.Yeah, yeah.Mm.And right now the 3001 is available in the kiosk, 3000 discount.
+Shariq Haroon   13:21For day zero, that's not available. For day zero, they'll have to go with 1599 worth of discount on day.
+Nish Bhutani   13:26Go to the, no, no, but afterwards, after that.
+Shariq Haroon   13:29Yes, yes, 3000 is available. From date one onwards, it's available for a period of 365 days.
+Nish Bhutani   13:31Okay.Peter.Okay, okay.Okay, it's interesting that we can tell them to go to the pause, but we're not able to just give them the 1599. That's surprising.Right, because we clearly were detecting that it's day zero.
+Shariq Haroon   13:48Yeah.
+Nish Bhutani   13:50Yeah, okay, but technically you're saying it's not possible. Yeah, anyway, it's a very edge case. One, one actual question. There's certain products that we that are not RFID, right? Certain categories.What kinds of things are those?
+Shariq Haroon   14:10Mostly, one jewellery, cosmetics, sometimes, but cosmetics, some of them are also open MRP, multiple MRP, and the process right now is that they would write the MRP on a pink slip and give hand it over to the customer, and the customer goes to the billing counter, so whenever...
+Nish Bhutani   14:11Cosmetics, so...True.Yeah.Yeah.Yeah, yeah.
+Shariq Haroon   14:28they're doing such an activity, they can tell them not to visit the RFID search checkout and go to the billing counter directly to be able to purchase with this pain slip.
+Nish Bhutani   14:31Mm mm mm.Okay, and when they take a non-RFID product to the kiosk, they prompts them to what, enter the number or what does it do? I can't remember now.You are on mute, Shariq.
+Shariq Haroon   14:52Sorry, sorry, there's a barcode scanner, and they can just scan, and the barcode scanner is quite, quite responsive. Yeah, it's quite responsive. It just picks up anything that comes even near.
+Nish Bhutani   14:53Mm.Use the barcode scanner and tells MP.Okay, okay, cheque, cheque.Okay, okay, so basically, effectively, all products are covered other than open ERP and MRP and multiple MRP. Okay, okay, okay, cool. So, when do you think now?
+Shariq Haroon   15:08Yes, yes.But as a practise, we are also tagging all MP merchandise because MP merchandise tends to be at around 25 to 30 percent of your total inventory. So we are also tagging that actively before we go live with RFIDs and checkout.
+Nish Bhutani   15:27MP is what?
+Shariq Haroon   15:29I'm on Pantalum, sorry, external brands like Levi, Spiker, so we're tagging those as well, uh, with with the such, uh, yeah, these kind of these kind of tags, these are like...
+Nish Bhutani   15:31Yeah, yeah, yeah.Okay.OK, Gupta.Yeah, yeah.
+Shariq Haroon   15:42blank tags and these are RFIDs. So we are putting one on each MP garment.
+Nish Bhutani   15:43Okay.Okay.Understood, and that's happening only for those stores, where we're first rolling out kiosk or everywhere, only for those stores.
+Shariq Haroon   15:54Yes.Only for those two stores, Jaipur and Dutta.
+Nish Bhutani   15:58Okay.Understood. OK, so when do you expect to go live now?
+Shariq Haroon   16:04The latest dates that I'm getting, hardware delivery is supposed to happen on 15th, which is 2 days from now, for both Jaipur and Kandalgaonkar, maybe a day here and there.
+Nish Bhutani   16:10Mm.
+Shariq Haroon   16:16Store go live as in handover, that is the CPC model, the projects team will have to hand over the store to the business or operations team. That handover is planned on 17th and 18th. 17th for Jaipur, 18th for Kolkur. And 19th is when we're training, when I'm going to Jaipur for training on RFID search record for.
+Nish Bhutani   16:19Mm.Okay.
+Shariq Haroon   16:36The staff and and the RSMs, and 21st is when we are training for last staff, 19th and 21st.
+Nish Bhutani   16:38Mhm.Okay.
+Shariq Haroon   16:45And the store go lives are 22nd, which is Jaipur, and I think 23rd or 24th, which is Keral.
+Nish Bhutani   16:46Okay.Okay, great. We should...And the signage is being banned in the stores for the kiosk or is the kiosk already there in the old one in the stores?
+Shariq Haroon   17:05No, the hardware delivery, the old one.
+Nish Bhutani   17:07Not the old one, please.
+Shariq Haroon   17:09Uh, because, um, no, I, I didn't, I don't.
+Nish Bhutani   17:09In these two stores?The old kiosk.
+Shariq Haroon   17:14The old, there was just one kiosk, old one in Kurla and it did not have a signage. It did not have a signage. And Jaipur is a net new store, so it doesn't have any old.
+Nish Bhutani   17:17Gotcha.Mm.Okay, I wonder if you want to put signage right away or you want to wait 1st and...
+Shariq Haroon   17:32Yeah, I think we can.
+Nish Bhutani   17:32Iron out any kinks.
+Shariq Haroon   17:34Yes, one of the other ways of you thinking, because VM was slightly discouraged to put signages, one thing that we can potentially do is use the wallpaper itself as as.
+Nish Bhutani   17:36Mm.Mm.
+Shariq Haroon   17:48That kind of using signage and keep the screen lit at all times, like how Decathlon does UPI card only, then we can make that part of the screen saver.
+Nish Bhutani   17:49Okay.Okay.Yeah.Mmm, sure, sure, makes sense.Hmm, we could we could also put potentially signs near the post checkout.
+Shariq Haroon   18:01Wallpaper.
+Nish Bhutani   18:07So when there's a queue.People can, hopefully they can see like, oh, there's a sign there saying, you know, you can use your self-checkout at the kiosk.
+Shariq Haroon   18:16Yeah, that is what we can do.
+Nish Bhutani   18:18When you go to the stores next, maybe just plan this out, take some photos or whatever and just decide what will be the best spots for that kind of thing. And obviously the staff training is also important so they can redirect people when there's a queue to go use the kiosk.But I think signage is also important.
+Shariq Haroon   18:40So we are creating a training manual and SOP, which we can use as reference material for the staff. Of course, we'll be training them in person, but we'll also be handing them those documents.
+Nish Bhutani   18:40We don't need to wait.Yeah.Sure, sure, chicken.Okay, so I think on signage we'll have to get Varun Babji involved probably. We don't need to obviously wait for that for rollout, right? But once you...Once you can decide the spots, I mean, you maybe we can work on the language anyway, but you can come up with some language and we can run it by Varun.
+Shariq Haroon   19:17Yeah, OK.
+Nish Bhutani   19:18Yeah? KC. Okay.Okay, Jigisha and RFID, there's no update, right? At this point, the RFID readers, the trial room.
+Shariq Haroon   19:30No, no, no.
+Nish Bhutani   19:31Okay.And those slides you've given to Neeharika already, correct?
+Shariq Haroon   19:40Yeah, I was just about to, Nahak. I just was mentioning, yeah, Aman was mentioning something about it.
+Nish Bhutani   19:41From last time, Raja.Chetan.Sikka.Okay, Jigisha is there. Hi, Jigisha.
+Jigisha Patel   19:52I need some of you.
+Nish Bhutani   19:54Good, good.Okay, so any update on the data from...the experiments that you had done. One was gifting and what was the other one?
+Jigisha Patel   20:05Oh, yeah.
+Nish Bhutani   20:07Um...
+Jigisha Patel   20:08One was actually enabling EPC to EAN, so that, yeah, that is done, yeah, so essentially will not have any data. The other one which I was helping out with was the push notifications, the for geo-targeting, so we just shared with Lakshmi. Actually, I also spoke to the ECO marketing team. In fact, Lakshmi is to wants to take them.
+Nish Bhutani   20:11Okay, so that is done. Okay.Hmm, correct, correct, correct.
+Jigisha Patel   20:30through the entire process of setting these up in Clever Tap. So unfortunately, it is kind of stuck at Lakshmi's end, per se. Varun, yeah, no, she's actually in the tech team, Nish, Varun's team. Yeah, but, and she's a spot for Clever Tap, per se, integration with all the teams. So.
+Nish Bhutani   20:37Lakshmi is in ecommerce.Okay.Okay.But normally the notifications are in Clever Tap, right, or no?
+Jigisha Patel   20:50Yeah.I don't think so. They weren't with Clever Tap, but that's the understanding that I have got from Dikshant, who's the marketing counterpart for e-commerce. Yeah, so because Clever Tap is a relatively new tool for them too, if I'm...
+Nish Bhutani   21:02Okay.Sure, so what is so what is the estimate for when these will be live?
+Jigisha Patel   21:12Ohh, I will again have to cheque with Lakshmi. We've been following up. In fact, I think Neeharika has also followed up the thought, but we have don't have any unless Neeharika you spoken offline.
+Parasa Neeharika   21:17Play the song.Yeah, so they were saying that they have gone live, but we have yet to receive the status of the success of these notifications, so even the A/B testing that they are doing, so for all of this, they should.
+Nish Bhutani   21:38Oh, so they're saying they are lying.Okay. So who will provide the data on this?
+Parasa Neeharika   21:47Ohh, we'll cheque with Malavika because Lakshmi is from there.
+Nish Bhutani   21:49Malavika, okay. I thought Malavika was going to come to the meeting today.That's what Varun had said, no?
+Parasa Neeharika   21:56She seems to be, she seems to be occupying the meeting.
+Nish Bhutani   21:58Okay.Okay, take a let Varun join and then we'll cheque on that. Okay.
+Parasa Neeharika   22:04No.
+Nish Bhutani   22:07And then the gifting ones, any data on those, Jigisha?
+Jigisha Patel   22:08Yeah.
+Parasa Neeharika   22:09The.
+Jigisha Patel   22:09Yeah.Gifting ones, I had shared some preliminary data. I will also share something which was, yeah, that was two weeks back. I have something updated as of last Thursday. I did not have the clicks actually, that is why I wasn't able to share with Neeharika, otherwise I would have already shared it. So the numbers still look.
+Nish Bhutani   22:15Correct, that was two weeks back, no?G.
+Jigisha Patel   22:30Downwards only Nish, they don't really look great as of now. The recommendations that had come from Neeharika based on her e-mail, I mean, anyway, when once the recommendations came in, I had a chat with her, but considering it's an RI5 store, you know, RCT being an RI5 store, and we want to anyway, you know, keep a cheque on.
+Nish Bhutani   22:35Okay.Mm.Hello.
+Jigisha Patel   22:54how we are, you know, how much signage goes across, et cetera, et cetera. So maybe I think the people that you had mentioned where, you know, we take a walk through together and then come to a consensus. Yeah, I think that is something that I've asked Varun to figure out.
+Nish Bhutani   22:58Mm.Yes.Wagh.
+Jigisha Patel   23:14So, for time, I'll also cheque for who needs time accordingly. What I'll do is maybe drop in a follow-up or not, you know, the e-mail that you had shared to see if there is a common time slot where we can maybe have this walk to, and then...
+Nish Bhutani   23:17Yeah.Yeah.Who was following up on that, Neeharika? Was it Amit who was following up or? I think Amit was following up on her for that. Take it. I'm just wondering, see, there's no point having signage up that's not performing. Okay. Now, because it just clutters the store for no reason. Now.
+Parasa Neeharika   23:31Yes, Amit.
+Nish Bhutani   23:45The only thing is I do want us to discuss it together when we do the walkthrough. It's only in one store right now, correct?
+Jigisha Patel   23:54Yes, currently it's only, yeah, it's only our city, yeah.
+Nish Bhutani   23:54In our city.And how many and how many signs so with the some of these are the ones that you had said and then some other ones Rohit had done right also?
+Jigisha Patel   24:03Yeah, so Rohit are not gifting centric. The ones that I have done are more gifting specific. Yeah, there are there are three in total, so there is one, yeah, so there is one which is on the handbag section, and there is one which is.
+Nish Bhutani   24:06Correct.Your thing, and how many signs are there that you've done?The Chadha.Mm.
+Jigisha Patel   24:24In the this section, two sorry, two in the kids wear section, yeah.
+Nish Bhutani   24:27Kids in.Okay, I guess it's not too much. It's okay. TK, let's do the walkthrough and then we can figure out what's happening.
+Jigisha Patel   24:31Yeah, yeah, yeah, yeah, yes, because there are certain VM guidelines too, right, which, because they, like I mentioned, yeah, so you know, adhering to those, etcetera, etcetera, so we can then maybe take a call accordingly once we have that, and the numbers I'm just sharing.
+Nish Bhutani   24:39Sure.*****.
+Jigisha Patel   24:53On the Chenneti.
+Nish Bhutani   24:53I mean, if they're minimal basically, right? Okay, let's take a look. That's fine.
+Jigisha Patel   24:56Yeah, yeah, that is in fact, yeah.You want me to share the screen or should I just share it on the chat? Okay, sure. Okay.
+Nish Bhutani   25:02No, sure, yeah, yeah, no, no, share the screen, sure.Neeharika, we have any numbers from Rohit?
+Jigisha Patel   25:14This is.
+Nish Bhutani   25:16Hari.You're on mute, Nahak.
+Parasa Neeharika   25:19Sorry, sorry, man, Shivam.
+Nish Bhutani   25:21Mm.Sorry.
+Parasa Neeharika   25:25We don't have it translate.
+Nish Bhutani   25:26We don't have anything? Okay.Okay, so let's make, can you follow up with Rohit and just ask him to share the numbers and he must present those at our next Tuesday meeting. But let's get them shared to us right away. Yeah, okay.
+Parasa Neeharika   25:33Yes, yes.What?Yeah.Yesterday, he was on leave.Up.
+Nish Bhutani   25:49Okay, so what is this contribution? I've seen these earlier.
+Jigisha Patel   25:52Okay, so yes, okay. So essentially, let me just break this down. One, I have taken a period which was, which is from the day the signage went live till date. So 8th, I have the data for which to late 8th October, and I have taken a similar number of.
+Nish Bhutani   25:58Mhm.Mm.No.
+Jigisha Patel   26:10Days with a similar number of weekends, so yeah, prior to the signage, these are...
+Nish Bhutani   26:13Mhm.When did it go live, the signage? Fifth.
+Jigisha Patel   26:18The signage went live 4th, yeah, yeah, 4th night, so hence I have picked up, yeah, I have, yeah, late evening on the 4th, so I have picked up 5th as the date, and this is a like to like period, so the two metrics that we were to cheque is that whether the contribution of that category to the total store sales increases.
+Nish Bhutani   26:21Okay, okay, okay, fine, fine.Yeah.Yeah.
+Jigisha Patel   26:37And how does it compare to a benchmark store? So benchmarking means, when I had discussed with Hemant, he had mentioned to take it, to benchmark it against infinity and theory. So this is how it is. So handbags during this period, yeah, it's not, it's in the handbags, it's not moved at all. In fact, in kids, it has.
+Nish Bhutani   26:37Yeah, yeah.Mm.Mm.OK, so it's not really, it's not moved, if anything, yeah.
+Jigisha Patel   26:57Uh, tip a bit, yeah, yeah, this is again a kind of a business trend too, so that I mean, I'm not very sure if, yeah, this is...
+Nish Bhutani   26:58Declined.Sure, and also.Sure, sure.Okay, yeah, what we should...
+Jigisha Patel   27:08In how, yeah, we should read it in isolation from that perspective. Yeah, sorry.
+Nish Bhutani   27:12Yeah, yeah, yeah, understood. We should also look at, we should get data on how many people are actually scanning.
+Jigisha Patel   27:14Yeah.I had that data. The last number I had was 36. Unfortunately, I had asked Dikshant, he's also not sure that the other counterpart wasn't around yesterday. So as soon as I have that number, I will just ping it across.
+Nish Bhutani   27:24Yeah.Mhm.Mm mm.Yeah, just keep that updated here and then are we able to track the funnel from that point? Kind of what happens. Okay.
+Jigisha Patel   27:34Yeah.Yes, yeah.Total funnel, yes. So, at yes, if what happens from there, because all of these have GTM tags, as far as the last number is concerned, there were no purchases to that link. Yeah, I need to, you know, yes.
+Nish Bhutani   27:45Okay.Sure, sure. So let's track the, let's have the funnel data also. And look, I mean, some of the usability things that once we have the walkthrough, we'll reconcile some of the usability things with the signage guidelines. If we can improve the usability, then it's worth continuing the experiment.
+Jigisha Patel   27:53Yeah.Yep.Sure, yep.Yeah.
+Nish Bhutani   28:11Right? And then see what happens if the user, if we're not able to do it, we can also, it's fine. If an experiment doesn't work, that's also fine. It's not like everything has to work, right? But let's first, if there are any obvious issues, we should fix those first. Ideally, yeah? Okay. Take care.
+Jigisha Patel   28:11Noted, yeah.Sure.So.Correct, yeah.Yes, note, yeah, note, yeah.
+Nish Bhutani   28:30Okay.Okay, I think Varun hopefully will be... Oh, Malavika is here.
+Jigisha Patel   28:32Thanks.
+Malavika Goli   28:36Hi, I'm so sorry. I'm sleep. Hi, hi.
+Nish Bhutani   28:38Hi, Malavika.Actually, we're ready for you. We just finished with Jigisha.
+Malavika Goli   28:46Okay, so I have a good news on Wi-Fi Nish. So I'll start with that. So Wi-Fi, we are able to, we were able to sail through a free setup on Vodafone. So we're getting the Wi-Fi setup installed in the R City.
+Nish Bhutani   28:48Okay.Okay.Yeah.Good.MMM.Move.
+Malavika Goli   29:11A mall that.
+Nish Bhutani   29:12Okay, and they're doing it for free or what?
+Malavika Goli   29:15Yes. So they're doing it for free. I'm pushing for a three month POC niche because less than that wouldn't help us define.
+Nish Bhutani   29:17Oh.Mmh.Mm.Oh yeah, three months is minimum. Yeah.
+Malavika Goli   29:30Yeah, so what I am, so we are also connecting with them. So we just sort of onboarded them yesterday for a free year. We will see we're pushing for three months. They said they'd get back to us. Now we will be initiating a city setup.
+Nish Bhutani   29:40Mm.Okay.
+Malavika Goli   29:49Clever tab setup. We're working on a solution where our the customers who are getting in, as in through the OTP validations, the OTP setup will be done by Vodafone, but we need to understand the customer mobile number and the store details where they're getting.
+Nish Bhutani   29:50Mm.
+Malavika Goli   30:09whoever is getting in, right? So that setup is in progress. I will also be working in the next one week now, working on what is it that we want to reach out to the customers with, right? So if we know it's an existing customer, so we would like to say.
+Nish Bhutani   30:12Yeah.Yeah.
+Malavika Goli   30:30say welcome back. And if they are, so couple of things what I've identified as, so this is welcome is one. The second, the customer again is registered with us, has browsed at least something or has products in the cart, wish list. So we understand, recognise all these, right? So while we're doing the notification, we will also be able to, you know, tell them because we're reading the inventory of the store, we will.
+Nish Bhutani   30:43Yes.No.Yeah.
+Malavika Goli   30:55tell them, you know, you have been browsing this since you have an eye on this. Why don't you want to cheque out? You know, things like that will get unlocked. So that's one direction I'm looking at pushing them, pushing the notifications that can go to the customer.The other the angle, what time?
+Nish Bhutani   31:14Hmm, Malavika, I think what we need is we need a sort of a written plan.
+Malavika Goli   31:17Mm-hmm.Yeah, yeah, yeah, yeah.
+Nish Bhutani   31:22Right, because which goes through the entire journey. OK, in fact, now this see on one hand, Wi-Fi was an enabler for other experiments as well, but you're right, it it also.
+Malavika Goli   31:27Correct. Correct.
+Nish Bhutani   31:40sort of gives us its own capabilities in terms of data tracking and so on, right? So I, in fact, to be honest, like when we, I have to go back and remind myself when we wrote out the original experiment, what are the things that we had envisioned, right? So I think you just need to kind of write.
+Malavika Goli   31:46Mm mhm.Yeah.Hey.
+Nish Bhutani   32:00them down in a document across the journey, right? And also note that...
+Malavika Goli   32:01Yes, yes, yes, yes.
+Nish Bhutani   32:07From that, we can note the things that need to be implemented, which is everything from the login screen, which I'm assuming Vodafone will provide, but we'll have to put on brand on it, things like that, right?
+Malavika Goli   32:10Yeah.Yes, yes, yes, yes.
+Nish Bhutani   32:24Yeah, so I think so if you can put that together, when do you expect this to go live in the store?
+Malavika Goli   32:27I'll do that.So they are still trying to get, so this year trying to, we are actually not paying them for the devices that they're procuring. Tried away too deep to get everything for free. So they're getting.
+Nish Bhutani   32:43Okay.Mhm.
+Malavika Goli   32:49They're getting those access points which are like this tiny device which connects and gives the signal for the Wi-Fi, right? So they're getting those and then there's some plugs and also they're getting those from through their internal existing.
+Nish Bhutani   32:54Mm.
+Malavika Goli   33:09models that they have and obviously good ones so that the pilot is successful. So those procuring is what they're currently working on. So I think we are about at least, so we are about two weeks away from the Wi-Fi setup, parallely, but they're extremely, extremely slow, these guys.
+Nish Bhutani   33:11Mm.Ohh.Yeah.Mm.
+Malavika Goli   33:31But the CRM integration is the other thing that I am connecting with them today, so we'll be able to understand, and how is that, how much time will they need, and what all can they share, so they can share, including the APs also. For example, we have said...
+Nish Bhutani   33:31Mm.Okay.
+Malavika Goli   33:5110 access points installed in the store. So and all of them will have a unique name, right? So it will be AP1, AP2, AP3. What we can also define as AP1 suppose is installed near the entrance of.
+Nish Bhutani   33:53Mhm.Mm.Ohh.
+Malavika Goli   34:12gate number one, right, which is close to say men's section. Second one is close to the women's kids, so on and so forth, right? So they will be able to say one, we will have to define one means men, and we will then be able to understand that the customer is at the men's section and we will have the, we will be able to leverage the data and, you know, move it.
+Nish Bhutani   34:14Mm.Mhm.Mm.
+Malavika Goli   34:35In that particular direction, the other thing what they're also able to do is, again, it's the cost POC, I need to cheque, but from feasibility point of view, what's there is if the customer is moving from AP1 to two, so now we know that...
+Nish Bhutani   34:37Yeah.Mm.Mm.Sure.
+Malavika Goli   34:55And now they're moving to women's section, right? So, or if they're just moving around, you know, so we'll be able to understand they're just walking or if there is there's some sort of a time lag, so that means they're browsing and moving.
+Nish Bhutani   34:58Mm-hmm.Yeah.
+Malavika Goli   35:11Right, so we'll be able to define, understand, and you know, look at, assume, and then look at giving such notifications, which again, we don't want to bombard the customers with a lot of notification, but it then it has to be more accurate that makes sense to them and is of relevance is how I'm seeing it, Nish.But these areas of getting the appropriate inputs from the Vodafone through the APs is possible right now.
+Nish Bhutani   35:46Okay.And we'll be able to, because they're on our, we're not going to be able to track their browsing behaviour, I'm assuming, right? That comes just from the app or the website. Yeah, yeah, yeah, that's fine. That's, yeah, that's the whole privacy issue. TK, so I think you have to look at the entire journey and you also have to look at in as part of the journey.
+Malavika Goli   35:56Yeah, yeah, yeah.
+Nish Bhutani   36:07Me is what is going to motivate them to actually log on to the wire, right? So...
+Malavika Goli   36:12Yeah.
+Nish Bhutani   36:13What signage do we have to provide? Do we provide, do we give them notifications, which probably makes sense, right? Like if they enter the store and we have geolocated them.
+Malavika Goli   36:16Yes.Mm.
+Nish Bhutani   36:26Then we can send a notification also saying free Wi-Fi available in the store. These are all possibilities, yeah, yeah, correct. So, so you just have to write out like a little plan for this.
+Malavika Goli   36:29User fee, yeah, yeah, yeah, yeah, yeah, yeah.I'll do that. Yeah, now that it's progressed, I'll do that. Nish, also just letting you know, we have, we're planning to name it as CartPantaloons Free Wi-Fi, the name that the user will be seeing on the, in the, in the Wi-Fi section.
+Nish Bhutani   36:40Mhm.Yeah, yeah.Mm.Mm.Makes sense.Yeah, makes sense.
+Malavika Goli   36:58And parallelly I have another great update on the Wi-Fi.
+Nish Bhutani   36:58Kinger.So on this, when can you send this firstly before we get there, when can you send this plan across?
+Malavika Goli   37:09I will need this week to work on, at least on an idea of Khyati Kasim. And I'll share that across with you, Nish. Maybe we can add or decide on what works, what not works for us as a brand.
+Nish Bhutani   37:12Mm.Star.Yeah, so let's say by Friday you will set the cross.
+Malavika Goli   37:30Yes, I can do that.
+Nish Bhutani   37:32Yeah, OK, take it and get get Varun inputs on it also.
+Malavika Goli   37:32Yeah, yeah.Aashiya, take sure.
+Nish Bhutani   37:38Mm-hmm, alright.
+Malavika Goli   37:40Also on the same note, Nish, we are also exploring.
+Parasa Neeharika   37:42One second.
+Nish Bhutani   37:44Neeharika, you have something to say?
+Parasa Neeharika   37:44See.
+Malavika Goli   37:47Sorry?
+Nish Bhutani   37:47Budania.
+Parasa Neeharika   37:47Yeah, just just a point. So, Nish, if you remember, we have brainstormed on this point by three journeys in our in our last session, we were brainstorming for the next set of experiments, so as part of that, we have we have jotted down certain points and just added them on.
+Malavika Goli   37:50Yeah.
+Nish Bhutani   37:50Mm.Okay.
+Parasa Neeharika   38:05A chat, so multiple, you can just take a look at this, and then it anything else.
+Malavika Goli   38:07Atul, OK.Anil.Okay, yeah, I can see something. Take care.
+Nish Bhutani   38:18Okay, great. Yeah.
+Malavika Goli   38:21I also have a parallel update on the Wi-Fi point niche. The Vodafone guys were there, they were very, very slow, like I can't say how slow snail pace. So I was very desperate and I was also trying to move my hands on other partners.
+Nish Bhutani   38:26Mhm.Mm mm.
+Malavika Goli   38:40So we came across Tata. Those guys are very responsive and speed in terms of, you know, execution also. So last week we had met them and Tata also came back to us. You know, again, we're pushing for a free POC.
+Nish Bhutani   38:40Mhm.Mm.Mhm, mhm.Yeah.
+Malavika Goli   39:01for one of one of other stores so that now we'll have an A&B like, you know, analysis to understand what's working well. And if you're okay with that, for a free POC, we can do setup with another store if that's okay.
+Nish Bhutani   39:18Hmm, with Dutta you saying?
+Malavika Goli   39:20Yeah.
+Nish Bhutani   39:21Yeah, why not? Sure.
+Malavika Goli   39:25Okay, and which store can we look at Nish in that case?
+Nish Bhutani   39:32I don't have a strong opinion on this. Shariq, do you have any views or Hemant would probably be able to recommend?
+Malavika Goli   39:35Okay.
+Shariq Haroon   39:39Yeah, I think Hemant would have an opinion on this.
+Malavika Goli   39:43Apeksha, take care.Fine, I'll just reach out to him.
+Nish Bhutani   39:48Yeah.
+Malavika Goli   39:49They are also asking for a, so they're asking for a minimum cost. I think 40,000 is what they're asking for. I'm pushing that for free, but in case, so I'll be okay with 40 is also something that I'll ask Hemant on.
+Nish Bhutani   39:57Okay.Right, yeah, that's a one-time cost or per month.Okay.
+Malavika Goli   40:17Store one times of 20 and monthly recurring is about 20.
+Nish Bhutani   40:18Mm.Mhm.
+Malavika Goli   40:23Oh.
+Nish Bhutani   40:25And we'll do it for three months, we're saying.
+Malavika Goli   40:27And yeah, then it depends on us if we want to do it for three months. I think three months is the least that we need.
+Nish Bhutani   40:36Yeah, yeah, ticket. So yeah, just cheque with Hemant. I mean, it doesn't seem like it's too exorbitant to cost. And yeah, we worth it because then if you have two POCs, we can also decide longer term who our partner would be, right? Based on performance, yeah, ticket.
+Malavika Goli   40:43Hmm.Yeah, yeah, yeah, yeah, that's that was the idea Nish, so...
+Nish Bhutani   40:56Okay.
+Malavika Goli   40:59That's where we are, so I'll have the data up so that we can take it forward. I'll also work with Jigisha to understand the data points on where we can communicate and what is it that we can, you know, from the store's perspective, what...
+Nish Bhutani   41:01PE.
+Malavika Goli   41:13points, access points of the store is more prominent and what makes sense to us to communicate or ask whether the customers do set up. So I'll have this plan by this week. TK.
+Nish Bhutani   41:25Okay.OK, sounds good.
+Malavika Goli   41:30Uh...
+Parasa Neeharika   41:31Read.
+Malavika Goli   41:33Okay, the other one was the... one second.
+Nish Bhutani   41:37notification, the geolocation notifications. I believe the new notifications are live.
+Malavika Goli   41:39Yeah.Oh, I think they're like, yes.
+Nish Bhutani   41:48Okay, and when did they go live, do you know?
+Malavika Goli   41:53Oh, I don't remember the date. I can get back to you on that.
+Nish Bhutani   41:57Okay, so we need the updated data based on those.
+Malavika Goli   42:03Yeah, I have the debate. I'm just looking.
+Nish Bhutani   42:05That's funny, OK.
+Malavika Goli   42:08Sorry, I'm just opening the deck one minute.
+Parasa Neeharika   42:16Just a thought, can we consider the the store in Bangalore, where we have the for the Wi-Fi, because we already have this?
+Nish Bhutani   42:18Mhm.That's a good idea. So we all we have it for our city and where else do we have geolocation?
+Malavika Goli   42:35Indira Nagaraj in Bangalore.
+Parasa Neeharika   42:37I would, but this would be.
+Nish Bhutani   42:39Okay.Will you be able to manage the Wi-Fi installation there, Malavika? You're in Bangalore actually, aren't you? Yeah, yeah, with Tata.
+Parasa Neeharika   42:43Play song, "I'm Sadhguru".
+Malavika Goli   42:47R for Tata.Yeah, I think we can do that.
+Nish Bhutani   42:54Okay, so let's look at suggest to Hemant that we should consider Indranagar.
+Malavika Goli   42:59Oh, I think Tata guys are more comfortable with Bombay. I need to get back on this one, Nish. I'm so sorry. I need to cheque with them.
+Nish Bhutani   43:05Or is it?Okay, okay. And Vodafone guys, they also want prefer Bombay or?
+Malavika Goli   43:12They're also, they're also comfortable. We have done a setup, there's something that's missing, so they're now then gone back to procure that, basically, for Vodafone niche, whatever is existing in the store, we're trying to do use that, because it's free.
+Nish Bhutani   43:17Attraction.Okay, Aashiya.Mm.Okay.Sure, sure, that's fine. So TK, so just cheque with Tata if they're okay with Bangalore. But first consult with Hemant also on Bangalore. If we can use the same store as where we have the geolocation, it will be better. Otherwise, we can do a Bombay store.
+Malavika Goli   43:36Hmm.Okay.Even otherwise niche, setting up the geolocation for another store will not be a problem. Yeah.
+Nish Bhutani   43:49Mm.It's quite easy. Okay, okay, fair enough. Yeah, I mean, there are lots of factors, you know, like, is it easy to put up access points, etc. So, just see what Hemant says.
+Malavika Goli   44:01Mm.Okay.So...No, the data that I have is...Mm.No, the data that I have is wrong data. I will just send it in the group. The one that I'm getting is some issue with CT. It's throwing up wrong data one sec.Oh.Showing 585.I'll, can I put it in the chat, Nish? The numbers are not showing right. I think that's an issue.
+Nish Bhutani   44:41Yeah.Chalke.Yeah, yeah, OK, yeah, please do that.And that will be the same numbers, right, with like...Uh.Like how many people saw the, basically did the, who got the notifications, how many people did a purchase within how many hours, and then the total purchase value, right? That kind of great.
+Malavika Goli   45:11Yeah, so what I'll share is how many customers have shared the, given the location access to us, how many people gave and then denied. I will also be able to give you how many people then entered the geolocation for each Indranagar and RCT mall respectively.
+Nish Bhutani   45:18Yeah.Mm.Mhm.Mm.
+Malavika Goli   45:32How many people purchased after getting the notification? And what is the purchase value? And how many orders? A number of orders.
+Nish Bhutani   45:32Singh.Okay.OK, and we haven't enabled the click and then notification yet, right, for the map.
+Malavika Goli   45:48No, that's that's looking like a heavy development, so I'm and it will also increase the cost of the Google API and all that, so, so I'm so there's trying to see what what is the cheaper way of doing this. The R&D children might take some time.
+Nish Bhutani   45:51Okay, okay, Sikka.I see.That's okay. Let's not do that right now. Let's yeah.Okay.For the malls, I think the same for the for the malls, what actually will work is just malls anyway, Google is not Google Maps is not very useful.
+Malavika Goli   46:10But we also have the...Yeah.
+Nish Bhutani   46:20For, as we discussed, for malls, what is more useful is simply to load up on the pantoons website.just some kind of schematic.saying that CartPantaloons is located on this floor and show the stores on both sides of it, you know.
+Malavika Goli   46:40Mm.
+Nish Bhutani   46:40That kind of thing, like a diagram, basically.So, that's really what we should be looking at for the for the stores for the mall stores.
+Malavika Goli   46:51Yeah, take care, yeah.
+Nish Bhutani   46:53So just look into that. I think that's easy to do. I mean, the hard part is simply doing the diagram, basically, right?And then keeping it updated because stores also change and things happen.
+Malavika Goli   47:09Mm.
+Nish Bhutani   47:09And that's the direction we should be taking.
+Malavika Goli   47:12Yeah, sure.
+Nish Bhutani   47:13OK.
+Malavika Goli   47:14Not it. Nish, I also have the AB testing up. CT is acting up, so I don't have the data. I mean, it's showing the data is wrong data. But the AB testing, if you remember, you had asked me to work on asking customers who have entered the geolocation with two segmentation. One gets the notification and one who doesn't get the notification.
+Nish Bhutani   47:36Hmm, hmm, hmm.
+Malavika Goli   47:37ideas to go and cheque. We have set that up also. It's been a week since the data setup is up. So we'll have about a weaker data. Once this getting more realistic data with CT stabilisation, I will share that across as well.
+Nish Bhutani   47:39Correct.Okay.Okay.Mm.Okay, okay, good.Okay, Neeharika, any other pending items? I know I just remembered I have to get back to you on those product QR code signages, right? The scan the product thing. Any other pending items?
+Malavika Goli   48:10Oh.
+Parasa Neeharika   48:14No, nothing pending. I just want to bring information, Malavika. I just want to bring this update to you. Just quickly share. This is about the.That we have, Varun asked me to cheque if we, if we are, if we are planning to extend it to 400 more stores, what will be the additional cost incurred for this? So, while I was while I was doing this activity along with Lakshmi, so what we have observed is that...
+Nish Bhutani   48:29Mhm.
+Malavika Goli   48:30Yeah.
+Nish Bhutani   48:38Mm.Mmhm.
+Malavika Goli   48:46Mm.
+Parasa Neeharika   48:50So, here is the data. So, this is the data points that we have seen. So, geocluster entered and geocluster exited. Ideally, entered and exited have to be more or less roughly similar in the data points, but we see that...The number of data points consumed for exited is abnormally high, right? So, and because of which, obviously...
+Nish Bhutani   49:17There's some problem in the data.
+Malavika Goli   49:18Ohh.
+Parasa Neeharika   49:20Or it could be possible that we are detecting a user who has not at all entered the store, who is just roaming outside. Everyone somewhere just lying outside the geofence is also considered because of which it is considered as an active event of exit.
+Malavika Goli   49:36Mm.
+Parasa Neeharika   49:38and hence the data points are being consumed. So there could be multiple reasons for this. And hence we are seeing that. So now if we are seeing at this cost, this will look very small for us, 2217 per month and 339 rupees per month. But if we are planning to.
+Nish Bhutani   49:44Yeah.
+Parasa Neeharika   49:58expand it across multiple stores and look at it for a year, this seems to be very high. So, and at the same time.
+Nish Bhutani   50:07No, but how are you? How are you calculating the cost?
+Parasa Neeharika   50:10So, so this is uh, so this is the cost that we have for the plan that we are currently having on Clever Templation.
+Nish Bhutani   50:16As a based on number of data points, OK.Singh.
+Parasa Neeharika   50:21The ones we we have a question card of three not five rupees.
+Nish Bhutani   50:25Okay, so the data points is related to entered and exited. Is it?
+Parasa Neeharika   50:30Correct. Yes.
+Nish Bhutani   50:31Got it, so we need to fix this exit in first.
+Parasa Neeharika   50:34Yes, I and but I I was discussing with this with Varun also, so Varun was also suggesting that we can even let go of this complete event all together, because all of our use cases are majorly on this this particular event only, where we are seeing that.
+Nish Bhutani   50:35Is what you're saying?Mm.Mm.Mm.Mm mm.
+Parasa Neeharika   50:54Once they enter after that, whatever notifications we have to trigger it, and also this will solve us.
+Nish Bhutani   50:57Mm mm mm.So far at least we haven't done anything on exited makes sense. But meanwhile, we should also figure out Malavika, because at some point we may want to do exited. So we should figure out what the issue is, just log this as a bug and work on it. But I agree that for now, let's just not log.
+Malavika Goli   51:06Yeah, yeah.Mm.
+Nish Bhutani   51:18Let's not log. I mean, we can log exit it for those one or two stores while you're fixing the issue.But we don't need to do it for all the stores.I agree with that.
+Malavika Goli   51:28Yeah.
+Parasa Neeharika   51:30And also, this could also might help us in the one of the issue that we are facing where we are getting numerous pop-ups saying that the location is being used by the app. So that could also be possibly handled if we are handling this problem.
+Nish Bhutani   51:43Mhm.Got it. Can we just, should we just turn off the exit and Malavika, you turn it on only when you're fixing the bug, basically?or do you need it on all the time?
+Malavika Goli   52:03Ah.Ohh, we will not be able to recognise, so we need it on, actually.
+Parasa Neeharika   52:11Play the song, the song.
+Nish Bhutani   52:11Okay.I mean, how quickly will we be able to get to this issue or should we just turn it off for now and then we can turn it back on when you're actually addressing the issue?
+Parasa Neeharika   52:17Yeah.Yeah.
+Malavika Goli   52:25Actually, it's installed on the app. So going back will mean uploading a new app into the app store, like a new build.
+Nish Bhutani   52:29Ohh, I see.So I think maybe we should just get rid of it for now. Because anyway, we don't have use cases for exited, right? We can always put it back in the future.
+Parasa Neeharika   52:39Yeah.
+Nish Bhutani   52:48Don't you think?
+Parasa Neeharika   52:48Yes.
+Malavika Goli   52:51Mmh.Yeah.
+Parasa Neeharika   52:54But.
+Malavika Goli   52:56Let me get back to you, Nish. I don't think it is possible to do it. I mean, it's not as easy as remove and then do. We will have to do a, we'll have to remove that and reinstall the, submit the build. So it's.
+Nish Bhutani   52:57Yeah, this.
+Parasa Neeharika   53:06He.
+Nish Bhutani   53:07Yeah, yeah, it'll have to be in the app update. I understand that I'm talking about the app update itself, but yeah, look into it, discuss with Varun also, but...
+Parasa Neeharika   53:08I.Okay.
+Malavika Goli   53:12Mm-hmm.Okay.
+Nish Bhutani   53:17It feels like...Right now, since we don't have use cases for exiting and we're having this issue.
+Parasa Neeharika   53:21Yeah.
+Nish Bhutani   53:25And before we roll it out to more stores, it probably makes sense to do an app up the next app build.
+Malavika Goli   53:26And.
+Parasa Neeharika   53:29Okay.Okay.
+Nish Bhutani   53:32Just removing that, unless there's a way to remotely control it. That's something actually you should think about, Malavika, anyway, is whether we should have a parameter on the server side to turn it on and off.
+Parasa Neeharika   53:40Yeah.
+Malavika Goli   53:46That's actually...
+Parasa Neeharika   53:47Because.
+Malavika Goli   53:50We can.
+Nish Bhutani   53:53Rather than having it built into the app, you know.
+Parasa Neeharika   53:57So, Malavika, currently we have both of these are separate events on QRTM, right? So, like, I'm not, I'm not...
+Malavika Goli   54:05We, so we have an event, but notification, Neeharika that one notification is then when the app recognises and it acts on it. It's more on the app front.
+Parasa Neeharika   54:10Yeah.Correct.
+Malavika Goli   54:21So...
+Parasa Neeharika   54:21So, so what what what I'm saying is, like, the exited is just an event on the clever tab link, so, and all the notifications that we have configured are all linked to Geo Cluster enter, so we'll not touch that only change we will be doing is on the event specific to the geo fence exited.
+Malavika Goli   54:23Huh.
+Parasa Neeharika   54:43Maybe he would be the right person to tell what will be the time that will take for us to make that change and that being reflected.
+Malavika Goli   54:54OK, let's connect along with Lakshmi on this. Let's do some R&D on this, Neeharika.
+Parasa Neeharika   54:57Right.Sheer Shinde.
+Nish Bhutani   55:03Yeah, maybe there's a way to just disconnect.Clever tap from that exited event, rather than having to do it on the app side.Gaurav.
+Malavika Goli   55:12Two.
+Nish Bhutani   55:13Take it.Once you do that, then we can hopefully roll it out to more of the stores and we can also look at your AB testing results and see if there's an incremental of that. Yeah, yeah.
+Malavika Goli   55:25If it makes sense then, yeah, yeah, sure.
+Parasa Neeharika   55:34And...
+Nish Bhutani   55:34Okay, anything else, Neeharika?
+Parasa Neeharika   55:36Hi, just one, so, so while I try to estimate the cost for for 400 stores, while while if we are if we are using this exact data that we have today with entire all the exited and entered data points.
+Nish Bhutani   55:46Mm.
+Parasa Neeharika   55:56We will have a cost of 8,13,000 per year, but likewise, if we if we go with correcting this data, wherein we are saying that here still I have considered that the number of exited and number of entries are more or less equal, but if if we are even even removing the exited.
+Nish Bhutani   55:56Mm.Yeah.OK.Yeah.Same.Mm.
+Parasa Neeharika   56:16As an event, this will even come down, so you can just see the comparison: sixty-one 1000, 8,00,000, 13,000, so it will be it. It is very necessary for us to correct that, and then we expand it to other stores.
+Nish Bhutani   56:18Mm.Yeah.Yeah, yeah.Absolutely, absolutely. Take it. Makes sense.
+Parasa Neeharika   56:32Welcome.
+Nish Bhutani   56:35Okay.
+Parasa Neeharika   56:39Yeah.
+Nish Bhutani   56:40Take care. So, Neeharika, just keep track of these items so we can revisit them. Actually, what you should do is just send out the next steps from each call on e-mail so that everyone's aware of that. Yeah? Okay. All right.
+Parasa Neeharika   56:46Champion.Yeah, yeah, sure, sure.Yes, yes, OK.Okay.
+Nish Bhutani   56:56OK, thank you. Thanks, Malavika. Thanks, Shariq.
+Parasa Neeharika   56:59But.
+Malavika Goli   56:59Thank you, everyone.
+Shariq Haroon   57:00Thank you. Thank you, everyone. Thank you.
+Nish Bhutani   57:01Okay, bye. Bye.
+Parasa Neeharika   57:01Thank you, Ravva.
+Parasa Neeharika stopped transcription

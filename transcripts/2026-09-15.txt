@@ -1,0 +1,382 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260915_053029UTC-Meeting Recording
+September 15, 2026, 5:30AM
+55m 56s
+Parasa Neeharika   1:31Vignesh, good morning.
+Nish Bhutani   1:32Morning, Neeharika.
+Parasa Neeharika   1:38Shariq and Jigisha mentioned that they won't be available. Uh, I'll so Shariq is on leave, so tomorrow once he's back, I'll collect them details.
+Nish Bhutani   1:48Okay.
+Parasa Neeharika   1:50And with Vignesh also, I asked her to share the updates.
+Nish Bhutani   1:54Okay.Did we get any data last week from anyone?or up till now. I think there was some data that...
+Parasa Neeharika   2:04Yes, yes.
+Nish Bhutani   2:04I can't, Shariq, and maybe one other person we're going to send.
+Parasa Neeharika   2:09Um, Malavika said that she'll share it by today.
+Nish Bhutani   2:12Okay.And what about Hemant? Is he joining today?
+Parasa Neeharika   2:17He has not updated me anything. Let me cheque with him once.
+Nish Bhutani   2:20Okay.Yeah.Hi, Varun. Hi, Malavika.
+Malavika Goli   2:25Hi, Nish.
+Parasa Neeharika   2:26Hi, Malavika. Hi, Malavika.
+Varun Babji   2:27Hi, hi, Nish.
+Malavika Goli   2:27He had to go.
+Nish Bhutani   2:28Bye.
+Parasa Neeharika   4:20I am Nish Rohit is also on leave, so maybe we can start.
+Nish Bhutani   4:28Yeah, let's start, yeah.
+Parasa Neeharika   4:30Yeah.Malavika, do you want to go first?
+Malavika Goli   4:37Yeah, I can go first. Nish, you were looking for the store data last week. So what I've done is, while I have, is my screen visible?
+Parasa Neeharika   4:53Yes, yes.
+Malavika Goli   4:55Okay, so while I have put across our usual data, what I've also done is I've also put the store data.so that you will, your analysis can be then defined. So this is for the geo fencing functionality rate. So this went live on 27th and this data is as on 12th. We have about 8,00,000 customers who have.granted the permission and we have about 2,000 customers who have entered the geo cluster for both the stores, 1,000-ish from each store. This is the total number of purchase that the customer has done in the store irrespective of the geo fencing.and about 7,00,000, which is coming to about 2% of the overall purchases made were from the customers who entered the geofencing. Similarly, for Indra Nagaraj, the contribution was about 3.5% for the overall purchases made.Sense.
+Nish Bhutani   6:05And how many of these were within five hours you have that distribution?
+Malavika Goli   6:11So we have about 80.88% customers who are, I can get the breakup. We have about 88 customers who have entered under 5 hours. The rest of them have moved after a day, like for 24 hours.
+Nish Bhutani   6:20Mm.Got it. Okay.Okay, good. So this is useful. Hemant, any views from your side on this?
+Hemanth Gollavilli   6:40No, I Nish, I was keen to understand like the duration, but then again I saw it was quoted in the below. So, so do we have data on like, let's say this is a this is a data which represents within 5 hours, right?
+Malavika Goli   6:58No, this is the overall data. We also have a lot of customers who bought next day, very, very, very small percentage of customers who have gone after two days also, two, three days also. But about 80, 88% sort of our customers, when I looked at it last week, were...
+Hemanth Gollavilli   7:01Okay.Okay.No.
+Malavika Goli   7:20For, you know, it within five hours.
+Hemanth Gollavilli   7:24Okay, and what was the target in terms of proximity to the location when we triggered these?
+Malavika Goli   7:29200 meters, 200 metres right now.
+Hemanth Gollavilli   7:31Sorry?100 meters, okay.
+Malavika Goli   7:35Mm.
+Hemanth Gollavilli   7:38So, so only only point, Nish, is that I mean, should we also look at this data in a more staggered way? When I say staggered manner, some, some, you know, some blocks in terms of within two hours, within four hours, within the same day, I think.
+Malavika Goli   7:56Yes, yes, we have done that. So, I have done that analysis of few last week I have done last week, last week I so on did I have done, but it's again the idea was to just understand if you know that makes sense and it made sense, but it it.Takes, it's a very...It's a very tedious job. It takes about 3 hours for the team to put that together. So sort of gets very difficult. But I have done that. I can quickly put in this was for report.
+Hemanth Gollavilli   8:23Vikrant.
+Nish Bhutani   8:31In fact, Malavika, while that is interesting, I think what's even more interesting, I can't remember if we talked about this before or not.
+Malavika Goli   8:34Mhm.Mm.
+Nish Bhutani   8:42But we should do a control group.
+Malavika Goli   8:45Mhm.
+Nish Bhutani   8:45So like an AB test where, so you're seeing for example, 3000 people who.
+Hemanth Gollavilli   8:53I.
+Nish Bhutani   8:54No, how many people entered the geofence here on the left?
+Hemanth Gollavilli   8:56Okay.
+Malavika Goli   8:57Yeah, it's 2150. This is the count.
+Nish Bhutani   8:592000, yeah. So what we could do is for a while run a test where half of them get the notifications and half of them don't.
+Malavika Goli   9:11Okay.
+Nish Bhutani   9:11Randomly.and then we could compare their purchase values.
+Malavika Goli   9:14Mmh.Okay.
+Nish Bhutani   9:21Yeah, but it should be truly random, like...You know, like, alternately or something like it has to be.
+Malavika Goli   9:24Mm.
+Nish Bhutani   9:29It can't be that for the first.Six hours of the day the group gets messages and the next six hours of the day the group doesn't get messages. Yeah, yeah.
+Malavika Goli   9:38Yeah, I understood. Yeah, it will be 50-50 K&B. Yeah.
+Nish Bhutani   9:41It should happen maybe like right away, like in the same instance, like one gets a message, the other doesn't. Yeah. So then that will give us a true measure.
+Malavika Goli   9:45Yeah.
+Nish Bhutani   9:53Makes sense? Yeah.
+Hemanth Gollavilli   9:57Play.
+Nish Bhutani   10:01Rohit.Mhm.
+Malavika Goli   10:09And same is with Indranagar. About 1000 people actually got the notification, but 120, 130 people purchased. So.
+Hemanth Gollavilli   10:14Big.But.
+Malavika Goli   10:21Even our conversions is for that matter, like this one's very low for Indranagar also because it's a high street. Maybe and this one's a mall. So maybe there's some sort of a, and Indranagar has been sort of low from the beginning, being a high street store.
+Nish Bhutani   10:21Rohit.
+Hemanth Gollavilli   10:25Thank you.Of.
+Nish Bhutani   10:32Yeah.
+Malavika Goli   10:41So maybe there's some sort of learning there.
+Nish Bhutani   10:42Yeah.
+Hemanth Gollavilli   10:45But that is expected, Malavika. I think that is fine. For this particular initiative, I think the conversion will always be higher on the mall because someone within 200 metres is inside the mall ecosystem and has an intent to shop, right? Versus in a high street, there may or may not be an intent.
+Malavika Goli   10:54Okay.Mm.He's just moving around, yeah.
+Hemanth Gollavilli   11:04Yeah, yeah, right.
+Malavika Goli   11:07Me, that's what I was trying to convey. I'm with you. That's what I was trying to do. So this number might, you know, that the numbers might also sort of differ. So we might have.
+Nish Bhutani   11:16Yeah, that's okay. That's okay. We can still run the AB test in both cases.
+Malavika Goli   11:18Yes.Yeah.
+Nish Bhutani   11:23And you know, even these sample sizes may be sufficient if there's a significant enough difference in conversion between the ones who are notified and the ones who are not, right? So it all depends on how much difference we find. If there's a higher difference in conversion, then you don't need a smaller sample size.
+Malavika Goli   11:27Okay.Yeah.Okay.Mhm.
+Nish Bhutani   11:46to say that this is a valid result. And if you have a smaller difference in conversion, then yes, you need a bigger sample size. So let's just see, let's try it out.
+Malavika Goli   11:55Okay, yeah, yeah, so I'll set it up the next two or three days.
+Nish Bhutani   11:56See.Sikka.
+Hemanth Gollavilli   12:02Yeah, because there will be a natural mall to store conversion in every mall. Obviously, it will vary from mall to mall, but I think if we could utilise that from this outcome, it will give us the true benefit of this initiative.
+Malavika Goli   12:17Yeah, sure.
+Hemanth Gollavilli   12:20I'll also ping you and I have a couple of thoughts how we can effectively run that in the AB testing. I'll ping you.
+Malavika Goli   12:26Okay.Shah.Okay, and just a quick update on this one, Nish. We had worked on 3 notifications, 3 variations of notifications, right? Though the sequence will now, the sequence that will follow now is as follows, right? The first is basically if...you have certain products in your cart and those products and cart products are there in that particular store. So you will get that sort of notification where it says that you are the products in your cart that you have, it's been sitting there, do you want to try it before you make the purchase and all.Pick it up, try it in the store near you, and then there is a name of the store if it is the R City, R City, or you know Indranagar store, so that's that's one thing that's like then the second priority is for the products in the wish list, where you know wish list for the product is now available.in this particular store since you have already liked it, do you want to try it before you decide on is the next one? And then the then if you know both the rules fail and if we if the customer doesn't have anything or if the inventory is not there in inventory of the the their choices and either in cart or wishlist is not there in the store, then the customer ends up getting a generic message.saying that there is a store near you, why don't you go and cheque out? Now this, the third one has been live since 27th and the one that we talked about, the first two is...It's live, but it's not full-fledged live. It's live since 9th, but we are trying to test it out internally. So over the weekend, we went and we did some testing on that. It's working well. So we'll take them live to all the customers today. So that's also something which will be updated.and running.Hello!
+Nish Bhutani   14:44Sorry, I was on mute. Okay, that's great. And then we'll be able to track based on a per notification basis what the funnel looks like.
+Malavika Goli   14:46Okay.Looks like yes, we will be able to get that break up. Let me try to get that for you Nish.
+Nish Bhutani   15:06Yeah, because ultimately I think you know what?the marketing team will need is, yeah, because then they'll need to optimize, you know, for what is working, what is not working.
+Malavika Goli   15:09Yeah, we need to know what's working. Yeah.Yeah.
+Nish Bhutani   15:17Right, yeah, OK.But the AB test is just about receiving notifications or not. You know, it doesn't matter what kind. Yeah, take it. Yeah, makes sense. Okay, good.
+Malavika Goli   15:26Yeah.Okay.So that's the progress and the content where the team can, I think someone from Jigisha's team who has the access, they have to just go and update the content. Now that will give a sign off, they will be able to go and update it. So after that will be a full-fledged live niche.
+Nish Bhutani   15:57I found this content about wish list and all this from Jigisha team, right?
+Malavika Goli   16:02Yes, yes, so they will have to update it. Yeah, we also were doing some internal tests around that because we tried, we've just gone live on 9th, but we have not gone live to 100% of the users. We wanted to do a lot of R&D across the pages.
+Nish Bhutani   16:04It is.
+Malavika Goli   16:21the scenarios to understand and ensure that's working fine over the weekend. So now it's working fine. We'll give that sign off to Jigisha and so they will be able to upload it today.
+Nish Bhutani   16:26Yeah.Okay.OK, and your other experiments?
+Malavika Goli   16:42And yeah, so the other one was on the EPC 2AN that's on track for this month end release so far. I will also share the URLs with you. Maybe this week, we had some bugs last week.So I was hesitant. Once we have a bug free sort of a flow, I'll share the link, the testing link with you so that you can also experience that. And yeah, month end we can go live. The other one was on the.
+Nish Bhutani   17:11Okay.And what about the VM for that?
+Malavika Goli   17:20Wi-Fi, sorry.
+Nish Bhutani   17:23Who's doing the VM for that?
+Malavika Goli   17:24Ohh.I think Rohit, sorry, I'm not sure. Jigisha, I think, yeah, Jigisha is working on that.
+Nish Bhutani   17:36OK, and does she have clarity? Jigisha is not here today, but does she have clarity?that she basically needs to talk about all the things that you can discover from scanning this QR code.Right.
+Malavika Goli   17:51Mm.I'm not sure. I can cheque and get back to you.
+Nish Bhutani   17:55Not sure. Yeah, yeah, just have a discussion with her. Basically right now we're going to the PDP, correct? We're going to go to the PDP.
+Malavika Goli   17:59Hmm.Yes.Yeah, that's right.
+Nish Bhutani   18:06Yeah, so we can talk about the, you know, she can talk about some of the things on the PDP related to.Looks.
+Malavika Goli   18:14PE.
+Nish Bhutani   18:17I don't know, sizes available online, those kinds of things.
+Malavika Goli   18:22Mm.
+Nish Bhutani   18:22Right, but she'll have to kind of formulate that and then run it by.Run by this group.
+Malavika Goli   18:29Okay.
+Nish Bhutani   18:30Rane.
+Malavika Goli   18:34Yeah, sure.
+Nish Bhutani   18:34Neeharika, will you just follow up on that also?
+Parasa Neeharika   18:38Yeah, all finished.
+Nish Bhutani   18:40Okay.
+Parasa Neeharika   18:41Yeah.Malavika, maybe we can have a call together with Jigisha, where you can explain her, brief her on this, and I will follow up with her to close that from her end.
+Malavika Goli   18:54Yeah, sure, begin.
+Nish Bhutani   18:54Yeah, basically what we and basically what we had decided, just to remind everyone, we weren't going to put anything on the product label itself.
+Parasa Neeharika   18:54Oh, yeah.
+Malavika Goli   18:57Mm.
+Nish Bhutani   19:03We were just going to put general sign in that says, you know, this is you can scan the QR on the product label to.
+Parasa Neeharika   19:04Thanks.
+Nish Bhutani   19:12To, you know, for these reasons, basically, to get this kind of information.
+Parasa Neeharika   19:18Yeah.
+Nish Bhutani   19:20Okay.
+Malavika Goli   19:25Sure, there's also one thing, sorry, Nish Snehi, I missed on the previous point on the notification, but this one thing that I'm trying to figure out is when a customer gets a notification, the 200 meter, if he's 200 metres away from the store, they get a notification.We're also trying to see if we can get in the map, the route to the customers so that because we already are reading their location, the lat-long, we know the store's location. So we're trying to put in and say that.
+Nish Bhutani   19:53Mm.Yeah.Right.Yeah.
+Malavika Goli   20:21that installed and direct them. It's easier to do it in a high street sort of a store for obvious reason because you know, we know the Google Map understands the route. But for mall, it's going to be a little difficult because.
+Nish Bhutani   20:26Correct.
+Malavika Goli   20:42Google doesn't understand, Google just understands the, Google just understands our city mall and that would be some random point. Then further inside that, it doesn't understand the stores, it doesn't understand the elevators and.
+Nish Bhutani   20:45Yeah.Correct.
+Malavika Goli   21:00you know, the walking area and all that. So it's sort of not working out. So we're trying to understand and see if we can figure a way out to understand what is mall and what is high street. Maybe then only show this to the customers where it makes sense, which is going to be a high street sort of a mall.Situation, but for Moz, I think we are seeing if we can skip that because it's just not working out right, so we're trying to figure out that is one way. The other thing, what we also...
+Nish Bhutani   21:35For malls, for malls, do we have any kind of, for any other purpose, do we have some kind of sort of fixed map which shows the location of the store and the nearby stores, that kind of thing? Is that something we use elsewhere?
+Malavika Goli   21:50So it's...No, it's not working out. I'll just try to show. No, it's actually...
+Nish Bhutani   21:56Mm.No, I don't mean on Google Maps.
+Malavika Goli   22:02Okay.
+Nish Bhutani   22:04I, I mean like a diagram.Like, Hemant might be aware of this, like, do we have diagrams, Hemant, which show our stored locations within malls?
+Malavika Goli   22:18The, the, the diagram of the mall, is that what you mean, Nish?
+Nish Bhutani   22:23Kind of. I mean, obviously you can't show the whole mall. What I mean is...You show the pantaloon store and you show, you say, you know, this is on the third floor or whatever, and then you show, you show some of the stores next to it.
+Malavika Goli   22:33Yes, yes, yes. So that's exactly what we're working on. Yes. So we are looking at doing 2, so identifying these two as two different logics, right? One for high street, it's going to be straight where you say this is where you are and this is where the store take left, right, and you know, just follow the map and you are there. However, for mall, so the basic thing right now we're trying to see is figure out if we can, you know, add that.
+Nish Bhutani   22:38Okay.Mm.
+Malavika Goli   22:58identify it and see, you know, what is it that we'll have to do. So what we are looking at is, if you understand the customer is in the mall, so customer can be in the ground floor, you know, and then the store can be right about him. Or, you know, he might be on the second or the third floor, on the same floor if, you know, if they are.in the 200 metre radial vicinity. Now, what we are trying to understand, if the customer is in the mall, we are going to say that CartPantaloons is 200 metres away, whatever my marketing language, and then say, you know, to get in, enter third floor.towards this wing and that's where it is. So like put small message, which again would be very different for each store. So we understand how, how, how, what is it that will make sense for that particular store and we show that. So we'll have to customise on.this part for each of them. So that's, there's an R&D I'm working towards. If we are able to figure that out, then we can, you know, customising that will not take a lot of time.
+Nish Bhutani   24:17You know, instead of giving instructions.
+Malavika Goli   24:21Mhm.
+Nish Bhutani   24:23which people generally don't read, I would just do something like this.You know, you would say, let's say we're talking about JCPenney, right?So you just say upper level or whatever floor, whatever it is, you say CartPantaloons. You also more clearly show the names of the stores next to it.And that's it, just have one diagram.Hello?
+Malavika Goli   24:54Okay, so I just wanted to show if I'm...So we don't have these diagrams, Nish. What we'll have is we'll have Google, right? We will have to work on how Google operates because the customer will get redirected to Google. From there, you know, he's exiting. So one is another thing that I'm trying to figure out if we can.
+Nish Bhutani   25:08Mm.Yeah.
+Malavika Goli   25:24Keep the customer on our device instead of, you know, taking the customer on our device after he looks at the notification and interacts, you know, take me there. They go to our panel loans, panel loans app opens up and something like what you see on Uber, your location is there.you also see the cab moving towards you. So something like that, we know where the store is. And you see yourself, so you're walking, you will be able to understand if you're in the right direction or wrong. But we will also be then saying that this is on the 2nd floor, so you know, if he's right there, but.
+Nish Bhutani   25:47Yeah, yeah.But.
+Malavika Goli   26:05He's just in a different floor. All have to all he has to do is go find a way to go to that store, right? Because we'll not be able to understand, but educating them is what we're looking at, but...
+Nish Bhutani   26:09Yeah, okay.Got it. No, no, but my point was, my point very simply was that for high street stores, you take them to Google. Meaning you take them within the app to a Google map. Okay. But for mall stores, since Google gets confused.
+Malavika Goli   26:17Two.Mhm.Yeah.Mhm.Mhm.
+Nish Bhutani   26:32Just let's create a diagram for every mall store, which...I don't know if it exists already, but it shouldn't be too hard to make. Well, at least for right now, we're only experimenting with two malls anyway, right?So creating this diagram should be pretty easy.
+Malavika Goli   26:50So are you suggesting we create this diagram and show the customer?
+Nish Bhutani   26:55Yeah.Instead of Google Map, if you're inside a mall.
+Malavika Goli   27:02Okay, right now hosting it on our device is a long way. We're trying to do an R&D and it will also cost us a lot because we'll be fetching.
+Nish Bhutani   27:13So what we should do, what we should do, here's what I suggest. Okay. If you're talking about right now, anyway, we're not doing these experiments on high street, right? We're only doing it in the mall.
+Malavika Goli   27:15Mhm.Indranagar, yeah, our city we are not, but Indranagar is high street.
+Nish Bhutani   27:25Correct.Ohh, Indranagar is High Street. OK, so TK, so for Indranagar, take them to Google Maps and for our city.Just show the diagram.Within the app.
+Malavika Goli   27:41Okay.
+Nish Bhutani   27:43Yeah, and basically everything I'm sure is labeled. I mean, you can make it more generic than that. We can just say if it's.You know, if it's a mall store, then do this. If it's a high street store, do that.
+Malavika Goli   27:57No, I'm not the right person, but Hemant, just help me understand. I think the mall, the brands also in the mall rotate every few months, so they are not constant.And we might not get exposed to their.Or of there in the the the store diagram, the mall diagram.
+Hemanth Gollavilli   28:23The mall layout typically don't get published openly. So you're right that there are changes in locations of brands, but they're not very frequent. They happen, let's say, maybe two, three times in a year. But I think the more important part is the access to therecords, I mean, the layout from the mall team. It is manageable, I mean, because it's not very frequent. So that's my view.
+Nish Bhutani   28:56You know, for now, Vika, let's not overcomplicate it.
+Malavika Goli   29:01Okay.
+Nish Bhutani   29:02Whether you get the diagram or not doesn't matter. You know what matters is what floor is it on and what stores is it next to.
+Malavika Goli   29:05Mhm.Yeah.Yeah.
+Nish Bhutani   29:10You know that kind of thing. So let's not overthink it. Just keep it simple.
+Malavika Goli   29:11Yeah.Okay.So we just show the text saying if you are next to the store.
+Nish Bhutani   29:20No, not text, we show a diagram, but we say, "Here's Pantaloons next to it, you know, you label the two other stores, you put on the top third floor, East Wing, whatever, and you're done.
+Malavika Goli   29:23Okay.Mm.Okay, take care. Yeah.
+Nish Bhutani   29:34Yeah.Oh, by the way, I just realised that it's Varun Babji on the call, not Varun Rajwade.
+Malavika Goli   29:42Varun Rajwade is on leave today.
+Nish Bhutani   29:44Okay, okay, okay, okay, so Varun, it's good you're on the call. This previous conversation we were having about...The VM for explaining to people what the QR, you know, when you scan a product QR code.
+Varun Babji   30:03Yeah.
+Nish Bhutani   30:04What is it that what is the kind of information you can get right? That's something we want to experiment with and it won't be on every product. It will just be.in appropriate place of signage in the store, right? So if you can just coordinate with Malavika and just understand this a little bit, and I think between Malavika and Jigisha,
+Varun Babji   30:18Yeah.
+Nish Bhutani   30:32I think Jigisha is basically going to come up with the wording for it. But if you can help with that, that will be great.
+Varun Babji   30:35Okay.Yeah, sure, I'll do that.
+Nish Bhutani   30:40Yeah, why don't just explain one thing to me? You're involved, you're involved in the...
+Varun Babji   30:40Yeah.
+Nish Bhutani   30:46formulating or approval of the communication also, right? Not just in the production of the signage. Is that correct?
+Varun Babji   30:52No, no, the entire entire creation in terms of, you know, the signages and all communication creation for the CartPantaloons stores and then the execution, I am involved.
+Nish Bhutani   31:04Okay, so how do you want this to happen? Like you want Jigisha and Malavika to give you some text and then you will edit it further?
+Varun Babji   31:14Yeah, I'll understand the need. I mean, see, I understand like we are going to pick some products and we are going to communicate. I'll understand what is the...
+Nish Bhutani   31:23No, it's not some. It's not some products. The QR codes are actually going to be on all the products. OK.
+Varun Babji   31:26PE.Okay.
+Nish Bhutani   31:31And what's going to happen is when the customer scans the QR code, they'll go to the product detail page on the app or website.
+Varun Babji   31:40Okay.So it is it.
+Nish Bhutani   31:42So, the idea is that we want...We want signage that explains to people why we have QR codes on the products and what information you can get about the products by scanning the QR code. That's the idea.
+Varun Babji   31:53Oh, understood, understood, understood. So I, yeah.
+Nish Bhutani   31:56TK so.Yeah, so if you can coordinate with Malavika on that, that will be great.
+Varun Babji   32:02Yeah, I'll do that. Yeah.
+Nish Bhutani   32:04Okay, alright.
+Varun Babji   32:06Yeah.
+Nish Bhutani   32:08Okay, Malavika, your third thing was...
+Malavika Goli   32:11Wi-Fi.
+Nish Bhutani   32:13Wi-Fi, yeah.
+Malavika Goli   32:14Yeah, so we were to meet Praveen with the Vodafone team on Friday. That could not happen. Meeting them today, someone was not available. So meeting them today at 2. So we are not proceeding with Alan. Tony is just letting you know, although there the.
+Nish Bhutani   32:26Okay.Yeah, you said that last time, yeah, yeah.
+Malavika Goli   32:36pricing was very component. Yes, but this competitive pricing alone is not working, so we wanted to look at Vodafone also, future right point of view. So we are meeting them along with Praveen to negotiate and see what best we can do. He knows a lot of people there, so he said he'll do.
+Nish Bhutani   32:39Mm.Yeah.Understood.
+Malavika Goli   32:58He gets a good deal.
+Nish Bhutani   33:00Okay.
+Malavika Goli   33:01Yeah, so we by today, what we will have some update on that niche.
+Nish Bhutani   33:05Okay.
+Malavika Goli   33:10So that's all on my projects.
+Nish Bhutani   33:19OK, Hemant, why don't you go ahead?
+Parasa Neeharika   33:20Yeah.
+Hemanth Gollavilli   33:25Yeah, yeah, Nish, hi, hi. So, on the three projects, I'll pick up the first one, which is basically about the customer journey, so there are the two.
+Nish Bhutani   33:27But.
+Hemanth Gollavilli   33:40two points where we were stuck where one is the VM and the other one was the development on the app required to initiate those journeys. So, Varun, if you could quickly give us an overview on the VM part, I think that will be a good starting point. Nish, also, I was just on leave the last10 days. So maybe I'll have more updates or sharper view on this in our next update call. Or if you want, I can send you an update EOD.
+Nish Bhutani   34:03Yeah.Sure, sure, go ahead and send it with to Neeharika and me.
+Hemanth Gollavilli   34:15I'll do that. I'll do that. Meanwhile, we'll update you on the VM part. Varun, can you just, yeah, take us to the VM part?
+Nish Bhutani   34:16I think that'll be good, yeah, okay.Sure.
+Parasa Neeharika   34:26Hemant also, if you can just share the latest data with respect to the conversion on the app checkout and self checkout for the last month, that would, yeah.
+Hemanth Gollavilli   34:37Yeah, certainly. Yeah, you have data as on August end, right? Sure, I'll share for this week, no problem.
+Varun Babji   34:39The.
+Parasa Neeharika   34:41Till August, yes, till July, till July, I have August also has to be shared in September till date.
+Varun Babji   34:42G.
+Hemanth Gollavilli   34:46Okay.I share.
+Parasa Neeharika   34:52Love.
+Varun Babji   34:54Yeah, um, hi.
+Nish Bhutani   34:54Hemant, while we're while we're on that topic, sorry, before we get into the BNM.The, you know, some issues that Neeharika found with the self-checkout.
+Hemanth Gollavilli   35:06Right.
+Nish Bhutani   35:06Right now, one is, of course, getting those issues fixed.Which I don't know if, Neeharika, do you have an update on those or no?
+Parasa Neeharika   35:17No, not yet, Nish.
+Nish Bhutani   35:19Okay, so Hemant, maybe just update Neeharika on those, if what has been fixed and what remains to be fixed. But the second thing is that, you know, you or someone on your team needs to be monitoring that funnel.
+Parasa Neeharika   35:20Yeah.
+Nish Bhutani   35:36and looking for either errors or significant drop-offs in that process, right?
+Varun Babji   35:40PE.Ohh.
+Nish Bhutani   35:46And I'm not sure if that monitoring is happening right now or not.
+Hemanth Gollavilli   35:46Yeah.So Nish, we have a group where we have added the 230 store managers. So they actively keep sharing screenshots, issues that the customer is highlighting, or the issues they themselves are facing, let's say, during the tagging or during completing the process.
+Nish Bhutani   36:00Mhm.
+Hemanth Gollavilli   36:11So those tech issues, be it, let's say, something related to a temporary issue or more permanent solves, which Neeharika has highlighted, those are constantly highlighted. There are two people from Pantloon's team who are working on this. One is Swapnil Petkar.
+Nish Bhutani   36:11Mhm.Yeah.Mhm.Mhm.
+Hemanth Gollavilli   36:29and the other one is Shariq. So if it's a product-led development which is required, then Shariq comes into play. Any other tech-led issue, more backend server, all of that, Swapnil takes care. So these are being highlighted on a real time. Every day we get at least3-4 updates in that group, be it customer or be it store-led error issue which is highlighted. So that's the funnel we are following right now. So it's in place, but the action
+Nish Bhutani   37:03But are people looking at the, are people looking at things like, okay, number of people who started self-checkout?
+Hemanth Gollavilli   37:05Pandit.
+Nish Bhutani   37:13How many of them got to the next stage of it, which is whatever that might be, and then the next? And what was the ultimate conversion? Are people monitoring that on an ongoing basis?
+Hemanth Gollavilli   37:25I'll just check. So, Swapnil team does that. So, to answer you, yes, Swapnil's team does that. On all the feature-led rollouts that happen on the app, they're the ones who are tracking the ROI for every feature. So, their team is tracking that. I'll just cheque with them on what frequency they're doing this and...
+Nish Bhutani   37:28Yeah.Okay.
+Hemanth Gollavilli   37:44Like if they can share us data from the last three months, I think that that will be good.
+Nish Bhutani   37:49Yeah, it would be useful to see the data from the last three months and see if there have been any, you know, improvements or any instances where, you know, conversion has dropped and what, you know, how we responded to that, but also emphasising to them that, look, in some of these stores, you're seeing as high as what, well, 13% sales going through self-checkout, right?
+Hemanth Gollavilli   38:03Sayad.
+Nish Bhutani   38:14Or even higher.
+Hemanth Gollavilli   38:14Yeah, the highest, the highest we've done is as high as almost 30, 35%.
+Nish Bhutani   38:20Oh, well.
+Hemanth Gollavilli   38:21Yeah, yeah, so there are stores, yeah.
+Nish Bhutani   38:22So given that this is a very important funnel to monitor.
+Hemanth Gollavilli   38:27Right.
+Nish Bhutani   38:27Right? And it's actually, ideally, Hemant, it's probably data that should be surfaced to you also, you know, on an ongoing basis. I'm not sure how it happens in the e-commerce team with the e-commerce funnels, but something similar should be happening here, basically.
+Hemanth Gollavilli   38:36Right.No, no, I understand that Nish.
+Malavika Goli   38:47So, Nish, I can do one.
+Nish Bhutani   38:50Yeah.
+Malavika Goli   38:51Sorry, Hemant, cutting you. Nish, I can do one thing. Nish, I can get a dashboard created for Hemant. I will share the link with you, Hemant, and I'll get you the Adobe Access as well. You will just have to, you know, click on the link. It's a proper dashboard, right, with all.
+Nish Bhutani   38:52Go ahead, Malavika.Yeah.
+Malavika Goli   39:10all the data in there. You will just have to maybe update the date range you're looking for and then maybe pull the store data if you're looking for some sort of a depth insight. If you can join with me in a call with my team and let us know what exactly you're looking for, I'll get the team create a dashboard for you.Hemant, then you will not have any dependency on anyone, if that helps.
+Hemanth Gollavilli   39:36No, that's perfect then. I think then I'll just loop in Swapnil in that call so that, I mean, even for you, I mean, if there is any clarity required in terms of what aspects need to be pulled in, I think that'll help. If you have a dashboard, then there's nothing like that.
+Malavika Goli   39:51We have a dashboard, we have, so Swapnil will have to go and look at these dashboards eventually to give you the data, right? I mean, to pull in, there's no, there's no ready dashboard, it's Adobe, everything in Adobe is drag and drop sort of a functionality, so you will have to drag and drop, but what I can also do is drag and drop and create, save that as a dashboard and create it for you.
+Hemanth Gollavilli   39:59Right, right.Mm.
+Malavika Goli   40:13so that you can, you don't have to repeatedly go through the process of that drag and drop every time.Yeah.Ohh.Ha.Yeah, yeah, sure.
+Hemanth Gollavilli   40:39Nish one.
+Malavika Goli   40:39So, Hemant, if you if you can just tell me what all do you need now, with I'll add in the export from our side. He will create that for you. Just need to tell me what all are you looking for.
+Hemanth Gollavilli   40:51I'll do that. Nish, what I'll also do is, this is the last three months feedback that we have got in that group. I'll create a one-page summary in terms of what are the commonly encountered issues. I'll bucket them into tech, consumer-led, or let's say staff-led. And I'll give you an understanding on what are the broad issues.
+Nish Bhutani   40:58Yeah.Okay.
+Hemanth Gollavilli   41:11what action, like how many, what to what extent they have been addressed or some action which we are currently WIP and will be closed in the next few months. I'll share that one page with you.
+Nish Bhutani   41:20Pick it, OK.It's also helpful in these kinds of things to observe customers in the store actually doing the checkout. Maybe store managers are doing that or the store staff is doing it. But actually observing people will give you a lot of insight into what problems people are running into.
+Hemanth Gollavilli   41:31Yeah.Yeah, yeah.Yeah, yeah. In fact, Nish, we had a sales meet last to last week, first week of September in Kolkata, right? This was one topic which we discussed actively with the regional sales managers, Pan India. It was a very healthy discussion. They also had a lot of views on how can we take this mix to upward to 25 percent. So there are...
+Nish Bhutani   41:47Okay.Oh.Mhm.Ohh.
+Hemanth Gollavilli   42:03So, how stores are largely driving this is because we are in an adoption stage, they are focusing on educating the customer. So, during non-peak hours from 11 to 5 during the weekdays, every customer who walks in, even though there is no rush, there is no, let's say, queue at the cash still.They are encouraging customers to try the checkout, and the feedback that we're getting from them is, once they try it out, the next time they come there, they're doing it on their own. So, the stage one or the phase one which we have followed till now is to educate customers and stores which have taken this journey are at a double-digit checkout mix.
+Nish Bhutani   42:32Mhm.Mhm.
+Hemanth Gollavilli   42:40What is the other stores who are trying to aim or target customers during a peak hour, because during peak hours our bandwidth is also limited to approach the customer or the number of customers we can approach from the staff, right? So, and the VM elements anyway need an upgrade, which of course Varun is working on, so...
+Nish Bhutani   42:51Correct, correct.Yeah.
+Hemanth Gollavilli   42:59That's the initial thoughts from the RSMs in the sales meet, but customer is thrilled, customer is more than happy, excited to, you know, do this self-checkout.
+Nish Bhutani   43:04Okay.Okay.
+Hemanth Gollavilli   43:10Very, very positive feedback on self checkout.
+Nish Bhutani   43:15Okay, okay.Okay, so now let's get to the VM side of it.And just to clarify, this is VM to communicate to customers about self-checkout, correct?
+Hemanth Gollavilli   43:33Yeah, yeah, Nish, so three points, Nish: one is, if you remember the customer journeys, we had we had asked for certain interventions in the store from VM at Castel at the trial rooms within the like brand as trial zones.
+Varun Babji   43:34Yeah.Okay.
+Hemanth Gollavilli   43:52Right, and also certain columns on how can they buy a full look, or how can they get more style suggestions, right? So, that entire consumer journey, by for cutting into those three parts, the entire VM support is what has been shared with Varun.
+Varun Babji   43:52Yeah.I did.1.Bing.Really?
+Nish Bhutani   44:03Right.
+Varun Babji   44:05Turn on.That will be in a way.
+Hemanth Gollavilli   44:10In fact, we have we have grouped in more people on this project, Nish.
+Nish Bhutani   44:11Okay.
+Hemanth Gollavilli   44:16So, there is there is one one person from NPT category, Brijesh, it's me, it's Varun, and a couple of others, because we thought it needs a little more muscle in terms of executing it and with pace, and of course measuring the results qualitatively and quantitatively.
+Varun Babji   44:17Okay.What?
+Nish Bhutani   44:27Ohh.
+Varun Babji   44:30OK.OK.
+Nish Bhutani   44:35Okay.But.
+Varun Babji   44:42Yeah, so Hemant and Nish, shall I present the line items in which we have decided, like, you know, what all what all are the places where we are we are we are going to communicate through VM and what is the purpose, yeah?
+Hemanth Gollavilli   44:42Yeah.
+Nish Bhutani   44:53Yeah, yeah, yeah.
+Varun Babji   45:04My screen visible?
+Nish Bhutani   45:07Yes.
+Varun Babji   45:10So, I have clubbed all activities in of VM into these line items, like, pardon me, the QR codes which will be deployed at various places, and what is the purpose of each QR code? So, like...Like we could, I have gone from, you know, store facade to window displays to pop shops, trend spots, and right through the table displays and browsers, etc. And for each touchpoint journey, what is the communication that we are trying to look out? And here I have highlighted, like, you know, green is what we have already done in our city.Orange is something that we started picking up and we'll be closing it this week. Red items are the items which will be needing little discussion and probably will be needing more time.
+Nish Bhutani   45:51Mhm.Mhm.
+Varun Babji   46:09So like you, if you could see this, we have done currently we have deployed the QR codes at Windows and pop shops and trend spots.Which are?
+Nish Bhutani   46:20Got it.
+Varun Babji   46:22which are there in the RCT, they are active and we could actually track the number of visits and conversions, etc. So they are actually landing to the collections that are being displayed in RCT.
+Nish Bhutani   46:34Okay.
+Varun Babji   46:35In fact, we have also taken these live in Pooja doors. We are planning to make them go live this week for Pooja doors, entire East transport, workshops and all the mannequin displays. The same looks will be able to look at it. In fact, not exactly the same looks, wider options of the same story.So the consumer can be able to shop the entire range rather than only the looks that are being displayed.
+Nish Bhutani   47:03Yeah.
+Varun Babji   47:05So this part is...
+Nish Bhutani   47:05Alice.Yeah, and no, I was just wondering, Hemant, like, when can we start looking at the data from this?
+Varun Babji   47:07Yeah, sorry, Nish.
+Hemanth Gollavilli   47:20So, Nish, I'll cheque with Rohit on this. Actually, most of these are linked to the initiatives from Rohit's project, but I think it's already been tracked, if I'm not wrong, so I'll just quickly cheque with him, but it's already been tracked with my understanding.
+Nish Bhutani   47:29Got it, yeah.Sure, sure.Okay.Okay.
+Varun Babji   47:50Yeah, so apart from this, we like what Hemant was talking about, self-checkout and checkout on app. Currently, this communications when we are putting on the browsers, they are looking very small in nature and they are not taking attention. So we are in discussion with the...Meera to make it a little bigger in size so that they will create some impact and they get noticed in the junctures of the consumer journey. Otherwise, if we just do a small signages about self-checkout or checkout an app, they are not just getting noticed. They are there in the store, but they are not getting any kind of traction. So hence, we are working on.
+Nish Bhutani   48:30What does browser mean?
+Varun Babji   48:33Browser is the the unit where the merchandise is being displayed.
+Nish Bhutani   48:37Got it.
+Varun Babji   48:37I will show you, I will show you.So these are the units. Apart from the managements, they are also inside the store. These are all the browsers that are there.
+Nish Bhutani   48:46Mm.Yeah, I mean one thought also is to...You know, put some signage that's very visible.at the pause, but at the pause, not right when you get to the pause, but also if you're in the queue, you know.
+Varun Babji   49:06Yeah.
+Nish Bhutani   49:10Like in some stores, what they do is they just hang it from the ceiling or something right where the queue is, you know, that kind of thing. Yeah, I'm not saying that's exactly what we should do, but that's the kind of thing that people do so that it's very visible when you're in a queue that you can do this.
+Varun Babji   49:10So, weird.Got it, yeah.Yeah, largely this is a kind of communication skip the QP on app and you'll have the steps which are going to explain. But this is small in nature, so we are going to make it little big, maybe a standing communication or something like 3 feet or 4 feet so that it gets noticeable. These are the next steps that we are going to attempt.
+Nish Bhutani   49:34Correct.Okay.Yeah.
+Varun Babji   49:50Nish.
+Nish Bhutani   49:51Okay, okay.
+Hemanth Gollavilli   49:51So Nish, this is in the section where people are browsing the products. What we have specifically also asked Varun to help out is, you know, near the cache till where people can get that de-tagging done, right? A call out on the entire self-checkout on app along with
+Nish Bhutani   49:58Store.Yeah.
+Hemanth Gollavilli   50:13let's say broad level steps on how to do it, right? Like it can be as simple as can the product, add to cart, pay, detag, go, right? So something which a lot of other retailers do. So that specific, bigger call out on checkout on app will happen near the cash deal. That's a separate VM call out. This is more about
+Nish Bhutani   50:17Sure.Yeah.Yeah.
+Hemanth Gollavilli   50:33bringing awareness while the customer is browsing within the product section.
+Nish Bhutani   50:37Sure, sure, makes sense.
+Varun Babji   50:43So this and can't find your size, these two are actually the action points which we are making it little big in nature in terms of size and standing communication. Otherwise, maniculin display QR codes were active in RCD. The next step, which I'm going to do in a couple of days' time, is I'm also developing these QR codes for every.every table, like every CartPantaloons table, will have the price communication and the call out of the product. We will also have a QR code integrated specifically to that particular table program. So when you scan it, you will have, so this particular table, for example, is actually displaying for.
+Nish Bhutani   51:04Mhm.
+Varun Babji   51:22options of shorts on the top tier and the three options of t-shirts. The ideal programme is t-shirts plus shorts combination. So when a consumer is going to scan, it's going to land on a page where you'll have larger options of, you know, entire range of shorts and entire range of tees. So this activity for every table of.
+Nish Bhutani   51:27Mhm.
+Varun Babji   51:43PT brands, we are going to, we are working on that, Nish. So we are going to work and develop your reports on those for each and every table, and we are going to execute this in RCT.
+Nish Bhutani   51:55Okay, okay, great. So, and it says shop more from CartPantaloons app.
+Varun Babji   52:03No, no, so yeah, ignore the line. We will come down on the Papi and we will actually post that signage on the same group so that you will be aware of it.
+Nish Bhutani   52:03Um...Oh.Okay.Chica.Yeah, yeah, I was just going to say that it should be clear to people that it could be web, you know, they don't have to have the app, right? They could use it on the website also. OK, OK.
+Varun Babji   52:19Yeah, correct.Yes.
+Nish Bhutani   52:25So, what, what is the when, when do all these uh signages go live?
+Varun Babji   52:32So I'll just go and project the Excel once again. So currently, currently we have this green items ready in the store. Then the orange items which we are talking about browsers and tables, we are attempting this week in the sense like coming Tuesday, we should be having.
+Nish Bhutani   52:35Or shower.Yeah.Mm.Yeah.
+Varun Babji   52:53present in the store.
+Nish Bhutani   52:56Yeah.Okay.Okay, good.
+Hemanth Gollavilli   53:05Varun, what we should also do is we should separate these out because it's accumulation of everything related to VM, but we'll just separate it out in terms of my experiment and Rohit's experiment so that it is very clear on the interventions.
+Varun Babji   53:12Correct. So what I will do is.Yeah, how actually I think in the last call you were not there when I have when we were discussing with Rohit and entire team, I actually created one complete deck with all the touch points that we have discussed and where all what is supposed to go and we are taking up.
+Hemanth Gollavilli   53:27Gotcha.
+Varun Babji   53:41one with RCT and also with the Pooja doors, like what all can go for Pooja, because eventually we'll be taking most of them for nationwide rollout. So there are only three to four items, I think, line items which are specifically needed for your experiments, which I'll come down and I'll discuss with you.
+Hemanth Gollavilli   53:43Hmm.Right.Take it, OK.
+Varun Babji   54:00Okay, yeah.
+Hemanth Gollavilli   54:01Okay.So, Nish, what I'll do is then we'll update you a little more structurally in the next update call, experiment-wise, so that it's very clear.
+Nish Bhutani   54:10Okay.Okay, okay, sounds good.Neeharika, anything else for today?
+Varun Babji   54:19Very important.
+Parasa Neeharika   54:21No, Nish, Malavika, just one point.
+Nish Bhutani   54:23Okay.
+Parasa Neeharika   54:25So there's one more thing that is to build a scale-up costing model for 200 plus to rollout. So maybe once you are ready with that, maybe you can share it.
+Varun Babji   54:36But.
+Malavika Goli   54:36Yeah.
+Varun Babji   54:38But.
+Malavika Goli   54:41So, what cost are you looking for? Is the cost for the the geo-fencing bit? That is the that's that was very less I had updated in the last call. It is going to about 203 rupees for both the stores that we run that we run in the last one month.
+Nish Bhutani   54:42OK.
+Parasa Neeharika   54:46Ohh.Yes, yes, so.
+Malavika Goli   55:02So.I'll just put maybe the math around that. If you can just tell me how many stores we have in total, I'll just put the math and give it to you.
+Parasa Neeharika   55:12I think Hemant can help us with that.
+Varun Babji   55:14Thank you.
+Hemanth Gollavilli   55:17I'll connect with you, I'll help you on this.
+Malavika Goli   55:19Okay, okay, thank you.
+Parasa Neeharika   55:20Okay, yeah.
+Varun Babji   55:20Vipul.
+Parasa Neeharika   55:29Okay Nish, I think we can conclude.
+Nish Bhutani   55:31Okay, fine. Yeah, and you'll set up the core team meeting for tomorrow, hopefully, right?
+Varun Babji   55:31Thank you.
+Parasa Neeharika   55:32Yeah, yeah.
+Varun Babji   55:33Yes.
+Parasa Neeharika   55:37Yes, yes, yes. I don't know you back tomorrow, so we can have the meeting tomorrow. Yeah, OK. Yeah, thanks.
+Nish Bhutani   55:38Okay, alright, okay, alright, okay, just let me know the time in advance, yeah.
+Parasa Neeharika   55:45Sure, Shaurya.
+Nish Bhutani   55:46OK, alright. OK, thank you everyone. Bye.
+Parasa Neeharika   55:47Okay, yeah, thanks.
+Varun Babji   55:49You take the compliment.
+Hemanth Gollavilli   55:49All right. Thank you, Nish. Thanks, everyone.
+Malavika Goli   55:50Thank you.
+Varun Babji   55:51Thank you, Nish. Thanks everyone.
+Parasa Neeharika stopped transcription

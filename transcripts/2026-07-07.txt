@@ -1,0 +1,551 @@
+﻿Project Next Horizon  Weekly Status Meeting-20260707_113325-Meeting Recording
+July 7, 2026, 6:03AM
+1h 39m 37s
+Parasa Neeharika started transcription
+Varun Rajwade   0:48Anish. Hi, Amit.
+Amit Dwivedi   0:51Yeah, Varun.
+Nish   0:53Hi Barun.
+Parasa Neeharika   0:53I will.
+Shariq Haroon   0:54Hi, Madam.
+Nish   1:12You should not alone.For which?What?Can you hear background noise from my?
+Varun Rajwade   2:12It could be from my side, I'm just on the road.
+Nish   2:16No, I don't care anything. I just checking for those.
+Shariq Haroon   2:19Then wish there was some background noise, but I think if you're using an earphone just now to screen, that background noise is gone away.
+Nish   2:25Some other thing, okay.Let me see, I'll actually switch my mic to my...Is this better?Let's see, let's see, okay, take care, take care, okay.
+Amit Dwivedi   2:44It's equally good dish even available.
+Shariq Haroon   2:45Similar.
+Nish   3:01Should we ping others if he was not like he was appointed by the court?
+Amit Dwivedi   3:08I'll just ring on the group.
+Parasa Neeharika   3:12I am just doing it.
+Amit Dwivedi   3:14Okay.
+Shariq Haroon   4:21Yarika, I don't see Sandeep on the invite.
+Parasa Neeharika   4:30Sorry, my bad. I think I just took the list from the previous call.
+Amit Dwivedi   4:35Can you forward it to him?
+Parasa Neeharika   4:35I'll just forward that. Yeah, I'll do.
+Amit Dwivedi   4:38Sharik.
+Shariq Haroon   4:41Sure, a minute.
+Amit Dwivedi   4:43Hemant is there on the call. I mean, Hemant is there on the invite.
+Parasa Neeharika   4:46yes.
+Amit Dwivedi   4:48Okay, and Malvika also will have to ask her to join this invite. I think she has joined the another one.
+Nish   4:59Are we delete the old invite?
+Amit Dwivedi   5:02I think she doesn't have access to it, Nish, so I will do it. I will do it.
+Nish   5:04Yeah, but someone at admin can do it, no?Yeah.
+Amit Dwivedi   5:25I'm deleted.
+Parasa Neeharika   8:00Should we wait for Sandeep or otherwise everyone else joined?
+Amit Dwivedi   8:05Shari, can you check with Sandeep if he is joining?
+Shariq Haroon   8:08I'll check.Amiti didn't pick. He might be in another meeting.
+Amit Dwivedi   9:08You can start then.Nish, we can start. I think Sandeep probably won't join.
+Nish   9:18Yeah, okay. So Niharika, Varun, I don't know if you have any agenda for today.
+Varun Rajwade   9:30Just let us do the standard walkthrough.
+Nish   9:33Update. Yeah, theek hai.
+Varun Rajwade   9:36Niharika, if you can project.
+Parasa Neeharika   9:38I'll just share my screen, yes.
+Nish   9:44Poster.Husband's pregnant tomorrow.
+Parasa Neeharika   10:04Yeah, who wants to go?
+Nish   10:07Hey.Go ahead and pick someone, Niharika, put them on the spot.
+Parasa Neeharika   10:21Maybe we can start with Rohit because his name is.
+Nish   10:25No.
+Parasa Neeharika   10:33Rohit, are you there?
+Amit Dwivedi   10:34Rohit, you want to give an update?
+Rohit Indumukhi   10:40Hey, sorry, I was speaking on mute. Yes. So on my experiment, we last walked you past the communication and there was a feedback. We have reworked on the communication. I am just projecting my screen.Yeah, just let me know if you're able to see it.
+Nish   11:11Yes.
+Rohit Indumukhi   11:13Yes, so Nish Varun, what you've done is you've changed this to shop more looks, make it very clear and direct, and we have added this piece, which by the way will look slightly more bolder than what you're able to see here. It says scan, shop, and smile.And we've added the one liner to again clarify what this is for. It is to discover looks that define your style.The QR will itself land on the collection collection page of this entire collection.
+Nish   11:55Okay, I think this is good.
+Rohit Indumukhi   11:57Yeah, this is one the second one. And by the way, we met the store departmental manager and store manager themselves to understand the use case at the touchpoint. So on SF men's, we are debated and what we concluded is this communication.Which says explorer full range, scan, filter by colour and size, colour and fit, and shop. I know in this collateral it's looking slightly small, but we will just get this corrected to a better size.Yeah, this is how it look like.
+Nish   12:36Fit guide, explorer the full range. Okay, what does everyone think? I think it's, I think it works even though the fit guide is below.
+Rohit Indumukhi   12:51The only other thing we were thinking is should we put some kind of an arrow here to say it's 123 steps or is this already intuitive?
+Nish   12:52Hey.
+Rohit Indumukhi   13:01Wanted to check with all of you ones.
+Amit Dwivedi   13:05I didn't get the question, Rohit.
+Rohit Indumukhi   13:08So this is the 3 step process: scan filter by fit, size, or colour, and shop.We were debating if we should put a small arrow here, spaces out a bit, or this is all date.
+Amit Dwivedi   13:22You are right, yeah, otherwise it is not clear.
+Rohit Indumukhi   13:25Okay.
+Amit Dwivedi   13:25So if lets say explorer the full range itself, which looks like a header on top, if it is printed on arrow and that arrow could you know, go from bottom to up and then these balls can come, that's one way. Or you have, you can have as you were suggesting, an arrow between scan and filter and filter in shop.
+Rohit Indumukhi   13:44Yeah.
+Amit Dwivedi   13:47So that it looks like it's a 3 step process.
+Rohit Indumukhi   13:48Yeah.Exactly.
+Amit Dwivedi   13:51Or you can make it more explicit also 3 step process to explorer the full range.
+Nish   13:57I am wondering if we even need the 3 steps, do we?
+Varun Rajwade   14:01Yeah, I was going down that road with people are so used to. I think we just need to clarify that you will see the full collection or the full range by scanning. Once you do that, rest is intuitive.
+Nish   14:12Yeah.I think if we say explorer.
+Rohit Indumukhi   14:15No, Sir, I will tell you what is not intuitive if you go on, and I am using Myntra here because I know they are leaders of on that side. They use what we call as sub filters, right? Which means if you are on a denim page, the fits.
+Varun Rajwade   14:18Yeah.
+Rohit Indumukhi   14:33And sizes will show up as your sub filters or cascading filters is what few of us call. We don't have that feature, so which means you are forced to use the common filters and typically you would want to obviously filter by fit, size, and colour. But this is more to nuts saying that hey, we have these filters curated for you.
+Varun Rajwade   14:50Yes.
+Nish   14:59Achchha.
+Rohit Indumukhi   15:01I'll maybe show that once.
+Nish   15:03Okay, sure.
+Varun Rajwade   15:09And Rohit, while you pulling that out, do you have, do we have like a landing page for denim with the various fields or washes on it?
+Nish   15:22Yeah, let's also look at where the customers will actually go.
+Rohit Indumukhi   15:27So here are the QR codes. Oops, I'm not able to upload here.Let me see if I can copy paste it after this.So I am referring to these, right? If I am on a denim, a fade distress comes as a cascading filter, not your not your typical now.
+Varun Rajwade   15:51So here.
+Rohit Indumukhi   15:55You're not able to see your screen.
+Varun Rajwade   15:57Now I will bear it.
+Rohit Indumukhi   15:59Yeah, so I'm saying distress, fade, etcetera are part of cascading filters on a Myntra.Right now you're not your normal filter stack on the left hand side. We don't have this feature today, so we want to upfront tell the customer that you can filter by fit, size, and colour.
+Nish   16:12Mhm.Okay.Wait, how do we show show us where they'll go from here or not?
+Rohit Indumukhi   16:27Do you want me to show our page? OK.
+Nish   16:29Our page, yeah, just keep this tab open and let's look at let's open another tab with that page.
+Rohit Indumukhi   16:36Right, let me just pull that out quickly, the link.Yeah.For some reason, I'm not able to paste anything on this chat group.
+Varun Rajwade   17:33That's because it is Niharika has sent it from her ABG email once she sends it, once she sends ABFR.
+Nish   17:33Wait, just check.
+Shariq Haroon   17:36Yes, because yes, ABG, I know that's why 3 externals to this.
+Rohit Indumukhi   17:40Okay, I think it's I could paste the I can't paste the link. I am able to paste the QR code. Can you?
+Nish   17:47No, but why don't you just share your screen?
+Rohit Indumukhi   17:50Okay, one second please.This is a QR if you guys can scan it.
+Nish   18:05On the mobile you said.And we should look this on the mobile web or the app. What do you think is more representative of what will happen the same?
+Rohit Indumukhi   18:21If you have the app, it'll deep link to the app. If you don't have the app, it will be the same.
+Nish   18:25sure.So your point is that the filters are not as visible for us, is it?
+Rohit Indumukhi   18:36That's correct.
+Nish   18:45Got it.So.One thought is, if those are the 2 important points, maybe we just make those 2 points right, we say.Like explorer the full range, you can maybe have an arrow towards the QR or scan to explorer the full range.And filter by fit, size, and colour shop we don't need, I think.
+Rohit Indumukhi   19:11Understood, got it, okay.
+Nish   19:13Right.But I don't also don't want to prolong things too much, so if you think it is a quick change we can make, just go ahead and just roll it out.
+Rohit Indumukhi   19:23It is also to kind of templatise how we will communicate across these. So yeah, we just felt everywhere we will have 2 or 3 step kind of a guiding mechanism, so it gets standardised as a VM template itself.
+Nish   19:26Good.For the future, sure.Makes sense.Makes sense. So maybe we make it a 2 step thing, scan, scan.Something like scan for the full range and filter by fit, size, and colour.
+Rohit Indumukhi   19:48Yeah.Good.
+Nish   19:53Just 2 steps, right? Does that make sense, Varun? What do you think?
+Rohit Indumukhi   19:55Wow.
+Varun Rajwade   19:57Yeah, absolutely. Also Rohit and Malika, you should have like a denim landing page with all the various fields, washes, like a collection, like a collection, not a PLP, but a collection page.
+Nish   19:59Theek hai.I think right now it is going to a category, it is going to, I think right now if you scan that QR code, Varun, it is going to essentially like a search results page for denim.
+Rohit Indumukhi   20:14What's the difference?
+Varun Rajwade   20:26Yeah, it'll be a PLB case.
+Nish   20:31No, it's not products. It's not a single product page. It's right now it's going to like a category or a results page.
+Varun Rajwade   20:39Yeah.
+Nish   20:40Yeah.
+Rohit Indumukhi   20:40It's a denning category page, but Varun, you're trying to say it must be a more a customised page, right? That's what you're trying to say.
+Nish   20:42Correct.
+Varun Rajwade   20:50Just a landing page, right? Someone made because this is a catch all scam this way you could.
+Rohit Indumukhi   20:53Correct, correct. That's when I was getting to next. I will cover that. Let me just finish this.
+Malavika Goli   20:55Microsite. Okay, yeah, he means.
+Nish   20:57Yeah.I think there are 2 steps to this. One is like, will people scan, right? And we are going to track that right with and we will have UTM parameters and all that. And the next step is kind of what is the user behaviour after that? Is it? Are they staying engaged? Are they finding it useful? Are they shopping? Or at least how much time are they spending?
+Rohit Indumukhi   21:08Yes.Yes.
+Nish   21:22And I think based on that, we can.At least for the higher traffic ones where maybe we're not finding that there's as much useful behavior, we can look at landing pages and start.
+Rohit Indumukhi   21:34Yeah, I'll walk you through what we have planned there.
+Nish   21:37Sure.
+Rohit Indumukhi   21:38So this is the second one. The 3rd one is the dupatta browser. And like I said, we spoke to the ground staff and we understood customers typically are looking for variety and designs because we typically run out of that on the browser. So we have put your scan filter by.
+Nish   21:55Mhm.
+Rohit Indumukhi   21:58Filter by colour or print and style and then shop. In fact, it is sorry, my bad. Colour is what they typically look at here because they have already picked up a kurta and they want to match the colour with the dupatta. So therefore filter by colour.And the headline says scan for more choices, so it's very direct.
+Nish   22:21Got it.So here also we'll convert it to a 2 step thing then get rid of shop. Yeah, I think lets just standardise on that because shop is sort of obvious, right? Yeah.
+Rohit Indumukhi   22:31We can do that. We can do that.Yeah.The last one is on the bottom browser where typically it is about matching colours and availability of size. So you have set shop more colours and options to complete your look and here it says filter by colour and size.
+Nish   23:06Do we need the bottom line also?That line will send us.
+Rohit Indumukhi   23:15I think it just helps.Clarify for people who would like to understand.
+Nish   23:21Okay, take it, take it, take it's fine, yeah.
+Rohit Indumukhi   23:25So these are the 4 and I agree with Varun, today all of these are landing to the curated category pages of sorts. Curated in a sense we are not allowing for right now, you would have seen discounts, but otherwise the going plan is to filter out any old season discounted selection and only show the new season ones.But let me quickly project what's the UI planned.Going forward.
+Nish   23:54And it is showing kind of everything that we have available online, basically, correct?
+Rohit Indumukhi   23:59Yeah, that's correct. So it's solving for not having variety, sizes, or colourways inside the store.
+Nish   24:00Yeah.Sure.
+Rohit Indumukhi   24:10so this is the update that I have for this week where we have taken a shot at what does that landing page look a better version of the landing page look. So what you are seeing here is the shop the edit or shop the collection page where we wanted to do a bit more storytelling and highlight individual product.So you will have the talking point of the product, a little bit of creative storytelling, and then towards the bottom we show the look and then here you have a widget where you can browse the rest of the collection.So there is again 80% directional Varun Nesh. We will finalise this in by next week, but the elements of what has been put up here a having creative content including text and B the widgets that allow you to shop.The specific look and the rest of the collection are UI features that will have to be developed. So this is what directionally it is going to look like.
+Nish   25:20My feeling is that lets not move forward on this until we first see the one can look at this 2 ways, right? One is if you are saying find more options online or more styles or colours or whatever, one could argue that the customer just wants to see the product.A different prompt could be kind of if you zoom in on this, what does this say actually?
+Rohit Indumukhi   25:49No, this is more about the edit you, the first one that you saw.
+Nish   25:51That's right.
+Amit Dwivedi   25:53And how are we going to use it, Rohit? Where are we going to put this?
+Rohit Indumukhi   25:59so for example, this what you are seeing is a stitch collection. It is in collaboration with, I think, Disney. Now if you this is exactly how it renders inside the store. If you are a customer, you don't even get to know it is a Disney collection and there has been some inspiration around it.
+Amit Dwivedi   26:07Mhm.Sorry.
+Rohit Indumukhi   26:17And so on and so forth. Plus there are only 4 mannequins. So if that collection has 8 looks, I am forced to show only 4 to you, right? So how do I show you the rest of the 4 or how do I show you what accessories can be paired with the page kind of answers that.What's the inspiration and therefore what are those accessorizing that can go along with it? So it does a bit of engaging also and storytelling.We felt it is necessary, especially in the entrance pop shop and those pop shops that we have inside the store.
+Nish   27:02I think it comes down to also the prompt for the user. So if the prompt is more around like discover more different kinds of products, styles, colours, etcetera, then I feel the user will feel impatient if they see this. But if the prompt is more around like.Learning more about the looks. or.
+Rohit Indumukhi   27:28Because we didn't have this right now, you will see shop more looks and therefore it drops into a simple listing page of products. But that's precisely what we're not able to do. I would have preferred to tell them that, hey, this is a Disney collaborated collection and so on and so forth.
+Nish   27:36Sure.
+Rohit Indumukhi   27:48That does a bit of.
+Nish   27:49So.Fair, I think that's fair. So maybe there's just 2 different. My only point is let's marry the prompt to the outcome. Basically, that's yeah.
+Rohit Indumukhi   27:58So this was one.
+Amit Dwivedi   27:59Yeah. And Nish, to your point, shouldn't there be just a prompt, at least to begin with, instead of having so much of details? The fact that somebody is walking into that space and doesn't even know that it is a collaboration with Disney, just calling out the Disney collaboration itself could be that prompt which could force people to.
+Nish   28:12Yes.Absolutely. Absolutely.
+Amit Dwivedi   28:17Look at versus getting them into too much of details because even if with so many images, let us say if they don't register that it is a collaboration or something new, they may just pass by it and they may just miss it.
+Rohit Indumukhi   28:29We do that.
+Nish   28:31Exactly, I agree with that. So we could say something like, learn more about this Disney inspired collaboration or something like that. Or why did we, you know, something like that? Basically, I agree with you that the just mentioning Disney will inspire will kind of motivate them to look deeper, yeah.
+Rohit Indumukhi   28:31We will do that.We will do that.So we will do that. Unfortunately, right now that collection is sold out in this store, so we are talking every fortnight, so which is why we had to drop it. This is now talking to a collection that's coming on 17th of July. Okay, the other UI is what I think Varun you are referring to.
+Amit Dwivedi   28:58Okay.
+Nish   29:00sure.Theek hai.
+Rohit Indumukhi   29:10Which is, can I have a much more customised listing page, which is slightly again much better. So this is a placeholder again. So what we will see is a creative of, for example, this was for floral dresses. So there is a floral dress creative and a bit of write up around it. And then you have.The specific products which you wanted to market and then it goes into a widget that can walk you past multiple other products. So today I only have the bottom part. I am dropping you on a category page which has listings. We wanted to do a bit of this piece.So that we are able to also focus on that exact look and tell you what the story is about. So similar version for a SF jeans denim would be where we will have a denim image and instead of these 4 boxes showing the products, we will put shop by fit.
+Nish   29:52You do the job.This one.80.
+Rohit Indumukhi   30:10Right, and then you have and then you have the PLP, so that slightly better experience where we are giving you those options of shopping by filter or we could also do filter by colour here as for thumbnails and then it goes. So this is how we are planning the slightly more customised landing page.
+Nish   30:32We could be, it could be also do a filter based on.Kind of available everywhere versus available in this store kind of thing.
+Rohit Indumukhi   30:42That would be a store mode toggle which we can incorporate. Varun is a store mode toggle coming back. I think it's currently dropped.
+Nish   30:43That would be useful, right?Mhm.Yeah.
+Amit Dwivedi   30:55Varun's actually dropped off. Malvika, can you take that question?
+Malavika Goli   30:59I am not sure of that.
+Amit Dwivedi   31:02Okay, we will check with Varun and get back with. He is not on the call.
+Rohit Indumukhi   31:07We can add that, Nish, that should should be.
+Nish   31:09Yeah, if its might be useful, right? So then you could even like just to have a bit of a connect with the user, you could say something like, I don't know, mention like hello our city shopper, and you could have a filter that says show me at our.
+Rohit Indumukhi   31:22Yeah.
+Amit Dwivedi   31:24Again.
+Nish   31:25Our city versus online type of thing.
+Amit Dwivedi   31:28Just again for my benefit, Rohit, how are we planning to use it and where?
+Rohit Indumukhi   31:33So what you would have scanned as a denim page and it landed on a category page, which means you just had the listings. Instead of that, it is slightly more engaging where we will talk about what does SFG stand for, one liner about how our denims are differentiated, and then we will have thumbnails to allow you.
+Nish   31:41Hello.
+Rohit Indumukhi   31:53Go into filtered products directly and the rest of the listings come down here.
+Amit Dwivedi   31:59And how will this be decided? The thumbnails and the kind of products you would want to guide the customer. This will be same for everyone, whosoever scans it.
+Nish   32:05For me to file if you want.
+Rohit Indumukhi   32:08Yeah, that won't be personalised, but it will be customised to the category we are talking. For example, we know the top 3 filters for every product category for denim it is pits and colours, whereas for let us say ethnic bottoms, it is sizes and colours and prints pattern essentially.
+Amit Dwivedi   32:19Yeah.
+Nish   32:22Mhm.
+Rohit Indumukhi   32:28We have that information, so we will use that to decide what will be the thumbnail. For example, if it is kids, it will be by age. So that's how we will put it.
+Nish   32:46I think that's good. I think what that's good because you're putting yourself in the user shoes and saying in this category, what do they care about? So that's useful. And like I said, the other thing that would be useful is as a user, you'd be thinking, okay, which of these are available in this store?
+Rohit Indumukhi   33:02Yes.
+Nish   33:02They like something, right? So be somehow being able to easily navigate that also. But you know what I would do? This is obviously some effort to do, so I would maybe prioritise this as a separate experiment.
+Rohit Indumukhi   33:09Yeah.
+Nish   33:17From the...
+Rohit Indumukhi   33:17This is not coming now, Nish. This The reason I am showing you this is because this is at least couple of months away if phase 2.
+Nish   33:20Take it.Theekers, theekers, perfect.Yeah.
+Rohit Indumukhi   33:28Okay, so that's about it, those 4 experiments. Since you have signed off on com, we want to go live tonight, so I'll keep you posted. Maybe I'll send you images of how it looks on the floor tomorrow day after times.
+Nish   33:43For sure, yeah, just make those changes and go ahead. yeah.
+Rohit Indumukhi   33:46Yeah, we'll do that.
+Nish   33:48Okay.Perfect.
+Shariq Haroon   33:53Maybe I'll go next.
+Nish   33:55Yeah.
+Amit Dwivedi   33:56Yashal.
+Shariq Haroon   33:57Okay, so Nish, basically the discussion.
+Rohit Indumukhi   34:01Nish Amit, sorry, can I drop off have a weekly ORM to run? That's fine. Thank you so much.
+Shariq Haroon   34:02Yeah.
+Amit Dwivedi   34:04Yeah, please go ahead. Please go ahead, go ahead.
+Nish   34:05Yeah, go ahead.
+Shariq Haroon   34:13Is my student.
+Amit Dwivedi   34:15Yeah.
+Nish   34:15Yeah.
+Shariq Haroon   34:17Yeah, Sir, basically the feedback that you provided this and you also did some thought deliberation over it. We made few changes, incorporated your feedback. This is the flow that's coming out to be and in the phase one, we are just considering whatever merchandise the customer is carrying with themselves.And we are not talking about adding items to the cart like an endless aisle of sort or upsizing downsizing from then and there. We are assuming because we want to solve for fulfillment also in the payone. So we are assuming that whatever is available with them at that moment in time, only those are getting billed. So with that.With that border contour, we have developed this user flow, so I will just proceed one by one as it says tap to start, and of course, this is the first screen is a video or an animation or it could be a considerable message, whatever you want to communicate to the customer, you are just walking by.And this can be dynamic.Once the customer presses clicks on this screen, and then there can be 2 approaches that the customer comes and directly drops item that is the card, the entire card on to the win. Then we skip the subsequent screen. If the customer is clicking on the screen and tapping to start, then this screen pops up. which.That is the customer to drop items in the bin or tags or scan them manually. Of course, the scan tags manually is little subdued, so I will move to the right.If the customer is clicking on scan tags manually, then this grayed out screen would pop up and would occupy the entire screen, and it would just talk about scanning the tags manually. And like you were mentioning, that there should be some sort of indication in the directional indication that where to and how to.So either they could place the current barcode under the red light which is directed with an arrow, or they could also type the code, the EN that they are looking at in this on their on their barcode on the tag. And once they are done, they can click on this done scanning button once this scanning is done.
+Nish   36:32Okay, right now my eyes, right now my eyes are going more to the type code and done scanning than the bottom thing.
+Shariq Haroon   36:41okay.
+Nish   36:44So just maybe the type 4 and dull scanning could go below that instruction on the left or something like that.
+Shariq Haroon   36:46Bill.
+Nish   36:56Rahul.
+Shariq Haroon   36:57Or maybe on top, maybe on top also, that's right, because this we have try to keep it as close to the physical scanner as possible.
+Nish   36:59Yeah, I just used more images, slightly bigger images.Okay.
+Shariq Haroon   37:08And the physical as can is supposed to be down there right bottom.
+Parasa Neeharika   37:15We can have this as.
+Nish   37:15Yeah, but you want to make sure they use just see, but you should they need to know that at least they're done scanning that it should be close to that instruction, right?
+Shariq Haroon   37:26Yes, it should be close to that instruction. So alternatively, what we could do is we can highlight this button.
+Nish   37:30So anyway.Yeah, sure.
+Shariq Haroon   37:35Then if we can't do much with the placement, we can highlight this right now. Okay, once this is done, sorry Niharika, you were saying something.
+Parasa Neeharika   37:44I was saying the same thing like we can have this as the primary CTA to say them to scan instead of typing so that will take more attention to the scanning part. And also once the scanning is done, it will be automatically detected, right? They did not click on the.
+Nish   37:52I don't know why my eyes like.Yeah, that's good.Right now there's so much content.
+Shariq Haroon   38:03Yes, automatically added to the added to the screen only. Whatever they are scanning manually is getting automatically added to the screen.
+Parasa Neeharika   38:03Done.
+Nish   38:07Yeah, I think this looks right.
+Parasa Neeharika   38:07So.then in that case, we need not even show the done scanning this part. This CTA will only come in case of type code. Once the code is typed and then the action is completed.
+Shariq Haroon   38:21So to move on to the next screen, and because the system doesn't know that the person is there, either we could keep a timer or keep a manual trigger, and that's why this is when with timer it becomes sometimes complicated because the user might take some more time to scan or identify what to scan.
+Nish   38:25It's like.One minute.
+Shariq Haroon   38:39So we have kept a manual trigger to go to the next screen, which is all the kind that is in the cab.
+Nish   38:42Yeah, that you'll need.Yeah.
+Shariq Haroon   38:47But point ticket will highlight this section.
+Parasa Neeharika   38:47Okay.
+Nish   38:49I think this type code, what you could do is just really de emphasise that it is really an option. It is really what you want to say is place the product barcode under the red light and then you could say or type code, you know, because that's like the second option.Correct.
+Shariq Haroon   39:14Yes, or you could type, yes, it is a valid. Maybe we could keep type board on the left and stand on the right. Maybe that way we will do it will seem like alternate.
+Nish   39:20Yeah.And but I would show it as the second option, like or type code or something, so they know that it is not something that they have to do on their own. It is like an option basically, right?
+Shariq Haroon   39:41Just like an option, basically, yes, 0.8.
+Nish   39:42Yeah, also, I know we are not doing like copy editing right now and all that, but in general, what I have found in user interfaces is we want to have as little clutter as possible, right? We use as few words as possible. So.
+Shariq Haroon   39:59Is it?
+Nish   40:00Please is one of those words that nobody minds if you don't say please, they understand. So in general, I am making a very specific minor point, but you will see that if you look at brands like Apple and all, they never say please. They just say drop items, place the product. Nobody thinks they are being rude.Basically, it just adds it adds text, it adds clutter. Basically, yeah.
+Shariq Haroon   40:22Okay.
+Nish   40:34Hello.
+Shariq Haroon   40:35It moves on to the screen on the right, which is nothing but the card created so far and a little back button has been inserted. There are few changes since the last time we discussed, a little back button has been inserted here and a cancel session has also been incorporated.And help, which was on top right, has been brought to bottom left because it is more intuitive, more visible. Cancel. Is there more to do with cancelling the session if the user wants to start over or user wants to abandon card or discard their current session? That's why.We are taking a cancel button should be there because cancel is more to do with the session, cancelling the entire session.
+Nish   41:23Excel.
+Shariq Haroon   41:25And once the items have been added and over this piece, we had a lot of thought and deliberation. I'll.How to?Curate a product card as in what should a product card look like? And this is the final version that we have been able to come up with. First, the scan tags on missing products will be.On the left, as like a hollow product comes and it will be frozen there. It will never move. Any products that are getting added will get added to the top left direction, as in items that are bottom right are the first ones and the items that are top left.Are the last ones added in that sequence?
+Nish   42:12That's really well thought out. That's a good idea.
+Shariq Haroon   42:17And because in the current phase we are not talking about adding or deleting items and we are talking only about billing items of the customers are bringing with them with them physically. So we have removed the pluses and minuses in terms of quantity. It makes no sense because the customer is never going to.Use the plus button, it just make no sense and sendational flutter removes that. Additionally, because the minus has no sense of a standalone minus, so we have incorporated a cross button that's more easier to touch and access. So a cross button on top right. However, we have retained the aspect ratio because it will because these images would be fed from our ecomm catalog.
+Nish   42:54I am sorry.
+Shariq Haroon   43:01And our Ecom catalogue has an aspect ratio one is to 1.5, and we don't want to do do a dynamic crop because we don't know or a static crop because we don't know where the crop will land and it might just look very, very unexpectedly weird. So we have.
+Nish   43:18So on quantities, Sharik, you are saying if they are buying 3 of the same thing, it will show up 3 times. Is that what you are saying? Okay.
+Shariq Haroon   43:19Okay.As 3 times, as 3 times.
+Nish   43:27Got it.
+Shariq Haroon   43:28I know that's a bit of a bummer, but even the current cost because these are being scanned by EPCs, and we can collate and pull up all of those EPCs together and display them as ENs. And of course, the customer is not looking at our ENs or EPCs, the customer is only looking at the product card but back end.
+Nish   43:43Hello.
+Shariq Haroon   43:46Tech screen currently we will be second data will be given, that's why you separate cards, product cards.
+Nish   43:54But we can't, you're saying we can't combine them or what's the...
+Shariq Haroon   43:58We can combine them. We can combine them. It is that if you are combining them then we are talking about having the plus or minus button or at least a quantity being shown somewhere and having a and we thought about keeping a quantity on bottom right of the product card, but it.Look a little more plus because having the same exact same piece, the exact same size twice or slice and solving for that customer versus solving for all customers, we tend to choose for solving for all customers and removing that clutter in terms of having quantities written.Somewhere on the product card.
+Nish   44:41Okay, got it. Yeah, maybe just look at what other kiosk applications or how they are handling this. Like the only the use case which I think it will look at a lot is like if you are buying 6 pairs of the same socks, then you will be counting 123456, right?
+Shariq Haroon   44:53Mhm.Yes, that's and that. So what we have tried to solve for is using this, bringing in these 2 items, this little thing overhead, so it does a quick physical digital recon in customer's mind. And you can just look at this number and be assured that whatever they want to add has been added.
+Nish   44:58Which will be a little bit.OK.Take it. Just look at what other key or how other applications are handling this, but I don't have an immediate kind of this.
+Shariq Haroon   45:20Additionally, in terms of...okay.Sir, I'll look, I'll look, I'll just zoom in onto the product card.
+Nish   45:34I think Niharika has something to say.
+Shariq Haroon   45:34So the pricing that is.
+Parasa Neeharika   45:37Sharing just a one, just a doubt. If you can just go to the previous screen, once the user scans a particular product, does it immediately appear here or does it appear after? Okay.
+Shariq Haroon   45:49Yes, in.Yeah, it appears.
+Parasa Neeharika   45:53Then in that case, once the user is scanning at least one product, then maybe we can show some message here saying scan more. If you have like, if you have more products, you can scan and then at least once a single product is scanned, then this particular done scanning can be marked with some primary CTA. like.With blue colour which we are using here saying continue or something with an arrow mark which tells the user that they will go to the next screen and it is done. In that way also we can differentiate this done scanning and the type code and type code we can just keep it as a secondary CTA where we are just showing it with a like.They will not have the white colour completely and will just have an outline in that way that is considered as a secondary city and the attention doesn't go there.
+Shariq Haroon   46:44Okay, so I like that idea of having the.
+Nish   46:49Guys, I will just be back in a minute. Just continue. I will be back in a minute.
+Shariq Haroon   46:54So, Nika, I like that idea of that the item getting and.Organising the customer to keep on scanning items and changing the language whenever an item is getting added and will incorporate that in terms of keep the lets us say making the dense scanning item a little bit.
+Parasa Neeharika   47:07Hello.
+Shariq Haroon   47:20More bolder or slightly more nuanced is to keep that or make it alive only when it is irrelevant and not when it is not around you don't you keep it subtle. Okay, that's a good point. We will incorporate that the type word I like. I like Nish Nishes idea.
+Parasa Neeharika   47:35Correct.
+Shariq Haroon   47:39Because type is nothing but an alternative to scanning, so we will place it, we will place it somewhere in parallel to this so that it appears like there is an alternate and not really something else that the customer has to do. It is not this and this is this or this. So we will incorporate that I think that would.
+Parasa Neeharika   47:41yeah.Yes, yeah.
+Shariq Haroon   48:00Want to take a solve for this.Okay, thank you. I will move on. So I was just talking about this product card single product card while you have retained the aspect ratio in terms of what all information do you want to keep and a lot of thinking around this also.The price, the selling price, and this is from Nish's point earlier, point that any kind of pricing has to be applied here and now, even before the card or even before the customer identifies themselves. So the pricing is applied, the discount is applied, and this is the size and font.That we have and what we want to show and sequence in which we want to show is what we have decided. So we'll keep the price first, then the strike of the strike of price, followed by the discount percentage.And there are thoughts about and different players do it differently, but most of these players, Myntra, Flipkart, are using something similar. Even we and our ecommerce repayments have use this use this approach, even though our percentage discount run off.The 25% is brighter and bolder than could be, but I'm looking a slightly different approach for the self checkout. But this is the this is the sequence and this is how bold or not subdued you want to keep. Any thoughts on this?
+Amit Dwivedi   49:56Anyone else does it like this, Shari?
+Shariq Haroon   50:01So Myntra does it like this, very close to this Flipkart does it very definitely they would call out the percentage of a lot more. Amazon doesn't do any of this. Amazon just says 749, it doesn't talk about 999 or 25% off at all.
+Nish   50:08So I was.
+Amit Dwivedi   50:19OK.
+Shariq Haroon   50:21And that will be the service.But most of the players do call out all 3.
+Amit Dwivedi   50:26But this is our ecommerce experience that Rohit would be able to tell us better. I'm assuming our ecommerce would have something like this. Does this?
+Nish   50:33Will you give me pictures about?
+Amit Dwivedi   50:36This only now.
+Nish   50:37Charging.
+Shariq Haroon   50:37Percentage of is a lot more is made bolder. There is yellow shadowing use which which is not. I don't think that's the intuitive or pleasant approach, but.
+Nish   50:41Me.That book.
+Amit Dwivedi   50:47Needed here.
+Shariq Haroon   50:52Even for the 25% off, you want to call out the percentage of unknown salary. I think just the pricing is.
+Amit Dwivedi   50:57But any agencies we have worked with in the past who have told us that these kind of changes in the way you write it has a better call to action or better conversion, has that been okay?
+Nish   51:01Give me your ID.
+Shariq Haroon   51:09I would not be aware of that.
+Malavika Goli   51:12On the website, we did that Amit, where we tried to on the website, we have done that we so there's something called as an AB testing platform, right, where we show 2 different styles to the customer.
+Amit Dwivedi   51:15Sorry, ma'am.
+Nish   51:19Yeah.
+Amit Dwivedi   51:24Yeah.
+Malavika Goli   51:30Against the amount of customers and then look at the conversion, look at their behaviour thereafter. So couple of experiments that we have done is change of the size, moving around the discount.And then the selling price front, forward, backward, making the changes in the size, all that has been done and what we see right now on the website is something which customer respond to us positively.
+Amit Dwivedi   51:55Mhm.Okay.
+Malavika Goli   52:06And hence, we talk like, Multikam is customer also see as.
+Shariq Haroon   52:08Okay.
+Amit Dwivedi   52:14Understood. OK.
+Malavika Goli   52:15That's a.
+Nish   52:17Hey Sharik, on the quantity thing, one thought, one thing I thought of was that if you have, lets say, 3 pairs of the same socks, OK, and you have some other items also and you just...
+Shariq Haroon   52:19Hello.Mhm.
+Nish   52:32Like will, if you happen to have scanned one SOC first.And there are bunch of other items, and then 2 socks later, you will have to scroll up and down to see how many socks you actually got, right?
+Shariq Haroon   52:46Yep.
+Nish   52:48So I think that will create a bit of a problem, and I don't know how on RFID how it works, like was it just going to bunch the same items together or?
+Shariq Haroon   52:56So RFID is grading just the EPC and EPCs are nothing but this is ENS in different languages. So there's a French to English like conversion logic for EPCs to ENS and that that's just RFID. That's the only RFID part.
+Nish   53:11Ha.
+Shariq Haroon   53:14Once these are converted to ESB value and then this can be consumed by any downstream system in whatever form and fashion they like. The catch over here is that we want to capture which ETC is got sold because that will effectively determine our store inventory accuracy and.
+Nish   53:29Sure.Sure.
+Shariq Haroon   53:34Items or ES surveillance as in customers moving out without the need to have D tag counters and security tags. So if we want to do away with security tags, we need to know which exact EPCs got sold because those EPCs will not get an alarm. Rest of the EPCs, if taken out from store, would get an alarm.
+Nish   53:44Yeah.
+Shariq Haroon   53:55Hold trigger.
+Nish   53:57So, that's an interesting point. So maybe we show quantities but not allow people to change them.
+Shariq Haroon   54:06okay.
+Nish   54:06So you see what I'm saying? Like, so if you scan, yeah, so it is more of a visual thing that, oh, you have 3 of these kinds of socks, but you can't actually change it probably.
+Shariq Haroon   54:13I see, I see it.Okay, yeah, then that number should probably come over here bottom right. We were thinking about it and that was the only place that number could possibly land. Bottom right is place that we would use for quantity, maybe like a 3X or 2X number.
+Nish   54:30Correct, correct.Theek, theek. Okay, sure, okay.
+Shariq Haroon   54:39So.Zooming out.Also, now this shows even though the pricing has been applied, there is a button, there is a banner here and this is intuitive. A lot of players use it. In fact, some of the players that we have looked at don't use this at all and have combined this screen with the subsequent screen and it is like a vertical scroll then.Essentially, we are trading for scrolling versus clicking and we thought clicks are better than scrolls. So it is a summary of all the discounts, especially the pricing related, not the specific account related or not coupons. These are just pricing discounts that are considered here and once.The continue button is clicked.
+Nish   55:30The help is going to call a help. The help is going to call someone in the store, is it to come and help?
+Shariq Haroon   55:31If we.Yes, and there's a screen for that. I'll quickly browse jump to that screen.
+Nish   55:37Okay.no, that's fine, that's fine, but just make sure that it is clear. that.Its not like a help like FAQ or some other thing like it should say get help or maybe it should have a person on it or something so they know its calling someone in the store.
+Shariq Haroon   55:57So IKEA does it wonderfully. They have while they have a screen saying that yes, help is on today. They also have an indicator of salt on top on the top right like a beacon like beacon and it blitz up with either green or with.
+Nish   55:59Mhm.Mhm.
+Shariq Haroon   56:16And indication that this customer is needing help and we are thinking about this point that this can only act in pods. Self checkout can only act the way it should in pods when the same staff is being used in Share service to be able to solve for multiple self checkouts. So if.And then we don't need a dedicated staff personal checkout.
+Nish   56:40So, but I am also saying talk about the help button itself, like it shouldn't feel like some kind of online help, you know, it should be like it should be clear that they are calling someone.
+Shariq Haroon   56:45Yes.Okay, it should be like okay, calling for help. Okay, point it.
+Nish   56:53Yeah, somehow, you can figure out the wording or whatever theek it.
+Shariq Haroon   57:01Yeah, if some and even this even on this screen, if somebody wants to click on this button, the first button scan manually, then this screen, the same screen that we looked at pops up. Also, that items that are they have already added, they have also populated in this slide. So it is like a continuation, not over and above.
+Nish   57:12Okay.Sure.
+Shariq Haroon   57:21It's a cumulative value.Then when they're done, their bag automatically gets recommended. So this is the screen to recommend the bag. If the customer wants to change upsize downsize, then they click on this view all option and only then this subsequent screen pops up. Otherwise.If we click on continue payment, then this screen gets skipped the various kinds of part.If we click on continue to payment, when we are clicking continue to payment, this box.
+Nish   57:52Yeah.It should, it should probably say add back and continue.
+Shariq Haroon   58:01Okay, bye.
+Nish   58:01Just to be clear.
+Shariq Haroon   58:04Understood. Understood. Okay.
+Nish   58:06Theek.
+Shariq Haroon   58:09Now this is this is the feedback that we have provided earn points on this purchase and there is so many things that we can do, earn points, redeem points once the customer identifies themselves and also we could be applicable them applying their insignia benefits and there is so many things, so many things.But we thought writing all of that down onto a screen would be too much text. We just kept it quite simple, earn points, nothing else. And I think that's the best call out of these 34 call outs.
+Nish   58:33Mhm.yeah.Got it.
+Shariq Haroon   58:49And there are two ways to do this. Either they can scan to login. This is the dynamic QAP.
+Nish   58:52So you don't think we should say earn or redeem? What do you think?
+Shariq Haroon   58:58Also, and that's precisely the point that we were deliberating over earn redeem and there could there could be insignia also there could be because insignia loyalty 2.0 also has this concept of person specific coupon code or brand specific coupon code for a specific person. All of those can be brought up and we will be there are 45 things.
+Nish   59:07No.No, I don't. I don't think we should have too many things, but I'm just wondering if you should say earn or redeem.
+Shariq Haroon   59:23I am already. Okay, got it.
+Nish   59:24Or earn or use earn or use points on this budget, whatever, whichever, whatever language you normally use. Yeah, okay.
+Shariq Haroon   59:31Okay, then on this if this scan this then they would have the provision to use their save cards, save payment methods. If they just type in their mobile number, then it is a different flow. So we would assume.In a subsequent journey.That they have scanned this QR then mobile version approach. The mobile number version approach is listed down here below, which is a simplified version of the one that we discussed.So once they scan this particular QR.Or they enter their mobile number.They too either they do either they do either of these 2 or they can skip this all together. So if they are scanning this particular QR, then this next screen pops up. And in the earlier version, we had kept the bag it bag selection as.A subsequent step to this particular screen and we have brought that earlier because normal customers scan a QR and there's quite quite some effort putting into this session by the customer when they're scanning a QR when they're entering a mobile number, we don't want them to.Actually.Select a bag once they have, because that's like some in some way disappointing. So what we have done is we have kept baggage selection as a step prior to this, and now we are talking about the moment is carried that additional discount has been applied because they are in Signia.And we have, we will give them the ability to apply Pantaloons credits that they have already in their account. And if they click on this, apply points, credits and coupons, subsequent screen pops up. It will be like a pop up screen on this only.Showing them the available coupons that they have. It could be account link, it could be coming from loyalty point, it could be acquisition link, or if they have a credit note, they can apply credit note over here or they apply whatever points they have that they apply, they can apply it over here. Another thing that we thought about.On applying points is often, and we see the world divided here, and sometimes they give a slider to apply points as how much points do I want to apply, and sometimes it is just a checkbox. Whatever points I have, I want to burn them all, and the world is divided between the 2. My personal experience.
+Nish   1:02:03Mhm.
+Shariq Haroon   1:02:15Is I don't like sliders because sliders are never accurate and it seems like I would be able to do it, but when I when I do it, I often end up not selecting the right value and I eventually have to type. It is like a break in the user journey, so I would rather prefer applying all the points that I have.
+Nish   1:02:18Mhm.Yeah, it is very cumbersome. yeah.
+Shariq Haroon   1:02:35Versus using that slider approach.
+Nish   1:02:36Yeah, I agree. I agree. By the way, these are options that the if you are at the POS also the sales person will ask you.Or how does this work on the POS side?
+Shariq Haroon   1:02:48Add.I am not sure, I will have to check that. I am sure that the past allows applying of points. I am not sure if it is all or any select point, I will have to check and get back.
+Nish   1:03:04Okay, I mean, it doesn't matter. I guess we should give people the option here, whatever they want to apply. I'm just curious, like, is this basically equivalent of what we're doing at POS or how it works? Take it.
+Shariq Haroon   1:03:15And most of the customers tend to apply whatever we need to get data on it first, whatever the whatever is available, most of the customers tend to apply that.
+Nish   1:03:20Yeah, whatever is available. Yeah.Yeah, so I agree with that approach. yeah.
+Shariq Haroon   1:03:27Once they have applied.And.And close this again, confirm and continue this screen, the left screen comes back sorry, the right it goes on to the right screen, confirm and continue this and these are editable. So if your customer wants to edit this, there is an edit button here.And they can click on this end button and this screen will pop up again if they want to change whatever they have applied. If they click confirm, click and continue, we move on to the right screen. And UPI is by default the payment of choice. The QR is auto loaded. You don't have to click.Anything, and then there is an option to swipe debit or credit card which is the subsequent next option. The 3rd option is pay using save card. If they click on pay using save card, that same card ending in 4242 appears. They enter their CVD, OTP comes and they enter their OTP.The third payment mechanism is to facilitate those kind of transactions when they want to use a preferred card, but they're not carrying that card with themselves right now.And once we have done this, we have also changed how this final thank you for shopping page looks like. So thank you for shopping, we have shared the receipt sent to mobile. Please check SMS and Pantalos app and only if the customer is actually wanting to have a physical receipt then there is a.Button to create generate or print a physical result and it also says that you have been logged out on the last button which is how to start over the session or the solution for a new session. We were thinking a lot about this and multiple.Ways to communicate, but eventually we decide on home because we don't want to sound too pushy for the current customer. And at the same time, we didn't want to confuse the current customer that they have to start over something.
+Nish   1:05:29Mhm.
+Shariq Haroon   1:05:37So best is what we could come was come up with close home because sometimes our next customer, some things like next customer sounds a little offensive to the customers country standing there and seems like not the best words to hear at the end of a shopping journey. On the other hand, if you want to keep lay like.
+Nish   1:05:56Sure.
+Shariq Haroon   1:05:59Start a new session or start over? It seems like we are telling the current customer to start something over and again, over and over again, which is again not very intuitive. So we have kept home and that's pretty simple in my understanding.
+Nish   1:06:10Chalk.And this will have a timer also.
+Shariq Haroon   1:06:16This is that.We will have the time, yes, we will have the time of. Yeah. Earlier we had the time of for login out, but we will reinstate the time and have the time of home for home.
+Nish   1:06:22Yeah.
+Shariq Haroon   1:06:32Now help is on the way. This is that screen. If the customer clicks on the help button anywhere, so help is on the way, this is the screen that will pop up. Of course, there will be an indication, a beacon of sorts on the hardware which is not shown on the screens, but there will be a beacon light also.
+Nish   1:06:42Hello.sure.
+Shariq Haroon   1:06:52And that's the end of it. The center version wherein the customer has not entered their mobile number.Hey.Sorry, the customer has not entered their not scan the QR, they have they have entered just their mobile number, then their insignia discount and all of that is similar approach.
+Nish   1:07:16Wait, how do we know?
+Shariq Haroon   1:07:19Yes.
+Nish   1:07:20So we'll apply the discount even if without an OTP on the mobile. We are okay with that.
+Shariq Haroon   1:07:31Without an OTP, so the discount application has to be done with a mobile OTP.It's a good, it's good point, Anish. Actually, if the customer has scanned the QR.Then they don't need to get that over to fee again because they are standard dynamic cure.
+Nish   1:07:46Correct, correct, correct, correct, correct.
+Shariq Haroon   1:07:49Yes, okay.
+Nish   1:07:50But this, but you were showing the mobile one.
+Shariq Haroon   1:07:53Yeah, the first one was the mobile one. This is the mobile one, and they should not be getting an OTP. If they want to apply this one to 50 points, they should not be getting an OTP because guarantee assumes that they will get an OTP in both of these yearnies.
+Nish   1:08:08Yeah.
+Malavika Goli   1:08:08So just want to add in there, Sharif, customer already goes through an OTP login scenario in the beginning of the journey, so there is authentication already in place, Nish. So this second time authentication.
+Shariq Haroon   1:08:09First, you're right.No, but Mandita, in this, in these journeys, nowhere our OTP is getting generated nowhere.
+Nish   1:08:23When do they?Yeah.
+Malavika Goli   1:08:30We are not asking the customers to login, we are.
+Shariq Haroon   1:08:30Only in.
+Nish   1:08:33no.
+Shariq Haroon   1:08:34We are asking the customers to login via this dynamic QR and these dynamic QRs are short lived. They are generated for a specific customer and once they scan this QR they'll and they can scan this QR via their app, we automatically authenticating the customer is very much very similar to the approach that say a Google Authenticator.Will use.So no OTPs, OTP is the only place where OTP gets generated is where if they want to apply this 0.1250 is when the OTP gets generated.
+Malavika Goli   1:08:57Okay.
+Shariq Haroon   1:09:07But like.
+Malavika Goli   1:09:07Then we also need to do the authentication for 450 because that's also catch. So either of those 2 if the customer has authenticated then.
+Shariq Haroon   1:09:19In the slow wherein they have already scanned the dynamic UR, none of these should generate an OTP. I agree with that.
+Nish   1:09:26Hello.So your point is that when they enter the mobile number, they will see this offers and rewards screen.And only when they want to apply the points will they will the OTP be asked for.
+Shariq Haroon   1:09:49Yes, only when we apply the points will be asked for.
+Nish   1:09:50Correct.Got it. And also the insignia discount and all you won't give without you have to add something for the OTP for that also, correct?
+Shariq Haroon   1:10:02For insignia insignia discount, you will have to add something for the OTP. So if they went down the mobile number route, if they they're scanning the QR code, then no OTP is coming.
+Nish   1:10:06Yeah, if they've entered a mobile number, yeah.Shake.Okay, theek.
+Shariq Haroon   1:10:18So yeah, that's one.
+Nish   1:10:32And if they and in terms of getting credit for the points, we won't verify though we won't use an OTP. We will just give them the credit.
+Shariq Haroon   1:10:42In terms of credit, we again if it is.
+Nish   1:10:45And it means like to add points to earn points.
+Shariq Haroon   1:10:50To one point, no tickets, no tickets, if just enter their mobile number, yeah.It goes to the wrong one. It goes to the wrong one.
+Nish   1:10:59Correct.Okay.But then the payment, just one thing, the order, I know we are running overtime here is I think we should probably.Harika, we should maybe do another half an hour just so to cover Malvika and Jagisha also like maybe not now, we can schedule another time.
+Parasa Neeharika   1:11:19Yes, sir.Yes, please.Yeah, I'll do.
+Shariq Haroon   1:11:25Hey.
+Malavika Goli   1:11:25My updates will actually only take 5 minutes, Nish.
+Nish   1:11:25Yeah, or if.Or we can continue if people are, if Jigisha and Vanvith are fine to continue, we can continue also.
+Malavika Goli   1:11:34Yeah, I can do that. I'll only take 5 minutes because mine sort of concluded.
+Nish   1:11:38Okay.Okay. And how about you, Chikisha?
+Jigisha Patel   1:11:50Hi Nish, sorry Sir. Yeah, just a couple of other things from my end.
+Nish   1:11:51Okay, yeah.Okay, so if you okay to continue, right?
+Jigisha Patel   1:11:58Yeah, I am okay to continue. Yeah, it's a quiet.
+Nish   1:11:59Okay, so let just one thing I want to say to Sharik. Hey Sharik, just keeping one thing in mind that our the customer, if they enter the wrong mobile number, the customer history will also be incorrect in terms of.Our kind of record of who bought the items right now, maybe that's not a major issue, and most of the time people will enter the correct mobile number, but just something to think about, like do we want to validate it?
+Shariq Haroon   1:12:21What's?All right, I agree with that, Nish. If an offline transaction also say, for example, the there is a person keying in those details.Asking the number and all all sorts of errors could happen there also in terms of verbally communicating the mobile number versus the person that still stuff keying in those seeing in those string of numbers on to a num pad. So there can be also data entry error. So it is a it is a.
+Nish   1:12:59Mm.So there also it happens. Theek hai, understood, understood, theek hai, okay.
+Shariq Haroon   1:13:06Yeah.
+Nish   1:13:13Okay, so Malvika, you want to go next?
+Malavika Goli   1:13:16so I just want to let you know that the Geo fencing feature which we have built for the app is going live tomorrow. So once it is up, we can show one minute, I am just sharing my screen.
+Nish   1:13:25Great.
+Malavika Goli   1:13:35Is my screen visible?
+Parasa Neeharika   1:13:39Yeah.
+Nish   1:13:39Yeah.
+Malavika Goli   1:13:41OK, so basically, I have put together 2 options of what we can show the customer because this is more to entice the customers to go to the go to the location and give us the access to the location.Again, this is something which we can edit anytime at any given point, and we can personalise it basis the season, the market needs, or we can also do if you have released some sort of a feature, we can go and make this edit anytime, right? So to start with, these are the 2 options that I have looked at.
+Nish   1:14:05Mhm.Sure.
+Malavika Goli   1:14:22Where we are saying to show you local offers because right now there is sort of a discount season going on. So if I have looked at this option where we can say local offer offers, precise delivery timelines nearby availability, we use your locations. So this is what the.
+Nish   1:14:40Okay, but this part that says don't worry, we only look for you when you're using the app. I thought we are asking for always the permission, right? Not only when they're using the app.
+Malavika Goli   1:14:42Text will.No, so the app. So there are 3 things. The app has to be open even in the background, it has to be on somehow be there. So yes, so again, the permissions are different for iOS and Apple. This is something, this is something which.
+Nish   1:14:57Achha.Has to be there.Achha, achha.
+Malavika Goli   1:15:12Apple is mandating to do because the objectives and then the guidelines are different. So for iOS, we can only track if it is if this line is there and customer has given us the choice.But for Android, this is something which can be skipped and we can still be able to do it.
+Nish   1:15:38OK, so for iOS, you're saying the app has to be in the background at least, or it has to be used?
+Malavika Goli   1:15:48It has to be in use. So basically, customer has given customer is given the option to say that use it when it is while I am using the app or don't at all.
+Nish   1:15:50In use, okay.Got it.What if, but what if they're given the option that you can always use it, always look at my location?
+Malavika Goli   1:16:10Always is by default. Always is again eligible for Android where it will work in the background.
+Nish   1:16:15Acha, always is not there in the iOS.
+Malavika Goli   1:16:18unfortunately.
+Nish   1:16:18I thought I had seen it. Maybe I am wrong.
+Malavika Goli   1:16:21Always is again. If you say always, then it will use the app. For that, you have to launch the app or it has to be there in the background. It needs to be active.
+Nish   1:16:29Maybe it says allow once or allow while using there.Okay, so ultimately this location thing will we still have to motivate the user to launch the app. Most of the time, I'm suspecting most users won't have the app on even in background mode, correct? Theek hai, that's so that we will have to think about.
+Malavika Goli   1:16:49so there has to be a trigger. So you are right. So when we have this feature up, So when we have this feature up tomorrow, we will have to and we will have to wait for at least a week or 10 days till there is 100% of adoption at least.
+Nish   1:16:54Mhm.Yeah.One minute.
+Malavika Goli   1:17:07And then we can start doing a notification. So the notification could mean that you are asking the customers to open the app and then there is this slight minimal nudge of giving the access to the location will come in. So every customer who will be in the version tomorrow onwards.
+Nish   1:17:18Yeah.Mhm.
+Malavika Goli   1:17:30Which will get submitted at Play Store and App Store. Thereafter, they will get the pop up basis basis what we have configured in the background. So if we have switched on the pop up so and they launch the app and the app is not already reading the location, then we will.Do this, sorry, then we will give this pop up and take the customer to their settings. From there, they will be able to switch it on. So that's one, and we will also have to again after few months do this.
+Nish   1:17:55Mm.yeah.
+Malavika Goli   1:18:07Activity because there would be some customers who would have clicked on say never or not now this particular scenario, right? So this customer we will have to read it and then reach out to them again through notifications and educate them on why.
+Nish   1:18:13sure.
+Malavika Goli   1:18:29This is important and match them to enable the location.
+Nish   1:18:33Yeah, but my point is also that even once they have given us permission or all the other mechanisms we are working on to motivate people to use the app like QR codes, etcetera, those are still required for us to be able to even look at the location because if the app is not launched, we can't look at location.Is what you are saying, correct? Yeah, keep it. So I will just try to find out. It is not like just because they have given us permission, the moment they walk in, we will be able to read their location.
+Malavika Goli   1:18:54Yeah, that's right.No, we will be, we will be able to read the location. We will still, if they have given the location and then they have the app, at least in the background for iOS cases.
+Nish   1:19:14Exactly. But my point is that most of, but most of the time, most users won't have the app open in the background.
+Malavika Goli   1:19:21Yeah.
+Nish   1:19:21It is not like Pantaloons, it is not like Instagram or something and they don't use the Pantaloons app all the time. So right. So my point, I am just making the point that we have to motivate them to through all the other experiments, we have to motivate them to open the app. That's when we will get the location. Yeah, check that.
+Malavika Goli   1:19:28Hey.Yeah.yeah.
+Nish   1:19:41Make sense.
+Malavika Goli   1:19:44so this is this bit up. So from the testing point of view, what we have tested so far is test and understand if the customer is in the vicinity of say about 300 metres from the lat long of the store. We have tried to understand the system the our.CRM system is understanding the customer's location it is reading and we have created dummy notifications, but the notifications can be customised based on store where we can say there is some latest offers going on, that there is a new arrival.
+Nish   1:20:20Yeah.
+Malavika Goli   1:20:24Or something very specific to the store which will nudge the customers to walk into the store. That's something we can do. This is another thing that we are also I am also trying to experiment which we will be able to do once we go live because we are still cracking it is if you.Have added certain products in your cart or in your wish list, and those products are available in the store which which is where you are or which is or you are closer to the store. Then we want to throw a notification to the customer saying that the products in your cart.Is available in the store. Do you want to try it for an easier decision of making the purchase or something which is in your wish list is the in the cart in the store? Why don't you go try it sort of a so for that the inventory we have to read the inventory bit. So we are working on that.
+Nish   1:21:08Hello.Or.Yeah.
+Malavika Goli   1:21:27Additional part so looks like this is doable. So another 1520 days I will also have we are doing some R&D around this looks positive so far. Another 15 days we will be able to know if we are able to successfully run pull this off.
+Nish   1:21:45OK, one question I have is this the first message they see to show you local office? We use your location or first we ask for location permission somehow?
+Malavika Goli   1:21:55This is how we are going to ask customers for the location access. so.
+Nish   1:21:59Okay, but this is not making it clear that please give us location permission, doesn't say that anywhere.
+Malavika Goli   1:22:06So okay, so what happens is basically this is like a pop up that customer that so customer launches the app, so as soon as they open the app after few seconds, so we read in the background, the customer's location is available with us, yes or no. If it is yes, then there is all good, right? There is there is no action.
+Nish   1:22:14Mhm.Yeah, correct.
+Malavika Goli   1:22:26But if we don't have it, we show a pop up, a very minimal pop up so that we are not enduring in his customer journey. But we still show this so that the action is required. So we show this asking the customers to share the location and then if they sound say sounds.
+Nish   1:22:35Mhm.
+Malavika Goli   1:22:46Quit, they will be taken to the setting of the.
+Nish   1:22:51But yeah, but my point is here, you're not actually asking them to show. It sounds like an information thing.
+Malavika Goli   1:22:58Okay.
+Nish   1:22:59So it's not actually asking them to share their location permission.
+Malavika Goli   1:23:03Okay.
+Nish   1:23:05So it should.
+Malavika Goli   1:23:07So I so the text is the text is kept that way. If you I mean, I did not want to on the face say that we want to reach your location because that sort of is also too much on the face. So wanted to keep it little minimum. So done some research to understand what.Some of the brands like Ajio is doing Ajio Ajio does a lot of store location based personalization in terms of content also. So they use something in this is not exactly but then they do a indirect way of.
+Nish   1:23:30Okay.I see.
+Malavika Goli   1:23:47so we can also do direct if that's what we are looking at.Which is like this.
+Nish   1:24:00Okay, so when you say sounds good or okay, it will go to share location like the standard pop up, yeah.
+Malavika Goli   1:24:05Share. So there are 2 things on the device, right? So one is your device location has to be on, which is where we will be able to first of all, any device will be able to share the location. So that's one again. The second one is letting the app read the location if the location is on.
+Nish   1:24:13Correct.Correct.Mm.
+Malavika Goli   1:24:28So if that so that's the part which is basically taking the customers into the setting of the of the app where it says always or while using the ones that you are talking about. So this is where the customer will be redirected to. Again, this depends on device to device. Some custom some device has a specification it gives access to the.
+Nish   1:24:28Correct.
+Malavika Goli   1:24:51To the app to take the customers to that exact section of always while using that section. But some versions of the OS do not let us to take, but it does take let us take the customer to the settings page at least.From where they can select the app and then go about saying yes, no, always.
+Nish   1:25:23Got it.So right, sounds good. Sudhay, I might end up in the settings thing, basically is what you are saying, right?No, sounds seems a little bit like achchha.
+Malavika Goli   1:25:37So this is how Ola also behaves. Sorry.So.
+Nish   1:25:45You experiment with it and see if we're getting a good enough response. If we're seeing a huge drop off, then we can change the message.
+Malavika Goli   1:25:49Hello.Again, always, this is like a 5 minute job, so we can all do around or to understand what's working for us.
+Nish   1:25:58Correct, correct, theek hai.There you go.Sure.I mean, the only thing we could think about is like we could say instead of we use your location, we could say we need.
+Malavika Goli   1:26:13So.
+Nish   1:26:20We need to, we need your location permission or something like that.
+Malavika Goli   1:26:25Mhm.
+Nish   1:26:25But do you think that's too direct?
+Malavika Goli   1:26:27You.
+Nish   1:26:30What is your view? Is that 2 directors say we need your location permission?
+Malavika Goli   1:26:38Yeah, if that again, no, business tend to say no. If these communications are too direct like this, customers tend to say no. I think there is a lag on my end. I am so sorry.
+Nish   1:26:38Sorry.Okay, take care, take care. Okay, fine. That's okay, understood. Let's go ahead.
+Malavika Goli   1:26:54Okay, the there is another one that I am working on is enabling WiFi. So I have met 3 different partners and vendors for this. One is one where we are all doing.Some sort of a WiFi setup in one of our Delhi stores, but it is not for public, is something that our InfoSec team has rejected. too. So I am we I have also saying how if we can if they can use our servers and some sort of a setup at our end, at least with that sense, will this be okay our security?Team is saying no too because there is a lot of threat and other legal formalities, certifications and all those are getting involved. So that vendor is now dropped. We have Vodafone and Tata, the next 2 vendors. Vodafone has given a quotation which is a bomb, it is saying 30,00,000.Including WiFi services and all that, it just its insane. So we drop we are dropping. Then we got a quotation from Tata Communications, they are saying 4.5, but this is a quotation that I have received only yesterday. So we are still, I am still going to have a negotiation round along with our.
+Nish   1:28:01Right.
+Amit Dwivedi   1:28:21So what kind of delta is this 4 and a half and 30,00,000?
+Malavika Goli   1:28:25I don't know, this is what I have shared with our InfoSec team also in the security scope is scope. So this is scope is not exactly the same. The scope what Vodafone is saying is they will serve save the data for so basically.
+Amit Dwivedi   1:28:30Scope is exactly the same, Malgatha.
+Malavika Goli   1:28:46To just give you an idea, what is happening is this is a public WiFi, right? So the customers can are open to browse anything, right? So then it becomes very sensitive on what they are browsing. So that is 12, if they have browsed something which is threatening to the nation.
+Amit Dwivedi   1:28:50Mm.
+Malavika Goli   1:29:05Or in any terms, then there has to be a proof of what customer has browse, who has browsed, customer's mobile number, so and so that entire data has to sit with us. This is for the cops and the threat team.To be able to go back and check, so it is gone to that level. So and so the longer the data is sitting, so Vodafone is also do some is again in the communication industry for a long. So they are saying that we are going to handle this entire thing for you.You don't have to worry, the data is sitting with us. We have certain certifications in place and we will do all that for you, right? And then they are saying we will also do the WiFi setup and a lot of other setups to a particular broadband. I think that's where the negotiations currently happening. So we are we have not closed the loop with.Vodafone, but we are still negotiating because they have already serviced us in galleries and 30,00,000 is what they are charged in galleries. So I think they have shared this.
+Nish   1:30:18This is what 30,00,000 and 4 and a half lakhs is what per year or what is it?
+Malavika Goli   1:30:23Hi Dus Perier.
+Nish   1:30:25Yeah, and that includes the installation and the hardware and everything.
+Malavika Goli   1:30:26Yeah.Yes, it includes that backup services, all that.Yeah.Yeah, but again, I mean, I don't have a lot of clarity on this yet because I am meeting the team along with our experts tomorrow to be able to diagnose it further and understand if it is exact, if it includes all those details that will.
+Nish   1:30:43Hi.Listen, so I've been playing.
+Malavika Goli   1:30:57Work for us from our security team point of view as well. So once we have an understanding that it satisfying all our needs, then we will go about negotiating.
+Nish   1:31:06You guys have an account.So even okay, and what kind of what speed connection is this that they're offering?
+Malavika Goli   1:31:23One second.
+Nish   1:31:25So is 4 and a half lakhs even reasonable? I mean, even that sounds like a lot, right? But now obviously I am comparing it to...Consumer connection, which is a whole different thing.
+Malavika Goli   1:31:35It is a lot.So it is a lot. Amit, we have another partner that was actually quoting us 2,00,000, but again, they don't have any servers in India, they have servers in Singapore. But again, our.
+Nish   1:31:40I'm just wondering.Hello.Mhm.
+Malavika Goli   1:31:58As per the Indian guidelines and regulatory, we cannot have customers data sitting because this is also storing customers mobile number, name, and the entire data, right? So all that cannot be sit, cannot be sitting in any system outside India. So that's again another regulatory and so there is these guys are not working out.
+Nish   1:32:02yeah.Understood. Understood.
+Malavika Goli   1:32:19But they are also open to evaluate and offer us a better price and do the setup in India, provided we expanded to more number of stores because right now for one store, they are saying it is very costly. So I am also parallel negotiating with them for a free pilot to do some sort of a setup in India at least.
+Nish   1:32:23Not to.yeah.sure.
+Malavika Goli   1:32:41If so, that's still going on, but I don't see that happening because they don't have any setup at all. But we have some servers, so I was also evaluating if we can provide them our servers where you know they can put all this data, which is again in India. So the regulation regulatory point of view, that's a green flag.
+Nish   1:32:42Sure.Yeah, no, I think.
+Malavika Goli   1:33:04But our InfoSec team again said no to that because storing all that data again means having some sort of a certification again which we don't have.
+Nish   1:33:14right now we don't need to be see, there's a balance, right? I mean, it's only for one store. So on one hand, it's not like a life or death kind of decision, and Tata will also come down once you expand it to more stores. So it's finding the right balance between like, okay, let's just get it done fast, even if we have to spend a little bit extra.
+Malavika Goli   1:33:27Yeah.
+Nish   1:33:35As long as it is not too unusable, knowing that once we expand it to most stores, even Tata would negotiate down, I would assume, right? So that's my view. Like, you know, let's not, I mean, I don't know what your budgets are, how much you can spend on this, etcetera, but I agree with you that doing a whole server setup in India and all that just for one store, like it just doesn't make.
+Malavika Goli   1:33:44Yeah.
+Nish   1:33:58Sense.
+Malavika Goli   1:34:03Yeah.
+Nish   1:34:05so we can balance the cost and the speed of it, given that it's only one store already.
+Malavika Goli   1:34:10Okay.
+Nish   1:34:11Hello.
+Malavika Goli   1:34:12Thank you. So I'm meeting the Tata team tomorrow. I think we'll have some sort of an update.
+Nish   1:34:13Theek hai, okay.Sure. And you can dangle something in front of them like, look, this will hopefully expand and why don't you give us, make it attractive for us to start with.Theek hai.
+Malavika Goli   1:34:27Okay.
+Nish   1:34:30Okay, Jagisha, we have kept you waiting a long time.
+Jigisha Patel   1:34:40Hello, can you hear me? Yeah, sorry, my laptop is acting a bit funny, so everything is a bit slow here. So just quick quick updates Nish on the 2 pieces. One is the geo tagging bit which Malvika anyway has covered. As far as the nudges are concerned, today morning we had a...
+Nish   1:34:42yeah.
+Jigisha Patel   1:35:01I mean, we had a quick catch up with Sandeep, so he is of the opinion that it should absolutely not be offer led, and we need to create reasons for the customer to walk into the store which are compelling enough because offers may be something that everyone is doing, and there's nothing unique about it.
+Nish   1:35:16Mm.Sure.Correct, correct, correct.
+Jigisha Patel   1:35:23So may be looking at the history, if the store has customization or any other things that he has picked up, one of the pieces which Majika mentioned and which we will definitely explorer is nudging about the comments or any articles that are present in his or her wish list or India cart.Per say, so that definitely becomes one big point. But what could be the other key reasons to compel the customer to come to the store which are not offer led is what he is very keen on. So I had created a few cases, but since he is given this direction, I will rework on that also pick other people brains a bit on this if you also have any thoughts.
+Nish   1:35:48Sure.Sure.
+Jigisha Patel   1:36:08Please do share. yeah.
+Nish   1:36:10Yeah, we had recorded Hemanths presentation on the customer journeys and what they found out. So and so maybe to take a look at that because that will give you some clues because that's actual customer data. So Nihalaka has that recording. I don't know if you posted it for everyone, Nihalaka, or.
+Jigisha Patel   1:36:16Okay.Sure, okay, fine.Okay.
+Parasa Neeharika   1:36:28I will just no, I will just share it with everyone. Maybe that will, yes, yeah.
+Nish   1:36:32Yeah, just share it on the teams group. I think that will be good. I also want to review at once, so check it, yeah.
+Jigisha Patel   1:36:34Okay.
+Parasa Neeharika   1:36:36Yeah.
+Jigisha Patel   1:36:36Okay, fine, so I will done so I will just go through that and then like I mentioned, I will also just touch base with some of the people if they have any thoughts on to it. So that's the bit on the geo fencing piece. The other one was the gifting bit the if you remember I had shared.
+Nish   1:36:41Okay.Sure.Yeah.
+Jigisha Patel   1:36:56Then again, Sandeep had some point of view. So apart from the feedback that you had shared, he also had some thoughts on it. So maybe in next couple of days, I should be able to share the updated version of that as well. So that's on the 2 pieces that are with me.
+Nish   1:37:00Sure.
+Jigisha Patel   1:37:18The 3rd being the EPC to EAN, which I am not again. I think that's another reason why Malvika has also not spoken about it, is we will be picking that up around the mid of this month, so parking that aside anyway.
+Nish   1:37:18Take care.Theek hai. So the gifting is the simplest 1i think let's let's wrap that up and roll it out. So at least we can start getting some feedback on that.
+Jigisha Patel   1:37:37Yes.Yes, correct. Yeah, the gifting piece actually, yeah, Anish, actually the gifting piece kind of sort of has taken a back seat is purely because sale is going on and we do not want to really talk about the garments that would be present at store right because we will not have the kind of right mix. Also, the kind of sizing would be we have cut size.
+Nish   1:37:51sure.Yeah.sure.
+Jigisha Patel   1:38:04So that's the reason why we are also not really stepping on the gas.
+Nish   1:38:10Okay.Alright.Theek hai, I guess we're done then, right, Niharika?
+Jigisha Patel   1:38:16Yeah.
+Parasa Neeharika   1:38:18Yes, I can count it.
+Nish   1:38:19Okay, alright, okay, thank you. Thanks. Bye bye bye.
+Parasa Neeharika   1:38:22Thank you.
+Jigisha Patel   1:38:22Thanks. Thanks, everyone. Bye.
+Parasa Neeharika stopped transcription

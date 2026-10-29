@@ -1,0 +1,336 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260825_180348-Meeting Recording
+August 25, 2026, 12:33PM
+50m 32s
+Parasa Neeharika started transcription
+Nish Bhutani   0:07Ah, she's here.
+Parasa Neeharika   0:14And Rohit and Altamas, I think, are not there because morning when I sent the revised meeting, I got a message saying that they are out of office. Rohit is out of office and is on security.
+Nish Bhutani   0:22Mm.OK, now Rohit, we we haven't seen in a long time, and Altamas, so we've hardly seen, basically, right?
+Varun Rajwade   0:35Yeah, I think him, let's just step Neeharika, if you can ping Hemant also, I think Hemant.
+Parasa Neeharika   0:41Oh, Hemant, this Hemant got another meeting is what he told. He just called me, Varun. I'll take an update from him. I'll give you that update after this call.
+Varun Rajwade   0:49Hey, Gab, we also did a we did a fairly last second sort of a change, so maybe we can get an update from women tomorrow, update Nish back.
+Nish Bhutani   0:55No, Asha.
+Parasa Neeharika   0:58Yeah.Yes, yes, I do.
+Nish Bhutani   1:02Yeah, okay.And if there's something to show, then you can record it also and send me the recording, you know, OK.
+Varun Rajwade   1:11Yeah.
+Nish Bhutani   1:14Ticket, so let's get the initial updates, and then I, Neeharika, I've sent you feedback on the existing experiment on the new experiments.
+Parasa Neeharika   1:22Yes, Nish, I have gone through it. So I just take all of those and the remaining, the comment that you have added where I have to fill in something. So also I'll add that. Varun has gone through it as also the all the experiment descriptions. So you would have also gone through the.
+Varun Rajwade   1:22Yeah.
+Nish Bhutani   1:24Oh.Yeah.Yeah, yeah, okay.Okay.Okay.
+Parasa Neeharika   1:42user need and all. So that we have not gone into so much of depth and coming to the key metrics. Again, we were also of the opinion that we will sit with each of the owners and then get it right. Yeah, yes, yes, yeah.
+Nish Bhutani   1:52Yes, that needs to be done. Correct, correct. That's fine. Let's now get it to a point where we can hand it off quickly to the new owners, to the owners of each experiment, and get there, like before, just get, you know, get them to fill out.Who is the team, that template that we had, who is the team, how much time it will take, that kind of thing, right? And what is like any more details they want to add?
+Varun Rajwade   2:16Also, I think, uh, Neeharika.Sure, also, Neeharika, I think let's connect with Amit and set up this steer code now, because some things we'll set up push through and say, "Boy, see, yeah, in steer code, we'll call out that this hasn't moved right, and then their problem to deal with their bosses."
+Nish Bhutani   2:20Yeah, go ahead.Yeah.
+Parasa Neeharika   2:30Sure.
+Nish Bhutani   2:34Yeah.
+Parasa Neeharika   2:38Sure, OK.
+Varun Rajwade   2:38Mm.
+Parasa Neeharika   2:41And Varun, we will need to discuss with Sandeep also, we were discussing it for the next set of experiments that also.
+Varun Rajwade   2:48Yeah.So, Sandeep, I'm getting a one hour slot, but that is so Nish, one of the things I met him at the awards, and I was telling him that Sandeep will have to prioritize, given all the cost pressures, unlikely you'll get additional budgets, so you'll have to prioritize within self-checkout, express checkout, and let's say...
+Nish Bhutani   2:56Mm.Mm.
+Varun Rajwade   3:12current PANTALOONSPFXTEAMIND roadmap. Definitely between the last two.
+Nish Bhutani   3:15Mm.dot com includes app, is it e-commerce?
+Varun Rajwade   3:19Ah.com includes app. So app wants to keep building its own functionality, which is meant for its sale. Do we do that or do we do more of express checkout because there's a larger opportunity like we had discussed. And Shariq has got some first level understanding of the sort of...
+Nish Bhutani   3:23Syed.Yeah.Clear.
+Varun Rajwade   3:37costs that might be involved on self checkout. Does that sit into this budget? Is it additional? How do we best structure? Because there is a intense cost pressure as you're aware. So Sandeep will have to take a call on what he funds and where.
+Nish Bhutani   3:40Mm.Ohh.Yeah.Got it. What is the what are the costs on self-checkout means that that single order multi-fulfillment or what are you talking about?
+Varun Rajwade   4:03Or just now our self-checkout kiosk, which is fairly outdated, how do we just revamp that? The RFID enabled self-kiosk, right? That, and then a second iteration of that will be the single RFID, single order, but multi-fulfillment from a self-kiosk perspective. What we had discussed was...
+Nish Bhutani   4:08Oh, you talk about the kiosk itself, huh? Kiosk, okay.Got it.
+Varun Rajwade   4:28that is better done through the app. So, and on the app will be basically an express checkout which will then have to lead.
+Nish Bhutani   4:30No, exactly.So, we may be better off.You know, if we have to make a trade-off between kiosk and app self-checkout.improving that, taking it to the next level, and also fixing the existing issues, then the app would be a better bet just because it's rolled out everywhere, right?
+Varun Rajwade   4:59It's OPEX, whereas self-checkout is CAPEX, right? It's a new capability that we're putting out now. If you have CAPEX budgets, because CAPEX is don't carry forward year on year, right? They lapse at the end of the year. So therefore, are we better off burning that CAPEX? That's Sandeep's decision, basically. That's something he'll have best view of.
+Nish Bhutani   5:04Yeah, exactly.And also it won't scale and it won't scale.Asha.Ohh.Got it. So we have to talk, so we have to put it in front of him at the next meeting or?
+Shariq Haroon   5:21Well, it's...
+Varun Rajwade   5:26I'm checking with him for a slot on Friday. I just researched to his EA and we're trying to get a slot on Friday and hopefully we get to that. Because between the two OPEX decisions, we have not been able to move an express checkout because there's an existing roadmap on Friday.
+Nish Bhutani   5:33Mm.Got it.Okay.
+Varun Rajwade   5:45Pantroons.com, including the app, which is meant for ecomm sale. Now, at some stage, I have to have a prioritizing conversation, and therefore, yeah.
+Shariq Haroon   5:46Thank you.
+Nish Bhutani   5:48Mmh.Oh.There, also.So there are basically 2 issues. One is, do we do...Do we invest in kiosk from a CapEx perspective, right? And the second is, as far as app development goes, do we focus more on stores, in-store or ex-store? Right, right. So, so I think we need to then line these up. Varun, you need to line these up very clearly for Sandeep.
+Varun Rajwade   6:12X-dot.Yeah.
+Nish Bhutani   6:21And say these are the two decisions to be made. And you've, as you've pointed out, like there's a very clear case for addressing the in-store on the app, right? Yeah, yeah, yeah. Take it.
+Varun Rajwade   6:30Yeah, it makes a lot of sense.And specifically, if we have to, let's say, start, I'll work with Neeharika tomorrow. We'll have to, and Shariq also, we'll have to put together a unified document for Sandeep to understand how we are trying to solve the problem, right? We are starting with geofencing. We're saying as the customer comes in, we start looking at what.
+Nish Bhutani   6:40Mm-hmm.
+Varun Rajwade   6:53the consumer has already seen what is available in the inventory. Then when the customer scans a QR code, it enters into self, into that express checkout mode. Now, Shariq trial room QR comes in. So that express checkout, in store app checkout is a key thing that needs to be solved.
+Nish Bhutani   6:56Correct.Exactly.
+Varun Rajwade   7:14For all the others to work.
+Nish Bhutani   7:17Yeah, and even independent of that, no matter how they come in, the fact is it's a critical point. And so I would show him two pieces of data. One is, of course, Hemant's data on self-checkout.
+Varun Rajwade   7:18And the...Is the...Yeah.
+Nish Bhutani   7:30Right, in the on the app self checkout, right? The second is, and if he's done that correlation all the better, I'm not sure if he has or not. Yeah, and 2nd is the the geolocation based funnel, what the early results that we have from that, right?
+Varun Rajwade   7:33Yeah.Yeah, that will ping tomorrow and get to.Yeah.Yeah, yeah.
+Nish Bhutani   7:51So, if you look at those numbers, and Hemant made a good point, right? We should show.Let's take within, I can't remember what our cutoff was, five hours maybe, or something like that. Like let's pick a reasonable cutoff, let's say within five hours.What percentage of bill cuts does that constitute? So I believe the number was something like one, one and a half percent. So it's not insignificant given that this was just rolled out with.
+Varun Rajwade   8:12Yeah.
+Nish Bhutani   8:21Kind of a not very smart notification, et cetera, right? So, so I think if that data is put in front of him, then it will be more convincing.
+Varun Rajwade   8:24Yeah, yeah, yeah, yeah.Data and the journey of how we are looking at all of these things coming together with that and therefore key enabler is that app self checkout app or M web self checkout in store.
+Nish Bhutani   8:33And was.Journey also, yeah.Exactly, yeah.Okay.Sounds good. And then, you know, you can compare it to, as you've said, the top line e-commerce numbers. Like, even if you improve the app numbers by whatever, 5%, 10%, the contribution is minimal, right, compared to, yeah.
+Varun Rajwade   9:04Yeah, 50 crore becoming 70 crore versus, let's say, 300 crore becoming 400 crore, in my view.
+Nish Bhutani   9:11Correct, correct, exactly.
+Varun Rajwade   9:12A much larger game.
+Nish Bhutani   9:14Correct. Take care.
+Shariq Haroon   9:18I wanted to say something. Yeah, so I wouldn't be worried a lot on the RFID self-checkout, because A, that is CAPEX, and we have CAPEX for this year. And of course, there are two kinds of CAPEX we're talking about.
+Varun Rajwade   9:20Yeah.
+Nish Bhutani   9:20Yeah.
+Shariq Haroon   9:37CAPEX to build the software and CAPEX for hardware. And hardware CAPEX can be eased out for subsequent years, deferred to subsequent years. This is how we are wanting to roll it out across the network. At least the software building part that CAPEX is planned and budgeted for in this year. So I'm pretty solid on that front.
+Nish Bhutani   9:47Chalke.
+Varun Rajwade   9:49Yeah.Yeah.
+Nish Bhutani   9:55Okay.Yeah.
+Shariq Haroon   10:19That kind of a big number, and primarily because of two reasons: one, minimum wage rate is rising; second, attrition for store staff is quite high, and we don't want to be depending on that in the future. In fact, Kurla, which is the store flight adjacent to us, is going live.
+Nish Bhutani   10:30Yeah.Yeah.
+Shariq Haroon   10:41End of September.And we Kolkur has 60, 70 percent of self record, and there are, I think, only two man details. The rest of all are self checkout. So if self checkout is not happening, then we have a problem, even for Kolkur and the full network.
+Nish Bhutani   10:43Mm.
+Varun Rajwade   10:56Yeah, I agree.
+Nish Bhutani   10:56Sikka.Okay, great. So I think then perhaps that is a decision that can stand on its own. And Varun, the real trade off that Sandeep needs to make is between app development for X store versus in store.
+Varun Rajwade   11:00Great.Yeah.
+Nish Bhutani   11:15Yeah.
+Varun Rajwade   11:16And we'll put together a note on both the Capex piece and...
+Nish Bhutani   11:16Sikka.And just say that, and just be very clear that our very strong recommendation is to focus on in-store, yeah, for these reasons, yeah, take that.
+Varun Rajwade   11:24Yeah.Yeah, yeah, absolutely, absolutely.
+Nish Bhutani   11:29In fact, I'm happy to if the depending on when the call is, I'm happy to be in that call also. So I what, yeah.
+Varun Rajwade   11:37It will likely be an early afternoon one. So that will be, yeah, that will be really late for you.
+Nish Bhutani   11:41Oh, on Friday, you're saying?Actually, actually, Friday anyway, I'm traveling, so that won't work for me. Take care. OK.
+Varun Rajwade   11:48But, uh, obviously, if it's see if he's aligned, then there's no there's no need to get to ignore, but let's say if it is not aligned, then we might have a further conversion.
+Nish Bhutani   11:53Yeah, yeah, that's right.Chica, Chica, sure, sure, yeah, yeah, makes sense, Chica.
+Varun Rajwade   12:01But I expect him to, even when I just broached the topic up, I was telling him in the awards that 50 crore versus 500 crore, where do we have bigger opportunity? And he kind of got the sense obviously.
+Nish Bhutani   12:13Got it, yeah, yeah, take it. Makes sense. Okay, should we move ahead with the updates then? And oh, no, before we do that, one last question. Varun, who is responsible?For the in-store app funnel.And so, if the smart checkout monitoring.The final drop-offs.
+Varun Rajwade   12:37So, it sits with Hemant.It sits with Hemant because it's part of Heman's Pl. Both self checkout and install app checkout go to Heman's.
+Nish Bhutani   12:39Hemant.Gacha.But what about operation? But normally there's like a...Almost like a technical product manager who's, you know, who's monitored, like, okay, take add to cart for example, and online checkout, right? Normally there's somebody who's like looking at that like a hawk, right? And saying, is there a, how do we increase add to cart to purchase conversion?
+Varun Rajwade   13:04So.
+Nish Bhutani   13:10Wait, there was a sudden drop off. Is there a payment issue? What happened? You know, that kind of thing. Is there anyone who's monitoring in-store checkout in the same way? Okay, firstly, no, firstly, firstly, let me ask online who's doing it. Is it Rohit or someone in his team or?
+Varun Rajwade   13:21So, if I look at...It's there's a team, my Rohit is the business side, but there's a team called which which does the e-com product which is part of Sandeep's org. There's more a business product team, and then there's in my org tech product team which sort of talks to each other, right? The most of the times, the that's where the...
+Nish Bhutani   13:30Okay.Mm.Mm.
+Varun Rajwade   13:46prioritization comes in, people are watching like a hawk, the e-com funnel. The in-store funnel is completely sidelined because the problem is the effort is sitting with the effort is sitting with the e-com team, the Pl. goes to a store team as much as, and I'm being just transparent, right?
+Nish Bhutani   13:48Shah.But not the in-store.That's, that's, that was kind of my assumption.Mm.Mm.
+Varun Rajwade   14:06the e-com team will obviously try and maximize their funnel. And therefore, one of the things in the next experiment is Neeharika, I've asked her to sort of create the in-store funnel, right? And then till we have an operating model on who does that, she'll be driving that along with Hemant.
+Nish Bhutani   14:17Yeah.
+Varun Rajwade   14:25Right, as in.
+Nish Bhutani   14:25Yeah, because we can't rely on Neeharika's very good initiative to keep finding errors for us, right? Yeah.
+Varun Rajwade   14:33Yeah, and I mean the the the Altamas Jigisha ecosystem hasn't necessarily responded, so someone else have to then look at to to help try this.
+Nish Bhutani   14:42But you should partner with someone in Heman's team, no, to like Hemant should assign someone. And what I would suggest is before focusing on the entire funnel, right, the place where we're seeing the most traction is the express checkout, right? So just take that part of the funnel.
+Varun Rajwade   14:57Yeah.
+Nish Bhutani   15:01and make sure monitoring alerts, all of that is functioning really well there, right?
+Varun Rajwade   15:08Shut up.
+Nish Bhutani   15:09including any error tracking, et cetera, right? So I would just focus on that and I would, it's great that Neeharika is jumping in, but I would partner with someone in Hemant's team who really cares about this. Yeah, because then, you know, they'll also come up with certain potentially certain ideas or something because they know the business.
+Varun Rajwade   15:20In the brand, yeah, yeah.Yeah, yeah, yeah.
+Nish Bhutani   15:30So just I guess Hemant is already key. He's already so focused on improving the app checkout, so he's totally motivated to.To make sure that these errors get resolved.
+Varun Rajwade   15:41Yeah, it will also come out of Sandeep direction and therefore I think that when we paint the picture to Sandeep, one of the things that I do want to say is this is no longer on the side skunk work sort of a thing. This has to be something more serious and we have to have the right team looking at it from a...
+Nish Bhutani   15:46Shah.Yeah.Yeah.
+Varun Rajwade   16:01Marketing lens from a marketing and growth lens and from a tech lens.
+Nish Bhutani   16:05Correct, correct. Neeharika, this is something we should highlight for this tier call also, that one of the things that come out of this project is revealing.how certain funnels are kind of not paid attention to as much, right? And it's just because of the kind of thinking hasn't been there. Khyati, this is also a funnel to be looked after.
+Varun Rajwade   16:24Yeah.
+Nish Bhutani   16:32It's kind of become very departmental rather than consumer journey-oriented.
+Varun Rajwade   16:37Yeah.
+Parasa Neeharika   16:38Dikshant.
+Nish Bhutani   16:40Sikka.
+Parasa Neeharika   16:40Jagdish.
+Nish Bhutani   16:46Okay.
+Varun Rajwade   16:49But Neeharika.
+Parasa Neeharika   16:51Yeah, maybe we can start with Shariq.
+Shariq Haroon   16:58Yeah, so.On the RFID self checkout, wherein we have a call with Praveen tomorrow, but I think we are largely aligned on the architecture, which is wanting to use a replica of express checkout for building. I have had a discussion with the vendor also, Vishnu, from the same retail insights.suggesting that immediately after Praveen's call, we should get into execution mode because September end is when we need to get this up and running, even for Phoenix Kurla.
+Nish Bhutani   17:34And hardware decisions haven't been made yet, right?
+Varun Rajwade   17:34Yeah.
+Shariq Haroon   17:38The hardware decision, there is Zebra that we have been talking to, and they have shared a few examples and spec sheets of two hardware, two, three hardware models. The visual merchandising team is looking at it currently.
+Nish Bhutani   17:56And these are all what, Android based or?
+Shariq Haroon   17:59100 base, 100 base.
+Nish Bhutani   18:00OK, OK, take it, and we're going with the vertical orientation.
+Shariq Haroon   18:08The house is divided. I mean, I've tried convincing this, but the VM team says Meera says that she prefers a polygon too.
+Varun Rajwade   18:15No, I think we have tomorrow also when we meet on Friday, we have to have a conclusion now, right? Ahire Parker, it can't be.
+Nish Bhutani   18:20Yeah, hey, let's do some online and AI-based research, no?To figure out what are the...
+Shariq Haroon   18:26It says vertical, AI says vertical, all logic says vertical.
+Nish Bhutani   18:30Really? Like unequivocally?
+Shariq Haroon   18:33Yeah, and the only reason why it says how we don't see is because it is.Sometimes easier to.browse through because just because people are browsing horizontally when they are inside stores, they're looking at left to right. Just from that lens sometimes it's easier. But beyond that, AI always tells vertical.
+Nish Bhutani   18:47Yeah.Mm.Yeah, and also if you're going to appeal to younger generations, you know, old people like me will die, but we have to get rid of the people who will be alive, you know.
+Shariq Haroon   19:01Or maybe?Yeah, when I threw all of these pointers, I was told that I was a left dealer.
+Nish Bhutani   19:11So.You know what?
+Shariq Haroon   19:18I will left to brainer.
+Nish Bhutani   19:20Ha ha ha.
+Shariq Haroon   19:20And I'm not using my right brain. But the good thing is that hardware that we're deciding, it's portable. It can be swiveled like a mobile phone, and then it can be made into vertical and horizontal formats replaceably.
+Nish Bhutani   19:24Okay.
+Shariq Haroon   19:39So, and it's pretty easy to do that, so that's that's the kind of hardware we're deciding on. So, respect, and when I took this up with Sooraj, Sooraj says that in Phoenix Mall, we might want to experiment, do some kind of AB and see what what customers or how customers are reacting to vertical versus horizontal. That is what we would say.
+Nish Bhutani   19:41Hmm, okay.Okay.Sure, Okay.Okay.Kinger.
+Shariq Haroon   20:01Uh, on the on the uh smart trial room.
+Nish Bhutani   20:04One could also during development do some usability studies, you know, just watch people use it rather than deploying 2 versions which will be more effort, I'm assuming.might be easier to test at the prototype stage.
+Shariq Haroon   20:16So, in fact, let me, let me share it with, let me quickly share it.Okay.Hardware that has come.
+Nish Bhutani   20:24Do you have two designs already? Oh no, the hardware.
+Shariq Haroon   20:26Yes, yes.No, I will not.Singh.Yeah.Bharatiya Singh.Three.No.Yeah, it's a kilo 15-inch.Chavan.These are all the specifications for various part of the sense picture. The overall furniture cabinet and nested RFID well, how deep as well is, how broad tops on top layout, which is the scheme including the schemes that we are talking about this.ALO 15 inch or 20 inch, 2 inch test monitor, a mounted center near a real core or directly onto the wall, and if, if, if I can see Google this up.Yeah.This is that piece.So it's rotatable. It doesn't come with this kind of branding. It can be rotated and it will turn into a vertical versus horizontal. And it also comes with the...
+Nish Bhutani   22:26Good job.Yeah.
+Shariq Haroon   22:38Deep.Various serial buses such that any kind of payment machine can be also attached, irrespective of whether it is horizontal or vertical.I think the.
+Nish Bhutani   22:49Sikka.
+Shariq Haroon   22:51The version that an BNM team is currently going ahead with is somewhat different, as in they are wanting to place it on.The table, the scanner, but that is just for, I think, for the overall network, we will have to design it separately, because the design is might be specifically just for, it's not, it's not, I don't think it's a...very good design in that sense. This is the design that they are wanting to come up with.
+Nish Bhutani   23:25Okay.
+Shariq Haroon   23:29This is how it looks.
+Nish Bhutani   23:30So ultimately this vertical horizontal decision will only take after testing, after seeing how users react to it.
+Shariq Haroon   23:33Yes.So, half of them would be vertical and half of them would be horizontal, and of course it can be moved into different orientations just by unscrewing a couple of screws and screwing them back again. So, this is ball mounted.
+Nish Bhutani   23:51But your app, the app that you design, you'll have designs for both.
+Shariq Haroon   23:54We have designs for both, yes, we have designs for both.
+Nish Bhutani   23:55It'll be.Okay, as long as that's not too much effort in terms of the app, the software development, that's okay.But, uh, Tika, that's fine.
+Shariq Haroon   24:11Okay, and so that was on on the smart trial room. We have already installed these, so these pictures are from actual site. There is a reader antenna that has been installed on the overhead, and this is the Zebra FX 900, which has been, which is the...
+Nish Bhutani   24:22Okay.
+Shariq Haroon   24:29reader antenna. They are white listing it right now. The moment they are white listed it, we'll start receiving the data stream, the EPC data stream. So the white listing activity is going on with our IT team.
+Nish Bhutani   24:45That's for the internal Wi-Fi. It goes over Wi-Fi or white listing for what? For Wi-Fi.
+Shariq Haroon   24:45This was installed.Whitelist is for because this is a solution.Some info.com, where this reader is talking to, which this reader is talking to, so this reader is beaming information on to that, you have to write the URL, and and this was just done just today, this was just today's.
+Nish Bhutani   24:57Ohh, okay, okay.I see, I see. So you have to whitelist the URL. OK.Got it.Got it.
+Shariq Haroon   25:12So, as soon as white next by listening to them, we'll receive it, we start receiving the data.
+Nish Bhutani   25:12And the...And the the OK, and and then the first rollout, the user has, there's no screen, nothing, basically, right?
+Shariq Haroon   25:23Currently, there is no screen, nothing, but we'll install the screen as well, so at least it has.
+Nish Bhutani   25:27Sure, sure, but initially we'll start just getting the product data.
+Shariq Haroon   25:31Yes, we will start getting the product the moment this white listing is done.
+Nish Bhutani   25:31Correct.Okay.Got it. And Shariq, you'll organize the data in a way that based on the metrics that you're looking, we're looking for. Yeah. Which is basically it. Yeah.
+Shariq Haroon   25:41Yes, I will.Yes, sir.The moment we start getting the data in a day, maybe I'll organize that, because we'll also have to link it up with our sales data, because sales EPCs are also getting registered for us, so we'll have to link it up, I'll organize that.
+Nish Bhutani   25:53Exactly.
+Varun Rajwade   25:56So, you will build that funnel from smart trial room to to to pause.
+Nish Bhutani   25:57And.
+Shariq Haroon   26:05Two boss.
+Nish Bhutani   26:07And that funnel will be in CleverTap, is it? Or no?
+Varun Rajwade   26:10But just now I think will be given the limitation of the current partner might just be offline, but that will then be an interesting POC to.
+Nish Bhutani   26:12used in this system.Okay, fine, Excel.Yeah, yeah, and Shariq.
+Shariq Haroon   26:20In fact, Varun and I were talking about it, that it needs to be eventually made available in time, because then when you capture both the online and the offline world.
+Nish Bhutani   26:31And Shariq, the rules about when...Like if a product enters twice.When is it the start of a new funnel?Right, like.Is it every entry or is it?with some gap of certain minutes.
+Shariq Haroon   26:50I think.I think it should be the last entity, because if you're...And these are all depending upon because.We are registering the customer also, we are knowing which customer it is who finally built that EPC, and if that EPC was.appearing with other EPCs which the customer bought, then of course we are attributing that EPC visit to the trial room and the sale to the same customer. But let's just say the same EPC was brought in the trial room earlier by another customer along with a set of other EPCs.
+Nish Bhutani   27:23Okay.
+Shariq Haroon   27:31And that same EPC went in the trial room twice and we can attribute the same EPC or same style to two different customers. So we'll have to set up those logics in place. This is the data stream we can.
+Nish Bhutani   27:38Mm.Okay, so understood. So have you thought through those rules? Have you defined those rules yet or not yet?
+Shariq Haroon   27:47Not yet, miss. I am few ideas have come, but I'm not to pin them on pin them on.
+Nish Bhutani   27:49Okay.OK, so let's write down the requirements for that, and Neeharika just make a note of that also. Like, let's write down some clear requirements. We don't need to go like crazy right now. We can, or we can prioritize, just do a simple Moscow type prioritization, like must should have like whatever, and...But let's get the fundamental, the basics in first, and then some of the more advanced ones.
+Shariq Haroon   28:19Okay, yeah, okay. We'll send it down.
+Nish Bhutani   28:22So who and that coding will we'll have to do on our end like what using.
+Shariq Haroon   28:26Yes. I'll ask Shubhansh from my team to set it up using Python maybe. For now, it will have to be like an Excel plus plus which is Python equivalent. Then once we have confidence around those logics, then we build them on a system.
+Nish Bhutani   28:34Okay.Sure, take it. So it'd be nice to, once we have those requirements, you know, it'd be nice to start generating some reports, some product-based, and then some simply, which is saying like, look, this is, these are kind of ways in which you can update these customer profiles.right, in terms of their preferences and so on. But first, I think the first benefit is this report saying top 10 tried and purchased, top 10 tried and not purchased, top 10 tried or top 100 rather, not top 10 or maybe top 1000 even. But yeah.
+Shariq Haroon   29:05Yes.
+Varun Rajwade   29:14Yeah.
+Nish Bhutani   29:21That would be really interesting. Okay, take care. So let's start working on that in parallel so that the data becomes useful for us.
+Shariq Haroon   29:31Yeah, OK. Thank you.
+Varun Rajwade   29:33Okay.Shariq, on this thing on the self-checkout, next steps, I think Praveen, we have to quickly meet.
+Shariq Haroon   29:44Yes, Praveen, we're meeting tomorrow morning. So immediately after that, if you're going with that replica approach, then we'll just, I only had a chat with Hemant and Vishnu also today. So we'll immediately set it up and get into execution mode the moment Praveen signs it up.
+Varun Rajwade   29:44So.Huh.Ah.So tomorrow after I think 1030 we are catching up, right? Because there we should also then for Friday, I'm trying to block our time with Sandeep on Friday, then we should carry that conversation and say,
+Shariq Haroon   30:21Yes, yes, I think Sandeep is also aligned, so I told the replica approach to him and he's aligned with that approach.
+Varun Rajwade   30:29Yeah, sounds good.So by replica approach, it basically means we'll use POS APIs to call capillary, call SAP. Self-checkout is just a front end.
+Shariq Haroon   30:44So replica approach would mean that we use express checkout, we create a replica of express checkout, the app express checkout, and we build RFID self checkout on top of it. We customize it, change it. Yeah, and that will give us a jump start. Yeah, yeah. That will give us a jump start of what's available.
+Varun Rajwade   30:54Got the second option that was there.Yeah.And on the promo on the capillary integration and all that, it will be self-checkout calling pause, pause calling capillary, pause calling SAP. So there's no developments really there.
+Shariq Haroon   31:15Yes, I am preferring that approach. We will ask Praveen also.
+Varun Rajwade   31:19King.I think if you can send out a deck before, just as a pre-read will be useful.
+Shariq Haroon   31:27Sure, OKOK.
+Varun Rajwade   31:29And say these are recommended options and here are sort of costs and all that so that he also aligns to it.
+Shariq Haroon   31:37Okay, cost, I think we might not be able to put because even retail insights, for example, they will need an understanding on what the approach is or what how specific our currently works. Approach like, yes.
+Varun Rajwade   31:45Sure, sure, sure, sure, sure. So, at least approach, let's log in, and then follow up is cost. OK, fine. Take care.Okay, Malavika, I think Shariq, all three, we have good progress. So, Malavika, on this thing, on your track, I think last time we had presented some data around that notifications, has that, do we have a refresh of the data?And also.
+Malavika Goli   32:17I don't have it, Varun. Lakshmi is not well. She's on sick leave, so my access is not working for some reason. I will share it in the group.
+Varun Rajwade   32:24Sure, so then send it out by tomorrow.Right, the funnel was there till I think we had also discussed one to five hours, one to two hours, two to five hours, so all that is there. That is done, but I think now next is EPC to EN, are we on track, and the third thing was Wi-Fi. Those were your basic three things that I just wanted.
+Malavika Goli   32:37Yes, yes, that's it, yeah.
+Varun Rajwade   32:49Okay.
+Malavika Goli   32:50So EPC to Wi-Fi, it is in SIT. We will enter UAT this Friday or Monday. We are on track for 9th September release. So once it is in UAT, I will share the link across in this forum. Everyone can have a look at it.Uh, so I'll...
+Varun Rajwade   33:11Modern link I think to Nish just share out a video so that he may you don't have to download and all that you can just send a video and look at that. Also I think.
+Nish Bhutani   33:11O.
+Malavika Goli   33:15Yeah.
+Nish Bhutani   33:22What, what will actually what will we actually what when the release happens? What what will be customer facing at that point?
+Malavika Goli   33:31So customer will be seeing Nish, this is also there on M site and on app on both of these places. The customer will be able to scan. Right now we have a scan barcode functionality. They will be able to scan the.EPC, which will be there on the product. So they click on the icon, the camera gets opened. I mean, before that, we ask for access. The user gives the access, the camera opens, there's a click on it, and a customer will be taken to the PDP page. Even if not app.
+Nish Bhutani   33:51Yeah.Okay, fine.Yeah.Love BTP.
+Malavika Goli   34:09Even if they don't have the app installed, or they open the browser and do this, they can also open the camera and go on the QR. It will read the URL associated. They click on it, it will open on their browser tab.
+Nish Bhutani   34:11Mhm.Yeah.Tiger.But the PDP, yeah.
+Malavika Goli   34:28and we go to the PDP. What I...
+Nish Bhutani   34:31So, Neeharika, related related to this, can we prioritize the VM experiment for?communicating about these product QRs and who would be who would we be assigning that to that would be Jigisha or...
+Parasa Neeharika   34:47We have kept it as Jigisha and Varun.
+Nish Bhutani   34:49Jigisha, no?Huh, TK, so I think we should push this since this technical capability will be there.We must prioritize the communication part of it, which is ironically actually the much easier part, right? And now, right? So, Varun, between you talking to Jigisha.
+Varun Rajwade   35:05Yeah.
+Parasa Neeharika   35:05Yes, yes.
+Nish Bhutani   35:12Um, yeah, yeah, yeah, let's get this, let's get this moving, Sikka.
+Varun Rajwade   35:12And the Sandeep pile, this has to be noticed. I think some of this I love to bring it to Sandeep.
+Nish Bhutani   35:20Yeah, and just let's properly test this also, like in terms of response time when you scan the QRs, etc. You know.
+Varun Rajwade   35:28Yeah.
+Nish Bhutani   35:29If, yeah, how are we doing? How is that looking, Malavika? Like, is the response time good when you scan the QR?
+Malavika Goli   35:35We are still in SIT niche, so our servers are not production supporting. So the experience even otherwise will be slow. We'll be entering UAD on Monday, so we'll have more realistic experience of that. It doesn't look very slow right now.
+Nish Bhutani   35:43Yeah, okay.Mm.Okay.Okay.
+Malavika Goli   35:56But we get a realistic view only on Monday.
+Varun Rajwade   35:59Also, Nish, I think maybe as once we do this EPC to EN, as part of the Sandeep deck, I'll with Neeharika, we'll put together the how it's sort of coming together now increasingly, right? We might also therefore need to reimagine some journeys. So for example, just now if I look at the app.
+Nish Bhutani   35:59Yeah, the.Mm.
+Varun Rajwade   36:20And you open the app and you enter into this express checkout inside of hidden in the bottom. It's not very easy for a consumer to understand. Once I'll flip into it, there are a lot of UI UX issues. So I think it's just been patched, patch, patch, patch. Now, that's the other thing that I want to see with him is saying that let's sort of.
+Nish Bhutani   36:35Yeah, yeah.
+Varun Rajwade   36:41cleanly redo this once and for all.
+Nish Bhutani   36:44Yeah, yeah, yeah. We really have to kind of think about that. Look, if the app's going to be critical to in-store journeys, then is there a way that we can kind of front and center, you know, maybe, I don't know, we have to just think, do we say front and center to the user, you're in the store?
+Varun Rajwade   36:58Yeah.
+Nish Bhutani   37:03You know, you want to stay in this, you know, do you want to switch to Store mode type of thing, right? So that...
+Varun Rajwade   37:08Yeah, yeah, I think, so absolutely we have to make it more front and center is just not too hidden because it was an e-commerce app on which we built a self-check express checkout, but data is almost saying the other way around in terms of volume of transactions, so...
+Malavika Goli   37:12Soap.
+Nish Bhutani   37:19Correct. Exactly.That's right, that's right. It's almost like we have to make sure it really works well in store, you know? It's a whole new way of thinking, yeah, yeah.
+Varun Rajwade   37:29Yeah.Word multiple.
+Malavika Goli   37:35No, I was saying, so why aren't we doing this entire journey of trial and you also solve that problem where you are asking if we can open the directions, help the customers direct to the store with the store notifications going to them, you know, that entire thing.
+Varun Rajwade   37:51No.
+Malavika Goli   37:56That itself can be a journey enabler where we now know that customer is, say, you know, 10 meters away from the lat-long that we have. You know, we show a pop-up asking the customers, do you want to enable your store journey? Do we, you know, do you want to make the purchase from here? And then, you know, we enable him directly into that.So that can be like one start point. We can also, these customers who are scanning the products, you know, they can have multiple intents. One, maybe they're just trying to explore this same product but at a different size because they're not able to find the product in the store. Otherwise they have the products or they're looking at buying it.Right. So I don't know if there can be other intent, but these two stand out very, very clearly. So with this also, can we look at moving the customers, you know, having those entry points, telling that if you want to check out, you like this product, you can complete your payment and, you know, walk out of the store.right from here. So we can maybe work on that areas.
+Nish Bhutani   39:07Yeah, and look, one thing we could do also is let's do some research. And Malavika and Varun, maybe you can take this on, is let's see what, if there anyone else who's doing this who's on the cutting edge. They may not be, I don't know. But we can look at what some competitors are doing in this regard.
+Varun Rajwade   39:21Yeah.
+Nish Bhutani   39:27It may be that we just have to create it, you know, based on our own thinking. Yeah.
+Varun Rajwade   39:31Yeah, I'm increasingly thinking that that we just have to redefine this because we have enough brains in.
+Nish Bhutani   39:35Yeah, but I think Malavika, your approach is valid, which is what are the key journeys? And therefore, how do we make them really, really easy, right?
+Varun Rajwade   39:40Exactly.
+Nish Bhutani   39:46So yeah, and whether we automatically put people in store mode or, you know, and maybe just notify them that because you're in store, you've been put into store mode, that might be a better approach in fact, rather than asking them questions, you know.
+Varun Rajwade   40:01Yeah.
+Malavika Goli   40:02Mm.
+Nish Bhutani   40:03So yeah, we have to really kind of think through this.
+Varun Rajwade   40:03Yeah, so that's so we have to think through those journeys, like you're saying, and the UI corresponding to that, and make it to my mind a little more front and center, specifically if you are in in a store vicinity and stuff like that, right? And if you have detected you as in the Wi-Fi in the geofence, having scanned an app.
+Nish Bhutani   40:09Yeah.Correct.Yeah, I agree.Definitely.
+Varun Rajwade   40:23Having scanned a QR, then you are in store, right? That means I have to then activate that.Yeah.
+Nish Bhutani   40:31So what I would do is I would, my suggestion is work on 2 tracks. One is a complete overhaul, as you were talking about, right? The second is more targeted improvements so that the experiments that we're working on, at least those can function better.Right, because the overall will necessarily take that think time.
+Varun Rajwade   40:54Yeah.
+Nish Bhutani   40:55So if there's obvious obstacles, as you're saying, Varun, the lots of UI issues, the key things that we can solve, even if it's not perfect, that'll be fine, right? Making it easy. If we're going to put up all these VM things, scan the product.Then we should at least make that part really easy, right?
+Varun Rajwade   41:18Yeah.
+Nish Bhutani   41:18So that's how I would prioritize it. Take care.
+Varun Rajwade   41:21Shah.
+Malavika Goli   41:22There's one thing that we are trying to, we were trying to work with Shariq also earlier is we were trying to see if a customer is clicking.Scanning on the the the EPC and is near the the the trial room, you know, and then if the customer has already bought that product, provided a lot of integrations, they're working on a solve with Shariq on that.is if the same customer who has made the scan, we understand the uniqueness of the product. We go about understanding the customer has made this purchase either in the store or in the online mode through checkout. If he has done that, then we, you know, we don't reach out to them.
+Varun Rajwade   42:08Play.
+Malavika Goli   42:15But if he's not, then can we go about reaching out to that customer about, you know, pushing that product and, you know, targeting them, retargeting, yeah. And then also figuring out if they're not that.
+Nish Bhutani   42:28Basically retargeting. Yeah, yeah, yeah. That's a good idea.Mm.
+Malavika Goli   42:34brought that product, but have they brought any other product in the style code? Because sometimes you scan, say, maybe medium, but end up buying a small. So then we should not be reaching out to them. So, you know, we're trying on these permutations also, which Shariq, we were just running through the solution architect with him.
+Nish Bhutani   42:52Mm.
+Malavika Goli   42:54So, what he?
+Nish Bhutani   42:54Understood. Okay, interesting. Now, Neeharika, let's make a note of that also, which is this idea of retargeting customers based on what they've tried and what they've purchased, right? And meaning also what they've not purchased. So that makes a lot of sense. Yeah.
+Malavika Goli   42:56So that's.
+Parasa Neeharika   43:08Yeah, yeah.
+Nish Bhutani   43:14One other thing you know I was thinking about just for the future, I think we noted this very early on, but...I've just been, you know, just thinking about how do you maintain contact with the customer and drive repeat behavior even after they've left the store, right? And of course the app is a key way that we do that and emails and so on. But if this QR approach is successful, we can consider putting it on the clothing itself also.
+Varun Rajwade   43:40Ohh.Yeah.
+Nish Bhutani   43:43In the future.And then, you know, sometimes you just want to order the same, like, you know...Especially for I think men like, okay, this shirt works for me and I now want three more of the same thing, right? Or it can be like, oh, I'm looking for looks related to this product, those kinds of things. So a little bit down the road, but something to think about.
+Varun Rajwade   43:57Yep.Yeah, absolutely.So on EPC to AN, you're saying 9th. So for the geofencing, Malavika, what I need you to come back tomorrow once Lakshmi is back is, what are the number of data points that are consumed? Therefore, what are the cost? What is the benefit?
+Malavika Goli   44:29Yeah.Yeah.
+Varun Rajwade   44:33Of course, just now you want to have incrementality, but we'll at least have directionality. And therefore, if you have to take this across, let's say, top 100 doors, top 400, my all 400 doors, how much is the likely cost of this, right? And therefore, have a...
+Malavika Goli   44:39Hey.
+Varun Rajwade   44:52business case that should be part of our Friday deck. So Neeharika, I think on for the Friday deck from a next Horizon perspective, you should have a deck ready and I'll connect with you tomorrow. Or if you're in office just now, we can connect.
+Parasa Neeharika   45:09I'll come up tomorrow over when I'm in Bangalore.
+Varun Rajwade   45:13Oh, okay, sure.
+Nish Bhutani   45:15And then, Steerco will, where we're trying for when next week?
+Varun Rajwade   45:20I'll ping Amit because I think that didn't, that's not me.
+Nish Bhutani   45:22Yeah.Next week would be actually good for me if we can get the Sandeep meeting done. Well, Sandeep meeting might not happen this week, right? Because you were saying, Varun, you will meet with him one-on-one on Friday.
+Varun Rajwade   45:35Not one-on-one. I'm meeting him as part of a broader roadmap mandate with the wider teams. But then I'll ping him beforehand, raising some of the concerns that we have sort of thing.
+Nish Bhutani   45:39Achacha.So should we wait to schedule a meeting with him before we schedule Steerko or should we just go ahead now?
+Varun Rajwade   45:56I think we should, we should just check because there are too many moving parts as it is.
+Nish Bhutani   46:00Yeah, let's just move ahead and schedule it and then we'll, I'm sure he'll want to talk before the steer call, so we'll find some time with him. Right? Just remind him of that also, Varun, when you talk, when you see him. So, take care. So, yeah, so let's, Neeharika, let's go ahead and schedule this steer call and schedule a meeting with Sandeep.
+Varun Rajwade   46:06Yeah.Yeah.
+Nish Bhutani   46:20before, ideally before that.
+Parasa Neeharika   46:24Yeah, Nish.
+Varun Rajwade   46:26I'm just speaking of it.
+Nish Bhutani   46:26And next week would be, next week would be good for me for these meetings. The week after is also possible, but a little busier for me with travel and all. But let's see what, so just check with me also. And you know I'm on the Eastern Time Zone, yeah, US Eastern Time Zone.
+Varun Rajwade   46:34Shah, I...I think.Sure, I think today the AGM got done, so I think you know Amit will have a bit of bandwidth.
+Nish Bhutani   46:46Sure, sure. Makes sense. TK. Okay, good. Oh, wait, what's the latest on Wi-Fi?
+Malavika Goli   46:54So, Anand from the security team had shared a couple of things that those guys will have to work on. I'm working on a document which will go to them from us. So it's one small thing that they will have to implement. We still don't know if they can implement or not.
+Nish Bhutani   47:13Okay.
+Malavika Goli   47:13So, I had to reframe myself to reach out to Sandeep Varun, because I did not want to reach out to him for the cost. So, Anup has requested for a couple of things that they will have to share and work on tweaking. We still don't know if they can work on it.But I'm working on a big list of document on the approach that they will have to follow, so this is send it across maybe tomorrow, day after, and then...
+Varun Rajwade   47:41Well, so target, speak to Anwar, target by tomorrow first half we send it, so that Friday and the day after tomorrow chase before the Friday call, because Friday I want to be, we can't be in this.half mode, right? I think this one track has taken too much time to sort of get to fruition. But fine, my lowest cost build, we now have to quickly close and say, given it's a two-month POC, are we, and just now we are not yet in the DPDP enforced world.
+Malavika Goli   48:02Yeah.Yeah, unfortunately.Hey.
+Varun Rajwade   48:24Are we willing, are they so bad that we can't have any controls on them?
+Nish Bhutani   48:29Yeah.And we can lay out the kind of pros and cons and maybe someone like Sandeep or Sooraj will need to take a call on it. You know, probably Sooraj, I imagine, if it's if it's related to user data, I don't know.
+Varun Rajwade   48:31If they're so badly, of course, we don't want to work.Exactly.
+Malavika Goli   48:43No, so they cannot be saving the customer data and there is a solve that we have worked on it. So that's been taken care of. But there's some more certification, some implementation, hence to support that is.
+Nish Bhutani   48:44But yeah.Okay.
+Varun Rajwade   48:58Yeah, ask him, ask Anu, what is minimum for a POC of two months?
+Malavika Goli   49:04Well, no punch, play list of the other.
+Varun Rajwade   49:04Right.So, parts list minimum in our case have say so based on aligned copy key a particular list response.
+Malavika Goli   49:09Yeah, yeah.
+Varun Rajwade   49:14Right, let's, if Anoop is the InfoSec guy, he understands this best. He's saying this is mandatory, mandatory, no option. Let Alain come back and respond.
+Malavika Goli   49:27No, Varun, I, while I'm while we have to share that, I have to also share with them on the complete capillary card that approach the Jugar that we have looked at, so that the PIA doesn't sit with them, right? So I'm working on that entire document. They have asked for the document to be able to go about solutioning once we have this. So I'm putting that and this together.
+Varun Rajwade   49:46Hey, I'll give you a call on this. I think we don't need to let them apply their brains as opposed to us having to do that. I'll just call you on that.
+Malavika Goli   49:48And.Oh.I think that's all my updates are there.
+Nish Bhutani   50:05Okay.OK, Chalo, thanks guys. OK, OK, and ohh, Neeharika, just e-mail me the updates from Hemanth and Jigisha and anyone else, yeah.
+Varun Rajwade   50:08Thank you. Thanks.
+Malavika Goli   50:09Thank you.
+Shariq Haroon   50:11Thank you. Thank you. Bye.
+Parasa Neeharika   50:13Thank you. Yes.I don't hit, yes, yes.
+Nish Bhutani   50:21And Rohit, yeah. Okay. All right. Thank you. Bye.
+Parasa Neeharika   50:22I'll be fine.
+Malavika Goli   50:24Thank you.
+Shariq Haroon   50:25Goodbye.
+Malavika Goli   50:32Tahlan.
+Parasa Neeharika stopped transcription

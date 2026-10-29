@@ -1,0 +1,357 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260901_180025-Meeting Recording
+September 1, 2026, 12:30PM
+1h 2m 25s
+Parasa Neeharika started transcription
+Parasa Neeharika   0:40Vignesh, good evening.
+Nish Bhutani   0:41Hi, Neeharika.
+Parasa Neeharika   0:43I think it's morning.
+Nish Bhutani   0:47Yeah, yeah.
+Parasa Neeharika   0:51Nish, regarding the steer code, actually, we got a slot with Ashish, but again, we have run into a problem where we are not getting a slot with Sooraj, so, so again, I checked.
+Nish Bhutani   0:55Mhm.
+Parasa Neeharika   1:10Any of the slot is available, but then his PA, she was saying that there's no slot available for this week and next week he's traveling. So we are just checking. So we are just checking if we can go.
+Nish Bhutani   1:22Got it.
+Parasa Neeharika   1:29With this meeting without Sooraj, since we have already updated Sooraj, so Amit is checking with Ashish.
+Nish Bhutani   1:32Mm.No, no, we can't do it with no, no, no, because you know, I'll tell you, well, let the others join also, but...
+Parasa Neeharika   1:40Mhm.
+Nish Bhutani   1:44I was thinking about this meeting. It won't be just like only what we have updated so far. We want to surface certain issues around execution also.
+Parasa Neeharika   1:50Okay.Okay.
+Nish Bhutani   1:55And it's important that Sooraj is there for that, you know. Yeah, yeah, this is not just an update. Because, you know, the last three, four weeks, execution has really slowed down.
+Parasa Neeharika   1:57Sooraj is there, understood, understood.Got it.True, yes, yes.
+Nish Bhutani   2:07Yeah, and I just want to mean that is the most important issue and I want to surface from a business perspective.Why that say that's an important issue, you know?looking at some of the data around like self-checkout for example, right? Because if we don't pay attention to those problems that you surfaced for self-checkout.
+Parasa Neeharika   2:36Mm.
+Nish Bhutani   2:36We're sacrificing a lot in the business, basically, right? So, Peter.
+Parasa Neeharika   2:39Yes, yes.
+Nish Bhutani   2:49I'm just going to be on mute for a minute.
+Parasa Neeharika   2:51Yes, yes.Nish Varun said he'll join in a while. Meanwhile, if someone else is joining, we need continue. Yeah, hi, hi, Malavika.
+Nish Bhutani   2:58Um, Malavika has joined here.
+Malavika Goli   3:05Hey, hey Neeharika, I Nish.
+Nish Bhutani   3:06Hi, Malavika. Hi.Who else is joining today, Neeharika?
+Parasa Neeharika   6:24Ohh.Shariq, Shariq said that he'll join in a while. He said he got another meeting. Hemant just now messaged saying that he'll not be able to join because he's also having the sales meeting. And I don't have an update from Rohit, Jigisha and Altamas yet.
+Nish Bhutani   6:35Got it.Mm.And you have no update from Jigisha and Rohit Nantamas at all in general on their work.
+Parasa Neeharika   6:50So, Jigisha, I the last one is the one you are aware of, so she was saying.
+Nish Bhutani   6:56Where she was waiting for Sandeep approval.
+Parasa Neeharika   6:58That Sandeep approval, as well as for Varun Babji, is currently only, so that is.
+Nish Bhutani   7:05Correct.He's still on leave.
+Parasa Neeharika   7:08Ah, yes, he is down with Dengue because of it.
+Nish Bhutani   7:10I don't understand. Oh, but then one person can't be such a blocker, you know.
+Parasa Neeharika   7:15Yes, yes, yeah.
+Nish Bhutani   7:17I mean, we have to understand who else is in this VM team.
+Parasa Neeharika   7:23Yeah.
+Nish Bhutani   7:26Yeah, OK. Let Varun also join, and then we can discuss this.OK, meanwhile, actually, Varun will join in how much time, Neeharika?
+Parasa Neeharika   7:39Oh.He didn't specify your time. He said that I'll join a little late is what he told.
+Nish Bhutani   7:46OK.Okay, so let me actually I wanted Varun to be here, but that's okay. Malavika, why don't you give your update first and then hopefully by then Varun will join.
+Malavika Goli   7:57Okay, sure.Ohh...Is my screen visible?
+Parasa Neeharika   8:12Yes, Maddi.
+Malavika Goli   8:14All right, so these are the quick numbers. This is as on Friday, it's a little time taking process. So this is just three, four days old data. So I've not looked at fresh data. Maybe we can look at it again on Friday. So so far we have generated about.10 lakhs worth of purchase value across both stores. We have a purchase of about 1000 customers, 900 customers who have made the purchase. Among that, about 52 customers have made the purchase in the...the first first hour. And these are basically the insights that we look at every week. We are also working with working on a new enhancement.What this does is basically we are also putting.
+Nish Bhutani   9:20Malavika, before you go there, one second.
+Malavika Goli   9:22All right.
+Nish Bhutani   9:25On the table on the right.
+Malavika Goli   9:28Huh.
+Nish Bhutani   9:28I think maybe we talked about this last time.
+Malavika Goli   9:30Okay.
+Nish Bhutani   9:32I want you to put for each row.percentage of bill cuts.And, and if possible, percentage of value.
+Malavika Goli   9:47Percentage of bill by that you mean the overall purchases made in the store? Oh.
+Nish Bhutani   9:51For those stores.Correct, correct.Who?Um...Yeah.So what I mean, okay, now when we say percentage of this is over what, how much, how many weeks is this? I mean, how many?
+Malavika Goli   10:05Can we little ticket? Okay, I'll get that.This is about 5 weeks.
+Nish Bhutani   10:13Five weeks, yeah.
+Malavika Goli   10:14Yeah.
+Nish Bhutani   10:16So...for those five weeks. Now, you don't have to, if you can pull the number for those five weeks, great. Otherwise, you can take the average number, you know.But just to give an idea, like over the course of, in fact, ideally, let's just do it for a month. I think that'll be easier for everyone to process. So maybe we do a separate, it's okay, you can do five weeks, it's fine. The important thing is that, and we don't even have to do it for every row. What we can do is let's divide it between.
+Malavika Goli   10:37Mhm.
+Nish Bhutani   10:50The 5 hours.versus everything else. Okay, so up to 28, right?52 to 28 for up to four to five hours.We can add up those numbers and just show against those what percentage of bill cuts and what percentage of value are those.
+Malavika Goli   11:16I think getting this will be a little difficult because we will not have the exact time at which the store purchase had happened.So I will not know how.
+Nish Bhutani   11:29No, you don't need the exact store time.
+Malavika Goli   11:32Okay.
+Nish Bhutani   11:37When I say percentage, I mean the percentage for the five weeks.So let's say in the five weeks there were 1000 milk cuts.
+Malavika Goli   11:48Mhm.
+Nish Bhutani   11:52Then, this total.Um, what is what percentage is that of the of the 1000?
+Malavika Goli   12:02Okay, and this total or the total of each store?
+Nish Bhutani   12:02This is about what?No, the first five hours, first five hours.
+Malavika Goli   12:07OK, only five hours. OK, OK, take care.
+Nish Bhutani   12:12Against the total for both stores, right, for the month, right? So, if it was, so this adds up to roughly 250, right?
+Malavika Goli   12:15Yeah.
+Nish Bhutani   12:22first 5 hours. So 225 maybe. So what that means is that if there were total of 1000 bill cuts.
+Malavika Goli   12:24Yeah.
+Nish Bhutani   12:32then that's what, 0.2%, correct? Or 2%, wait.
+Malavika Goli   12:36Mmhm.
+Nish Bhutani   12:38Um...No, no, it's much more actually. But anyway, you get the point, right? So just to give people a sense, like, is this kind of meaningful or not? Or does it have the potential to be meaningful?
+Malavika Goli   12:45Yeah, I understood that, yeah.Okay.
+Nish Bhutani   12:57You got it, right?
+Malavika Goli   12:58Yeah, yeah, I got it.
+Nish Bhutani   12:59And you don't have to get it if it's difficult to get it exactly for those five weeks, although it should be possible.
+Malavika Goli   13:08I'll get it for the exact date, yeah.
+Nish Bhutani   13:08We can, ah, ah, TK, and then look, let's look at the value also, if possible. Okay, but don't spend too much time on it. Just getting the bill cuts is enough if you can't get the value easily. Yeah.
+Malavika Goli   13:14I'll do that, yeah, yeah, yeah.Mhm.Okay, sure.Okay, and two new initiatives we are working on in terms of notification and hence when this goes live, the priority will be this as such. And what it does is basically we are right now reading customers location.So when the customer is near a particular store, if a customer, if that customer has some products in the cart and if those products are available in the store, then, you know, a separate communication notification will go to them informing about that, right? It'll be more like, you know, the products in your cart.
+Nish Bhutani   13:50Mm.Mm.
+Malavika Goli   14:07Of card which which you have really liked are available here. Do you want to try it before you make the purchase on right?
+Nish Bhutani   14:08are available.Great. And we'll check availability also or no?
+Malavika Goli   14:16Yes, yes, we will check the availability. If it is in stock only, then we are going to send this. And if this is not there, as in if the customer doesn't have any product in the cart, or if the products in the cart are not available in the store, then this will be the second condition. We will look for the products in the wish list.
+Nish Bhutani   14:17Okay, great.Great.
+Malavika Goli   14:34in that particular store. And if it's there, again, we're going to send a different type of a communication, specifically more towards, you know, something's been sitting in your wish list for quite some time. Do you want to try it before you decide? Sort of a thing. And then again.
+Nish Bhutani   14:48Yeah.And if I remember this wording, this wording I had confirmed with Jigisha, correct?
+Malavika Goli   14:57No, we have we we know this we were not able to crack actually this just made some progress. We've been doing a lot of R&D for the last three weeks. We were not sure.
+Nish Bhutani   14:58The.No, I'm saying the text, the text. I'm talking about the text of the notification.
+Malavika Goli   15:09I don't think we have worked on the text because we are still working on the text for this generic one.
+Nish Bhutani   15:17No, no, no, no. This text, I'm pretty sure Jigisha had written and I had reviewed.Okay, Neeharika, you have that file, right?
+Malavika Goli   15:24I have that somewhere. I will look for it.
+Parasa Neeharika   15:27No, Nish, I don't have the file, but I think this is the one that is yet to be implemented and which is waiting for Sandeep's review.
+Nish Bhutani   15:35Okay, I'm pretty sure she shared the file with me. I'll look for it and share it with you. I'm going to, I'm sort of.Now I'm like going from Mr. Nice Guy to, I'm no more Mr. Nice Guy as they say, right? So this has been like waiting way too long. So I'm just going to make a decision that, you know, this text is not going to like turn off customers or bring us a lawsuit or something.So I'm just going to go ahead and make the decision and we should just, I'll review the text once more and we should just go ahead with it. We can't wait for Jigisha to get Sandeep's approval and all that. It's too much really. Yeah.
+Amit Dwivedi   16:20But have we sent it to Sandeep already? Jigisha has already sent it to sir.
+Nish Bhutani   16:24You know, I don't know, Amit, you know, I told Jigisha, in fact, I spoke with her personally when I came in to meet Sooraj.
+Amit Dwivedi   16:28Ohh.
+Nish Bhutani   16:32I spoke with her personally, and...I said to her that, look, why are you getting hung up on the approval? Just send it to him and say, we're moving ahead with this unless you have a problem.
+Amit Dwivedi   16:41Approval.Mm mm.
+Nish Bhutani   16:45And she said, okay. And then I don't know what happened after that.And the text is not some controversial thing. It's not a big deal. And we're doing it for like, what, 2 stores, you know?
+Amit Dwivedi   16:50Okay.Mm.
+Nish Bhutani   16:57So let's just, I mean, there comes a time when you just have to move forward, you know.
+Amit Dwivedi   17:01No, I agree. I agree. I have anyways spoken with Sandeep this morning because Neeharika and I have been discussing on the marketing stuff between Altamas and Jigisha. Things have not moved while some of those experiments are like really basic one. So Sandeep has told me that he is going to talk to both of them and call back today.
+Nish Bhutani   17:03Yeah.Oh.Yeah, yeah.Hmm, to Altamas and who?
+Amit Dwivedi   17:21So, once I hear from them, I'll update them and Jigisha.
+Nish Bhutani   17:25Okay, but in any case, you know, this is going to be ready by 9th September. You know, I would say one way or the other, we're moving forward with the relevant messages. Yeah, yeah.
+Amit Dwivedi   17:34Yeah, let's go then. Let's go. We'll, I'll talk to, I'll take that detail from Neeharika.
+Nish Bhutani   17:38Because if we literally by 9th September we can't get approvals, then something's very, very wrong. You know. Yeah.
+Amit Dwivedi   17:44No, 9 September is too far. I think we'll get the approval in a day's time. So, no, I'll take the details from...
+Nish Bhutani   17:49Well, it's been, you know, it's been going on for like a month, Amit, or more.
+Amit Dwivedi   17:52No.
+Nish Bhutani   17:54So 9th September is actually very near by those standards.
+Amit Dwivedi   17:58That's not, it's not okay. No, so I'll take the details from Neeharika and we'll talk to Sandeep tomorrow.
+Malavika Goli   18:09Okay, so I'll get the details from Jigisha. Once we have it, we'll put that across. But from dev testing and all that point of view, we'll be now ready by 9th. So that's the target.
+Nish Bhutani   18:15Yeah.Great. Good work, Malavika. Nice work.
+Malavika Goli   18:21Thank you. Thank you. I also wanted to take you through this. I'll just quickly move into a full screen.So, you wanted to look at the screen recording of how the product's getting scanned? So, this is a screen recording. This, the this bit went a little too fast, so I'll just give you a moment for you to process. I'm going to pause it. OK, sorry, my bad, could not pause it in time.So, once could you, could you get that? Is it going too fast?Hello?
+Amit Dwivedi   19:04You're still following it.
+Nish Bhutani   19:04So basically, it's what going from the QR code to...
+Malavika Goli   19:07Yes, so yes, so this is the app and this is the QR section. If a user clicks on this, your camera opens, camera on your phone opens and that's when you are in the screen. So there's like this.
+Nish Bhutani   19:07PDP is it?
+Malavika Goli   19:26square icon. It also says scan barcode or the QR code. We also have an option to upload the barcode or QR code. Below that there is also this quick guide. Quick guide is nothing but this video which we have looked at last time.And.
+Nish Bhutani   19:44Actually upload, I think Varun had pointed out that nobody is really, what would be the benefit of uploading the barcode if they've saved it from before?
+Malavika Goli   19:53If, so if they are, if the scan is not working or if or if they don't have it anymore or something like that for those situations, but you are right, Nish, we have looked at, I've looked at this data, the they were only three customers who have actually looked.
+Nish Bhutani   19:54Is.Okay.
+Malavika Goli   20:12used this particular option in the last six months. This is a one month old data. So we can take a call if we want to have this or and we don't know who these three customers are and why did they do that.
+Nish Bhutani   20:25You know what, I would...Right, you're saying who entered or who uploaded or either?
+Malavika Goli   20:33Who uploaded? Who used this icon to upload? Use this button to upload.
+Nish Bhutani   20:37Yeah, someone who's more tech savvy might say, okay, I'm going to take a photo and then later I'll look at it or something.You know what you can do? You can mean.You can just make a very small link saying problem scanning question mark, and then you can show these options. Because right now it looks like that's a very important part of the interface, you know.
+Malavika Goli   20:57Ajaykumar.Mm.Okay.Yeah.
+Nish Bhutani   21:06Something like that, right?Oh, actually upload barcode anyway, or you know what? Just do this. Just make these links rather than buttons.do that, just re-emphasize them basically in some way. Yeah, okay.
+Malavika Goli   21:17Okay.OKOK.Okay. And then I quickly resume this and then the camera opens and this is the instance where I paused it, but this is exactly when, you know, you scan it and in microseconds actually the product, the app responds.and the customer is taken to the PDP page. This is the page. So this is the product which was being scanned.
+Nish Bhutani   21:49Perfect.
+Malavika Goli   21:50And now this entire thing will also work, and I could not get the recording of that, but this entire thing will also work if the camera, the device camera, not the this entire camera from this, but if even if the user opens the camera, scans it.Scans the QR code. It will open on open the PDP if the app is installed on app, otherwise on the M site.
+Nish Bhutani   22:22product.
+Malavika Goli   22:25What we are from the city event understanding point of view, what I'm also trying to build in is a couple of things. One is where we're trying to create an event to know.If a customer has used this particular route to land into the into the PDP, the idea is more to to be able to go back to the customer and understand that, you know, that this customer has scanned it, gone to this particular.particular PDP. And in case the customer has, we will also go and look at, so we now know that in this case, this is the trouser that Malavika has looked at, right? So now we will go about understanding if Malavika has bought this trouser in any size.Yes or no? If no, then we will also be able to reach out to customers and pitch for this particular product and, you know, ask them to buy or if they have not bought, why did you not bought sort of a thing, right? So that's one thing we're trying to put that in place.So this particular...
+Nish Bhutani   23:44Is that is that funnel is the funnel basic funnel kind of set up in in Clevitab?
+Malavika Goli   23:51Mhm.No, so we are in first step right now, where we will be able to know if Malavika came, visited this PDP through scan, right, by scanning the product either on the M site or an app, either through camera or through the search. So this is step number one, which I'm working on, and we will have this up by 3rd September.development, maybe another two days, so 5th, 6th Septemberish, we'll have this live and this event will start floating into Clever Tap. Now we will have to tweak and use this into various use cases. The first use case I was thinking in is to understand if Malavika bought this or not and then reach out to Malavika accordingly.
+Nish Bhutani   24:41OK, but I don't know what's got it, but the basic kind of data capture will be there, so then it's up to us to then decide what to query, basically.
+Malavika Goli   24:49Yes, yes, yes, yeah, yeah, yeah, and the third use case I was also trying to, you know, I'm working with Shariq on understanding if we can tweak this is which store did Malavika scan this, because somewhere...Between our systems, we also know that this particular EPC is sitting in our city. Now, if Malavika goes, yeah, so we're trying to trying to work on a solve with on this with Shariq, we still don't know on the on the.
+Nish Bhutani   25:17Yeah, extremely important, Riya.
+Malavika Goli   25:28EPC level, which particular product is sitting, in which particular store, so that basically it's in a system, but it's not our system, it's somewhere else, and then we might have to work on a solution for that, but that's a long-term goal niche that we're working towards.
+Nish Bhutani   25:47Yeah.Long-term.
+Malavika Goli   25:52Long term, not a very long term. Not a very long term. Looking at maybe a month or two, just looking at this entire thing as three steps. We are right now in step one and two.
+Nish Bhutani   25:52It's not, you don't think, see it?Mm.
+Malavika Goli   26:10Tall steps looking a little different.
+Nish Bhutani   26:10And what is the complication in understanding with store? The data is just sitting in a different system, that's why? Yeah.
+Malavika Goli   26:16Yes, yes, the data is sitting in a different system and the system is a Vendor system, not our system, so...
+Nish Bhutani   26:24So for now, I think for you, what you should think about is...At first, maybe don't develop the long-term solution.
+Malavika Goli   26:34Mm.
+Nish Bhutani   26:34Just see if you can get, I don't know, a daily download of data or something like that, you know, like in batch mode.Rather than a live querying.
+Malavika Goli   26:45Mm.
+Nish Bhutani   26:45So that at least we, you know, that'll capture most of the data that we need.
+Malavika Goli   26:51Mhm.Mmhmm.
+Nish Bhutani   26:55So just think about that because if you get into like live APIs and all, then there'll be performance issues. All those things will happen also.
+Malavika Goli   26:55Okay.Yeah, yeah, that's a nice thought. I can, yeah, yeah, I can work with Shariq on this. It's, it's more to do with the vendor. Again, he'll have lakhs and lakhs of data sitting, you know, with him.
+Nish Bhutani   27:07Think about it, think about it, but think of...Shah.Exactly, when you're dealing with a third party system, you have less control over the response rate and all that. So if it's faster to just get a daily download, that's, and also just for our city.
+Malavika Goli   27:23Yeah.Yeah.
+Nish Bhutani   27:34You know, then that might be a faster way to kind of...get the data we need for the experiment at least.
+Malavika Goli   27:40Okay.Okay, got it.Okay, I'll set this up. I'll have a word with Shariq and we'll see how we can solve this. But the one and two, one will be there by this week, sorry, early next week, and step two will be there in another 15 days. So we...
+Nish Bhutani   27:50Yeah.
+Malavika Goli   28:04will have that up.
+Nish Bhutani   28:04Okay.
+Malavika Goli   28:06No.
+Nish Bhutani   28:06So, Neeharika, in parallel with this, we had a new experiment, which is the VM for explaining to people why they should scan the QR code.
+Parasa Neeharika   28:18Correct, yes.
+Nish Bhutani   28:19And what you know what they can get out of it, so we should actually expedite that.And you know, I don't know who would be the right person to assign that to. Maybe it's Hemant.
+Parasa Neeharika   28:28Yeah.
+Nish Bhutani   28:35But can we, do we have a sense for who's going to take ownership of that?
+Parasa Neeharika   28:39So, as of now, we were expecting it to be Jigisha or Varun Babji. Once I will discuss with Amit and Varun on this, how we should take this forward.
+Malavika Goli   28:50It's a what?
+Nish Bhutani   28:51Well, it won't be Varun in the sense that Varun's not directly involved in the project, right? So he will definitely go through him, I'm expecting, but now again, he's unwell. So he'll go through the BNM team, but someone who's on this project needs to take ownership of it.Just do one thing, just talk to Hemant and figure out what is the fastest way to get this executed.
+Parasa Neeharika   29:07Okay.Okay.
+Nish Bhutani   29:16Yeah, someone will have to be like write up those instructions and everything.
+Malavika Goli   29:22Ponnada.
+Nish Bhutani   29:22And then those, those the signage will have to be designed.
+Parasa Neeharika   29:26So, from that point of view, it will be Hemant only.
+Nish Bhutani   29:30Ah, so just talk to Hemant about can he just take this off.
+Parasa Neeharika   29:34Yes, yes, sure, yep.
+Rohit Indumukhi   29:34Okay.
+Nish Bhutani   29:35And explain to him the urgency of it.
+Parasa Neeharika   29:38Yeah, yeah, I will do.
+Nish Bhutani   29:40He can send me whatever he comes up with in terms of the, I don't know who does the writing and all these things, but whatever he comes up with, he can send to this team, you know, we can give feedback and we can turn that around quickly.
+Parasa Neeharika   29:54Yes, yes.
+Malavika Goli   29:54Sing.
+Rohit Indumukhi   29:54Yeah.
+Malavika Goli   30:01Ohh.And then the final one I was holding is the Wi-Fi solution. On the Wi-Fi, I had written to Sandeep on Friday about a lot of things, the capabilities that Allen has and how our InfoSec team has given a conditional sign-off.Sandeep wasn't happy with the conditional sign off because he is, look, he feels that because we're investing on the Wi-Fi solution with a partner and if those guys are not able to follow.our guidelines till, you know, over the next few months, then we will not be able to proceed with them. That's a loss of investment. So I'm again working with the InfoSec team and them to see what is it that can be compromised and what is it we cannot from up.proper long-term point of view. So I think we have, they have worked towards couple of things and looks positive. Another maybe one or two days we'll get to know if I infosec is giving a final sort of a sign off and either we proceed with them.Or the other option I was also talking to Varun about this is to get Vodafone because Sandeep Pal is looking at this entire solution in a way where even if that means we have to invest more in terms of cost of the POC costs a little higher.But it also means a reliable vendor then, you know, is looking at that approach. So that will mean Vodafone is our next cheapest option. So I'll, but then again, it's a group company, so Praveen will have some influence over there to get us like a best.
+Nish Bhutani   31:46Mm.
+Malavika Goli   32:00cost. So another two days if this doesn't work out, I'm going to reach out to Praveen asking him for some time where we can set up a call and then he can help us negotiate and get it at best price. So that's the plan on Wi-Fi.
+Nish Bhutani   32:02Yeah.Okay, so the ultimate decision will be between Praveen and Sandeep, is it?
+Malavika Goli   32:19Mostly with Sandeep because there's cost involved. I'm only involving Praveen for where Vodafone is if Vodafone is coming into picture because he'll help us get a good deal. Yeah.
+Nish Bhutani   32:29Okay.Okay.Okay, Neeharika, we were planning to set up a session with Sandeep also, right?
+Parasa Neeharika   32:43Yes, Nish, I was checking with you.
+Nish Bhutani   32:45Oh, so if we can, yeah, if we can do that.I don't know by Friday or something then.So we can, you know, by then you'll have the information you need, Malavika.
+Malavika Goli   33:02I, I, I hope I will have a clarity.
+Nish Bhutani   33:05But not certain. Okay. So if not end of this week, maybe like first time.
+Amit Dwivedi   33:06I think everyone is traveling for Pooja related prep, which we were trying to get him for steer call, so most probably Friday, but next week, like how Sooraj is traveling, maybe he'll be out, but at least tomorrow day after he is definitely out.
+Malavika Goli   33:07It's it.
+Nish Bhutani   33:11Okay, okay. When is he back?Got it, got it. So let's send info for.Okay, let's aim for first half of next week then where we can kind of...You know, show him the different options and take a call, Malavika.
+Malavika Goli   33:30I think he is, I think he's very clear. He's just looking at investing on something which will make long-term sense for us as a company. So I will have to just solve that for him. Give me two days this time. I'll try to get this sorted.
+Nish Bhutani   33:39Take it, okay, okay.Okay.Chicken, chicken, OK.Okay, but in any case, Neeharika, let's set up the follow up with Sandeep. We need to do that anyway.
+Parasa Neeharika   33:58Yes, yes, I'm following up with Varun on that. I'll update you, uh, since I have it late.
+Nish Bhutani   34:01Chica, Chica.
+Malavika Goli   34:07Yeah, so that's all on me.
+Nish Bhutani   34:08Okay, good.Rohit, update from you.
+Rohit Indumukhi   34:15Danish.Are you able to see the screen?
+Nish Bhutani   34:24Yeah.
+Rohit Indumukhi   34:26Yes, so where we are today, the first experiment was around product discovery using QR. The last update I had given you 3 weeks back was that we had activated 4 touch points. We're getting roughly about four to five sessions a day, which is not a very big number.We had called out the next step would be to roll out across more touch points. Unfortunately, because Varun was unavailable between 29th July that we had committed earlier, it's now getting executed by 3rd of September. The total touch points that we have identified are 45.
+Nish Bhutani   34:51Mhm.
+Rohit Indumukhi   35:0545 QRs will go live on 3rd September in our city between
+Nish Bhutani   35:11So these are ready to go.
+Rohit Indumukhi   35:13These are ready to go. The prep work has happened. Yeah.
+Nish Bhutani   35:15And these are where I had already reviewed the text and everything, right?
+Rohit Indumukhi   35:20That's correct, that's correct.That's correct. So these are more the, so we had done only the entrance pop shop. These are the pop shops that also exist as islands in between the store. And we are adding layers of tables and walls, some looks that have come in. We are.
+Nish Bhutani   35:34Yeah.
+Rohit Indumukhi   35:41projecting those also. So all of those put together, these will be additional 45 QRs.
+Nish Bhutani   35:49Okay, great. So I think you and Malavika should coordinate on the event tracking in Clever Tap.And also being able to.In these cases, actually, we are able to associate with the, well, we know actually these QRs are only in one store, correct?
+Rohit Indumukhi   36:06Yeah, so these queue, I mean, I am using Adobe Analytics to track. We are facing some challenges, Malavika. I think my team member has returned to you and Varun, where the data between our MP adjust and Adobe Analytics isn't matching, but nevertheless, as of now.
+Nish Bhutani   36:07Just.Mhm.
+Rohit Indumukhi   36:26Four touch points is too small a base for us to really conclude anything. I was hoping I would come to you Nish with a better number with larger touch points, but that's running behind the.
+Nish Bhutani   36:31Sure.Why are we using Adobe Analytics as opposed to Clevator?Just curious.
+Rohit Indumukhi   36:52We track the funnel on analytics because that gives a better view of visit to cart. We could also use CleverTab. The definitions are slightly different. I can check CleverTab. Malavika, maybe you could help me in this. We'll check.
+Nish Bhutani   37:00Okay.No, no, I'm just curious, like what, you know, I don't have a, I don't like Adobe more or Clever Tap more. I'm just saying that I would have thought we would have put it, yeah, yeah.
+Malavika Goli   37:14So...I'll clarify that.So, so, Nish, Adobe has capabilities for us to be able to understand the customer's journey, where he's entering, you know, what the entire funnel, so there's a clear clarity in terms of that, right? Now, Clever Tap is not an analytical tool. Clever Tap is is is.
+Nish Bhutani   37:34Yeah.
+Rohit Indumukhi   37:38Yes.
+Malavika Goli   37:38Is a marketing CRM sort of a tool and anything that's been done powered by CT can be can be done on CT. Again, customers who are coming here and all that will also be available on CT because customers moving moving in the sense is floating between the.
+Nish Bhutani   37:42FedEx.
+Malavika Goli   37:58the pages. But if the customer only, and that is of use only if we know the customer is locked in, right? However, the overall history of customer scans, store, time, device, all that will be available on.
+Rohit Indumukhi   38:15Of Vignesh.
+Malavika Goli   38:19Adobe, sorry, Rohit, go on.
+Rohit Indumukhi   38:23Nish, apologies. Sandeep is pulling me in national sales meet. I have to present there to the larger group for about 10 minutes. Can I be back in about 10 minutes? Or I could send my update on the deck here.
+Nish Bhutani   38:31Okay.Sure, sure, go ahead.Yeah, go ahead and send your update anyway, and yeah, OK.
+Rohit Indumukhi   38:39Sure, sure.Thank you.
+Nish Bhutani   38:43So, Malavika, bottom line is we end up tracking in both analytics and in ever tab.Depending on the purpose, yeah.
+Malavika Goli   38:49Both will be there. Yeah, both both will be there. It's just that they solve they solve and offer different purposes. That's all.
+Nish Bhutani   38:55Shah.Sure, OK.OK, so just coordinate with Rohit and.So you're saying that, sorry, I got a little distracted. CleverTap will be able, I would think the CRM would be able to identify the customer, would have any actions related to, yeah, right? Whereas Adobe Analytics is more like Google Analytics, correct?
+Malavika Goli   39:15Yes.Yes, yes, yes.That's right. So it'll tell you who also it will tell basically how many customers in this particular store scanned and you know what all they did and like like a high level brief summary. Yeah.
+Nish Bhutani   39:23Okay.Understood. Yeah, it's like a...Yeah, yeah, group level kind of understood, understood, so I...
+Malavika Goli   39:36Yeah, and CD will be a little more deeper.
+Nish Bhutani   39:39Understood. So I think what we should do is for all these QR solutions, let's just have the same approach where what are, you know, we're using both analytics and CT for different purposes.
+Malavika Goli   39:50I think that that will float in, that will float in, Nish, yeah, yeah, yeah.
+Nish Bhutani   39:51So, just...It will float in. OK, take it.Shariq, your update.
+Shariq Haroon   40:02Yeah, hi, Nish. Yes, sorry, I was in that sales call that Rohit had to jump to.
+Nish Bhutani   40:03Dighe.
+Shariq Haroon   40:12Yes, so Nish, last week you had asked me to prepare all the logic, the smart room logics.various kinds. So I have prepared something. Do you want to have a look at it?
+Nish Bhutani   40:25Just the first pilot, when is it going live?
+Shariq Haroon   40:31The first pilot, the smart pilot pilot, it's already live. It is streaming data, but it is not currently patched up with sales data. And that is what we are linking right now. But it is already live.
+Nish Bhutani   40:34Yeah.But do we, okay, so, okay, so we're not yet able to connect the trial to purchase, but we are able to see which products are being trialed.
+Shariq Haroon   40:51Yes.The trials? Yes, which ones are being tried?
+Nish Bhutani   40:56Okay, okay. So can you run some analysis on that? Just so we can kind of understand, you know.
+Shariq Haroon   41:01Sure.
+Nish Bhutani   41:05I think you had already written some reports, right, that we would like to generate out of that. You had already proposed some, if I remember correctly.
+Shariq Haroon   41:13No.I don't, so which one are you?
+Nish Bhutani   41:20There, there was a store, there was a store tracking sheet on which you had, ohh, maybe that was related to CCTV, not related to RFID.
+Shariq Haroon   41:26Yes, that was related to CCTV. Yeah, that was related to CCTV.
+Nish Bhutani   41:28Okay, so here's what I would do. Just, you know, maybe write out three, 4, 5 questions that we would like answered out of this first pilot. You know, it's things like, I think some of these you've already maybe stated in your, and when we had said what are the key metrics for this experiment.But things like, you know, top products being trialed, top products not being trialed, those kinds of things. And then including it also purchase conversion because you'll have that capability by when.
+Shariq Haroon   42:01We are thinking about a week more Nish, because then it is just like a CR wherein boss will have to start pushing that data into their data storage data, their data block.
+Nish Bhutani   42:08Sikka.Sure, sure. So just write out these key questions, top conversion also. So you have basically look at, you know, you have to look at it like a standard sort of two, three-step conversion funnel, right? So, you know, we should just have the data that says, here's what the percentage of products that are being...that are being trialed, the products with the highest trial percentage.And then the products with the highest trial to purchase percentage.Yeah, those are probably the two key questions, but you might think of others. So just write those questions out and send them across. And then let's get that data.Let's get those reports, basically, to you.Okay, go ahead.
+Shariq Haroon   43:00Okay, so I'm sharing my screen.Is it visible?Yeah, OK.So.How I have tried to come up with this is there is a core attribution logic, as in attribution is strictly limited to the parent styles and any additional items are style purchased in the same trial room. We're not part of the style session or the trial room journey.are not attributed to the trial room service. So that's one cornerstone. The second is valid session duration. As in, what do we call as a valid session? So between trial to purchase, what?time do we consider. So I have just quoted a number of 60 minutes basis and experience that we got from the CCTV analytics. So this small pilot that we did, the number thrown over there was somewhere around 44, 45 minutes. The average time spent by a customer inside the store.
+Nish Bhutani   44:11Okay.
+Shariq Haroon   44:13So I've taken a slightly higher number, which is around 60 minutes, and I've placed that as a session duration, like an in-store session duration, which means that any kind of EPC getting noticed at the trial room versus getting sold, it will have to happen within these 60 minutes. If it is not, then we can't attribute it to the same trial room session.
+Nish Bhutani   44:22Okay.
+Shariq Haroon   44:34that sail to the same trial room session. So these are the two base assumptions. Moving ahead now, now there are various kinds of scenarios of attributing a sale.
+Nish Bhutani   44:47One question on this 60 minutes, Shariq. Do we know roughly just from my experience how much when someone trials a product and then doesn't purchase it, they leave it in the trial room. How much time does it take for it to get restocked so that someone else can trial it?
+Shariq Haroon   44:50Yes.I would not, I would not know that. Maybe Hemant would, I would not know that.
+Nish Bhutani   45:10Okay, just find that out because...While 60 minutes seems like a reasonable number, but if it ends up taking...let's say generally 90 minutes or something for it to be restocked, then potentially we can extend that 60 minutes further also, maybe 75 minutes or something like that, right?
+Shariq Haroon   45:30Yes, that's true. That's true, because nobody would pick it up from the trial room. That's completely true, yes.
+Nish Bhutani   45:37Because 45 minutes is an average, which means there will be some number of people who will be about 60 as well.
+Shariq Haroon   45:40Yes.Yep, yep, that's true.
+Nish Bhutani   45:45Cheap, OK.
+Shariq Haroon   45:47Okay, I'll get that number.Yeah, and there are four kinds of scenarios that I've listed. Two of them are with anchor EPC tags and two of them are without.Anchor EPC tags are those kind of tags which appear uniquely at inside the trial room and at the postal. And the tags associated with them, like in a basket, they can change and vary. So let me take the first scenario, which is a direct match.
+Nish Bhutani   46:18Sorry, I didn't understand that. So I thought all EPC tags are unique, right?
+Shariq Haroon   46:25Yeah, yeah, all EBC tags are unique.
+Nish Bhutani   46:26Uh, uh, uh, so what is this? Oh.
+Shariq Haroon   46:28Yeah, bye-bye.So what can happen is, let's say I'm a customer, I am walking into a trial room with a small size. I decided to buy a medium size and I just exit the trial room and I don't visit the trial room again with a medium size. I'm just using the small size. Then the EPC changes what's appearing in the trial room versus what's appearing in pause.
+Nish Bhutani   46:44Ahh.Ha ha ha ha.
+Shariq Haroon   46:50So how do we stitch these two? So those are...
+Nish Bhutani   46:51Bhardwaj.I see. Oh, that's smart. Yeah, okay. Yeah.
+Shariq Haroon   46:56Yeah, so the four different kinds of scenario, two with anchor EPC tags, wherein the same EPC was observed inside the trial room versus at the bus, and then two without. So the first one is a direct match. A customer tries on three items, A, B, and C. I'm talking all of these are EPCs, and subsequently purchases one or more of those exact items.
+Nish Bhutani   46:59Chalke.Shah.Got it.
+Shariq Haroon   47:16Then these A, B, and C, if any one of them are detected at the pause, then we can attribute the sale of that which was detected at the pause directly with that trial room session, because this is a direct EPC match and it's happening within that duration of 60 minutes.
+Nish Bhutani   47:31Yeah.Yeah.
+Shariq Haroon   47:36So, this one is pretty simple.
+Nish Bhutani   47:39Will we also?associate then this journey with that customer who's made the purchase.
+Shariq Haroon   47:47Yes, yes, yes.
+Nish Bhutani   47:49OK, and that will happen in clever tap, presumably.
+Shariq Haroon   47:52And that will have in clever tab, yes.Moving on to scenario 2, wherein it is a mixed match, that is an anchor is present, but an additional style is also present. Let's take an example, A, B, and C. Let's just say style A is, sorry, EPC A is belonging to style 101, B is 102, C is 103.At the pause, the system detects EPC A, which is 101, but EPC B, which is 102, like a different size of 102.But with this data, we can ascertain because A, B, and C were there, which essentially meant style 101, 102, and 103, the customer eventually has bought 101, 102, and 103, even though the EPCs are changing.
+Nish Bhutani   48:44Mm.
+Shariq Haroon   48:45All 3 are attributed to the trial room experience. Because even though the EPCs are changing, at least one anchor tag is there, whereas one EPC anchor EPC is there, and the other styles, other EPCs that are changing are belonging to the exact same style.
+Nish Bhutani   48:49Got it.Understood.
+Shariq Haroon   49:01So this is also like almost like 100% confidence, but it's happening within 16 minute duration. Then all the sale of all three A, D, and E is attributed to the trial room session.
+Nish Bhutani   49:13Got it. So your criteria here is that there should be at least one exact match.And then everything else, whether it's two, three, 4, 5, whatever, it doesn't matter. As long as they are a inexact match.
+Shariq Haroon   49:20Yes.
+Nish Bhutani   49:30Well, okay, here's the question. What if you had...Yeah, okay, that's clear. So you're basically requiring one exact match, yeah.
+Shariq Haroon   49:38So it.Yes, it could be the case that there is another EPC, let's just say F, which is belonging to style 105, which the customer did not, which wasn't. So we will not attribute that to the trial room experience.
+Nish Bhutani   49:45Yeah.Which was try at all?
+Shariq Haroon   49:56Okay, then I'm moving on to the other two scenarios wherein we don't have an anchor tag. And these are more probabilistic scenarios because there's no other way to really ascertain them.So a customer tries on three items, but purchases none of them. Instead, they purchase different variants, let's just say size or color of the same those styles. Let's just say, let's take the same example, A, B, and C belonging to style 101102103. Pause detect D, E, F. Exactly same size, 101102103.
+Nish Bhutani   50:23Yeah.
+Shariq Haroon   50:30But no direct EPC matches found.Then the system will have to take a probabilistic approach and assign or attribute the sale of DEF to that same trial room.The confidence would be high, not exactly 100%, but still high. And we would use 3 levers to be able to build a confidence measure. First is basket composition overlap, like how good of an overlap in terms of styles.is DEF versus ABC.
+Nish Bhutani   51:05No.
+Shariq Haroon   51:07Let's just say if instead of F there is G, which is tile 104, then we have slightly lesser confidence that this is the same one.
+Nish Bhutani   51:15Yeah.
+Shariq Haroon   51:16Whereas in this scenario, we have a very high confidence because 101, 102, 103, exactly the same. Then time proximity. I understand 60 minutes is the outer bound as is the threshold, but there would be like a most likely or most probable time, like within say like 15 minutes or 10 minutes, we'll have to.
+Nish Bhutani   51:19Yeah.
+Shariq Haroon   51:37test that out repeatedly. Let's say within 10 minutes we tend to see the customer moving out and actually doing the billing if that's 15 minutes or 20 minutes. So if that number is closer to that most probable time, then we have higher confidence that DEF are actually.Or DEG, for that matter, are actually influenced by A&B.
+Nish Bhutani   52:03Yeah.
+Shariq Haroon   52:04And then the uniqueness of basket, as in what combination of styles are we really talking about? Is it unique or uncommon? If a style is very popular and a lot of customers are picking it up, then the possibility of DEF could happen irrespective of basket.ABC was tried on or not, or ABC existed or not. So, but if there is some unique style, as in some style which doesn't get picked up so very often, and it is part of those one of those DEF, then we can directly attribute it with a very high confidence that it is actually flowing in from ABC.
+Nish Bhutani   52:44Yeah, OK.So, and then will you actually assign a probability?
+Shariq Haroon   52:52Yes, we'll assign a probability, yes.
+Nish Bhutani   52:54OK, and then the ultimate funnel metrics that we generate.Will be some summation of these probabilities.
+Shariq Haroon   53:02Yes, yes.In fact, one of the things is we have to be very careful of and why is this probability important is we don't want to be remarketing to customers wherein we have lower confidence in terms of.whether these were the same customers because we don't want to be marketing, remarketing with the customer with a completely different set of styles versus what they actually tried or they didn't try.
+Nish Bhutani   53:28Got it.
+Shariq Haroon   53:30And that is something that I've called out in my later slides.
+Nish Bhutani   53:31So...Understood.Okay, and so we'll also have to see if both Adobe Analytics and CleverTap allow for this kind of probability input or whether we'll have to port that in some way.
+Shariq Haroon   53:49I, I mean, Malavika, I think, would be able to comment, but at the best of my understanding, does not currently.
+Nish Bhutani   53:56Does not do that, probably. It's probably very one-to-one, maybe analytics does, but anyway, we'll have to think about implementation later, but yeah, that's something you'll have to coordinate with Malavika on is how do we actually do this.
+Malavika Goli   54:08Okay, without me to set up.
+Shariq Haroon   54:08Okay, and this is the 4th and final one, whereas when we're talking about recommended product match. So again, three items, A, B, and C, and purchases, none of them. While in the smart trial room, the interactive mirror recommends 3 items, because we are also talking about recommendations from the smart trial room. And these items are X, Y, Z.If the customer is purchasing at bus or at using their express checkout or using the smart trial room QR, the items X, Y, and Z, then we'll have to, like a clever tap equivalent, dig into that smart trial room data, see what was recommended and clicked by that customer, and whether it appeared in.as part of XYZ or not.So similar as with respect to scenario three, the only difference is that now a smart trial room is recommending items and basis that recommendation, customer is clicking and scanning the QR and taking it onto their app and then making a purchase.
+Nish Bhutani   55:04Yeah.So, this is is these all the scenarios, or is there more? OK, no, this is great. This, this...
+Shariq Haroon   55:12These are all the scenarios. We have few edge cases.
+Nish Bhutani   55:19No, this is good work.A couple of thoughts, not immediately, but I think maybe the next version of this we can also, as we get more people scanning product QRs.We can use that information also to drive the probability part of it, right? Because if they've scanned a certain EPC and then it was in the trial room and then it was purchased, that tells us something, right? And the other thing I would do, and if you haven't done this, is...
+Shariq Haroon   55:38Yes, yes, yes, we can.Yes.
+Nish Bhutani   55:53Put this all into an AI and get some suggestions.
+Shariq Haroon   55:57Okay, okay.
+Nish Bhutani   55:57in terms of the logic, right? Because AI is pretty good at kind of figuring out this logic and saying, if you give it a scenario, it can help you refine it. Yeah.
+Shariq Haroon   55:59Mm.At first, at first I went to AI seeking inspiration, but it was it was very broken and it was very, very primitive and I had to write it down most of it.
+Nish Bhutani   56:11To get the ideas, yeah, yeah, yeah.Sure, sure, sure. Yeah, but then it's good to put it back in and then obviously guide the AI also. Like, are you making it too complicated, et cetera, et cetera. But take care. But this is good work, Shariq. Good.
+Shariq Haroon   56:23Yes.There are some edge cases that I would like to quickly take you through.So merchandise returns and exchanges. Whenever an item is getting returned, it should not be remarketed because that would be very weird. So whenever that remarketing engine is acting upon, it should filter out things that the customer is returning.and filter out from their persona before remarketing. So that's very important. And close coordination between CDP, which is clever time for us, and boss over here.Second is indefinite detection, which is abandoned items. So let's say an EPC is lying in the toy room for a very long time. When does the system say that, hey, this is the duration beyond which I'll consider this as abandoned and I'm not attributed to any new session, any new customer entering into the.Drive room, so that duration also has to be, and in best of my understanding, we could have it at like 10 minutes. Of course, this is all configurable, customizable, but we can work with like a 10 minutes.Then multiple trial room visits because sometimes what happens is a customer would leave the trial room.
+Nish Bhutani   57:51Sorry, meaning 10 minutes means it's been sitting in the trial room for 10 minutes.
+Shariq Haroon   57:54sitting in the trial room for 10 minutes and EPC is getting continuously being detected in the trial room for 10 minutes.then we'll have to just silence that EPC.
+Nish Bhutani   58:01Ten minutes is not very long, actually, right?
+Shariq Haroon   58:04Yeah, I mean we could change it 10 minutes based on my experience. Probably I don't spend enough time that I don't. This space is my experience.
+Nish Bhutani   58:06Yeah.TK, just confirm these things with Hemant, I think be the best person to guide you. OK.
+Shariq Haroon   58:14Okay, okay.And multiple trial room visits, because sometimes what happens is the customer might pick up a small, enter in the trial room, exit the trial room, pick up a medium, try it again. Or pick up a different style altogether and try. And the same customer is having multiple visits. And how do we link?the pass because for billing the customer might be billing all together at once across trial room visits. So how do we link all of those trial room sessions to a single transaction to a single sales transaction is something that will have to be cognizant of. It can be done, it's just that you'll have to stitch them together.
+Nish Bhutani   58:52Okay.
+Shariq Haroon   58:56And I think this is the most complicated one, the group shopping trip. If there are multiple people and...Different people of course are trying different styles, but the billing together mostly happens in case of families, which is a lot with us. And we, is it okay to remarket people basis what they left, they had interest in to the same person because a single mobile number is getting actually registered at the post at the time of billing.So is it okay to remarket that single customer because he might be paying for everyone on everyone's behalf from their family? So this is this is a hard this we had a question because I mean dissecting that entire cart into individual customers just by looking at the transaction and items in that.Basket would be a very difficult task.
+Nish Bhutani   59:50Yeah. I mean, in some ways this happens in e-commerce, not as often, but when a parent buys for their children or a spouse buys for their spouse, right? So we should just look at what, I think it's okay. I think it's fine to go ahead and remarket. I think
+Shariq Haroon   1:00:07Okay.
+Nish Bhutani   1:00:09people as a first cut, right? Sooraj also brought up this issue. Yeah, yeah, I think just as a first cut, it's fine. And then down the road, we can start to look at kind of how do we separate those.
+Shariq Haroon   1:00:11Okay, then then it makes it easier.Okay, okay, all right. And the last one, which is the delayed purchase. Sometimes I might try out something, carry it on my phone, scan it on my phone and carry it on my phone. Let's just say keep it in my card or wishlist it and make a purchase much, much later, like 15 days, 30 days. If I'm doing that.
+Nish Bhutani   1:00:30Yeah.Yeah.
+Shariq Haroon   1:00:42Then, somehow, this, like, like, and this could be like an open ticket of sorts. I'm just trying trying parallel from the service IT service or IT help desk. It can be like an open ticket of sorts, like this particular item which is in which was this customer is interested in. They had that had that in their cart, but...They didn't buy it for so long, but at the 15th day, they actually bought it. So till the time they didn't buy it, probably we can give nudges, but exactly when they bought it, we can stop with those nudges. So there's like a closure of that open ticket.
+Nish Bhutani   1:01:08Yeah.Yeah.
+Shariq Haroon   1:01:21That's all, that's all.
+Nish Bhutani   1:01:23Okay, great. So I actually have to go now. I have a hard stop. Neeharika, you know, we had some items to follow up on, including assigning the new experiments and some other follow-ups.
+Parasa Neeharika   1:01:36Yeah.
+Nish Bhutani   1:01:37Could we, we also need to plan for the steer code, and I want to, as I was mentioning to you, I don't want to just repeat the update that we gave to Sooraj. I want to kind of...
+Parasa Neeharika   1:01:46Okay, yes.
+Nish Bhutani   1:01:48introduce some other things also. So can we do a call of the core team sometime this week?
+Parasa Neeharika   1:01:55Sure, let me know when you will be available.
+Nish Bhutani   1:01:55So, basically, Varun, Varun and Amit.Yeah, I will send you a message. I'll let you know my availability. And let's just do, just to be safe, let's do a one-hour call. Might not need all of that, but just with the core team. Yeah? Okay. All right. Okay. Thank you. Thanks, everyone. Okay.
+Parasa Neeharika   1:02:02Yes.Okay.Yeah.Okay, thanks.Yeah.
+Shariq Haroon   1:02:17Thank you, Nish. Thank you. Bye.
+Parasa Neeharika stopped transcription

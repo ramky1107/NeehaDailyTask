@@ -1,0 +1,449 @@
+﻿Project Next Horizon  Weekly Review-20260721_111215-Meeting Recording
+July 21, 2026, 5:42AM
+1h 10m 29s
+Parasa Neeharika started transcription
+Nish Bhutani   0:03And define the measurements, et cetera. So I was thinking we should have maybe an in person.
+Hemanth Gollavilli   0:11Nasha.
+Nish Bhutani   0:12Session like the way we kind of did the discussion on experiments last time and prioritise them. I think we should do that again.
+Hemanth Gollavilli   0:22Sure, in fact, Rohit, Rohit and I are spending an hour tomorrow because there are quite a lot of overlaps or lets say collaborate collaboration areas between the experiments that we are doing. So we are catching up for an hour tomorrow to figure out you know what should be common and what are those.
+Nish Bhutani   0:28OK.Sure.
+Hemanth Gollavilli   0:42Areas where we need to probably have one solution rather than having 2 different approaches. So and also the product development from the journeys point of view, I am going to take him through that so that we mutually agree upon what can be developed on the app or the web and then we will connect with of course Varun and Malvika. and.
+Nish Bhutani   0:46Yeah, okay.Yeah.Okay.OK.
+Hemanth Gollavilli   1:02You know, give them a more sharper scope to work on.
+Nish Bhutani   1:05sure.Now, ideally, I think we don't have a steerco meeting yet, right? Varun? No. Ideally, I think when we go to the steerco meeting, we should also have this next, whatever the additional are, maybe it is just 5 additional or whatever, but we should present those as well, I think.
+Varun Rajwade   1:15Not yet.
+Nish Bhutani   1:28Now my only constraint is I am actually in Delhi from tomorrow till probably Tuesday.Although I could potentially come back Monday as well.So if we are going to do an internal meeting.We just need to figure out the timing of that.
+Varun Rajwade   1:49I will just have the chat with Amit today on Wednesday, looking for that CRPO.
+Nish Bhutani   1:53Theek hai.Yeah, theek hai. So let's figure out.Potentially what could happen is I could.We could potentially use next Tuesday morning slot for that.And do it in person as much as we can, right? Or we can do it right after that with like rather than taking up that sort. Theek hai, just Varun, just figure out like who should be, yeah, and figure out who should be in that meeting.
+Varun Rajwade   2:25I will just pinged him because one thing he wanted to do is also have a conversation with Suraj before we go to Ashish, right? So I will also check with him saying that he has to set up with both some. I will also check with Sandeep.
+Nish Bhutani   2:33Sure, theek hai.Theek hai.Theek hai. And then the internal meeting for prioritising a new set of experiments, like I was saying, we could just do it as an extension of this meeting potentially next Tuesday, right? Theek hai. So let's figure that out. I will wait for you before I book my flight back from Delhi.
+Varun Rajwade   2:50Yeah.Yeah.Sure.
+Nish Bhutani   3:02Based on that, okay.Alright.Okay, so I think we can go ahead with updates.And Varun, you're also going to you and or just to let the team know you're also going to.
+Varun Rajwade   3:16Erica, I can just.
+Parasa Neeharika   3:17Rajesh share my screen.
+Nish Bhutani   3:22Reduce the number of daily updates so that we can have more participation, right, more meaningful updates.
+Varun Rajwade   3:27Yeah, we'll do twice a week type, so that will also help get more participation as well as also more chunkier updates. then.
+Nish Bhutani   3:31Okay.yeah.yeah.Correct.So, have you decided which days that is?
+Varun Rajwade   3:49I was thinking my Monday is there ORM right Hemant Hemant Sharik. So I was thinking it would be better to do Tuesday and then either mostly a Thursday, right?
+Hemanth Gollavilli   3:56Yeah.
+Nish Bhutani   4:01But Tuesday, we have this meeting anyway, so there's no point really doing it on a Tuesday.
+Hemanth Gollavilli   4:05Tuesday would be better, Varun.
+Nish Bhutani   4:08But Tuesday, we have this meeting anyway, so we don't need the evening update, right?
+Hemanth Gollavilli   4:11Okay.Yeah.
+Varun Rajwade   4:14That's why you're saying Wednesday and Friday.
+Nish Bhutani   4:17That's what I was suggesting.
+Varun Rajwade   4:19Friday, I have typically people there is a struggle after 6630, so I just wanted to avoid that.
+Nish Bhutani   4:24yeah.
+Hemanth Gollavilli   4:26Not sure.
+Nish Bhutani   4:26And Monday is not possible, you said, right? On Monday anyway, then yeah.
+Varun Rajwade   4:29Monday their ORM sometimes stretches.Till when does the RM get done? Hemant, if it's?
+Hemanth Gollavilli   4:37So our SNOP is till 530, but it often gets extended till 6. So it is from 430 to 530 in the evening. but.
+Nish Bhutani   4:46And actually, and actually, even if we do Monday, then there's no point because Tuesday morning again we have the detailed update. I actually think when I think Wednesday and Friday probably make the most sense, is my feeling.
+Hemanth Gollavilli   4:49But we have like.Yeah.
+Varun Rajwade   4:55Yeah.Okay, then on Friday we can do slightly earlier so people also don't get long, so maybe you can look at a 5 or something of that sort.
+Nish Bhutani   5:08Sure, yeah.Makes sense.
+Hemanth Gollavilli   5:13Yeah, Friday 5:00 o'clock works because even if you are travelling, we will reach the airport little sooner so that we can attend the call.
+Varun Rajwade   5:23Yeah.
+Parasa Neeharika   5:24On Wednesday, should we have it at 6:00 PM? Like you said, Varun.
+Hemanth Gollavilli   5:24Tick.
+Varun Rajwade   5:30Wednesday can be 6:00 PM.
+Parasa Neeharika   5:32Okay.
+Varun Rajwade   5:33So those 2 then become the slots that we...
+Parasa Neeharika   5:38Yeah.
+Varun Rajwade   5:59Okay, let's go through.
+Parasa Neeharika   6:09Malvika.
+Malavika Goli   6:13Yeah.
+Varun Rajwade   6:14So update your points. I think we should also check with some of the others they can join in.
+Malavika Goli   6:16Yeah.Okay, I will quickly update.
+Nish Bhutani   6:25Sadik mentioned that Jigisha and Rohit Khan joined today.
+Varun Rajwade   6:29Acha fine, okay, lets then the only one else is Altima say maybe Hemant we can also have a connect may update from you on his piece because that is inter interrelated to store ops.Okay, Malika, you got it quickly. Let's start there.
+Malavika Goli   6:50Okay, so this is the pop up that's live to the customers for asking them for the location. We have about 942,000 customers currently on the latest app.But we still don't know how many customers have actually turned on given the access to our location, so we are trying to find a way through it. So we will have that soon. So I will share it across in the group. We have also, I am also working with Jigisha to figure out what are the kind of notification. So this is like a dummy notification.That just zoom in a bit.so this is the dummy notification that the customers will be seeing on the app. So working with Jigisha on what is it that we can show so that the customers can walk into the store. The other progress Varun was on your.
+Varun Rajwade   7:49Yes.
+Nish Bhutani   7:53The one on the one on the right is better because it identifies the store itself, the name of the store, yeah.
+Malavika Goli   7:59Yes, so this is so this will dynamically be the this is an actual screen. This is just a representation. So we will be able to fetch what store it is. So we will be able to show that and we can customise this section around the way we want to.
+Nish Bhutani   8:06Okay.Sure.Okay.
+Malavika Goli   8:20We can add the call, the recall points that we are working with Jigisha on. I also understood from her that you have given some feedback on the input she had. So she wanted to discuss that today, but I am not sure why she could not join. So I am anyways connecting with her tomorrow.
+Nish Bhutani   8:34Yeah.
+Malavika Goli   8:41So we will have something up for the next call which we can showcase and then take it forward from there.
+Nish Bhutani   8:48Yeah, one thing also, by the way, good thing to track Malveca when we show these notifications, there is always the risk that some people get creeped out, right? So we should also track to the people who receive the notifications. I think you can move this, he is sitting there.
+Malavika Goli   8:55Mhm.Yeah.
+Nish Bhutani   9:09Someone else, sorry, we can the people who showed these notifications, if we can see if any of them then turned off their location access, I don't know how easy it is to track that.
+Malavika Goli   9:24We will be able to, so we've so we're trying to figure that out. It is there. We are just trying to figure out how to get that, but that data is there for sure.
+Nish Bhutani   9:27Okay.Sure.Okay, because all these actions that we take, I think we should just track whether what is the is it a positive impact, but also is it a negative impact, right? So yeah.
+Malavika Goli   9:38Absolutely.
+Varun Rajwade   9:47So we are not able to identify the who has given access to this. There's no event in Clearton.
+Malavika Goli   9:54Haan, Varun wo thoda difficulty aa raha hai. Lakshmi is not well, so Nanda is not able to figure that out. Lakshmi is back today, so I connect with her and figure she is.
+Varun Rajwade   10:06Directly reach out to CleverTap folks. If you need any help, let me know. We should reach out to CleverTap folks and say I need this solved.
+Malavika Goli   10:11Achchha.Okay, no Varun. So when we met them earlier, they said there is a way to figure this out. Exactly where is that setting? I think Namba is not able to fetch that, so Lakshmi will know it well. So just waiting for her to be back.
+Varun Rajwade   10:32Okay, she is back today, so ring her and create a report on this right, saying that how many people to I think Nishi's point also you should say how many saw this and then uninstalled. You should just have a view of the whole journey around this.
+Malavika Goli   10:36Okay.Mhm.Yes, so I will put all the KPIs. Hanji, sorry.
+Nish Bhutani   10:52And also in the in the experiment sheet, also lets keep updating the metrics that we have put in, lets keep updating those and we can put a date against it because we keep changing. So we will just, so as of whatever, but more.
+Malavika Goli   11:05Okay, sure, yeah.
+Nish Bhutani   11:10Detailed insight would be nice as well.
+Malavika Goli   11:13Okay.Okay, I'll do that.On the updates on WiFi, so I have updated this too. Yeah, sure.
+Shariq Haroon   11:26Sorry, just before we move on to the next one, Mangita, I just had a small point to make when we were discussing this with Sandeep along with Jageshwar. Sandeep mentioned something like and this is going back to Nitish's point that sometimes it hits people out. So you are saying that whatever the messaging and I understand this is not the final messaging, but whatever the messaging has to be.
+Malavika Goli   11:31Yeah.
+Shariq Haroon   11:46It has to be of some value to the customer. For example, this took an example not necessarily well thought of, but if the customer has involved a specific style or kept a specialisted a specific style and that style is in that fashion store, then that becomes a hook for the customer. So things like those hooks like those can be used.As part of the messaging.
+Malavika Goli   12:10Yes, so that's what Jigisha is also working on. She has shared. I can share the I mean, Nish, you have already seen it.
+Nish Bhutani   12:19Why don't you share it on the teams? Yeah, I've already seen it. You can share the it on the group with my feedback and then anyone else who has feedback can just add the comments in.
+Malavika Goli   12:28okay, sure.
+Nish Bhutani   12:30I will just share it on the team's group, yeah, but yeah, Sharik Jigdisha has put this together and I have also given some feedback, but you are right, we have tried to make it more specific to the customer.
+Malavika Goli   12:42Yeah, share the link.
+Nish Bhutani   12:53Okay, so WiFi.
+Malavika Goli   12:54Yeah.so on the WiFi bit, I was explaining this to Varun last week. Tatas, the commercials are extremely high. Nishi, they have given a 4.5 lakh recurring sort of a yearly maintenance, but then there is a...One time installation charge as well, which is 16,00,000 per store. So it is going too high. So we have met Airtel again. I think Airtel will also be high because these are also one of those.Big brands will charge more. Parallely, we have also evaluated the vendor called Alliance. These are the same guys who had their servers set up in the pricing was cheap, but the servers set up was in Singapore earlier, Sir, from compliance issue that was not working out.So these people have recently initiated their services for some company on the financial sector in India and they set up a server. So we have reinitiated the discussion with them and we have shared our compliance form with them. So they going through that once they fill it up, share it back with us, our compliance will.Team will go through it. So for the first round of call that we had, the questions that our compliance team had, it looked like a green flag, so everything was everything sounded well. So we just ask for some sort of proof and certificates from our end which they are working on. So once we have that.We will be able to get into the next steps. So their costing earlier was about 2 and a half. However, that was with the Singapore setup. So the cost might be up little up here because they are doing the new setup here in India. So we will have more details to it by the following week.So.
+Nish Bhutani   14:56Okay, Praveen had some feedback on this where he had said that he thought he could get really inexpensive vote by talking to Vodafone. He was shocked by the quotation and all. I know. So Varun, was there any follow up on that? or?
+Malavika Goli   14:59Achchha.Vodafone was very expensive, ya.
+Varun Rajwade   15:10So you.Yeah, I think Malvika, what you should do is just drop him a note, an email with the quote that you have received from Vodafone from the VA folks, right? He said he will, he knows the right people and we and he will take it up if they're gonna charge 13,00,000 and all that, and he will come back on that.
+Malavika Goli   15:21Okay, theek hai.Mhm.
+Varun Rajwade   15:33He said it's better to go with a group.
+Nish Bhutani   15:33He felt like for the pilot, he felt like for the pilot they should charge nothing because of the prospect of future business. So just remind him of that, hey, if we can get the pilot for free, nothing like it.
+Varun Rajwade   15:38Exactly.
+Malavika Goli   15:46Ajay.So I think the cause so the problem is with Vodafone majorly was Nish that they were saying we can provide this setup. So there are that there are there are 2 things to the WiFi setup, right? One is providing a broadband services, second is the infra setup.Which will mean keeping the history of who browsed what, which customer came, sharing the details with us so that we can reach out to the customers this entire bit, right? So that entire the second part of it is what Vodafone is willing to help us with.However, the first part which is providing the WiFi solution for that Vodafone was very hesitant. They said they don't have the services of providing broadband services at all. So they will have to do a. So they said you do the tie up by yourself because a lot of the malls don't let an external.WiFi company do the setup inside, so we will have to do a collaborative work. Someone who's already part of the model that's going to be a heavy lifting task for us, so hence the cost because of that is going to be high. the other.
+Varun Rajwade   17:08So you just drop all of this to Praveen, also keep, let us say, me, Hemant, and Sharik on that, right? So let us say we have to operationalise this and speak to our city and say for our city, what are the approved vendors? How do we go about it? We can come to solution, but for now, just keep.For drop Praveen all this stuff what you just described and say request your help to get a POC closed and also just remind him that he had said that he'll try and get a free POC if possible.
+Malavika Goli   17:42Okay.
+Nish Bhutani   17:43Yeah, in Tata, you said the setup was 16,00,000, is that what you said?
+Malavika Goli   17:44Take.yes, so the hardware.
+Nish Bhutani   17:496 and that 16,00,000 going to be per store.
+Malavika Goli   17:53Yes, that's going to be a one time cost every store that's.
+Nish Bhutani   17:56First store.
+Varun Rajwade   17:56No, per store, one time per store.
+Malavika Goli   18:00Yeah, Varun, but I have also heard so.
+Nish Bhutani   18:02That's insane.I am sure Tata gave some very good deal to Starbucks side job.
+Varun Rajwade   18:10Thank you.But.
+Malavika Goli   18:12Sister company.
+Nish Bhutani   18:14yeah.
+Varun Rajwade   18:15So you just write all these 3 points and therefore say aligned. Also, we should have a conversation with Anoop, get his explicit approval on aligned so that if that is the one, then we roll that out.
+Malavika Goli   18:27Okay.
+Varun Rajwade   18:29No.
+Malavika Goli   18:29Theek hai, theek hai. So I will also quickly update on since Jigisha is out, I will quickly update on the EPC to a N conversion functionality that we are working on. So we are on track for.
+Varun Rajwade   18:30Okay, good.
+Malavika Goli   18:48The 4th of August release, the designs are also closed. I have shared it in our in our group last time when we met. So that's basically in addition to what we already have on the on the EAN scan from the UI UX design point of view, we already have the design for scanning the QR.EN, so we are just adding QR to that in addition so that everything is sitting in the same place and it is seamless from customer experience point of view. so.
+Nish Bhutani   19:23Sorry, this design is where are you talking about?
+Malavika Goli   19:26So on the app, I will just my screen is not well. I am so sorry.
+Nish Bhutani   19:29Mhm.
+Malavika Goli   19:35Is it visible now?
+Varun Rajwade   19:38Yeah.
+Malavika Goli   19:41So basically, on the app, there are sections to it where we scan, right? So when you are search searching for any product, there is an icon there which clicking on which.
+Nish Bhutani   19:42Alright.Yeah.
+Malavika Goli   20:00Opens up the camera and lets the customers scan. So we were only talking about the EN earlier, so now we will be talking about the QR also additionally. So this is like a quick guide on what they can do, how they can do, and what they're supposed to do.
+Nish Bhutani   20:05Sure.
+Malavika Goli   20:21That's going to be added in.
+Varun Rajwade   20:21So currently where we have that barcode scan right, can you replace that with the QR scan because consumer doesn't understand barcode and all that so that icon we should replace to a QR.
+Malavika Goli   20:29Varun.so I'll just show the this one also.
+Nish Bhutani   20:41And not and we will allow them to scan either, right? Because of we don't have a QR on everything basically. Yeah, take it.
+Malavika Goli   20:46Yes, so it'll work for both.
+Nish Bhutani   20:50Sure.
+Malavika Goli   20:53I'm just sharing my screen again.So.If you can see my screen, hopefully it is visible little small try to expand it. Okay, so this section we are revamping it earlier this was it had a barcode, so you're keeping it more generic where we're going to now say this which is then explanatory.
+Varun Rajwade   21:06Yeah.
+Malavika Goli   21:22So the user will be able to click on.
+Varun Rajwade   21:23No, don't do this. Show an actual QR, like a very small QR, so explicit to your customer that this is an action related to QR.
+Malavika Goli   21:32But Varun, this is also for EAN, so it will work for both.
+Varun Rajwade   21:35That's okay. See, if someone instead of a QR sees us barcode and the reader is able to read the barcode, it is welland good. It didn't particularly matter, right? But to consumer, don't say generic pantaloons. Pantaloons is of is not very clear to consumer. What does pantaloons mean right there it means.
+Nish Bhutani   21:41Yeah.
+Varun Rajwade   21:54It's not very clear, so there you should have a small QR icon, so it's a clear indicator that something else related QR is going to happen here.
+Malavika Goli   22:05Okay.So if you see the background, so basically this is what opens up when you click on this, right? So here we are saying scan barcode or QR code. So this is one change they will be able to or enter the barcode if in case they are not.
+Nish Bhutani   22:20Yeah.
+Malavika Goli   22:27Able to, which is an existing flow. and.
+Nish Bhutani   22:32Let's say QR code before, let's say QR code, let's say scan QR code or barcode, not the other way around. Yeah, let's emphasise the QR code because that's.
+Malavika Goli   22:33This quick cut.
+Varun Rajwade   22:39Yeah.
+Malavika Goli   22:40Okay.
+Nish Bhutani   22:45More useful and easier.
+Malavika Goli   22:49Take care.And this is the quick guide section. So once you click on this, is the video that I was showing earlier will come in.
+Nish Bhutani   23:08Got it.
+Varun Rajwade   23:12This looks fine, but the QR should be a dominant one. Also, this enter barcode nobody is going to enter a 13 digit barcode number. We might not have that functionality, right? It is just see agar QR barcode scan as it is customers don't give up, nobody is gonna enter a 13 digit barcode.
+Malavika Goli   23:25Varun, so.
+Nish Bhutani   23:31Mhm.
+Varun Rajwade   23:34In my view, we should not keep excessive functionalities and just take it out.
+Malavika Goli   23:37Varun, Varun, I will just explain why this came into picture. Sometimes the barcodes and the barcode is not scalable and hence it gets difficult for the customer to be able to complete the purchase. and from that.
+Nish Bhutani   23:49No, but they won't do it anywhere, but they won't do it anywhere in smart and spoiler. It is better to not have it. They can always then go to someone for help or whatever.
+Varun Rajwade   23:51They won't do it at this.
+Malavika Goli   23:51Hey.Okay, fine.
+Varun Rajwade   23:58They will do what I would do is call the some staff and try and do it. Secondly, what we should also do is do a log of when we are not able to scan, right? When a scan fails, then we should get a log of that and try and understand use that to improve the scanning next time, right?
+Nish Bhutani   24:03Correct.
+Varun Rajwade   24:17So, we also start simulating which which scenario it did not work.
+Malavika Goli   24:24So Varun, it happens mostly for the products which which for the barcodes which are sort of toned out or if it is folded or it is tampered in some way or the print is not visible. That's the scenario where this happens.
+Varun Rajwade   24:24You should at least have those logs.
+Nish Bhutani   24:25What?
+Varun Rajwade   24:39Yeah, this entering, nobody will do it. Its not like a 4 digit, its a 13 digit chance hi nahi ko hi karna.
+Nish Bhutani   24:40Take one.
+Malavika Goli   24:42Yeah.
+Nish Bhutani   24:43Yeah, nobody is gonna do that.Mhm.
+Malavika Goli   24:48OK.
+Nish Bhutani   24:49Yeah, Acha. Also, what is the upload barcode image? What is that for?
+Malavika Goli   24:55So if a customer has a barcode image of a barcode already clicked or is shared by someone to them in instances as such, they will be able to, and they in this scenario, they will not be able to scan, right? So that's the upload barcode option. So they upload the image and our system will read it.
+Nish Bhutani   25:04Mm.Achchha.
+Malavika Goli   25:16And then convert that into output field.
+Nish Bhutani   25:22Do people use this currently? Do we have this currently or no? Yeah.
+Varun Rajwade   25:26I highly doubt.
+Malavika Goli   25:29I can look up for the numbers. I can look the click rates on this.
+Varun Rajwade   25:30Yeah.
+Nish Bhutani   25:30Just look up, just see if it is very small then.
+Varun Rajwade   25:32I highly doubt anyone is going to use either of the 2.
+Malavika Goli   25:35Yeah.
+Nish Bhutani   25:37And yeah, at any way if you're going to do upload then have to be QR also, but my feeling is the same. Let's just remove it because clutter or especially on a mobile screen is like just adds confusion. Now the expectation is that people are thinking of this as a search, right? You its next to the search.
+Malavika Goli   25:37Sure.
+Nish Bhutani   25:55Correct.
+Malavika Goli   25:56Yes, I will just take you to the screen. So that's the natural way of discovering this entire section. So you can either go to the store mode and then go about the journey or you will be able to click on this icon and then search.
+Nish Bhutani   26:14And search.
+Malavika Goli   26:18So it is sitting with the shirt so that they complement.
+Nish Bhutani   26:18And so the idea is that people and the reason they would search for it is to get additional information, correct? Because the product is already in.
+Malavika Goli   26:25Yes, so it will take them to the PDP page.
+Varun Rajwade   26:31It will take them into PDPi think last time when we were with Praveen, we also discussing saying that how do we add it into cart right into the express checkout cart. So I think what you need to have a conversation with both Swapnil and Rohit is.
+Malavika Goli   26:31Sorry.
+Nish Bhutani   26:31Got it.
+Varun Rajwade   26:49What all the changes are we going to make on this express checkout, right? And that has to now come in fast because once EPC to A N is done, you should ask the consumer, are you interested, we can do an express checkout on cart on the app itself, add to cart. So you are creating a instant action there.
+Malavika Goli   26:53Hello.Mhm.
+Varun Rajwade   27:11Right, and then checkout happens, so you don't have to think about the queue and all that sort of stuff.
+Malavika Goli   27:19Okay.
+Nish Bhutani   27:20Yeah, and then.
+Malavika Goli   27:20To Varun, this is already there, Varun, if its just not aggressively.
+Varun Rajwade   27:25No, so.No, one is marketing. So leave the VM part. The VM is one thing what we currently do is someone call scans a barcode, you enter into a store mode if the lat long is provided, right? You physically tell the consumer that you are now in you are shopping from our city, right? Nobody cares about that.
+Malavika Goli   27:41yeah.yeah.
+Varun Rajwade   27:47But we say that then the customers to say okay, then we ask them to add to cart again, customers to say okay, then they view the cart, they only see their shopping cart, right? The express shopping cart, you have to take 2 to 3 steps out of this.
+Malavika Goli   28:00okay, understood what you meant. Theek hai.
+Nish Bhutani   28:05Dusra, the lets look at how other apps also do it, but the search. So 2 things: one is it is not totally clear that QR scanning is part of the search.
+Malavika Goli   28:21Mhm.
+Nish Bhutani   28:21But having said that, the flip side of that also is that you are not really searching for a product when you're scanning the QR. You are actually ask, trying to get more information, more looks, whatever related to that product, right? So how do we position that for the user?
+Varun Rajwade   28:27Yeah.Yes, scanning.
+Nish Bhutani   28:42You see what other apps do also.But there should be a very clear motivation for them to scan, right?
+Varun Rajwade   28:49Yeah.
+Nish Bhutani   28:51And we are from our perspective, we are obviously interested in them scanning because it tells us what the customer is interested in, the fact that they're in the store, it identifies that they're in the store, etcetera. But we need to give them strong reasons for scanning. Checkout is one as.As Varun said.
+Malavika Goli   29:11So Zara does this. Zara does couple of things. It is way ahead of for us, but they do couple of really good things. So if you scan a product in this in the store, they actually tell you where exactly this product is sitting in the store also.
+Nish Bhutani   29:16Mhm.So wait, I don't understand you are scanning. Why would you scan if you the products already in your hands, right? So.
+Malavika Goli   29:30In.No, so sometimes you have the product with you, so you don't have to scan, so you might have the product sitting in the in your wish list or in the cart also. So it takes you from there this entire journey. so you.
+Nish Bhutani   29:52Chow.Oh.
+Malavika Goli   29:56You might be looking for this product but in a different size and in the stores usually for Zara, especially they have very very less staff available so they have made the entire journey of the discovery through app so that.
+Nish Bhutani   30:01Achchha, achchha.
+Malavika Goli   30:15We don't need the staff sort of a situation. So this is another thing that they also have.
+Nish Bhutani   30:27Okay, so if you so you are saying like if you picked up the product, taken into the trial room, for example.And no, but I am still understanding. Actually, you found it somewhere. I think that's one thing, but let's take the more normal situation, right, which is you rack the rack.
+Malavika Goli   30:35Or you just found the product somewhere.Any sort of situation.
+Nish Bhutani   30:46You're scanning on the label.
+Malavika Goli   30:47or the product can be a product that you have browsed online and you have liked it, and now we are in the store.
+Nish Bhutani   30:53sure.Fair, but I'm just saying the not just look at the let's also look at what they what others apps do for the normal situation, which is you at the rack you scan the product, right? Why should you scan the product? How do they prompt the users to scan the product?
+Shariq Haroon   31:10So Nish, I would like to comment here in how do they do it in terms of prompting the product is that they have done some kind of nudging to the users. I will quickly share my screen just for a minute on the price that they said.
+Nish Bhutani   31:11India.
+Varun Rajwade   31:14Yeah.
+Nish Bhutani   31:25Sure.And some of this nudging will happen on the label itself, right? Potentially.
+Shariq Haroon   31:30Yes, exactly. that. Exactly that.
+Nish Bhutani   31:35Yeah.
+Shariq Haroon   31:37So over here the QR, the QR is here by scanning the QR, the user can land on to the PDP. There is a small icon. I am not sure if you can see it because if I am zooming it in then it is not increasing the size any further. There is a small icon with.
+Nish Bhutani   31:40Mhm.
+Shariq Haroon   31:56More like information on the product, the product, and then an eye icon which is sending more information on the product. I have seen this kind I have seen another kind wherein they talked about.
+Nish Bhutani   32:03I don't see the eye. I don't see the eye. I don't see the eye icon. Where is it? No.
+Shariq Haroon   32:07You don't see right?
+Nish Bhutani   32:12Thank you.
+Shariq Haroon   32:14Just a second, let me take it to address.
+Malavika Goli   32:17I have a product with me, I just take a.
+Shariq Haroon   32:25If you can click a picture of price tag Malvija.
+Malavika Goli   32:26One minute, I am just I am taking a snap. I have I just have a product. I am sharing the image. I hope it works.
+Shariq Haroon   32:31And there is another time wherein they talk about zara.com inside the QR they talk, they mention, they write as zara.com. I have seen both times.
+Varun Rajwade   33:06So principally they're doing done an EPC to EN and then they're letting you add to cart. What all it they letting you do in store?
+Shariq Haroon   33:16Yeah, go ahead, please.There is a zara.com also mentioned both kind of times exist with zara.com one and the this kind where.
+Varun Rajwade   33:28So Sharik, Sharik and Mallika, what does Zara let you do? One is to have this tag.
+Nish Bhutani   33:31Okay.
+Shariq Haroon   33:32They yes, they let their users learn on PDP. That is what they do immediately after this, yeah.
+Varun Rajwade   33:37So they land you on to PDP, but apart from that, do they do, lets say, a store checkout, they add you to add to your cart? What else do they do? I think we should just understand that.
+Shariq Haroon   33:46Once.Okay, once they, I mean once they land on to the particular product, it is like the user usual other journeys that they have built either on the M web or the app that they let the users continue with. Yeah, option to add to cart option to checkout, even if they don't have an app, they can land on to zara.com, that is the M web.Thank you also. That's also possible.
+Varun Rajwade   34:11Okay.Okay, because that we should just be clear about. I think may be tomorrow we should just spend in the afternoon sometime in the nearby Zara store.
+Nish Bhutani   34:17Okay.Yeah, lets do a bit of research because it is great now we have the tech in place, but now we need to figure out the prompts both in the physical store like on the label and also in the app, things like that.
+Shariq Haroon   34:25Okay.
+Varun Rajwade   34:41Okay, so Mallika, your 3 tracks were WiFi, which is we will drop to Praveen EPC 2N and Geo fencing.
+Malavika Goli   34:50EPC vaala is actually Jigisha's project, but I am working on it.
+Varun Rajwade   34:54That's fine, that's fine. So these are the 3, okay, so we have on those 2, we have some progress on WiFi, we need to now fast track and get to closer wherever needed. Okay, Hemant, do you want to go next? Then we will take in Shari.
+Malavika Goli   34:56Yeah.Yeah.
+Hemanth Gollavilli   35:16Sure. So amongst the 3 experiments, I have an update on the staff assisted selling because the first experiment on journeys, I need to first have the development on the app and the installation of VM comms in the store, which will probably take couple of weeks.To get started with, so on the second experiment, I'll just give you a brief on.What has happened over the last few weeks? So this is what we are measuring as onsome mix. So in a simple framework, men's, if they include a top, bottom, and one of these accessories, it would be counted as an onsome bill. For women's, it is.A top, bottom, a set plus any of these accessories, right?So this is how we are driving it. Whenever there is a drop launch, which is every fortnight, and when there is no drop launch, we do something called Trendy Tuesday. So every drop launch there is a structured awareness session on what's coming in the drop, what styles.How they marry with the trends and a brief overview on what looks can be curated and this is done via our VM team. So that's what happens on a drop. What we also recommend during a drop is 2 activities. First activity is style your colleague where the staff after taking this.Download from the VM team, curate looks using the drop merchandise for their colleague. Second is they also do a fashion walk in the store. So these are 2 activities which we have rolled out during a drop launch and during a non drop we do something called a trendy Tuesday where the store manager along with the entire.All the 4 world, all the 5 worlds and the store teams come together and they again put up full onsome looks for best 4 to 5 onsome looks in every world, and they present it to the entire store.So I will just show you what happened in our city this week. So this is a drop launch video.Second.So that's a glimpse of how they how it translates on the floor. So they basically try out the looks that are curated and they do a fashion walk. This is helping them understand the drop merchandise better. They When they try it themselves, they have more confidence to pitch it to the customer.And this is these are the numbers. So that's the on saw mix for RCTFY 26 was around 2 and half percent Q1 it moved to 3.7% and last week last week it is 4.28% yeah.
+Nish Bhutani   38:34Mhm.This is the sales, this is percentage of.Percentage of sales by value, is it? What is this?
+Hemanth Gollavilli   38:54Number of bills. Number of bills. Nish, this is the bill mix.
+Nish Bhutani   38:56Achchha.Film X, the week 16 was when?
+Hemanth Gollavilli   39:00so.Last week.
+Nish Bhutani   39:04Fantastic, great.
+Hemanth Gollavilli   39:05Yeah.
+Nish Bhutani   39:08So this is really, really helping. How much burdens it on the sales staff or is it a good use of their time? How do they feel about it?
+Hemanth Gollavilli   39:16It's a, It's a good use of their time. So because we have, yeah.
+Nish Bhutani   39:19They don't feel like they're missing out on other sales because there's always that chance, right? Like, you're doing this, so you're not able to do that.
+Hemanth Gollavilli   39:26Yeah, so no, we are not burdening them. So like I said, that's why we have carefully crafted what happens in a drop launch week and what happens in a non drop launch week because there are activities linked to drop launch in terms of ops that they need to also fulfill. So that's why we have very specifically kept that whatever download they receive from the VM team on the drop.
+Nish Bhutani   39:40Mhm.
+Hemanth Gollavilli   39:45The awareness on the styles, the trends, and look, VM team also gives them a look book which has styles pre curated for the merchandise that is coming in the launch, right? So anyway, the store managers and department managers put in efforts to ensure that the fashion is the stylist understands these looks.
+Nish Bhutani   39:54Mhm.
+Hemanth Gollavilli   40:05So now they only ask from them is to make sure that they also try it and this they are doing it before store opening between 1030 to 1130, I mean just before the store opening. Yeah.
+Nish Bhutani   40:16Nice, yeah, it's nice thing for them also. It's like a little fun for them, yeah, of course.
+Hemanth Gollavilli   40:26In fact, we have started this towards Q4 at a network level and we are slowly seeing that stylists are also liking it. I mean, it has now become a fun activity for them that they look at this, they look forward to drop launch and they look forward to engaging in this activity. So that way it is already.Kind of taking shape, so it is not a burden on them, Nish. I mean, and trendy Tuesday anyway is once a week during a non drop launch and 2020 to 30 minutes at the discretion of store manager. So we are not even imposing a schedule on when they should do it. Every Tuesday, they will be given a theme and they should have a 30 minute interaction with the store teams on that and curate looks.
+Nish Bhutani   40:53Right.So they so there's a drop launch week and then there's trendy Tuesdays, both right? How often? So trendy Tuesday, of course, happens every Tuesday, correct? And no, okay, achchha, do you mean non drop acha?
+Hemanth Gollavilli   41:14right.No, during the non drop. So basically these 2 are happening alternate weeks. Yeah, alternate weeks.
+Varun Rajwade   41:25Okay.
+Nish Bhutani   41:26Got it, got it. So there is something happening every week, basically.
+Hemanth Gollavilli   41:29Yeah, and of course, again, it then is up to the store manager on how do they pick this topic, let us say at a week level. So there are store managers who do it more frequently, like they have interactions on style verse 2 to 3 times every week. So that's there.Intensity of driving this activity, but in our city they are again in our city also they are picking it up twice a week for sure because there is a new store manager in our city, so he has some fresh thoughts in how to engage the staff and all of that. So while we as a schedule and as an intervention we are proposing this, there are activities happening at the store level.
+Nish Bhutani   42:12Can we put the control store numbers also for those 3 numbers that you showed?
+Hemanth Gollavilli   42:18Yeah, sure, we can do that. yeah.
+Nish Bhutani   42:18So we have a comparison, so then we know that, okay, its actually it is a result of we are not just getting the sequential uptake, but also in comparison to a control. And so what do you see as the next steps in terms of learnings and improvements from this level?
+Hemanth Gollavilli   42:28sure, we'll do that.So the challenges which I've highlighted, I have them.These were the large gaps which I have highlighted, right? So one is we are in touch with the non apps team to ensure that the alignment gaps are minimised. So in non apps, whatever alignment gaps we had will largely be addressed with the new drops coming in. We have dropped 13 which came in last week and we have dropped 14 again coming in next week.So by mid of August, the alignment gaps in non apps will largely be addressed with 3 drops of AW 26 coming in. Second is there is still attrition in this store which is high enough and it poses as a challenge because we have to keep keep on retraining the staff. So again, that is one area which has been picked up with the retail HR team.To ensure how do we minimise attrition because it is gonna then help with the overall capability building of the staff, not just in this particular aspect, but overall experiments that we are conducting in the store. 3rd is a little more granular focus on driving this.Initiative. So I have, like I told you last time, there is this intern, sorry, he's now joined us full time. My bad. The strider who is with us full time now, he's handling this project. So more interventions on, you know, not hand holding them, but building competence and driving these activities at a rigger.
+Varun Rajwade   44:07Thank you.
+Hemanth Gollavilli   44:07So that we don't miss out or dilute these activities. So these are the last 3 big areas where we are working on to build on this target niche is to reach 7 and a half percent also mix by Q3 and Q2 we should cross 5 and a half percent. Yeah, that's it.
+Varun Rajwade   44:11Yeah.
+Nish Bhutani   44:25At our city, at our city, you say.
+Hemanth Gollavilli   44:27yes.
+Varun Rajwade   44:29Okay, I.
+Hemanth Gollavilli   44:30So, Q2, we should cross 5 and a half percent, that's what we're targeting.
+Nish Bhutani   44:30Great.So, this issue of attrition and retraining, obviously bringing down attrition is always a goal, but also thinking about based on the feedback we are getting and what's required in training, is there a tech assisted?
+Hemanth Gollavilli   44:39Yeah.
+Nish Bhutani   44:52Aspect to this that will make training easier and also make the style assistance easier also, right? Just thinking about that, so okay, Abby, we are in the early days, but let's get that feedback. One can imagine that.
+Varun Rajwade   44:56Okay.
+Hemanth Gollavilli   44:58Thank you.Yeah.
+Nish Bhutani   45:13Even a less capable or less fully trained person, if they are talking to the customer along with the tablet or something and helping them pick and choose, maybe that can, I don't know, I am just throwing that out as one idea. But the point is, how do we make this more embedded in the systems?
+Hemanth Gollavilli   45:26Yeah.
+Nish Bhutani   45:33And less dependent on kind of humans, yeah.
+Hemanth Gollavilli   45:36Right, one more one more intervention dish is what Sharik and team are working on is we are developing this feature in the now mobile app which would give style suggestions or on some suggestions bases the inventory in the store. But I think that the development the BRD has gone.
+Nish Bhutani   45:44Thank you.
+Hemanth Gollavilli   45:55The BRT has been sent from my end and Sharik, I think Sharik, I forgot the name of the person who is involved in this from your team. Yeah, Atul Sav, right. So Atul. So they're working on that. So probably if we have this feature rolled out on the app, Anish, that is gonna help the staff immensely.
+Shariq Haroon   46:04Yeah, Atul Sahu.
+Hemanth Gollavilli   46:15Because they have a very ready access to suggesting looks to the customer on the app, and that's basis the inventory which setting in the store. So that's one more initiative to support this agenda.
+Nish Bhutani   46:22Okay.Sorry, what was the last point you said?
+Hemanth Gollavilli   46:34I am saying so once so we have an app called Now Mobile, which is basically an internal staff assisted app where they carry out all store ops related activities. So we are developing this feature on that app where basis the inventory in the store.
+Nish Bhutani   46:40Yeah.Right.sure.
+Hemanth Gollavilli   46:53The It would curate on some full looks, yeah, so that the staff can have ready access to they can just scan scan the barcode of any product and get a full look of that and suggest then and there to the customer. I am saying that will also help with respect to another staffs ability to pitch or recommend something to the customer.
+Nish Bhutani   46:54Recommendations.Okay.So fundamentally, the feature will work the same way in the staff app and in the mobile app, correct?
+Hemanth Gollavilli   47:17yes.
+Nish Bhutani   47:21Make sense.
+Hemanth Gollavilli   47:22Yeah.
+Nish Bhutani   47:23Okay, great.
+Hemanth Gollavilli   47:24So that's the update on this experiment. Probably I'll circle back on the other 2 experiments in the week or in a couple of weeks.
+Nish Bhutani   47:37Great, this is good progress.
+Varun Rajwade   47:40Is there any way we given the rest of the next horizon projects? Is there a way for amplifying this in our city?
+Hemanth Gollavilli   47:40Okay.
+Varun Rajwade   47:50Given that we are doing QR scans, we are doing so many other capabilities, just think about our city specific kuchh aur kar sakte hain kya so that becomes a test bed also.
+Hemanth Gollavilli   47:53Yeah.It should, yeah.Mhm.Actually, a lot of these activities or experiments, Varun, are interlinked. So it is organically gonna help this activity or this agenda of driving onsign mix. But once we have these experiments rolled out in the store, collectively, then.
+Nish Bhutani   48:13Sorry.
+Hemanth Gollavilli   48:22The store teams should have a direction. I mean, it should not be talked about in different in silos or in different parts, be it what Rohit is doing or what I am doing or lets say what Sharik and Malvik are doing. Yeah.
+Varun Rajwade   48:31Yeah.They are all, you are right, they are all interlinked. But for example, I am just thinking, let us say tomorrow you have your style verse, right? Or your whatever the Tuesday one, right? So that becomes, let us say again, I am using QR as a mechanic, but let us say it is make a nice VM of it.
+Nish Bhutani   48:38Yeah.
+Hemanth Gollavilli   48:41Yeah.Yeah.
+Varun Rajwade   48:54And you say buy your onsome in one scan, right? That goes on to the app. The app then figures out ye agar ye shirt t shirt bech rahe toh jeans kya hoge which is available in store, give you basis your size, right? Creates one single checkout window for you, right?
+Hemanth Gollavilli   48:58Right.Hmm.Right.Right.
+Varun Rajwade   49:16And therefore, you are able to, you don't have to hunt around now in the apps. What Sharik has built on the now app, can we build on the consumer app with the right recommendations, with the right ensemble, saying that you know look one, look 2, look 3, look 4, you select whichever one and check it out in one go.
+Nish Bhutani   49:27Okay.
+Hemanth Gollavilli   49:28Right.
+Varun Rajwade   49:35And it's an express checkout because it's all stored inventory. So just look at that as an additional thing to just think through.
+Hemanth Gollavilli   49:35Right.Right.No, certainly that's what I said, Varun. Once these experiments are being rolled out now, the store teams need to get inputs on that. Like for example, even in the customer journeys, we spoke about having style zones, right? Style zone is going to be a important input to drive style verse, right? Because it is about that recommendations that can go with whatever you have picked up.
+Nish Bhutani   49:44It is here.First picture bottom camera. First picture bottom camera.
+Varun Rajwade   49:59Yeah.
+Hemanth Gollavilli   50:04So, so we'll integrate all of these and probably stitch them together once these experiments take shape in the store.
+Nish Bhutani   50:19Yeah.Yeah.
+Varun Rajwade   50:31Next iteration just now they are kind of being executed independently ye pandrah karke paanch ye achchhe journey jayenge naye and this will enable.
+Nish Bhutani   50:34yeah.We should actually, we should, we should design those end to end, right? Include between and hopping, yeah, hopping between offline and online and everything. I agree with that, yeah.
+Varun Rajwade   50:45Yes, along with the demon.Yeah, because all of us have different points of view and that will make the solution more holistic.
+Hemanth Gollavilli   50:52Yeah.
+Nish Bhutani   50:57Maybe when we meet in person, let's map out those journeys also. Yeah, Peter, sounds good.
+Varun Rajwade   51:00We could do that, yeah.Okay, so that was one you had one or 2 more, right? There's one with Altima's which we haven't heard an update on. He wanted to do that insignia staff assistance, there's one insignia staff assistance, and there's one entry assistance. These are the 2 ones that.
+Hemanth Gollavilli   51:17K.I'll speak to him. I'll speak to him once in circle back.
+Varun Rajwade   51:27Just because I think when he last spoke with me, he was telling me, Varun, he has to connect with you post the USS initial madness in that. How do we execute this in store?
+Hemanth Gollavilli   51:40Theek hai, aalke nakriti.Yeah.
+Varun Rajwade   51:45Okay.
+Hemanth Gollavilli   51:46Alright, thanks.
+Nish Bhutani   51:47Hey.
+Varun Rajwade   51:48Great. Great to see that KPR.
+Shariq Haroon   51:49So maybe.
+Hemanth Gollavilli   51:50Yeah, I'll drop off if it's okay.
+Varun Rajwade   51:54Yeah.
+Nish Bhutani   51:55Yeah, go ahead.
+Hemanth Gollavilli   51:56Alright, thank you.
+Shariq Haroon   52:00Maybe I will do next.So, on the self checkout bit, we are having a meeting with Retail Insights tomorrow. You would be attending in person or you are driving virtually?
+Varun Rajwade   52:16No, I'll be in office. You can do it in my cabinet, no problem.
+Shariq Haroon   52:19Okay, sure. And I have parallel also reached a conversation with CPCT to get understanding on what hardware auctions do we have and what pricing and commercials are they So maybe start of about 34 days remaining.Is there with CPC for circling back to us on the options, they would be reaching out to Zebra to ELO and they are working already reached out to Mask to get an understanding. Most of these hardware, the way I understand it, central procurement center, central procurement center, central procurement center. So all hardware non IT or intra requirements are already or all routed by CPC.
+Nish Bhutani   52:50Who is CPC? Who is CPC? What is CPC?But.Okay.Okay.
+Shariq Haroon   53:03So, initial understanding is that most of these solutions are single solution they are sold as single solutions. So, of course, we will have the liberty to customise it, but if we are wanting to take the benefit of cost in terms of...Then we will have to go with an option which is already scalable. There's another conversation that the VM team, Mira.
+Nish Bhutani   53:27But we have Varun, did we already decide that we want to do a custom app or no?
+Varun Rajwade   53:35The Praveen's direction was to go custom. We have not yet thought of which tech we have that also depends on which hardware, but direction was to do it custom.
+Nish Bhutani   53:38Custom, yeah.Theek hai. Yeah, theek hai. No, that makes sense. Correct, correct. Theek hai.
+Shariq Haroon   53:45Yeah.There is also this parallel conversation that Neera, head of VM Pantalus, is taking up with some hardware solution providers. She will also come back on what the hardware options are, both for, I think, she is largely looking at it from a horizontal lens, but I have also asked her to include some portrait.
+Nish Bhutani   53:53Hello.Hello.Sure.
+Shariq Haroon   54:08Modes as in a vertical landscape, vertical orientation. So she is looking at that and once Sandeep is back next week, I think she will have few options ready for us. So that's on self checkout on the smart trial room bit. Of course, we are waiting for budget approval from Sandeep. I have written a note to him.Before he left for his vacation, but we are not waiting for the approval to come for you. Just tomorrow we are having a site survey, a site measurement done as to which all points need to be drilled and what all cabling needs. So all of that threat we have already initiated and.27th is when Hemanth tells me that we can investigate any kind of masonry world.So that's the lead that we're aiming for initiation of ACM teamwork because this would require tabling and ACBM fixture and all of that.And I was reading through the comments that Praveen made on point number 4. We are already, as in by this study, is RFID based products where I can provide valuable product level and sites during the trial and evaluation phase. It's also exploring CCTV video analytics and generate heat maps, understand customer movement patterns and access store layout effectiveness.
+Varun Rajwade   55:07Okay.
+Shariq Haroon   55:27So, this we have already done one month of time as in a pilot has already been executed. One month of time has gone gone into it. We will be looking at the output tomorrow. But if you want to join, this is with aggress Ahmed Tango AI, we Tango I we couldn't do because we are Tango I.Requires is dedicated bandwidth, Internet uplink, which we it is very expensive and we can't afford. So it does not offer local processing. With aggregates, we are able to because this is video analytics and processing on that video stream has to happen real time because it is a continuous stream of video. So if you are dealing up all of that data.Via Internet to the cloud, it requires a lot of Internet bandwidth, which is expensive. Egress and recurrent, there are 2 which we are doing pilots with. Recurrent hasn't started yet. Egress has completed because we already had an ND in place and their interview was all set up because we were running a paralleloscope.
+Amit Dwivedi   56:24Sharik, Sharik, I am fundamentally unclear about the process that we follow in evaluation. We have been doing this evaluation for 4 months. OK, the whole idea of finally choosing a tool was that we align on something that everyone uses.
+Nish Bhutani   56:31Hello.Okay.Hints that are about it.
+Amit Dwivedi   56:43So that all the incremental information there that gets uploaded on a singular platform becomes a leverage on which rest of the business also derives benefit out of. We did this evaluation for Tango I in detail. All these issues were pointed out. We went back to the founder and you know the rest of the team was also there.
+Nish Bhutani   56:47Yeah.
+Shariq Haroon   56:49Yes.
+Amit Dwivedi   57:06You obviously were there in the initial evaluation and then it was agreed that they'll solve it, including the issue around the limited bandwidth, because they said that their new model is coming in a month's time and this was 3 months ago. Okay, then AGRIX was put into the evaluation just when the evaluation was closed.
+Nish Bhutani   57:19Hello.
+Amit Dwivedi   57:25Agrics was put into the evaluation, so we did again another round of evaluation again. After that, after a month of evaluation, we compared the 2, we had specific calls with both of them, both Agrics as well as GOIQ, again did a rating and came to a conclusion that we will go ahead with GOIQ.
+Nish Bhutani   57:29Please.
+Amit Dwivedi   57:44Okay, parallel, sorry, Tango Eye. Parallely, we started an evaluation. We had closed the evaluation with GUIQ. We started another evaluation with some new company that Pantoons was looking at, like the whole exercise again came back to GUIQ as being.The better one because that was the rating that we got from the team finally. Now I am sure there are more tools that are available in the market. You know, one way of doing it is because I handed it over to Praveen saying that all the business teams have seen it because we wanted to actually choose something that everyone likes, but we didn't want different businesses to use different tools.
+Nish Bhutani   58:12Okay.
+Amit Dwivedi   58:23Okay, because then that just takes away the leverage. Now look at GOIQ, all the information that's going there in terms of store opening is basically retailer information. So it will be very odd that we will look at competition data, but we don't know how many stores Madura is opening or how many stores you know Taswa is opening. So it is important to have it on one platform.
+Nish Bhutani   58:43Anything.
+Amit Dwivedi   58:43So, I mean, you picked up this topic, but I am not able to understand how to close it. So maybe separately, let's agree on the approach because to you know, Praveen Dean is already discussing on commercials, etcetera, assuming that everyone has given the input and aligned on this, let's.
+Nish Bhutani   58:47Okay.
+Shariq Haroon   59:00S.
+Amit Dwivedi   59:03If we want to again open up the evaluation, lets do it, but lets agree on an approach because we don't want one business to take the call independently because you also appreciate that Madura will also have a similar view and it is in the interest of all of us that we all come together and choose something that works for everyone.The It's not a matter of large format versus small format. Maybe the in store video data analysis is more relevant for Panto because of larger format store. But Madura will also open large store, right? They're not opening 1200 square feet store. So my request will be let's keep that discussion separate. Let's you know again.Look at the final evaluation that has happened, see if there is any more tool that we need to evaluate, talk to Sandeep also, and then agree on a principle that this will be the principle on which evaluation will happen. This is the time that we will take. Let's close it and then hand it over to Praveen. The reason I'm saying this is that it's been going on for 6 months. It should not have taken so long is a limited point. I'm.
+Shariq Haroon   59:56So basis.
+Amit Dwivedi   1:00:01And even after 6 months, we are opening up the evaluation again, which basically means that we should then wait for a one year, look at all the startups in the ecosystem, and then choose which one we want to go ahead with. So that's the observation I had. I shared the same thing with Shirish also, you know, Shirish and team only wanted us.
+Shariq Haroon   1:00:33Right.
+Amit Dwivedi   1:00:33But you have to ensure that everyone should be aligned versus one business being aligned because we should use it together so that the platform becomes richer with our own data versus trying to look at how many Starbucks are opening and then deciding that we should open Phantom store there. So that's the limited point.
+Shariq Haroon   1:00:49Yeah.
+Amit Dwivedi   1:00:49Sorry for breaking your flow, but I just wanted to.
+Shariq Haroon   1:00:52so on that bit, Amit, so I am not sure when you say that this is discussed with business teams, I am not sure who is engaged on paralysis front for this piece. But I have been working with Hemant and team and the pilot that we have been doing was with Hemant and team Pramod from his team was looking at this pilot.Both for aggress and recurrent, I am not sure if pango I evaluation has been done, but the way we normally go about doing an evaluation is we of course compare commercials and capabilities and look at demo, but we also do some bit of pilot to be able to understand and assess what the output looks like. So that.Pilot, at least with Agrax, has come to a close and we are looking at what the output is tomorrow again. I mean, a lot of these conversations might be happening before me or before this Agrax versus Rekha, but please got picked up with me.
+Amit Dwivedi   1:01:45No, I think we started with your email only, Sharik, your email was the starting point for these tools because time wise TCNS was already using and you guys were using Orifice and one more tool that you were evaluating. So that was the starting point of the whole evaluation. What I will do is I will ask Niharika to send that presentation to you.
+Shariq Haroon   1:02:05Yeah.
+Amit Dwivedi   1:02:05To go through it has the names of people who came on different calls. Again, as I said, its been going on for 56 months. And then lets look at it and I mean you understand the intent we have right? The objective is very clear that it should not be one business tool versus other business tool. Whatever tool is available, we should procure it at 1:00 place and let everyone use it.Because on tools there should not be any differentiation, it'll only get richer with our internal data getting used. So that's the point. I'll let that presentation be shared with you and let's start, you know, looking at, I mean, address evaluation was also done in detail. All the inputs were discussed time wise being used inside TCNS.
+Shariq Haroon   1:02:27End button. Yeah.
+Amit Dwivedi   1:02:43We didn't want to take Tangoi just because TCNS is using it, but we wanted a tool where you know, which uses which gets used across the entire A B fashion and also is something that is seen as good, robust, and you know, with decent level of accuracy from a data point of view. So I will get that presentation shared with you, go through it, and then let.Let's discuss on the next steps, okay?
+Shariq Haroon   1:03:07Sure, okay.Yeah.
+Nish Bhutani   1:03:11So I don't have the full context here. What does this tool allow you to do?
+Amit Dwivedi   1:03:15So, Anish, when we so when Lenskart came out with their IPO 2 years ago, they said that they have over the years perfected the model of opening stores because honestly, most of the online part they had anyways cracked, but they said that 6070% of the value was coming from offline now. But this offline is also not something where.
+Nish Bhutani   1:03:20Mhm.Got it. Yeah.
+Amit Dwivedi   1:03:35It is a pure 100% offline journey. lot of that offline gets aided by the customers who come to our ecommerce platform and vice versa. Also, lot of those customers actually go to stores and then come back and buy online. So in their pitch, including in their investor interaction, and this is something that investor started telling us because Tangoi had looked at.
+Nish Bhutani   1:03:44Sure.Draw.
+Amit Dwivedi   1:03:55I would say 6 years ago, 22, when we were setting up tomorrow, Tango I was looking for investment and Lenskart actually wented and invested in it. Now it is a 100% owned company by Lenskart. So they basically look at store video recordings, the CCTV recording and basically give insights around the customer demographic profile, the store layout, the engagement, dwell time, etcetera.
+Nish Bhutani   1:04:04Got it.Mhm.
+Amit Dwivedi   1:04:19And there's lot of analytics now you put a I on top of it, so I mean so much more information is available now. When I tried put pushing it to ABLBL system, they said that our stores are only 1200 square feet, there is not enough space for people to move around. But from that perspective, lens card stores are also not that big. But we took that as one feedback. When we started looking at other brands in the ABFRL portfolio, they look like a clear case of.
+Nish Bhutani   1:04:23Mhm.Yeah.
+Amit Dwivedi   1:04:43Why shouldn't we use technology to optimise the store layout better and get more out of it? So, some of the things that Lenskar does is that they launch their new product, create a kaos, put their product there, and they start tracking how many customers actually engage with that space, and then they look correlated with the sales data of the products displayed there. so.
+Nish Bhutani   1:04:48Understood, yeah.Yeah.
+Amit Dwivedi   1:05:05lot of things are slightly advanced from a from a retail perspective because they obviously didn't know retail, so they were also trying to figure out.
+Nish Bhutani   1:05:05sure.And then you they use they use and they use vision for this also, like they look at the CCTV and do analysis based on that as well. Okay, because yeah.
+Amit Dwivedi   1:05:18Yes, all this data is CCTV data. The second tool is that they are saying that there are 3000 stores across the country as well as I think their own day stores in Japan and Singapore etcetera combined we are 3000 stores in a BLBL system now the next level of stores.There are 2 issues with it. One is how will you find the right market where you will open it and the right size? And second, the probability of those stores being successful. One way of looking at expansion is that money is available. Lets go out and spray and lets open stores and then we will pray whether customers will come there. They are saying that I don't want to do it. I will basically use the micro market catchment data.
+Nish Bhutani   1:05:39Mm.Yeah.no.
+Amit Dwivedi   1:06:00Including the sales data wherever I find of the competition in the vicinity, look at the demographic profile and see what is the store potential here. And I mean when and this particular tool is GUIQ, there are multiple other tools that came in when GUIQ became successful, but they are basically saying that Lenskart uses and I checked this with the Lenskart.
+Nish Bhutani   1:06:08Yeah.sure.
+Amit Dwivedi   1:06:21Team also had have some folks from a college there. So they were basically telling me that when a because the layout is standardised, so when it doesn't touch a certain revenue milestone basis this model. So let us say the model tells you have to make ₹8,00,000 a month to break even.
+Nish Bhutani   1:06:25Sure.Yeah.yeah.
+Amit Dwivedi   1:06:40And if the projected sale is 6,00,000, they will have lower probability of opening that store and they would want to see if more stores of 8,00,000 plus are available so that they can. So they also optimising their store opening so that the accuracy or the hit rate goes up. So we were saying that even for our network that's relevant because most of our business is offline.
+Nish Bhutani   1:06:46Hello.Yeah.
+Amit Dwivedi   1:07:01Might as well get it procured centrally and let everyone use it. The other good thing is that these tool without naming them, these tools also use the competition sales data, performance data, etcetera. So it becomes even more accurate to be able to predict the potential of a particular market. So that was the thought process.
+Nish Bhutani   1:07:01Yeah.Mhm.Sure.Make sense, understood. I would in fact add one more step to this, which is rather than launching a full store, one can experiment with pop ups and things like that and get real kind of data.
+Amit Dwivedi   1:07:30With pop ups, so they have that approach also in some of the spaces where the market is not ready and when they don't want to invest the capex, they actually do a mock store or a pop up, as you're saying, and looking at the performance again, use that data to correlate, then they decide to open stores.
+Nish Bhutani   1:07:37Mhm.Yeah.Correct.They probably look at our online data also, right? Online deliveries, online browsing, all that. Yeah.
+Amit Dwivedi   1:07:53Yes, they do, but online data honestly is available with us also, but maybe it is not as accurate. And let us say if you have to, yeah, if you want to pinpoint a particular location, let us say GK mein side mein kholna hai, GK ke alawa koi aur market mein kholna hai, even that level of analysis is possible.
+Nish Bhutani   1:07:59No, but to put it into the no, just to put it into the analysis, yeah.Yeah, this is super important.
+Amit Dwivedi   1:08:15Yeah, Shari.
+Nish Bhutani   1:08:16Sharif at a point.
+Shariq Haroon   1:08:17Yeah, Amit, if I am just looking at the document which Niharika just said, the document between Tangoy and Egress, it is ranking egress, but I saw the some other document. I am not sure, but at least in the document, it is ranking egress better than Tangoy.
+Amit Dwivedi   1:08:35So fair enough, lets go ahead with aggressive. Whatever it is, if lets say the view is final HRE, if you want to study it further, you can take more time, but just come back and tell us that this is the final from your side as well because Praveen's team has already started engaging on commercials, etcetera. I mean, you guys want to do pilot.
+Nish Bhutani   1:08:37Sir.
+Amit Dwivedi   1:08:56Please go ahead and do it. The only thing is that our only objective is that everyone should be using the same tools versus one business. That's the only objective we have. And if you procure centrally, that cost goes away, you're also able to get leverage on data plus also able to get leverage on commercials.
+Shariq Haroon   1:09:13Yeah, okay, absolutely, absolutely. Anyways, the pilot has come to a close. I'll share the findings and we can quickly move ahead.
+Amit Dwivedi   1:09:19Okay, and on the GOIK, ESRI thing that's sorted, right?
+Shariq Haroon   1:09:25That I don't get into. That's not, I think, yeah, I am not involved there.
+Amit Dwivedi   1:09:26Okay, that's with Hemanth. that's with Hemanth.
+Shariq Haroon   1:09:30That would be Shirishi scheme. We are rightly saying that there would be Shirishi scheme. I'm not involved there.
+Amit Dwivedi   1:09:35Okay, great, great, great, great. Thank you.
+Nish Bhutani   1:09:45Sure, I think we are done for today.
+Varun Rajwade   1:09:51Yeah, I think Shariq and nothing else. There are 2 projects.
+Amit Dwivedi   1:09:52Yeah.
+Nish Bhutani   1:09:53Yeah.
+Amit Dwivedi   1:09:54Altamaz is not in.
+Shariq Haroon   1:09:54Yeah, nothing else. Yes, Varun. So, tomorrow, like you said, they would be visiting Vi.
+Varun Rajwade   1:09:58And once Sandeep is back, then we'll look at the tarif ID one. Yeah.
+Shariq Haroon   1:10:03Yes.
+Nish Bhutani   1:10:05Niharika, from these meetings, you if you can send out the next steps for people, that'll be good, the follow ups basically. Yeah, okay, all okay, chalo. So Varun, we'll figure out the in person planning meeting and then the steer for meeting, those 2 things are with you, right? Ji.
+Parasa Neeharika   1:10:11Yeah, sure, I'll do.
+Varun Rajwade   1:10:15Thank you.
+Amit Dwivedi   1:10:15Okay.
+Varun Rajwade   1:10:21Yeah.
+Amit Dwivedi   1:10:24Thank you.
+Nish Bhutani   1:10:24Okay, see you. Bye.
+Varun Rajwade   1:10:24Alright.
+Shariq Haroon   1:10:24Okay, thank you.
+Parasa Neeharika stopped transcription

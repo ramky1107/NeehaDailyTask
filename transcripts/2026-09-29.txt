@@ -1,0 +1,154 @@
+﻿Project Next Horizon Weekly Status Review Meeting-20260929_053232UTC-Meeting Recording
+September 29, 2026, 5:32AM
+31m 33s
+Parasa Neeharika   0:53Aeshverya.
+Shariq Haroon   0:57Hey, Handa.
+Parasa Neeharika   1:02Shariq, just a moment. I'm just going to Varun's cabin, if wants to join here.
+Shariq Haroon   1:13Ohh, shut the sun, Neeharika.
+Parasa Neeharika   1:44I'm just doing that; I'll send it after this call, yeah.A big Pandey.Enjoy, only Shariq Sasidharan.Nish, the item needs to be designed. Nish.I'm sure multiple times is is done with some here. I invention is today.OK, I think think our way does not join. I don't know about others, like I didn't take in.Rupal Gandhi.My Malavika.The.
+Malavika Goli   5:35Hey, hi, Neeharika, I Shariq.
+Parasa Neeharika   5:39Sir.
+Shariq Haroon   5:47Hi, guys.
+Parasa Neeharika   5:53Just a minute, one.Yeah, we can start.Sorry, do you want to?
+Shariq Haroon   6:43Hey, sure, I can go ahead. So I am actually at the Bangalore location doing testing for RFID sales checkout. It goes live.
+Parasa Neeharika   6:45Yeah.Okay.
+Shariq Haroon   6:55In about a week's time, uh, and we will...I mean, it will be exposed to users first, users have been SO users for doing Dwivedi. And then we will, of course, have it for the Kurla store. And there is another store that is going live, which is Jaipur store.
+Parasa Neeharika   7:14Which one? Which one?
+Shariq Haroon   7:14Um, but I think we are okay, Jaipur Pacific Mall.
+Parasa Neeharika   7:18Pushparaj.OK, has Dobal validated the the the UAT?
+Shariq Haroon   7:28Gopal, you mean?
+Parasa Neeharika   7:29Hey, Ashutosh, Ashutosh Dobal.
+Shariq Haroon   7:32Yeah, Ashutosh, his team is here with me. All of us are in that pantaloons office.
+Parasa Neeharika   7:38Okay.
+Shariq Haroon   7:42So, Ashutosh his team and the team and...
+Parasa Neeharika   7:43Connecting.
+Shariq Haroon   7:48So I also is there, all of us are there in office.Doing testing today, today, and tomorrow, full day.
+Parasa Neeharika   7:54So.Once you have gone through it, right, just run me through your test cases. What all have you tested? What have you not tested? Once you are at a reasonable space, right? If there are any gaps, then I'll just let you know for you to further test. You can send it out to me today once you are a little more confident.
+Shariq Haroon   7:58Hey, Cortana.It was.Singh.
+Parasa Neeharika   8:18I'll take a look at it tonight or tomorrow morning in case there are any gaps, I'll let you know. Also, if you can extend one to Neeharika, I've also asked her to test, so that we have two pairs of eyes from this project to have validated the workings.
+Shariq Haroon   8:20Yeah.Okay.The testing would have to be done in person. That's why we are here, because it's hardware linked. So the test cases can be reviewed remotely, but the testing has to be done in person.
+Parasa Neeharika   8:32The.Ohh.Sure, sir, so fine, at least send that out.
+Shariq Haroon   8:47And.
+Parasa Neeharika   8:48But that's a good update. I think that's super progress compared to, given this project we started so late and we are already at this stage, so is very.Is the first of many.Many rollouts around this.Good, so that's one. What else are your other update?
+Shariq Haroon   9:09Okay.And yeah, on the on the RFID smart trial room, we have now gotten data also, which I which I was discussing with Neeharika and Shariq with Malavika in last update, last week's update, the smart trial room data, and we have been able to now link it with EPCs.
+Parasa Neeharika   9:19So.Yeah.
+Shariq Haroon   9:33So.
+Parasa Neeharika   9:34So, she showed yesterday there's a small connect with Nish, because Nish is out today, tomorrow, so we had did a connect yesterday, so I went through it, I've given some feedback to Neeharika. I share with you, Shariq, after this call immediately. That's more presentation feedback, that's not core data feedback, but just from a steer core perspective, how should we present?
+Shariq Haroon   9:36Okay.Okay.Okay.But.Mhm.Okay.Yes, yes, yes, absolutely.
+Parasa Neeharika   10:09How we make maximum use of them?
+Shariq Haroon   10:12Yep.
+Parasa Neeharika   10:15Okay, those were two. Any other that you had?
+Shariq Haroon   10:19No, no, well, I think the smart trial room was split into two, which was the customers facing and the product facing, so both of them are captured there, so three in total.
+Parasa Neeharika   10:29So, tell me one thing: this customer facing task smart trial room, where their basic kiosk was coming in, just one second.
+Shariq Haroon   10:30Great.In.Dighe.
+Parasa Neeharika   10:41Yes.Sorry, Shivam, so, uh, uh, where were we? Uh, the the smart room, we we also had the consumer facing tech, which was that partners tech, has that also rolled out?
+Shariq Haroon   11:31Yes.So, that smart tile, yeah.The partners tech has been as in the interactive tech, the customers interactive. No, that has not been rolled out yet. It is just a data part that we are looking at. That is to be rolled out.
+Parasa Neeharika   11:51Okay.Okay, that's fine. So I'm, when is that smart, the partner tech rolling out? Because I'm wondering, should we even spend time with that partner tech or should we now, after this RFID, I don't know if you have budgets to directly move into that smart trial room interface tech.
+Shariq Haroon   12:01Okay.Play me.
+Parasa Neeharika   12:16Because other budget.
+Shariq Haroon   12:20Yeah, absolutely. And I agree with what you're saying, Varun, because I also have the same view. We should spend less time on the partner tech and spend more time in developing it, because eventually we have to develop it, so no point in...And we have now come to a point wherein we want, we understand what we want. So it's just more time efficient that we start developing and start focusing our energies there. Yeah.
+Parasa Neeharika   12:34Exactly.Exactly, and now we have all the building blocks. Only difference will be you will have slight different UIUX. You'll have to generate that QR, and then the rest is like a kiosk order only, no, so.
+Shariq Haroon   12:50Okay.Yes, yep, yep.Yes.
+Parasa Neeharika   12:56So we should be able to maybe, I think we had a phase two, phase three, all that. Let's close phase two at least. But by let's say November mid, we should have November mid-November end, we should get into this smart trial room also.But you said I thought any of it.
+Shariq Haroon   13:13Sure, absolutely. Okay, okay.
+Parasa Neeharika   13:17If you have the budget, if you don't, then...
+Shariq Haroon   13:21Yeah, no, so we have the budget. When I discussed it with Sandeep, we I discussed both of both the things for the RFID self-checkout and for smart driver. So, we have the budget all put together, and because this is a definite number now, RFID self-checkout, so the total budget minus the definite number also gives us a definite number, so...We can change that, you can use that.
+Parasa Neeharika   13:42Yeah, then we shouldn't waste time with this partner tech verify the names, correct?
+Shariq Haroon   13:46Yes, yes, yes, yeah, yeah, of course.
+Parasa Neeharika   13:48Mhm.
+Shariq Haroon   13:50I have the same view.
+Parasa Neeharika   13:51OK, OK, that's so just while you're in Bangalore, I just explore on phase two, may of course you do your testing, but also explore on phase two phase phase two timelines, because that's definite and phase three also align.
+Shariq Haroon   14:00Sigma Pranit.Why should we?
+Parasa Neeharika   14:09Now, and then we move into that only fulfilment - that should be probably a step 4, phase four type.
+Shariq Haroon   14:13Yes.Yeah, so Varun, I was thinking because...And I know Sooraj will ask these questions to the invest for the it was very clear. We were very easily able to craft a business case because each RFID self checkout would mean that those many lesser number of staff doing billing on behalf of customer. It was a very.
+Parasa Neeharika   14:29Ch.
+Shariq Haroon   14:42easy business case to, yeah, clear case, and that's why commercial approval came in very quickly. For the smart drive room, I was thinking some kind of business uplift number would have to be provided, and I was thinking that if we include the size missing, missing size wherein the customer can scan and continue their journey on mobile app and place a knowledge in order.
+Parasa Neeharika   14:42In your case, yeah.
+Shariq Haroon   15:05If we retain that, then our business case becomes stronger in terms of justifying an ROI.
+Parasa Neeharika   15:10Yeah.Yeah, yeah, so that's your, and also I think what you could make a case is you'll have to have a connect with Hemant saying that during peak peak sale periods, peak festive periods, those sort of things, what is your, what's an estimate of?
+Shariq Haroon   15:15Bharat.I like to play the song.Play, play, play, play.Thank you.
+Parasa Neeharika   15:32For queue abandon.Right, because if you have tried on, and then you don't want to, first of all, you have stood in the queue for the trial, then you have a queue for the billing customers, right, so that you're basically that's your upside.It's actually a peak R upside as opposed to any other upside, right? See, one is sizes and the 2nd is a conversion upside because of peak R Q fatigue.
+Shariq Haroon   16:08Yes, yes, but the QP car Q fatigue, how do we how do we solve for that?
+Parasa Neeharika   16:09Right, and the incremental, incremental, I think just that's what assess with Hemantha, what will be your incremental, because now that you have done that the main kiosk right, this is just about detecting and showing and allowing for workflows like.
+Shariq Haroon   16:14Open.How do you?I know.
+Parasa Neeharika   16:29get me the right size and then the checkout is as it is riding on the back end. So it's literally 3-4 screens. I don't expect it to be more than a few lakhs. Max, right? So I don't expect like a Banker Bada business case to be built here.
+Shariq Haroon   16:41Okay, okay.Okay, okay. And I think over here, maybe it will not talk to boss at all. The RFID smart loop journey, the QR journey.
+Parasa Neeharika   16:50Mm.No, eventually in the order goes, it goes into pause.
+Shariq Haroon   16:58The eventually, I think, no additional development or no additional new interfaces need to be set up with boss, so that side culture will not, yeah, that side culture also will not come.
+Parasa Neeharika   17:03Nothing in pause, nothing in pause. In fact, the only thing you should create in pause from a tracking perspective is create a flag which is saying that this is a trial room model, right? So tomorrow when you're logging, you know how many trial room orders have happened.
+Shariq Haroon   17:19Okay, okay, okay.
+Parasa Neeharika   17:22Right, that's the only variable change that you have to do. Rest, there's no change in pause. Even this should be a variable change. There should be, it's just a value change as opposed to any tech development change.front end CX exposure, it should be in very early digit lags, if at all.
+Shariq Haroon   17:36Understood, yes.Sir, OK, OK, I'll talk to him. I'll talk to him.
+Parasa Neeharika   17:50Mm.
+Shariq Haroon   17:528.
+Parasa Neeharika   17:52Okay, cool. Malavika, at your end.
+Malavika Goli   17:56Yeah, hi.
+Parasa Neeharika   17:57Thanks.
+Shariq Haroon   17:57When I drop off, I'll move to the testing group and drop off.
+Malavika Goli   18:05Varun, on the Wi-Fi bit, we had a discussion with Praveen last week. Praveen and the Vodafone guys. Praveen suggested the Vodafone guys to give it for free, but obviously they have...
+Parasa Neeharika   18:20Mm.
+Malavika Goli   18:23a lot of hardware cost also. So what they have suggested is that they will audit the store.And uh, see what's already there and what we can leverage from the existing items. Uh, is Hufti me Horay Varun Bo store visit.
+Parasa Neeharika   18:37Doctor Rane.No, so do one thing, give Neeharika the number. Neeharika, you should chase them and go with them to the store. In Mumbai, there is a push. Malavika is in Bangalore right at the end of the day.
+Malavika Goli   18:59I'll add her to the mail chain.
+Parasa Neeharika   18:59Yeah.Yeah, and between your two, just push and try and get this done next two days, because second, Friday, so again, that will be fresh.
+Malavika Goli   19:12The logo.Yeah, yeah, take it. That's one.Oh, on the um...EPC to EN bit, we have, it is in UATSIT, scheduled for the 4th deployment, sorry, 5th or 6th deployment, I think 6th is Tuesday, 6th deployment. The team has also figured out a way to take the customers to the BDP, so if it's working well, we'll push it along.
+Parasa Neeharika   19:40Yeah.
+Malavika Goli   19:46Instead of the PL, it will go take the user to the PDP, so that I think if you're able to pull it off, we'll take it along with the same deployment cycle. Worst case, it will get pushed to the next one on the notification that goes to the customer last to last week, Nish has suggested we do a AB Varun.on the notifications to understand and attribute if the customers coming to the store actually are coming because of the notification or how much is this notification contributing towards the purchase and store walk-ins right.So there's an AB he's asked us to do. So we were able to complete that setup by last week, Friday. So since Friday, Saturday, Sunday, Monday, four days, the AB is on. Don't see any data as such. We had actually 0 customers getting the notifications related to cart and wish list because that instance was not working.Only nearby store instance was working, but again, the instance is very low. We have about 200, so we'll give it another week or so to be able to understand and get more relevant data out of that.
+Parasa Neeharika   21:11This is a data point.
+Malavika Goli   21:14Data points, because Neeharika has the access now, so she usually gives Nisha, yeah.
+Parasa Neeharika   21:22So, Malavika, currently in the board that Lakshmi shared, I only have access to in-store funnel. Okay, I'll do one thing. I'll just call you, Neeharika, just call Malavika, and then, Malavika, can you just cheque if Lakshmi is available? I want us to close this.
+Malavika Goli   21:26Yeah.Yeah.Mhm.This is.So, okay, so Neeharika, there are two dashboards that she has given you access to. One dashboard she gave you last week access to was for the funnel. Before that, about 3 weeks back, she has also given you access to the dashboard that is created for the notification updates. We can quickly connect and take you through the both in case it's getting confusing for you.
+Parasa Neeharika   21:53Correct.Yeah.Okay.
+Malavika Goli   22:09Um, now we'll clarify, um, so let's connect with it on.
+Parasa Neeharika   22:11Yes.Babe, please, Malavika, close the if.
+Malavika Goli   22:17Close here, Varun. Varun, only funnel last week or last week I think we had given. I think that's where it's getting confusing. No problem. Sort it out.
+Parasa Neeharika   22:18Whatever taken on this.
+Malavika Goli   22:31Ohh, and...
+Parasa Neeharika   22:32Good.
+Malavika Goli   22:35That's all if I.
+Parasa Neeharika   22:36The communications, there's a stunning amount of interest coming in from marketing to do communications is what I've been told.
+Malavika Goli   22:48So Lakshmi has given them the access there, but there's a new person who's joined. I can't recall the name, but then there's a new person who's joined and Jigisha also mentioned that that person will now be taking over the communication. So Lakshmi is given a quick walkthrough on how to do the setup. They can take it.
+Parasa Neeharika   22:48Yeah.
+Malavika Goli   23:07From there, Varun.
+Parasa Neeharika   23:08So, how many communications, Neeharika?Jigisha created the list of notifications and she said she has shared it with Malavika. So, Malavika, do you have that list of notifications?
+Malavika Goli   23:26Yes, there is a mail going on.
+Parasa Neeharika   23:28Just send it to Lakshmi and Neeharika. Project perspective I just wanted moved on.
+Malavika Goli   23:39Uh, you are also there in that mail chain. Yeah, record forward you again.
+Parasa Neeharika   23:45Malavika, I'll just share my screen one second.
+Malavika Goli   23:48Hey.
+Parasa Neeharika   23:50You.So, here in the cloud tab.So this is the express checkout funnel, right? And this, there is one with session.
+Malavika Goli   24:04Hey, hey.Hey.
+Parasa Neeharika   24:11So these two only I have.
+Malavika Goli   24:15Now there's another dashboard link. Let me get the link for you.
+Parasa Neeharika   24:21Hey, could I just set up a call, Nagaraj? Come on.
+Malavika Goli   24:24Yeah, yeah, yeah.Yeah, obviously we'll set up the call, but I'll also share the link before that so that she's aware of it.
+Parasa Neeharika   24:31Yeah, yeah.Two.Okay.Okay, anything else?
+Malavika Goli   24:42I've also shared the deck, I mean the...Mm.The, the, the communication with Neeharika Akriti.
+Parasa Neeharika   24:52Yeah.
+Malavika Goli   24:58Share the link with you on the Team chat.
+Parasa Neeharika   25:01OK for the board, Aasu.
+Malavika Goli   25:02For the PDF of the the communication for, yeah.
+Parasa Neeharika   25:07Yeah.So, now we need to follow up with Jigisha only, right, Malavika? You get this executed, at least the first lot we get to execute it. I forget about who has to do it later on. It's embarrassing for me, but...This keeps running into this road block, so between you and Lakshmi, we will just get one thing.OK, still call out the lack of support, but...Okay.OK, but this close this cost cost projections, so Malavika, this data, so I will get in touch with the Usha Kiran. So, yesterday we, so basically we want to.
+Malavika Goli   26:00He had shared the data. No, the link has the data that I had shared, so I was not in yesterday. That's why I added him in case you have any queries. The link that I've shared, is that not sufficient? Are you looking for more insights?
+Parasa Neeharika   26:14So basically I'll share you that link. So basically what I'm looking for is.
+Malavika Goli   26:181.Mhm.
+Parasa Neeharika   26:21So, we we wanted to present it to the to the steer code, saying that currently these many people are working on these many people are working for the PANTALOONSPFXTEAMIND for app and for install install. I don't know whether we have that kind of split also, maybe you can just...
+Malavika Goli   26:35Thank you.
+Parasa Neeharika   26:40Tell me.
+Malavika Goli   26:41Yeah, we do. That's latest. Yeah.
+Parasa Neeharika   26:43Yeah, even I told to Nish, I don't know if we have that level of, because if it's a, if somewhere it's like Google or Microsoft, they might have specific teams for checkout and all, but we might not be having. So he was asking like, how many people are working on specifically checkout?Or, in-store, in-store mode, so, so that, so we won't have that because it's common bandwidth, but you can assume store checkout has been less than five, 10% of this year's, so basically, that only, we discussed max 10% capacity.
+Malavika Goli   27:04Okay.We don't have specific.
+Parasa Neeharika   27:24Yeah, or five both already 5X the sale of Brent.com, right? Yeah, so for that only, when we are showing that five weeks sale, the 50 crores and two 80 crores, whichever we have discussed, the 7% of the 2000, so for that to justify, we should also have the equivalent numbers, like how many.Features are being released in each of these, and also more than features, you can say just effort, effort, 10%, okay, right? Or the way to do it is, see, this kiosk tech is a capex project, right?Right, in the OPEX, there is an annual networking cost, which we call as networking cost, which is the OPEX cost of eComtech.So, okay, Malavika, you should have a session with Kumar on this and Neeharika, allocated amount, right? That, in fact, I only I can only give it in the one.
+Malavika Goli   28:21Okay.
+Parasa Neeharika   28:34And, in all this.So, Panto is allocated amount, which is...Excore a year, right? Uskar, 90% is what is?Specific to the app, and then 10% is specific to the in store of checkout, in store of checkout, and move on, right, rather than making it extra scientific.To go extra scientific, both the time, big shift sort of thing.That is where, like, Malavika shared with a list of features that were released for the last three months, but again, obviously, I am with you, Malavika. You might not have that split, but the thing the reason why I have been asking is because Nish wanted it at that, so what you should say is 12.68 crore is the annual budget.Uh, all, it's probably not, it's our budget, so good.In.Great secret, so you'll have 12.68 as your annual budget given to bank loans, right? On e-com, right? Of which brand.com is 6.6 crore, and this is common, right? Common is all your...Sterling order management system, all that sort of stuff, right? Now, from a store tech perspective, what you could simply take is, or now you take...You just take the 90% of this and say 90% is what is gone into ECOM, 10% is gone into Storefix. Move on. OK, say, or the other scientific, then we can do it.Right, because, in that case, I, at least, that's not me. I, I see.Malavika, then I think we can conclude.
+Malavika Goli   31:06Yeah.
+Parasa Neeharika   31:07PE.
+Malavika Goli   31:09Let me know if you need anything on that.
+Parasa Neeharika   31:12So now that Varun only told to mention it as the 10% of the budget, I'll just do that and see if still Nish asks for any more data, then maybe I'll check.
+Malavika Goli   31:17Yeah.Pink.Okay.
+Parasa Neeharika   31:25Yeah.
+Malavika Goli   31:27Thanks.
+Parasa Neeharika   31:28Okay, thank you.
+Malavika Goli   31:29Dighe.
+Parasa Neeharika   31:30Rane.
+Parasa Neeharika stopped transcription
