@@ -33,6 +33,61 @@
     !r || (Array.isArray(r) && !r.length)
       ? `<span class="muted">${none}</span>`
       : Array.isArray(r) ? `<ul>${r.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : esc(r);
+  const firstLine = (x) => (Array.isArray(x) ? x[0] : x) || "";
+
+  // ---------- result charts (plain HTML/CSS; one hue per series, values labelled) ----------
+  const num = (v) => (typeof v === "number" ? v.toLocaleString("en-IN") : esc(v));
+  const shown = (x, unit = "") => esc(x.display ?? `${num(x.value)}${unit}`);
+  const vizTitle = (v) => (v.title ? `<div class="viz-title">${esc(v.title)}</div>` : "");
+  const VIZ = {
+    stats: (v) =>
+      `<div class="viz-stats">${v.items
+        .map((s) => `<div class="viz-stat"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div>${s.note ? `<div class="n">${esc(s.note)}</div>` : ""}</div>`)
+        .join("")}</div>`,
+    bars: (v) => {
+      const max = Math.max(...v.items.map((x) => x.value));
+      return `${vizTitle(v)}<div class="viz-bars">${v.items
+        .map((x) => `<div class="viz-row" title="${esc(x.label)}: ${shown(x, v.unit)}"><div class="viz-label">${esc(x.label)}</div>
+          <div class="viz-track"><span class="viz-fill s1" style="width:${(x.value / max) * 100}%"></span></div><div class="viz-val">${shown(x, v.unit)}</div></div>`)
+        .join("")}</div>`;
+    },
+    grouped: (v) => {
+      const max = Math.max(...v.items.flatMap((x) => x.values));
+      const legend = v.series.map((s, i) => `<span><i class="s${i + 1}"></i>${esc(s)}</span>`).join("");
+      return `${vizTitle(v)}<div class="legend viz-legend">${legend}</div><div class="viz-bars">${v.items
+        .map((x) => `<div class="viz-group"><div class="viz-label">${esc(x.label)}</div>${x.values
+          .map((val, i) => `<div class="viz-row" title="${esc(x.label)} · ${esc(v.series[i])}: ${num(val)}${esc(v.unit || "")}">
+            <div class="viz-track"><span class="viz-fill s${i + 1}" style="width:${(val / max) * 100}%"></span></div><div class="viz-val">${num(val)}${esc(v.unit || "")}</div></div>`)
+          .join("")}</div>`)
+        .join("")}</div>`;
+    },
+    funnel: (v) => {
+      const top = v.steps[0].value;
+      return `${vizTitle(v)}<div class="viz-bars">${v.steps
+        .map((x, i) => {
+          const conv = i ? `<div class="muted small">${((x.value / v.steps[i - 1].value) * 100).toFixed(1)}% of step above</div>` : "";
+          return `<div class="viz-row" title="${esc(x.label)}: ${shown(x)}"><div class="viz-label">${esc(x.label)}${conv}</div>
+            <div class="viz-track"><span class="viz-fill s1" style="width:${Math.max((x.value / top) * 100, 1.5)}%"></span></div><div class="viz-val">${shown(x)}</div></div>`;
+        })
+        .join("")}</div>`;
+    },
+    trend: (v) => {
+      const unit = esc(v.unit || "");
+      const targets = v.targets || [];
+      const max = Math.max(...v.points.map((p) => p.value), ...targets.map((t) => t.value)) * 1.12;
+      const lines = targets
+        .map((t) => `<div class="viz-target" style="bottom:${(t.value / max) * 100}%"><span>${esc(t.label)} ${num(t.value)}${unit}</span></div>`)
+        .join("");
+      const cols = v.points
+        .map((p) => `<div class="viz-col" title="${esc(p.label)}: ${num(p.value)}${unit}"><div class="viz-colval" style="bottom:${(p.value / max) * 100}%">${num(p.value)}${unit}</div>
+          <span class="viz-fill s1" style="height:${(p.value / max) * 100}%"></span></div>`)
+        .join("");
+      return `${vizTitle(v)}<div class="viz-trend"><div class="viz-plot">${lines}${cols}</div>
+        <div class="viz-xlabels">${v.points.map((p) => `<span>${esc(p.label)}</span>`).join("")}</div></div>`;
+    },
+  };
+  const vizHtml = (list) => (list || []).map((v) => `<div class="viz">${(VIZ[v.type] || (() => ""))(v)}</div>`).join("");
+  const hasResults = (e) => (e.viz && e.viz.length) || (Array.isArray(e.results) ? e.results.length : e.results);
 
   // "Overdue" is derived so the data file never goes stale on its own.
   const actStatus = (a) => (a.status !== "Completed" && a.dueDate && a.dueDate < today ? "Overdue" : a.status);
@@ -81,7 +136,7 @@
       <div class="grid kpis">
         ${kpi("Experiments", exps.length, `${Object.keys(groupBy(exps, (e) => e.phase)).length} phases`)}
         ${kpi(`In ${esc(D.meta.currentPhase)}`, current.length, "current phase")}
-        ${kpi("Pilot stores", D.stores.length, "Pantaloons")}
+        ${kpi("Pilot stores", D.stores.filter((s) => s.pilot).length, "Pantaloons")}
         ${kpi("Team members", D.team.length)}
         ${kpi("Actionables", acts.length, `${done} completed`)}
         ${kpi("Pending", pending.length, "open + in progress")}
@@ -101,7 +156,7 @@
           ${
             attention.length
               ? `<ul class="list">${attention
-                  .map((e) => `<li><span><b>${esc(e.name)}</b><br><span class="muted small">${esc(e.statusDetail)}</span></span>${pill(e.status)}</li>`)
+                  .map((e) => `<li><span><b>${esc(e.name)}</b><br><span class="muted small">${esc(firstLine(e.statusDetail))}</span></span>${pill(e.status)}</li>`)
                   .join("")}</ul>`
               : `<div class="empty">No experiments flagged.</div>`
           }
@@ -159,17 +214,17 @@
             ${e.linkedTo?.length ? `<dt>Linked to</dt><dd>${e.linkedTo.map((id) => esc(expName(id))).join(", ")}</dd>` : ""}
           </dl>
           <div class="section-label">Current status</div>
-          <div class="status-box">${esc(e.statusDetail || "—")}</div>
+          <div class="status-box">${resultsHtml(e.statusDetail, "No update yet")}</div>
           <div class="section-label">Metrics measured</div>
           ${e.metrics.length ? `<ul>${e.metrics.map((m) => `<li>${esc(m)}</li>`).join("")}</ul>` : `<div class="empty">Not defined yet</div>`}
           <div class="section-label">Pending actionables (${open.length})</div>
           ${
             open.length
-              ? `<ul>${open.map((a) => `<li>${esc(a.title)} <span class="muted small">— ${esc(a.owner)}, ${fmtDate(a.dueDate)}</span> ${pill(actStatus(a))}</li>`).join("")}</ul>`
+              ? `<ul>${open.map((a) => `<li>${esc(a.title)} <span class="muted small">— ${esc(a.owner)}${a.dueDate ? `, ${fmtDate(a.dueDate)}` : ""}</span> ${pill(actStatus(a))}</li>`).join("")}</ul>`
               : `<div class="empty">None</div>`
           }
           <div class="section-label">Results</div>
-          <div>${resultsHtml(e.results, "No results yet")}</div>
+          ${hasResults(e) ? `${vizHtml(e.viz)}<div class="small">${resultsHtml(e.results, "")}</div>` : `<div class="empty">No results yet</div>`}
         </div>`;
     };
 
@@ -247,7 +302,8 @@
   }
 
   function results() {
-    const withResults = D.experiments.filter((e) => e.results);
+    const withResults = D.experiments.filter(hasResults);
+    const awaiting = D.experiments.filter((e) => !hasResults(e));
     const completed = D.experiments.filter((e) => e.status === "Completed");
     return `
       <h1>Results</h1>
@@ -255,20 +311,26 @@
       <div class="grid kpis">
         <div class="card kpi"><div class="label">Completed</div><div class="value">${completed.length}</div></div>
         <div class="card kpi"><div class="label">With results</div><div class="value">${withResults.length}</div></div>
-        <div class="card kpi"><div class="label">Awaiting results</div><div class="value">${D.experiments.length - withResults.length}</div></div>
+        <div class="card kpi"><div class="label">Awaiting results</div><div class="value">${awaiting.length}</div></div>
       </div>
-      <div class="card"><div class="table-wrap"><table>
-        <thead><tr><th>Experiment</th><th>Phase</th><th>Owner</th><th>Status</th><th>Metrics</th><th>Results</th></tr></thead>
-        <tbody>${D.experiments
-          .map(
-            (e) => `<tr>
-              <td><b>${esc(e.name)}</b><div class="muted small">${esc(e.id)}</div></td>
-              <td>${esc(e.phase)}</td><td>${esc(e.owner)}</td><td>${pill(e.status)}</td>
-              <td class="small">${e.metrics.map(esc).join("<br>")}</td>
-              <td>${resultsHtml(e.results, "—")}</td></tr>`
-          )
-          .join("")}</tbody>
-      </table></div></div>`;
+      <div class="grid exp-grid">${withResults
+        .map(
+          (e) => `<div class="card exp">
+            <div class="exp-head">
+              <div><div class="exp-id">${esc(e.id)} · ${esc(e.phase)} · ${esc(e.owner)}</div><h3>${esc(e.name)}</h3></div>
+              ${pill(e.status)}
+            </div>
+            ${vizHtml(e.viz)}
+            ${(Array.isArray(e.results) ? e.results.length : e.results) ? `<div class="section-label">Details</div><div class="small">${resultsHtml(e.results, "")}</div>` : ""}
+          </div>`
+        )
+        .join("")}</div>
+      <div class="card" style="margin-top:16px">
+        <h2>Awaiting results (${awaiting.length})</h2>
+        <ul class="list">${awaiting
+          .map((e) => `<li><span><b>${esc(e.name)}</b> <span class="muted small">${esc(e.id)} · ${esc(e.owner)}</span></span>${pill(e.status)}</li>`)
+          .join("")}</ul>
+      </div>`;
   }
 
   function meetings() {

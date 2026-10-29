@@ -33,10 +33,10 @@ window.DASHBOARD_DATA = {
   ],
 
   stores: [
-    { id: "RCITY", name: "Pantaloons — R City Mall, Mumbai" },
-    { id: "INDI", name: "Pantaloons — Indiranagar, Bengaluru" },
-    { id: "VIV", name: "Pantaloons — Viviana Mall, Thane" },
-    { id: "KURLA", name: "Pantaloons — Phoenix Marketcity Kurla, Mumbai" },
+    { id: "RCITY", name: "Pantaloons — R City Mall, Mumbai", pilot: true },
+    { id: "INDI", name: "Pantaloons — Indiranagar, Bengaluru", pilot: true },
+    { id: "VIV", name: "Pantaloons — Viviana Mall, Thane", pilot: true },
+    { id: "KURLA", name: "Pantaloons — Phoenix Marketcity Kurla, Mumbai", pilot: true },
     { id: "JPR", name: "Pantaloons — Pacific Mall, Jaipur" },
     { id: "JPN", name: "Pantaloons — JP Nagar, Bengaluru" },
     { id: "NET", name: "Network (multiple stores)" },
@@ -59,8 +59,28 @@ window.DASHBOARD_DATA = {
         "% of customers who gave location access, entered the store and purchased",
       ],
       status: "In Progress",
-      statusDetail:
-        "Live at R City and Indiranagar since 27 Jul. A/B testing of notifications is live (14–22 Oct read-out below); to run 2–3 more weeks before network scale-up. Cart and wishlist 'available in store' notifications are live. Open issues: the old '200 m away' message is still being sent, and the geo-fence exit event is inflating CleverTap cost.",
+      statusDetail: [
+        "Live at R City and Indiranagar since 27 Jul.",
+        "A/B testing of notifications is live (14–22 Oct read-out below); to run 2–3 more weeks before network scale-up.",
+        "Cart and wishlist 'available in store' notifications are live.",
+        "Open issues: the old '200 m away' message is still being sent, and the geo-fence exit event is inflating CleverTap cost.",
+      ],
+      viz: [
+        { type: "funnel", title: "Geo-fence funnel, R City + Indiranagar (to 22 Oct)", steps: [
+          { label: "App installs", value: 966337 },
+          { label: "Location permission granted", value: 800592 },
+          { label: "Entered a store geo-fence", value: 3198 },
+          { label: "Purchased", value: 834 },
+        ] },
+        { type: "bars", title: "A/B test, 14–22 Oct: purchases out of 206 customers each", items: [
+          { label: "Sent a notification", value: 25, display: "25 (12.1%) · ₹13,962" },
+          { label: "No notification (control)", value: 8, display: "8 (3.9%) · ₹3,352" },
+        ] },
+        { type: "bars", title: "Geo-fence purchases as a share of store sales", unit: "%", items: [
+          { label: "R City", value: 2, display: "2% · ₹10.2 L" },
+          { label: "Indiranagar", value: 3, display: "3% · ₹7.1 L" },
+        ] },
+      ],
       results: [
         "App installs 9,66,337; location permission granted 8,00,592 (82%); denied 1,56,223 (16%); granted then revoked 11,485 (1%).",
         "Geo-cluster entries (both stores): 3,198.",
@@ -83,21 +103,11 @@ window.DASHBOARD_DATA = {
         "% of repeat Wi-Fi users",
       ],
       status: "In Progress",
-      statusDetail:
-        "R City (Vodafone, free POC): access points installed and Wi-Fi working; branded login page and OTP flow next. The API that passes authenticated mobile numbers and store codes to the CRM is ready, with vendor hand-over this week. Tata pilot moved from Indiranagar to JP Nagar on Hemanth's recommendation; Tata to visit on CRM integration.",
-      results: null,
-      linkedTo: [],
-    },
-    {
-      id: "P1-03",
-      name: "Scan QR to assist the customer in-store",
-      phase: "Phase 1",
-      owner: "Hemanth Gollavilli, Rohit Indumukhi",
-      stores: ["RCITY"],
-      description: "Objective to be updated; handled in the Phase 2 experiments.",
-      metrics: [],
-      status: "Not Started",
-      statusDetail: "No latest update. Scope moved to Phase 2 (see P2-15 Consumer intent-based discovery).",
+      statusDetail: [
+        "R City (Vodafone, free POC): access points installed and Wi-Fi working; branded login page and OTP flow next.",
+        "The API that passes authenticated mobile numbers and store codes to the CRM is ready, with vendor hand-over this week.",
+        "Tata pilot moved from Indiranagar to JP Nagar on Hemanth's recommendation; Tata to visit on CRM integration.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -111,8 +121,10 @@ window.DASHBOARD_DATA = {
         "When a customer scans a QR code, use it to identify their location and, if they have the app, the customer.",
       metrics: [],
       status: "In Progress",
-      statusDetail:
-        "48 QR codes placed at R City for product discovery. Next: improve the products shown on the listing page, and link QR scans to purchases so scanners who buy can be identified.",
+      statusDetail: [
+        "48 QR codes placed at R City for product discovery.",
+        "Next: improve the products shown on the listing page, and link QR scans to purchases so scanners who buy can be identified.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -129,8 +141,17 @@ window.DASHBOARD_DATA = {
         "% of category sales in pilot store vs benchmark store",
       ],
       status: "In Progress",
-      statusDetail:
-        "Live in kidswear and handbags at R City since 5 Sep (sectional signage). Following the store walk-through, the girls' and boys' section QRs will point to separate gifting pages; new QR codes go to VM for reprint.",
+      statusDetail: [
+        "Live in kidswear and handbags at R City since 5 Sep (sectional signage).",
+        "Following the store walk-through, the girls' and boys' section QRs will point to separate gifting pages; new QR codes go to VM for reprint.",
+      ],
+      viz: [
+        { type: "stats", items: [
+          { label: "QR scans (to 8 Oct)", value: "36" },
+          { label: "Purchases via QR link", value: "0" },
+          { label: "Category share vs benchmark", value: "Flat", note: "Handbags flat, kids slightly down" },
+        ] },
+      ],
       results: [
         "To 8 Oct vs a like-for-like prior period: handbags share flat, kids share slightly down vs benchmark stores. 36 scans, no purchases via the QR link.",
         "27 Oct update: positive category traction since go-live, likely inflated by the festive season. Updated scan numbers pending.",
@@ -151,8 +172,23 @@ window.DASHBOARD_DATA = {
         "Conversion: % of scanned products purchased",
       ],
       status: "In Progress",
-      statusDetail:
-        "48 touchpoints at R City; extended to Puja stores (26 windows, 22 entrance pop shops, 6 gifting, 22 trend spots) and 140 festive windows nationally. QR URL updates now part of the VM SOP. New collection landing-page UI in development, live by end Dec. App session counts differ between Adobe and Adjust; under review.",
+      statusDetail: [
+        "48 touchpoints at R City; extended to Puja stores (26 windows, 22 entrance pop shops, 6 gifting, 22 trend spots) and 140 festive windows nationally.",
+        "QR URL updates now part of the VM SOP.",
+        "New collection landing-page UI in development, live by end Dec.",
+        "App session counts differ between Adobe and Adjust; under review.",
+      ],
+      viz: [
+        { type: "bars", title: "QR sessions at R City, weeks 16–30, by tracking tool", items: [
+          { label: "Adobe: app", value: 46 },
+          { label: "Adobe: m-site", value: 177 },
+          { label: "Adjust: app", value: 250, display: "~250" },
+        ] },
+        { type: "stats", items: [
+          { label: "R City app sessions a week", value: "10–15" },
+          { label: "National festive windows, visits a week", value: "~95" },
+        ] },
+      ],
       results: [
         "R City (Adobe, weeks 16–30): app 46 sessions, m-site 177; about 10–15 app sessions a week. Adjust reports about 250 app sessions for the same QRs (mismatch under review).",
         "National festive windows: about 95 visits a week across stores.",
@@ -169,8 +205,18 @@ window.DASHBOARD_DATA = {
         "Track the funnel unique walk-ins → unique trial-room users → unique purchasing customers, using RFID in trial rooms (EPC to EAN mapping in app and m-web).",
       metrics: ["Interaction with trial-room screens", "Trial-to-purchase conversion"],
       status: "In Progress",
-      statusDetail:
-        "Live at Viviana Mall since the first week of Sep in 2 of 6 women's ethnic trial rooms (vendor solution, data only, no screens). Automated POS linking pending; a manual link was used for the first read-out. Next: deploy own RFID hardware and software instead of the vendor's, and cover more trial rooms.",
+      statusDetail: [
+        "Live at Viviana Mall since the first week of Sep in 2 of 6 women's ethnic trial rooms (vendor solution, data only, no screens).",
+        "Automated POS linking pending; a manual link was used for the first read-out.",
+        "Next: deploy own RFID hardware and software instead of the vendor's, and cover more trial rooms.",
+      ],
+      viz: [
+        { type: "funnel", title: "Trial room to purchase, Viviana, 14–20 Sep (2 of 6 rooms)", steps: [
+          { label: "Try-ons", value: 1300, display: "~1,300" },
+          { label: "Unique items tried", value: 914 },
+          { label: "Items bought", value: 244 },
+        ] },
+      ],
       results: [
         "14–20 Sep: about 1,300 try-ons of 914 unique items (EPCs); 244 bought, 26.7% conversion.",
         "Size swaps far more common than colour swaps; items tried more than once mostly went unbought, a sign of size or fit gaps.",
@@ -187,8 +233,12 @@ window.DASHBOARD_DATA = {
         "Capture product-level trial data in trial rooms using RFID to detect fit and design issues and improve product decisions.",
       metrics: ["Product-wise abandonment rate (to find under-performing SKUs, size/fit issues)"],
       status: "In Progress",
-      statusDetail:
-        "Live at Viviana with P1-07. Assortment views built (try-ons vs conversion by option and size). Data is still too thin for conclusions. Vikrant suggested matching it against the hits/average/misses (HAM) profile.",
+      statusDetail: [
+        "Live at Viviana with P1-07.",
+        "Assortment views built (try-ons vs conversion by option and size).",
+        "Data is still too thin for conclusions.",
+        "Vikrant suggested matching it against the hits/average/misses (HAM) profile.",
+      ],
       results: [
         "Single-customer view shows a size swap (M tried, L bought) and items tried but not bought, usable for fit profiles and remarketing.",
       ],
@@ -204,8 +254,21 @@ window.DASHBOARD_DATA = {
         "Turn self-service kiosks into a customer-facing shopping interface, reducing dependence on billing counters and creating an in-store digital commerce channel.",
       metrics: ["% reduction in billing time vs current billing time", "Self-checkout share of store sales"],
       status: "In Progress",
-      statusDetail:
-        "New RFID kiosk journey (phase 1) live at Phoenix Kurla since 23–24 Oct; Jaipur Pacific Mall go-live 28 Oct. RFID read time cut from 3–4 s to about 1.5 s. Phase 2 (Nov) adds credit notes, gift vouchers, employee discount, saved cards, Insignia day-0 cap and on-screen UPI QR. Loyalty integration follows. Funnel metrics and device alerts still to be built.",
+      statusDetail: [
+        "New RFID kiosk journey (phase 1) live at Phoenix Kurla since 23–24 Oct; Jaipur Pacific Mall go-live 28 Oct.",
+        "RFID read time cut from 3–4 s to about 1.5 s.",
+        "Phase 2 (Nov) adds credit notes, gift vouchers, employee discount, saved cards, Insignia day-0 cap and on-screen UPI QR.",
+        "Loyalty integration follows.",
+        "Funnel metrics and device alerts still to be built.",
+      ],
+      viz: [
+        { type: "grouped", title: "Phoenix Kurla: share of sales by checkout type", unit: "%",
+          series: ["Kiosk self-checkout", "App express checkout"],
+          items: [
+            { label: "Sat 24 Oct", values: [19, 2] },
+            { label: "Sun 25 Oct", values: [32, 1] },
+          ] },
+      ],
       results: [
         "Phoenix Kurla, 24 Oct: total sales ₹12.6 L; kiosk self-checkout ₹2,39,707 (19%); app express checkout ₹24,363 (2%).",
         "Phoenix Kurla, 25 Oct: total sales ₹14.4 L; kiosk self-checkout ₹4,60,193 (32%); app express checkout ₹11,240 (1%).",
@@ -224,8 +287,22 @@ window.DASHBOARD_DATA = {
         "Average billing time during peak hours",
       ],
       status: "In Progress",
-      statusDetail:
-        "Partially live. No new development; adoption is driven by staff nudges and VM. Store staff nudging gives 10–12% app checkout at R City. Larger self-checkout signage being developed with VM.",
+      statusDetail: [
+        "Partially live.",
+        "No new development; adoption is driven by staff nudges and VM.",
+        "Store staff nudging gives 10–12% app checkout at R City.",
+        "Larger self-checkout signage being developed with VM.",
+      ],
+      viz: [
+        { type: "trend", title: "Network app-checkout share of bills", unit: "%",
+          points: [
+            { label: "FY26", value: 1.5 },
+            { label: "Q1", value: 2 },
+            { label: "Late Jul", value: 7.4 },
+            { label: "Mid Aug", value: 8.8 },
+          ],
+          targets: [{ label: "Sep target", value: 25 }] },
+      ],
       results: [
         "Network app-checkout bill mix: 1.5% (FY26, 100 doors) → 2% (Q1, 230 doors) → 7.4% (late Jul) → 8.8% (mid Aug). Some stores at 30–35%.",
         "Target: 25% bill mix by September (pre-festive); overall self-checkout ambition 40%.",
@@ -242,8 +319,10 @@ window.DASHBOARD_DATA = {
         "Pilot a premium, relationship-led personal shopping service for Insignia and 7 Star members, based on the 2019 internal pilot and competitor research (Shoppers Stop).",
       metrics: ["% of Insignia/premium customers booking a personal shopper appointment"],
       status: "Not Started",
-      statusDetail:
-        "Not started. Research complete (Shoppers Stop First Citizen Black; 2019 internal pilot). Needs trained styling staff and training support, and the brand direction is towards self-serve stores; direction needed from the core team.",
+      statusDetail: [
+        "Research complete (Shoppers Stop First Citizen Black; 2019 internal pilot).",
+        "Needs trained styling staff and training support, and the brand direction is towards self-serve stores; direction needed from the core team.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -257,8 +336,13 @@ window.DASHBOARD_DATA = {
         "Understand purchase intent, buying occasion and ease of product discovery; identify friction points and design journeys with digital and in-store interventions.",
       metrics: ["Increase in conversion"],
       status: "Completed",
-      statusDetail:
-        "Surveys complete; customer journey improvements and store-layout interventions identified. The interventions based on customer intent are yet to be taken up.",
+      statusDetail: [
+        "Surveys complete; customer journey improvements and store-layout interventions identified.",
+        "The interventions based on customer intent are yet to be taken up.",
+      ],
+      viz: [
+        { type: "stats", items: [{ label: "Walk-ins that come as groups", value: "~50%" }] },
+      ],
       results: ["About 50% of walk-ins come as groups, so conversion targets should be read with basket size."],
       linkedTo: [],
     },
@@ -272,7 +356,20 @@ window.DASHBOARD_DATA = {
         "Trained stylists curate complete looks based on customer preferences and occasions to drive higher basket size (drop-launch sessions, 'Trendy Tuesday').",
       metrics: ["Increase in conversion", "Ensemble mix in bills"],
       status: "In Progress",
-      statusDetail: "Live. Evaluating the checkout mix of full looks. Staff attrition at R City is the main constraint.",
+      statusDetail: [
+        "Live.",
+        "Evaluating the checkout mix of full looks.",
+        "Staff attrition at R City is the main constraint.",
+      ],
+      viz: [
+        { type: "trend", title: "R City ensemble share of bills", unit: "%",
+          points: [
+            { label: "FY26", value: 2.5 },
+            { label: "Q1", value: 3.7 },
+            { label: "Wk of 21 Jul", value: 4.28 },
+          ],
+          targets: [{ label: "Q2 target", value: 5.5 }, { label: "Q3 target", value: 7.5 }] },
+      ],
       results: [
         "R City ensemble bill mix: about 2.5% (FY26) → 3.7% (Q1) → 4.28% (week of 21 Jul). Targets: 5.5% in Q2, 7.5% in Q3.",
       ],
@@ -288,7 +385,9 @@ window.DASHBOARD_DATA = {
         "Store staff help customers place Pantaloons app orders in-store, reducing lost sales and linking physical and digital channels.",
       metrics: ["App orders vs total bills in the store", "Average revenue per app download"],
       status: "In Progress",
-      statusDetail: "Live, but not yet measurable because staff recommend it verbally.",
+      statusDetail: [
+        "Live, but not yet measurable because staff recommend it verbally.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -302,8 +401,10 @@ window.DASHBOARD_DATA = {
         "Signage and maps showing where loungewear, sports, casuals, work and occasion wear are, at the entrance and in each area, prioritising the most relevant themes each month.",
       metrics: ["% improvement in sales of selected styles vs benchmark store"],
       status: "In Progress",
-      statusDetail:
-        "Many VM items for Hemanth's, Rohit's and Malavika's experiments are still pending. Touchpoint-wise review of R City communications due at the next meeting.",
+      statusDetail: [
+        "Many VM items for Hemanth's, Rohit's and Malavika's experiments are still pending.",
+        "Touchpoint-wise review of R City communications due at the next meeting.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -316,8 +417,11 @@ window.DASHBOARD_DATA = {
       description: "Build the EPC > EAN feature with QR scanning on the app and m-web so product-tag QRs open the product page.",
       metrics: [],
       status: "In Progress",
-      statusDetail:
-        "Live since the first week of Oct. App fix for slow or failed scans deployed 27 Oct; m-site fix pending; paid QR-reader option being costed. Product-tag QR signage drafted, on hold until scanning works reliably.",
+      statusDetail: [
+        "Live since the first week of Oct.",
+        "App fix for slow or failed scans deployed 27 Oct; m-site fix pending; paid QR-reader option being costed.",
+        "Product-tag QR signage drafted, on hold until scanning works reliably.",
+      ],
       results: null,
       linkedTo: ["P1-04"],
     },
@@ -338,7 +442,9 @@ window.DASHBOARD_DATA = {
         "Recovered revenue as % of total store sales",
       ],
       status: "Not Started",
-      statusDetail: "To be planned with the December kiosk and trial-room roadmap.",
+      statusDetail: [
+        "To be planned with the December kiosk and trial-room roadmap.",
+      ],
       results: null,
       linkedTo: ["P1-14"],
     },
@@ -356,7 +462,9 @@ window.DASHBOARD_DATA = {
         "Funnel: look engagement after QR scan → item purchase",
       ],
       status: "Not Started",
-      statusDetail: "Not started. Groundwork: landing-page design signed off end Sep; UI development under way, due end Dec.",
+      statusDetail: [
+        "Groundwork: landing-page design signed off end Sep; UI development under way, due end Dec.",
+      ],
       results: null,
       linkedTo: ["P1-06"],
     },
@@ -371,8 +479,9 @@ window.DASHBOARD_DATA = {
         "In-store VM that explains the purpose and benefits of scanning the QR on product labels, with a focus on Scan and Go.",
       metrics: ["QR scans to products purchased", "Week-on-week engagement uplift"],
       status: "Not Started",
-      statusDetail:
-        "Not started. Groundwork: product-tag QR signage drafted by VM; to be printed once scanning works reliably.",
+      statusDetail: [
+        "Groundwork: product-tag QR signage drafted by VM; to be printed once scanning works reliably.",
+      ],
       results: null,
       linkedTo: ["P1-16"],
     },
@@ -387,7 +496,8 @@ window.DASHBOARD_DATA = {
         "A store-specific product page focused on available sizes, colour variants, looks from in-store inventory and express checkout.",
       metrics: ["PDP engagement", "Add-to-cart %", "Purchase %", "Assisted conversion"],
       status: "Not Started",
-      statusDetail: "Not started.",
+      statusDetail: [
+      ],
       results: null,
       linkedTo: ["P1-16"],
     },
@@ -401,7 +511,9 @@ window.DASHBOARD_DATA = {
       description: "Virtual try-on through a third-party vendor.",
       metrics: ["Usage rate", "Conversion uplift of staff using the feature vs all staff, week on week"],
       status: "Not Started",
-      statusDetail: "Deferred.",
+      statusDetail: [
+        "Deferred.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -416,7 +528,9 @@ window.DASHBOARD_DATA = {
         "AI-enabled styling recommendations for store staff on the Now app, using customer purchase and browsing history.",
       metrics: [],
       status: "Not Started",
-      statusDetail: "Owner to be assigned.",
+      statusDetail: [
+        "Owner to be assigned.",
+      ],
       results: null,
       linkedTo: ["P1-13"],
     },
@@ -434,7 +548,10 @@ window.DASHBOARD_DATA = {
         "Average revenue from appointment customers vs unassisted Insignia customers",
       ],
       status: "Not Started",
-      statusDetail: "Depends on P1-11 (on hold). Owner to be assigned.",
+      statusDetail: [
+        "Depends on P1-11 (personal shopper, not started).",
+        "Owner to be assigned.",
+      ],
       results: null,
       linkedTo: ["P1-11"],
     },
@@ -449,7 +566,9 @@ window.DASHBOARD_DATA = {
         "'Bring to me' on the trial-room screen sends a real-time request to staff on the Now app, who deliver the item to the trial room.",
       metrics: ["Conversion from request to purchase vs regular trial-room conversion"],
       status: "Not Started",
-      statusDetail: "Planned as a later phase of the in-house smart trial room build.",
+      statusDetail: [
+        "Planned as a later phase of the in-house smart trial room build.",
+      ],
       results: null,
       linkedTo: ["P1-07"],
     },
@@ -463,7 +582,9 @@ window.DASHBOARD_DATA = {
       description: "Alert staff on the Now app when products stay in a trial room beyond a set time, so rooms are cleared promptly.",
       metrics: ["Alert response time and fulfilment", "Trial-room conversion"],
       status: "Not Started",
-      statusDetail: "Owner to be assigned.",
+      statusDetail: [
+        "Owner to be assigned.",
+      ],
       results: null,
       linkedTo: ["P1-07"],
     },
@@ -478,8 +599,9 @@ window.DASHBOARD_DATA = {
         "A QR in the trial room opens app express checkout with the detected items already in the cart; pay without visiting the till (detag step remains until full RFID).",
       metrics: ["Funnel: QR display → scan → purchase"],
       status: "Not Started",
-      statusDetail:
+      statusDetail: [
         "Decision (29 Sep) to build the smart trial room in-house on the kiosk stack rather than use the vendor's screens; target after kiosk phase 2.",
+      ],
       results: null,
       linkedTo: ["P1-07", "P1-09"],
     },
@@ -493,7 +615,9 @@ window.DASHBOARD_DATA = {
       description: "Same scope as the POC with Agrex AI, Aurify and Recurrent.",
       metrics: [],
       status: "Not Started",
-      statusDetail: "Not started. POC with Agrex, Aurify and Recurrent completed; findings shared.",
+      statusDetail: [
+        "POC with Agrex, Aurify and Recurrent completed; findings shared.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -513,7 +637,10 @@ window.DASHBOARD_DATA = {
         "Conversion and average basket size of Wi-Fi users vs non-users",
       ],
       status: "Not Started",
-      statusDetail: "Depends on P1-02. Wi-Fi journey plan being drafted.",
+      statusDetail: [
+        "Depends on P1-02.",
+        "Wi-Fi journey plan being drafted.",
+      ],
       results: null,
       linkedTo: ["P1-02"],
     },
@@ -528,7 +655,9 @@ window.DASHBOARD_DATA = {
         "One customer journey and measurement framework across all experiments, focused on interlinkages and incremental revenue.",
       metrics: [],
       status: "Not Started",
-      statusDetail: "Not started. Groundwork: in-store and express checkout funnel dashboards available in CleverTap.",
+      statusDetail: [
+        "Groundwork: in-store and express checkout funnel dashboards available in CleverTap.",
+      ],
       results: null,
       linkedTo: [],
     },
@@ -543,8 +672,9 @@ window.DASHBOARD_DATA = {
         "Targeted VM to drive self-checkout adoption, A/B tested by comparing usage with and without the VM in the same store.",
       metrics: ["Self-checkout penetration vs other stores"],
       status: "Not Started",
-      statusDetail:
-        "Not started. Groundwork: larger self-checkout standees in development with VM; Kurla runs audio announcements and a ticker pointing to the kiosks.",
+      statusDetail: [
+        "Groundwork: larger self-checkout standees in development with VM; Kurla runs audio announcements and a ticker pointing to the kiosks.",
+      ],
       results: null,
       linkedTo: ["P1-09", "P1-10"],
     },
@@ -559,9 +689,11 @@ window.DASHBOARD_DATA = {
         "An entrance QR lets the customer pick an intent (occasion, specific product) and see a curated page that also guides them in the store.",
       metrics: ["Users scanning vs store visits", "Conversion of these users vs overall store conversion"],
       status: "Not Started",
-      statusDetail: "Not started. Groundwork: store-entry intent page UI at design stage.",
+      statusDetail: [
+        "Groundwork: store-entry intent page UI at design stage.",
+      ],
       results: null,
-      linkedTo: ["P1-03"],
+      linkedTo: [],
     },
   ],
 
