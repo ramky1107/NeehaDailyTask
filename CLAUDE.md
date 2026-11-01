@@ -39,4 +39,4 @@ Conventions:
 - `actionables[].week` is the date of the meeting that raised the item.
 - Set `meta.isSampleData` to `false` once real data replaces the placeholders.
 - The audience is senior management and the steering committee, so keep the wording concise and factual.
-- Don't publish the dashboard to public hosting (e.g. GitHub Pages); it contains internal business data.
+- The dashboard is published to GitHub Pages by `.github/workflows/pages.yml` on push. Only `index.html`, `app.js`, `data.js`, `styles.css` and `Brand Logo.png` are published; keep transcripts, `docs/` and `material/` out of the site.
